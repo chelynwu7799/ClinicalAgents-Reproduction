@@ -1,0 +1,1001 @@
+{
+  "case_id": "14_原发性肝癌术后介入术后伴肝炎肝硬化胆囊结石1例",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "59岁"
+  },
+  "chief_complaint": "男性，59岁，已婚，汉族，退休。 原发性肝癌术后4年余，双下肢浮肿1周。",
+  "present_illness": "患者缘于2011年初无明显诱因出现上腹部胀满不适,进食后明显,无明显腹泻及恶心呕吐,就诊于当地三级医院查AFP:175.1ng/ml,CT:肝左叶软组织肿物,考虑肝癌可能性大,肝硬化,牌大。于2011-02-09全麻下行”“肝左外叶肝癌切除术”,术后病理回报报:结节性肝硬化合并肝细胞癌。于2011-02-23局麻下行“腹腔动脉、肝固有动脉造影术,肝固有动脉灌注化疗栓塞术”(具体化疗药物不详),术后恢复良好。于2012-09-28、2012-12-12在超声基础麻醉下行B超引导下肝癌微波治疗。后分别于2013-05-06、2013-06-14、2014-02-27、2015-06-30局麻下行肝癌介入治疗。2015-09-29患者行上腹部增强CT检查示:原发性肝癌术后、介入术后改变,肝内多发占位伴碘油沉积:肝左外叶强化结节,考虑新发癌灶可能性大;肝硬化,脾大,侧枝循环形成:肝多发囊肿;慢性胆囊炎,胆囊结石。遂再次就诊于该院,于2015-10-09局麻下行“腹腔干、肝固有动脉、肝左及肝右动脉造影术,肝固有动脉灌注化疗术”。2015-11-23患者发现双下肢水肿,无疼痛,今日患者行进一步诊治***。",
+  "dept_l1": "内科",
+  "dept_l2": [
+    "肝病科"
+  ],
+  "past_history": "既往10余年前因右手外伤致右手小指末节指节缺失;“乙型病毒性肝炎”病史10余年,未行正规治疗;否认“高血压、冠心病、糖尿病”病史,无“结核、伤寒、疟疾”等传染病史;无输血史;无药物及其他过敏史;预防接种史不详,系统回顾无特殊。",
+  "hypothesis_illness": [
+    {
+      "name": "原发性肝癌复发或肝内转移",
+      "disease": "原发性肝癌复发或肝内转移",
+      "evidence": [
+        "原发性肝癌术后4年余，多次介入/微波治疗史",
+        "2015-09-29上腹部增强CT示肝左外叶强化结节，考虑新发癌灶可能性大",
+        "既往AFP曾升高至175.1ng/ml"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "name": "肝硬化失代偿期合并低白蛋白血症",
+      "disease": "肝硬化失代偿期合并低白蛋白血症",
+      "evidence": [
+        "乙型病毒性肝炎病史10余年",
+        "CT提示肝硬化、脾大、侧枝循环形成",
+        "双下肢浮肿1周"
+      ],
+      "confidence": 0.7
+    },
+    {
+      "name": "门静脉高压症伴腹水",
+      "disease": "门静脉高压症伴腹水",
+      "evidence": [
+        "CT示肝硬化、脾大、侧枝循环形成",
+        "肝癌反复介入治疗后",
+        "双下肢浮肿"
+      ],
+      "confidence": 0.65
+    },
+    {
+      "name": "肝静脉或下腔静脉癌栓/外压性狭窄",
+      "disease": "肝静脉或下腔静脉癌栓/外压性狭窄",
+      "evidence": [
+        "肝内多发占位并多次介入后",
+        "双下肢浮肿无疼痛",
+        "肝癌存在血管侵犯风险"
+      ],
+      "confidence": 0.5
+    },
+    {
+      "name": "肝肾功能不全或肝肾综合征",
+      "disease": "肝肾功能不全或肝肾综合征",
+      "evidence": [
+        "肝硬化、肝癌基础",
+        "反复肝动脉灌注化疗",
+        "双下肢浮肿"
+      ],
+      "confidence": 0.45
+    },
+    {
+      "name": "下肢深静脉血栓形成",
+      "disease": "下肢深静脉血栓形成",
+      "evidence": [
+        "恶性肿瘤高凝状态",
+        "双下肢浮肿1周"
+      ],
+      "confidence": 0.3
+    },
+    {
+      "name": "药物性肝/肾损伤",
+      "disease": "药物性肝/肾损伤",
+      "evidence": [
+        "多次肝癌介入及肝动脉灌注化疗史",
+        "近期出现浮肿"
+      ],
+      "confidence": 0.3
+    }
+  ],
+  "physical_exams": {
+    "一般检查": "T：36.0℃，P：72次/分，R：19次/分，BP：120/88mmHg",
+    "腹部检查": "腹平坦，中腹部可见一长约30cm弧形手术瘢痕，愈合良好，无压痛",
+    "脊柱和四肢检查": "双下肢轻度水肿"
+  },
+  "auxiliary_exams": {
+    "血液学检查": "血常规:WBC2.71x10~9/L,N43.2%,RBC 3.56x10^12/L,Hb121g/L,PLT71x10~9/L,NEU#1.2x10^9/L;尿常规、肿瘤五项正常;肝肾糖脂:ALT64U/L、AST58U/L、TP59.9g/L、ALB28.3g/L、TBIL30.8umol/L、DBIL12.6umol/L、IBIL18.3umol/L、AKP163U/L、GGT58U/L、TBA107.0umol/L、ADA38.80U/L、PA52mg/L、CHE2255U/L、LDLC1.18mol/L,余正常;DD:0.47mg/L;传染四项:HBSAG>>225ng/ml,HBcAB3.3OPEIU/ml,余正常;凝血项:PT15.80S、PT%52.20%、PT-R1.37、APTT42.5S、FIB1.12g/L,余正常。"
+  },
+  "imaging_results": {},
+  "completed_physical_exams": [
+    "一般检查",
+    "腹部检查",
+    "脊柱和四肢检查"
+  ],
+  "completed_auxiliary_exams": [
+    "血液学检查"
+  ],
+  "completed_imaging_exams": [],
+  "pending_auxiliary_exams": [
+    "尿液检查",
+    "超声"
+  ],
+  "predicted_physical_exams": [
+    "一般检查",
+    "腹部检查",
+    "脊柱和四肢检查"
+  ],
+  "predicted_auxiliary_exams": [
+    "血液学检查",
+    "尿液检查",
+    "超声"
+  ],
+  "diagnosis_result": [
+    "原发性肝癌复发或肝内转移"
+  ],
+  "treatment_plan": [],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "pending"
+  },
+  "recheck_total": 1,
+  "max_recheck": 3,
+  "mcts_trajectory": [
+    "a_back",
+    "task2_doctor",
+    "task4_diagnosis",
+    "task3_imaging"
+  ],
+  "mcts_step": 4,
+  "mcts_eta": 4,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "a_back",
+      "source": "committed_backtrack",
+      "mcts_step": 1,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task2_doctor",
+      "source": "committed_backtrack_target",
+      "mcts_step": 2,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 4,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 3,
+      "workflow_stage": "task4_diagnosis"
+    },
+    {
+      "sequence_index": 5,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 4,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [
+    {
+      "event_id": 0,
+      "source": "committed",
+      "target_snapshot_id": 1,
+      "target_workflow_stage": "task1_referral",
+      "requested_action": "request_auxiliary_exams",
+      "executed_action": "task2_doctor",
+      "mcts_step": 1
+    }
+  ],
+  "missing_evidence": [
+    "近期腹部增强CT/MRI及血清AFP动态变化（明确肝癌复发或肝内转移及血管侵犯）",
+    "下肢深静脉彩色多普勒超声（排除下肢深静脉血栓形成）",
+    "腹部超声或CT评估腹水、门静脉宽度及侧枝循环（确认门静脉高压及腹水）",
+    "肝静脉/下腔静脉彩色多普勒或CTV（排除癌栓或外压性狭窄）",
+    "血肌酐、尿素氮、eGFR、尿量及尿钠等肾功能指标（排除肝肾综合征）",
+    "HBV DNA定量及肝功能Child-Pugh评分相关指标（评估肝硬化失代偿程度）",
+    "近期用药史及肝动脉灌注/介入治疗时间线（评估药物性肝/肾损伤）"
+  ],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.85,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "14_原发性肝癌术后介入术后伴肝炎肝硬化胆囊结石1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "59岁"
+        },
+        "chief_complaint": "男性，59岁，已婚，汉族，退休。 原发性肝癌术后4年余，双下肢浮肿1周。",
+        "present_illness": "患者缘于2011年初无明显诱因出现上腹部胀满不适,进食后明显,无明显腹泻及恶心呕吐,就诊于当地三级医院查AFP:175.1ng/ml,CT:肝左叶软组织肿物,考虑肝癌可能性大,肝硬化,牌大。于2011-02-09全麻下行”“肝左外叶肝癌切除术”,术后病理回报报:结节性肝硬化合并肝细胞癌。于2011-02-23局麻下行“腹腔动脉、肝固有动脉造影术,肝固有动脉灌注化疗栓塞术”(具体化疗药物不详),术后恢复良好。于2012-09-28、2012-12-12在超声基础麻醉下行B超引导下肝癌微波治疗。后分别于2013-05-06、2013-06-14、2014-02-27、2015-06-30局麻下行肝癌介入治疗。2015-09-29患者行上腹部增强CT检查示:原发性肝癌术后、介入术后改变,肝内多发占位伴碘油沉积:肝左外叶强化结节,考虑新发癌灶可能性大;肝硬化,脾大,侧枝循环形成:肝多发囊肿;慢性胆囊炎,胆囊结石。遂再次就诊于该院,于2015-10-09局麻下行“腹腔干、肝固有动脉、肝左及肝右动脉造影术,肝固有动脉灌注化疗术”。2015-11-23患者发现双下肢水肿,无疼痛,今日患者行进一步诊治***。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "既往10余年前因右手外伤致右手小指末节指节缺失;“乙型病毒性肝炎”病史10余年,未行正规治疗;否认“高血压、冠心病、糖尿病”病史,无“结核、伤寒、疟疾”等传染病史;无输血史;无药物及其他过敏史;预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "14_原发性肝癌术后介入术后伴肝炎肝硬化胆囊结石1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "59岁"
+        },
+        "chief_complaint": "男性，59岁，已婚，汉族，退休。 原发性肝癌术后4年余，双下肢浮肿1周。",
+        "present_illness": "患者缘于2011年初无明显诱因出现上腹部胀满不适,进食后明显,无明显腹泻及恶心呕吐,就诊于当地三级医院查AFP:175.1ng/ml,CT:肝左叶软组织肿物,考虑肝癌可能性大,肝硬化,牌大。于2011-02-09全麻下行”“肝左外叶肝癌切除术”,术后病理回报报:结节性肝硬化合并肝细胞癌。于2011-02-23局麻下行“腹腔动脉、肝固有动脉造影术,肝固有动脉灌注化疗栓塞术”(具体化疗药物不详),术后恢复良好。于2012-09-28、2012-12-12在超声基础麻醉下行B超引导下肝癌微波治疗。后分别于2013-05-06、2013-06-14、2014-02-27、2015-06-30局麻下行肝癌介入治疗。2015-09-29患者行上腹部增强CT检查示:原发性肝癌术后、介入术后改变,肝内多发占位伴碘油沉积:肝左外叶强化结节,考虑新发癌灶可能性大;肝硬化,脾大,侧枝循环形成:肝多发囊肿;慢性胆囊炎,胆囊结石。遂再次就诊于该院,于2015-10-09局麻下行“腹腔干、肝固有动脉、肝左及肝右动脉造影术,肝固有动脉灌注化疗术”。2015-11-23患者发现双下肢水肿,无疼痛,今日患者行进一步诊治***。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科"
+        ],
+        "past_history": "既往10余年前因右手外伤致右手小指末节指节缺失;“乙型病毒性肝炎”病史10余年,未行正规治疗;否认“高血压、冠心病、糖尿病”病史,无“结核、伤寒、疟疾”等传染病史;无输血史;无药物及其他过敏史;预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "14_原发性肝癌术后介入术后伴肝炎肝硬化胆囊结石1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "59岁"
+        },
+        "chief_complaint": "男性，59岁，已婚，汉族，退休。 原发性肝癌术后4年余，双下肢浮肿1周。",
+        "present_illness": "患者缘于2011年初无明显诱因出现上腹部胀满不适,进食后明显,无明显腹泻及恶心呕吐,就诊于当地三级医院查AFP:175.1ng/ml,CT:肝左叶软组织肿物,考虑肝癌可能性大,肝硬化,牌大。于2011-02-09全麻下行”“肝左外叶肝癌切除术”,术后病理回报报:结节性肝硬化合并肝细胞癌。于2011-02-23局麻下行“腹腔动脉、肝固有动脉造影术,肝固有动脉灌注化疗栓塞术”(具体化疗药物不详),术后恢复良好。于2012-09-28、2012-12-12在超声基础麻醉下行B超引导下肝癌微波治疗。后分别于2013-05-06、2013-06-14、2014-02-27、2015-06-30局麻下行肝癌介入治疗。2015-09-29患者行上腹部增强CT检查示:原发性肝癌术后、介入术后改变,肝内多发占位伴碘油沉积:肝左外叶强化结节,考虑新发癌灶可能性大;肝硬化,脾大,侧枝循环形成:肝多发囊肿;慢性胆囊炎,胆囊结石。遂再次就诊于该院,于2015-10-09局麻下行“腹腔干、肝固有动脉、肝左及肝右动脉造影术,肝固有动脉灌注化疗术”。2015-11-23患者发现双下肢水肿,无疼痛,今日患者行进一步诊治***。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科"
+        ],
+        "past_history": "既往10余年前因右手外伤致右手小指末节指节缺失;“乙型病毒性肝炎”病史10余年,未行正规治疗;否认“高血压、冠心病、糖尿病”病史,无“结核、伤寒、疟疾”等传染病史;无输血史;无药物及其他过敏史;预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [
+          {
+            "name": "肝硬化失代偿期伴低白蛋白血症",
+            "disease": "肝硬化失代偿期伴低白蛋白血症",
+            "evidence": [
+              "乙肝肝硬化病史10余年",
+              "CT示肝硬化、脾大、侧枝循环形成",
+              "双下肢浮肿1周"
+            ],
+            "confidence": 0.85
+          },
+          {
+            "name": "肝癌复发伴门静脉或下腔静脉癌栓形成",
+            "disease": "肝癌复发伴门静脉或下腔静脉癌栓形成",
+            "evidence": [
+              "原发性肝癌术后介入后",
+              "2015-09-29增强CT示肝左外叶强化结节考虑新发癌灶",
+              "新发双下肢水肿提示静脉回流障碍"
+            ],
+            "confidence": 0.6
+          },
+          {
+            "name": "乙肝相关性肾病或肾病综合征",
+            "disease": "乙肝相关性肾病或肾病综合征",
+            "evidence": [
+              "乙肝病史10余年",
+              "双下肢浮肿"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "心功能不全",
+            "disease": "心功能不全",
+            "evidence": [
+              "59岁男性",
+              "双下肢浮肿"
+            ],
+            "confidence": 0.2
+          },
+          {
+            "name": "下肢深静脉血栓形成",
+            "disease": "下肢深静脉血栓形成",
+            "evidence": [
+              "肿瘤高凝状态",
+              "双下肢浮肿"
+            ],
+            "confidence": 0.25
+          },
+          {
+            "name": "药物性水肿",
+            "disease": "药物性水肿",
+            "evidence": [
+              "近期肝动脉灌注化疗史",
+              "双下肢浮肿"
+            ],
+            "confidence": 0.2
+          }
+        ],
+        "physical_exams": {
+          "腹部检查": "腹平坦，中腹部可见一长约30cm弧形手术瘢痕，愈合良好，无压痛",
+          "脊柱和四肢检查": "双下肢轻度水肿"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "腹部检查",
+          "脊柱和四肢检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "血液学检查",
+          "尿液检查",
+          "超声",
+          "CT"
+        ],
+        "predicted_physical_exams": [
+          "腹部检查",
+          "脊柱和四肢检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "血液学检查",
+          "尿液检查",
+          "超声",
+          "CT"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [
+          "肝功能、血清白蛋白及凝血功能检查（评估肝硬化失代偿及低白蛋白血症）",
+          "肾功能、尿常规及24小时尿蛋白定量（评估乙肝相关性肾病/肾病综合征）",
+          "血清AFP及异常凝血酶原等肿瘤标志物（评估肝癌复发）",
+          "腹部增强CT/MRI（评估肝癌复发、门静脉/下腔静脉癌栓及腹水）",
+          "下肢深静脉彩色多普勒超声及D-二聚体（排除下肢深静脉血栓）",
+          "心脏彩色多普勒超声及BNP/NT-proBNP（评估心功能不全）",
+          "HBV-DNA及乙肝病毒标志物定量（评估乙肝活动性）"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.85,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task1_referral",
+      "reason": "committed_backtrack_restored",
+      "state": {
+        "case_id": "14_原发性肝癌术后介入术后伴肝炎肝硬化胆囊结石1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "59岁"
+        },
+        "chief_complaint": "男性，59岁，已婚，汉族，退休。 原发性肝癌术后4年余，双下肢浮肿1周。",
+        "present_illness": "患者缘于2011年初无明显诱因出现上腹部胀满不适,进食后明显,无明显腹泻及恶心呕吐,就诊于当地三级医院查AFP:175.1ng/ml,CT:肝左叶软组织肿物,考虑肝癌可能性大,肝硬化,牌大。于2011-02-09全麻下行”“肝左外叶肝癌切除术”,术后病理回报报:结节性肝硬化合并肝细胞癌。于2011-02-23局麻下行“腹腔动脉、肝固有动脉造影术,肝固有动脉灌注化疗栓塞术”(具体化疗药物不详),术后恢复良好。于2012-09-28、2012-12-12在超声基础麻醉下行B超引导下肝癌微波治疗。后分别于2013-05-06、2013-06-14、2014-02-27、2015-06-30局麻下行肝癌介入治疗。2015-09-29患者行上腹部增强CT检查示:原发性肝癌术后、介入术后改变,肝内多发占位伴碘油沉积:肝左外叶强化结节,考虑新发癌灶可能性大;肝硬化,脾大,侧枝循环形成:肝多发囊肿;慢性胆囊炎,胆囊结石。遂再次就诊于该院,于2015-10-09局麻下行“腹腔干、肝固有动脉、肝左及肝右动脉造影术,肝固有动脉灌注化疗术”。2015-11-23患者发现双下肢水肿,无疼痛,今日患者行进一步诊治***。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科"
+        ],
+        "past_history": "既往10余年前因右手外伤致右手小指末节指节缺失;“乙型病毒性肝炎”病史10余年,未行正规治疗;否认“高血压、冠心病、糖尿病”病史,无“结核、伤寒、疟疾”等传染病史;无输血史;无药物及其他过敏史;预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exams",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 2,
+      "workflow_action_index": 4,
+      "mcts_step": 2,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "14_原发性肝癌术后介入术后伴肝炎肝硬化胆囊结石1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "59岁"
+        },
+        "chief_complaint": "男性，59岁，已婚，汉族，退休。 原发性肝癌术后4年余，双下肢浮肿1周。",
+        "present_illness": "患者缘于2011年初无明显诱因出现上腹部胀满不适,进食后明显,无明显腹泻及恶心呕吐,就诊于当地三级医院查AFP:175.1ng/ml,CT:肝左叶软组织肿物,考虑肝癌可能性大,肝硬化,牌大。于2011-02-09全麻下行”“肝左外叶肝癌切除术”,术后病理回报报:结节性肝硬化合并肝细胞癌。于2011-02-23局麻下行“腹腔动脉、肝固有动脉造影术,肝固有动脉灌注化疗栓塞术”(具体化疗药物不详),术后恢复良好。于2012-09-28、2012-12-12在超声基础麻醉下行B超引导下肝癌微波治疗。后分别于2013-05-06、2013-06-14、2014-02-27、2015-06-30局麻下行肝癌介入治疗。2015-09-29患者行上腹部增强CT检查示:原发性肝癌术后、介入术后改变,肝内多发占位伴碘油沉积:肝左外叶强化结节,考虑新发癌灶可能性大;肝硬化,脾大,侧枝循环形成:肝多发囊肿;慢性胆囊炎,胆囊结石。遂再次就诊于该院,于2015-10-09局麻下行“腹腔干、肝固有动脉、肝左及肝右动脉造影术,肝固有动脉灌注化疗术”。2015-11-23患者发现双下肢水肿,无疼痛,今日患者行进一步诊治***。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科"
+        ],
+        "past_history": "既往10余年前因右手外伤致右手小指末节指节缺失;“乙型病毒性肝炎”病史10余年,未行正规治疗;否认“高血压、冠心病、糖尿病”病史,无“结核、伤寒、疟疾”等传染病史;无输血史;无药物及其他过敏史;预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [
+          {
+            "name": "原发性肝癌复发或肝内转移",
+            "disease": "原发性肝癌复发或肝内转移",
+            "evidence": [
+              "原发性肝癌术后4年余，多次介入/微波治疗史",
+              "2015-09-29上腹部增强CT示肝左外叶强化结节，考虑新发癌灶可能性大",
+              "既往AFP曾升高至175.1ng/ml"
+            ],
+            "confidence": 0.85
+          },
+          {
+            "name": "肝硬化失代偿期合并低白蛋白血症",
+            "disease": "肝硬化失代偿期合并低白蛋白血症",
+            "evidence": [
+              "乙型病毒性肝炎病史10余年",
+              "CT提示肝硬化、脾大、侧枝循环形成",
+              "双下肢浮肿1周"
+            ],
+            "confidence": 0.7
+          },
+          {
+            "name": "门静脉高压症伴腹水",
+            "disease": "门静脉高压症伴腹水",
+            "evidence": [
+              "CT示肝硬化、脾大、侧枝循环形成",
+              "肝癌反复介入治疗后",
+              "双下肢浮肿"
+            ],
+            "confidence": 0.65
+          },
+          {
+            "name": "肝静脉或下腔静脉癌栓/外压性狭窄",
+            "disease": "肝静脉或下腔静脉癌栓/外压性狭窄",
+            "evidence": [
+              "肝内多发占位并多次介入后",
+              "双下肢浮肿无疼痛",
+              "肝癌存在血管侵犯风险"
+            ],
+            "confidence": 0.5
+          },
+          {
+            "name": "肝肾功能不全或肝肾综合征",
+            "disease": "肝肾功能不全或肝肾综合征",
+            "evidence": [
+              "肝硬化、肝癌基础",
+              "反复肝动脉灌注化疗",
+              "双下肢浮肿"
+            ],
+            "confidence": 0.45
+          },
+          {
+            "name": "下肢深静脉血栓形成",
+            "disease": "下肢深静脉血栓形成",
+            "evidence": [
+              "恶性肿瘤高凝状态",
+              "双下肢浮肿1周"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "药物性肝/肾损伤",
+            "disease": "药物性肝/肾损伤",
+            "evidence": [
+              "多次肝癌介入及肝动脉灌注化疗史",
+              "近期出现浮肿"
+            ],
+            "confidence": 0.3
+          }
+        ],
+        "physical_exams": {
+          "一般检查": "T：36.0℃，P：72次/分，R：19次/分，BP：120/88mmHg",
+          "腹部检查": "腹平坦，中腹部可见一长约30cm弧形手术瘢痕，愈合良好，无压痛",
+          "脊柱和四肢检查": "双下肢轻度水肿"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "一般检查",
+          "腹部检查",
+          "脊柱和四肢检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "血液学检查",
+          "尿液检查",
+          "超声"
+        ],
+        "predicted_physical_exams": [
+          "一般检查",
+          "腹部检查",
+          "脊柱和四肢检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "血液学检查",
+          "尿液检查",
+          "超声"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor"
+        ],
+        "mcts_step": 2,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exams",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [
+          "近期上腹部增强CT或MRI（评估肝内复发/转移、门静脉及下腔静脉癌栓、腹水）",
+          "血清AFP及异常凝血酶原等肿瘤标志物",
+          "肝功能、血清白蛋白、凝血酶原时间",
+          "血肌酐、尿素氮、电解质及尿量/尿钠",
+          "下肢深静脉彩色多普勒超声及D-二聚体",
+          "腹腔积液超声及腹水常规、生化、肿瘤细胞学",
+          "肝脏/下腔静脉血管成像（CTA/CTV或血管超声）"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.85,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 5,
+      "trajectory_index": 3,
+      "workflow_action_index": 5,
+      "mcts_step": 3,
+      "workflow_stage": "task4_diagnosis",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "14_原发性肝癌术后介入术后伴肝炎肝硬化胆囊结石1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "59岁"
+        },
+        "chief_complaint": "男性，59岁，已婚，汉族，退休。 原发性肝癌术后4年余，双下肢浮肿1周。",
+        "present_illness": "患者缘于2011年初无明显诱因出现上腹部胀满不适,进食后明显,无明显腹泻及恶心呕吐,就诊于当地三级医院查AFP:175.1ng/ml,CT:肝左叶软组织肿物,考虑肝癌可能性大,肝硬化,牌大。于2011-02-09全麻下行”“肝左外叶肝癌切除术”,术后病理回报报:结节性肝硬化合并肝细胞癌。于2011-02-23局麻下行“腹腔动脉、肝固有动脉造影术,肝固有动脉灌注化疗栓塞术”(具体化疗药物不详),术后恢复良好。于2012-09-28、2012-12-12在超声基础麻醉下行B超引导下肝癌微波治疗。后分别于2013-05-06、2013-06-14、2014-02-27、2015-06-30局麻下行肝癌介入治疗。2015-09-29患者行上腹部增强CT检查示:原发性肝癌术后、介入术后改变,肝内多发占位伴碘油沉积:肝左外叶强化结节,考虑新发癌灶可能性大;肝硬化,脾大,侧枝循环形成:肝多发囊肿;慢性胆囊炎,胆囊结石。遂再次就诊于该院,于2015-10-09局麻下行“腹腔干、肝固有动脉、肝左及肝右动脉造影术,肝固有动脉灌注化疗术”。2015-11-23患者发现双下肢水肿,无疼痛,今日患者行进一步诊治***。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科"
+        ],
+        "past_history": "既往10余年前因右手外伤致右手小指末节指节缺失;“乙型病毒性肝炎”病史10余年,未行正规治疗;否认“高血压、冠心病、糖尿病”病史,无“结核、伤寒、疟疾”等传染病史;无输血史;无药物及其他过敏史;预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [
+          {
+            "name": "原发性肝癌复发或肝内转移",
+            "disease": "原发性肝癌复发或肝内转移",
+            "evidence": [
+              "原发性肝癌术后4年余，多次介入/微波治疗史",
+              "2015-09-29上腹部增强CT示肝左外叶强化结节，考虑新发癌灶可能性大",
+              "既往AFP曾升高至175.1ng/ml"
+            ],
+            "confidence": 0.85
+          },
+          {
+            "name": "肝硬化失代偿期合并低白蛋白血症",
+            "disease": "肝硬化失代偿期合并低白蛋白血症",
+            "evidence": [
+              "乙型病毒性肝炎病史10余年",
+              "CT提示肝硬化、脾大、侧枝循环形成",
+              "双下肢浮肿1周"
+            ],
+            "confidence": 0.7
+          },
+          {
+            "name": "门静脉高压症伴腹水",
+            "disease": "门静脉高压症伴腹水",
+            "evidence": [
+              "CT示肝硬化、脾大、侧枝循环形成",
+              "肝癌反复介入治疗后",
+              "双下肢浮肿"
+            ],
+            "confidence": 0.65
+          },
+          {
+            "name": "肝静脉或下腔静脉癌栓/外压性狭窄",
+            "disease": "肝静脉或下腔静脉癌栓/外压性狭窄",
+            "evidence": [
+              "肝内多发占位并多次介入后",
+              "双下肢浮肿无疼痛",
+              "肝癌存在血管侵犯风险"
+            ],
+            "confidence": 0.5
+          },
+          {
+            "name": "肝肾功能不全或肝肾综合征",
+            "disease": "肝肾功能不全或肝肾综合征",
+            "evidence": [
+              "肝硬化、肝癌基础",
+              "反复肝动脉灌注化疗",
+              "双下肢浮肿"
+            ],
+            "confidence": 0.45
+          },
+          {
+            "name": "下肢深静脉血栓形成",
+            "disease": "下肢深静脉血栓形成",
+            "evidence": [
+              "恶性肿瘤高凝状态",
+              "双下肢浮肿1周"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "药物性肝/肾损伤",
+            "disease": "药物性肝/肾损伤",
+            "evidence": [
+              "多次肝癌介入及肝动脉灌注化疗史",
+              "近期出现浮肿"
+            ],
+            "confidence": 0.3
+          }
+        ],
+        "physical_exams": {
+          "一般检查": "T：36.0℃，P：72次/分，R：19次/分，BP：120/88mmHg",
+          "腹部检查": "腹平坦，中腹部可见一长约30cm弧形手术瘢痕，愈合良好，无压痛",
+          "脊柱和四肢检查": "双下肢轻度水肿"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "一般检查",
+          "腹部检查",
+          "脊柱和四肢检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "血液学检查",
+          "尿液检查",
+          "超声"
+        ],
+        "predicted_physical_exams": [
+          "一般检查",
+          "腹部检查",
+          "脊柱和四肢检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "血液学检查",
+          "尿液检查",
+          "超声"
+        ],
+        "diagnosis_result": [
+          "原发性肝癌复发或肝内转移"
+        ],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "completed",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor",
+          "task4_diagnosis"
+        ],
+        "mcts_step": 3,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 4,
+            "action": "task4_diagnosis",
+            "source": "mcts_selected",
+            "mcts_step": 3,
+            "workflow_stage": "task4_diagnosis"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exams",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [
+          "近期肝功能、白蛋白、凝血酶原时间/INR及胆红素等实验室检查",
+          "肾功能、电解质、尿常规及尿蛋白定量",
+          "血清AFP、异常凝血酶原(PIVKA-II)等肿瘤标志物",
+          "腹部增强CT/MRI评估肝内复发、门静脉/肝静脉/下腔静脉癌栓及腹水",
+          "双下肢静脉彩色多普勒超声及D-二聚体",
+          "全血细胞计数（尤其血小板）及HBV DNA定量"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.85,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false,
+        "agent_missing_evidence": []
+      }
+    }
+  ],
+  "active_snapshot_id": 1,
+  "terminated_by": "eta",
+  "finalization_used": false,
+  "agent_missing_evidence": []
+}

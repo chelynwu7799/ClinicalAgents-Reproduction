@@ -1,0 +1,614 @@
+{
+  "case_id": "18_肝硬化、气急、肝-颈静脉回流征弱阳性",
+  "personal_info": {
+    "性别": "女",
+    "年龄": "78岁"
+  },
+  "chief_complaint": "（1mmHg=0.133kPa），急性病容，全身皮肤未见皮疹与出血点，眼睑轻度浮肿，五官无异常，睑结膜稍白，巩膜无黄染，瞳孔等大等圆，对光反射存在。甲状腺不大，气管居中，胸对称，双侧活动度一致，叩清音，双肺底可闻及少许湿啰音。叩诊心界不大，心尖搏动不明显，心尖区可闻及I级收缩期吹风样杂音，心音有力，律齐，腹部软，无压痛，肝脾不大，未触及包块。双下肢轻度指凹性水肿，病理征未引出。",
+  "present_illness": "患者2个月前无诱因渐起腹胀、活动后气急、双下肢浮肿，无胸痛，当地医院拟\"肝硬化\"予利尿、护肝药物（具体不详）治疗好转，后病情反复。1周前上述症状较前加重，伴尿少，无腹痛、腹泻，无发热无咳嗽、咳痰，无胸痛，无夜间阵发性呼吸困难，为进一步诊治收住入院。 该患者有如下特点：（1）老年女性；（2）起病较缓；（3）反复腹胀、气急、双下肢浮肿2个月；（4）既往无重要脏器疾病史；（5）两肺底细小湿啰音，肝-颈静脉回流征弱阳性，但心脏体征不明显；（6）门脉高压征明显；（7）肝功能损害突出；（8）全血细胞减少；（9）利尿治疗后病情有所改善。",
+  "dept_l1": "内科",
+  "dept_l2": [
+    "肝病科",
+    "消化内科"
+  ],
+  "past_history": "",
+  "hypothesis_illness": [
+    {
+      "name": "失代偿期肝硬化",
+      "disease": "失代偿期肝硬化",
+      "evidence": [
+        "反复腹胀",
+        "双下肢水肿",
+        "门脉高压征明显",
+        "肝功能损害突出",
+        "全血细胞减少",
+        "利尿治疗有效"
+      ],
+      "confidence": 0.65
+    },
+    {
+      "name": "心源性肝硬化/右心衰竭",
+      "disease": "心源性肝硬化/右心衰竭",
+      "evidence": [
+        "活动后气急",
+        "双肺底湿啰音",
+        "肝-颈静脉回流征弱阳性",
+        "双下肢水肿",
+        "利尿治疗有效"
+      ],
+      "confidence": 0.55
+    },
+    {
+      "name": "缩窄性心包炎",
+      "disease": "缩窄性心包炎",
+      "evidence": [
+        "老年女性",
+        "腹胀、双下肢水肿",
+        "心界不大",
+        "肝-颈静脉回流征弱阳性",
+        "利尿有效"
+      ],
+      "confidence": 0.35
+    },
+    {
+      "name": "限制型心肌病",
+      "disease": "限制型心肌病",
+      "evidence": [
+        "老年女性",
+        "右心衰竭表现",
+        "心界不大",
+        "活动后气急、下肢水肿"
+      ],
+      "confidence": 0.3
+    },
+    {
+      "name": "布加综合征/肝静脉流出道梗阻",
+      "disease": "布加综合征/肝静脉流出道梗阻",
+      "evidence": [
+        "门脉高压征明显",
+        "腹胀",
+        "肝功能损害",
+        "肝脾触诊不大"
+      ],
+      "confidence": 0.3
+    }
+  ],
+  "physical_exams": {
+    "颈部检查": "颈静脉无怒张，未触及浅表淋巴结",
+    "腹部检查": "腹稍隆，肝脾肋下未触及，无压痛及反跳痛，肝-颈静脉回流征弱阳性，移动性浊音阳性"
+  },
+  "auxiliary_exams": {},
+  "imaging_results": {},
+  "completed_physical_exams": [
+    "颈部检查",
+    "腹部检查"
+  ],
+  "completed_auxiliary_exams": [],
+  "completed_imaging_exams": [],
+  "pending_auxiliary_exams": [
+    "血液学检查",
+    "超声",
+    "X-ray",
+    "CT"
+  ],
+  "predicted_physical_exams": [
+    "颈部检查",
+    "腹部检查"
+  ],
+  "predicted_auxiliary_exams": [
+    "血液学检查",
+    "超声",
+    "X-ray",
+    "CT"
+  ],
+  "diagnosis_result": [],
+  "treatment_plan": [],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "pending",
+    "task4_diagnosis": "pending",
+    "task5_treatment": "pending"
+  },
+  "recheck_total": 0,
+  "max_recheck": 3,
+  "mcts_trajectory": [
+    "task2_doctor"
+  ],
+  "mcts_step": 1,
+  "mcts_eta": 4,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task2_doctor",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task2_doctor"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [
+    "超声心动图（评估心包、心腔、瓣膜、下腔静脉及心室舒张功能）",
+    "腹部超声及肝血管多普勒（评估肝脾、门静脉、肝静脉、下腔静脉及腹水）",
+    "诊断性腹水穿刺（SAAG、总蛋白、细胞计数与分类、培养及细胞学）",
+    "血常规、肝功能、凝血功能、白蛋白及BNP/NT-proBNP",
+    "肝硬化病因筛查（肝炎病毒、自身免疫、代谢性肝病等）",
+    "心电图及胸部影像学检查"
+  ],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.65,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "18_肝硬化、气急、肝-颈静脉回流征弱阳性",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "78岁"
+        },
+        "chief_complaint": "（1mmHg=0.133kPa），急性病容，全身皮肤未见皮疹与出血点，眼睑轻度浮肿，五官无异常，睑结膜稍白，巩膜无黄染，瞳孔等大等圆，对光反射存在。甲状腺不大，气管居中，胸对称，双侧活动度一致，叩清音，双肺底可闻及少许湿啰音。叩诊心界不大，心尖搏动不明显，心尖区可闻及I级收缩期吹风样杂音，心音有力，律齐，腹部软，无压痛，肝脾不大，未触及包块。双下肢轻度指凹性水肿，病理征未引出。",
+        "present_illness": "患者2个月前无诱因渐起腹胀、活动后气急、双下肢浮肿，无胸痛，当地医院拟\"肝硬化\"予利尿、护肝药物（具体不详）治疗好转，后病情反复。1周前上述症状较前加重，伴尿少，无腹痛、腹泻，无发热无咳嗽、咳痰，无胸痛，无夜间阵发性呼吸困难，为进一步诊治收住入院。 该患者有如下特点：（1）老年女性；（2）起病较缓；（3）反复腹胀、气急、双下肢浮肿2个月；（4）既往无重要脏器疾病史；（5）两肺底细小湿啰音，肝-颈静脉回流征弱阳性，但心脏体征不明显；（6）门脉高压征明显；（7）肝功能损害突出；（8）全血细胞减少；（9）利尿治疗后病情有所改善。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "18_肝硬化、气急、肝-颈静脉回流征弱阳性",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "78岁"
+        },
+        "chief_complaint": "（1mmHg=0.133kPa），急性病容，全身皮肤未见皮疹与出血点，眼睑轻度浮肿，五官无异常，睑结膜稍白，巩膜无黄染，瞳孔等大等圆，对光反射存在。甲状腺不大，气管居中，胸对称，双侧活动度一致，叩清音，双肺底可闻及少许湿啰音。叩诊心界不大，心尖搏动不明显，心尖区可闻及I级收缩期吹风样杂音，心音有力，律齐，腹部软，无压痛，肝脾不大，未触及包块。双下肢轻度指凹性水肿，病理征未引出。",
+        "present_illness": "患者2个月前无诱因渐起腹胀、活动后气急、双下肢浮肿，无胸痛，当地医院拟\"肝硬化\"予利尿、护肝药物（具体不详）治疗好转，后病情反复。1周前上述症状较前加重，伴尿少，无腹痛、腹泻，无发热无咳嗽、咳痰，无胸痛，无夜间阵发性呼吸困难，为进一步诊治收住入院。 该患者有如下特点：（1）老年女性；（2）起病较缓；（3）反复腹胀、气急、双下肢浮肿2个月；（4）既往无重要脏器疾病史；（5）两肺底细小湿啰音，肝-颈静脉回流征弱阳性，但心脏体征不明显；（6）门脉高压征明显；（7）肝功能损害突出；（8）全血细胞减少；（9）利尿治疗后病情有所改善。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科",
+          "消化内科"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "18_肝硬化、气急、肝-颈静脉回流征弱阳性",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "78岁"
+        },
+        "chief_complaint": "（1mmHg=0.133kPa），急性病容，全身皮肤未见皮疹与出血点，眼睑轻度浮肿，五官无异常，睑结膜稍白，巩膜无黄染，瞳孔等大等圆，对光反射存在。甲状腺不大，气管居中，胸对称，双侧活动度一致，叩清音，双肺底可闻及少许湿啰音。叩诊心界不大，心尖搏动不明显，心尖区可闻及I级收缩期吹风样杂音，心音有力，律齐，腹部软，无压痛，肝脾不大，未触及包块。双下肢轻度指凹性水肿，病理征未引出。",
+        "present_illness": "患者2个月前无诱因渐起腹胀、活动后气急、双下肢浮肿，无胸痛，当地医院拟\"肝硬化\"予利尿、护肝药物（具体不详）治疗好转，后病情反复。1周前上述症状较前加重，伴尿少，无腹痛、腹泻，无发热无咳嗽、咳痰，无胸痛，无夜间阵发性呼吸困难，为进一步诊治收住入院。 该患者有如下特点：（1）老年女性；（2）起病较缓；（3）反复腹胀、气急、双下肢浮肿2个月；（4）既往无重要脏器疾病史；（5）两肺底细小湿啰音，肝-颈静脉回流征弱阳性，但心脏体征不明显；（6）门脉高压征明显；（7）肝功能损害突出；（8）全血细胞减少；（9）利尿治疗后病情有所改善。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科",
+          "消化内科"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "18_肝硬化、气急、肝-颈静脉回流征弱阳性",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "78岁"
+        },
+        "chief_complaint": "（1mmHg=0.133kPa），急性病容，全身皮肤未见皮疹与出血点，眼睑轻度浮肿，五官无异常，睑结膜稍白，巩膜无黄染，瞳孔等大等圆，对光反射存在。甲状腺不大，气管居中，胸对称，双侧活动度一致，叩清音，双肺底可闻及少许湿啰音。叩诊心界不大，心尖搏动不明显，心尖区可闻及I级收缩期吹风样杂音，心音有力，律齐，腹部软，无压痛，肝脾不大，未触及包块。双下肢轻度指凹性水肿，病理征未引出。",
+        "present_illness": "患者2个月前无诱因渐起腹胀、活动后气急、双下肢浮肿，无胸痛，当地医院拟\"肝硬化\"予利尿、护肝药物（具体不详）治疗好转，后病情反复。1周前上述症状较前加重，伴尿少，无腹痛、腹泻，无发热无咳嗽、咳痰，无胸痛，无夜间阵发性呼吸困难，为进一步诊治收住入院。 该患者有如下特点：（1）老年女性；（2）起病较缓；（3）反复腹胀、气急、双下肢浮肿2个月；（4）既往无重要脏器疾病史；（5）两肺底细小湿啰音，肝-颈静脉回流征弱阳性，但心脏体征不明显；（6）门脉高压征明显；（7）肝功能损害突出；（8）全血细胞减少；（9）利尿治疗后病情有所改善。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科",
+          "消化内科"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "18_肝硬化、气急、肝-颈静脉回流征弱阳性",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "78岁"
+        },
+        "chief_complaint": "（1mmHg=0.133kPa），急性病容，全身皮肤未见皮疹与出血点，眼睑轻度浮肿，五官无异常，睑结膜稍白，巩膜无黄染，瞳孔等大等圆，对光反射存在。甲状腺不大，气管居中，胸对称，双侧活动度一致，叩清音，双肺底可闻及少许湿啰音。叩诊心界不大，心尖搏动不明显，心尖区可闻及I级收缩期吹风样杂音，心音有力，律齐，腹部软，无压痛，肝脾不大，未触及包块。双下肢轻度指凹性水肿，病理征未引出。",
+        "present_illness": "患者2个月前无诱因渐起腹胀、活动后气急、双下肢浮肿，无胸痛，当地医院拟\"肝硬化\"予利尿、护肝药物（具体不详）治疗好转，后病情反复。1周前上述症状较前加重，伴尿少，无腹痛、腹泻，无发热无咳嗽、咳痰，无胸痛，无夜间阵发性呼吸困难，为进一步诊治收住入院。 该患者有如下特点：（1）老年女性；（2）起病较缓；（3）反复腹胀、气急、双下肢浮肿2个月；（4）既往无重要脏器疾病史；（5）两肺底细小湿啰音，肝-颈静脉回流征弱阳性，但心脏体征不明显；（6）门脉高压征明显；（7）肝功能损害突出；（8）全血细胞减少；（9）利尿治疗后病情有所改善。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科",
+          "消化内科"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "失代偿期肝硬化",
+            "disease": "失代偿期肝硬化",
+            "evidence": [
+              "反复腹胀",
+              "双下肢水肿",
+              "门脉高压征明显",
+              "肝功能损害突出",
+              "全血细胞减少",
+              "利尿治疗有效"
+            ],
+            "confidence": 0.65
+          },
+          {
+            "name": "心源性肝硬化/右心衰竭",
+            "disease": "心源性肝硬化/右心衰竭",
+            "evidence": [
+              "活动后气急",
+              "双肺底湿啰音",
+              "肝-颈静脉回流征弱阳性",
+              "双下肢水肿",
+              "利尿治疗有效"
+            ],
+            "confidence": 0.55
+          },
+          {
+            "name": "缩窄性心包炎",
+            "disease": "缩窄性心包炎",
+            "evidence": [
+              "老年女性",
+              "腹胀、双下肢水肿",
+              "心界不大",
+              "肝-颈静脉回流征弱阳性",
+              "利尿有效"
+            ],
+            "confidence": 0.35
+          },
+          {
+            "name": "限制型心肌病",
+            "disease": "限制型心肌病",
+            "evidence": [
+              "老年女性",
+              "右心衰竭表现",
+              "心界不大",
+              "活动后气急、下肢水肿"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "布加综合征/肝静脉流出道梗阻",
+            "disease": "布加综合征/肝静脉流出道梗阻",
+            "evidence": [
+              "门脉高压征明显",
+              "腹胀",
+              "肝功能损害",
+              "肝脾触诊不大"
+            ],
+            "confidence": 0.3
+          }
+        ],
+        "physical_exams": {
+          "颈部检查": "颈静脉无怒张，未触及浅表淋巴结",
+          "腹部检查": "腹稍隆，肝脾肋下未触及，无压痛及反跳痛，肝-颈静脉回流征弱阳性，移动性浊音阳性"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "颈部检查",
+          "腹部检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "血液学检查",
+          "超声",
+          "X-ray",
+          "CT"
+        ],
+        "predicted_physical_exams": [
+          "颈部检查",
+          "腹部检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "血液学检查",
+          "超声",
+          "X-ray",
+          "CT"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "task2_doctor"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task2_doctor",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [
+          "超声心动图（评估心包、心腔、瓣膜、下腔静脉及心室舒张功能）",
+          "腹部超声及肝血管多普勒（评估肝脾、门静脉、肝静脉、下腔静脉及腹水）",
+          "诊断性腹水穿刺（SAAG、总蛋白、细胞计数与分类、培养及细胞学）",
+          "血常规、肝功能、凝血功能、白蛋白及BNP/NT-proBNP",
+          "肝硬化病因筛查（肝炎病毒、自身免疫、代谢性肝病等）",
+          "心电图及胸部影像学检查"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.65,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "backtrack_unavailable",
+  "finalization_used": false
+}

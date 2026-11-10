@@ -1,0 +1,1581 @@
+
+Starting benchmark with 30 cases...
+Dataset: data/merged_cases.json
+DEBUG mode: False
+  [DEBUG] extracted personal_info from case summary: {'性别': '男', '年龄': '41岁'}  [DEBUG] extracted personal_info from case summary: {'性别': '男', '年龄': '60岁'}
+  [DEBUG] extracted personal_info from case summary: {'性别': '女', '年龄': '81岁'}
+  [DEBUG] extracted personal_info from case summary: {'性别': '女', '年龄': '55岁'}  [DEBUG] extracted images_info count: 0
+
+  [DEBUG] extracted images_info count: 0  [DEBUG] extracted images_info count: 0
+
+  [DEBUG] extracted gt_img_paths count: 0
+Processing:   0%|          | 0/30 [00:00<?, ?it/s]
+  [DEBUG] extracted gt_img_paths count: 0  [DEBUG] extracted gt_img_paths count: 0
+  [DEBUG] extracted gt_diag: 丙型病毒性肝炎 慢性支气管炎 病毒性肝炎 低钙血症 低钠血症...
+
+  [DEBUG] extracted gt_diag: 丙型病毒性肝炎 病毒性肝炎 型糖尿病 糖尿病 高血压...  [DEBUG] extracted gt_diag: 原发性硬化性胆管炎 原发性胆汁性肝硬化 丙型病毒性肝炎 系统性红斑狼疮 感染性心内膜炎...
+
+  [DEBUG] extracted images_info count: 0
+  [DEBUG] extracted gt_img_paths count: 0
+  [DEBUG] extracted gt_diag: 胃内异物 丙型病毒性肝炎...
+
+============================================================
+============================================================
+============================================================
+
+============================================================
+
+Start medical diagnosis orchestration (MCTS)
+Start medical diagnosis orchestration (MCTS)Start medical diagnosis orchestration (MCTS)
+Start medical diagnosis orchestration (MCTS)
+
+============================================================
+========================================================================================================================
+============================================================
+
+[orchestrator] status update
+[orchestrator] status update[orchestrator] status update
+[orchestrator] status update
+
+
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+    [DoctorAgent] 精确匹配: 一般检查
+    [DoctorAgent] 精确匹配: 胸部检查
+    [DoctorAgent] 精确匹配: 腹部检查
+    [DoctorAgent] 精确匹配: 皮肤检查
+    [DoctorAgent] 精确匹配: 脊柱和四肢检查
+    [DoctorAgent] 精确匹配: 血液学检查
+    [DoctorAgent] 精确匹配: 超声
+    [DoctorAgent] 精确匹配: 一般检查
+    [DoctorAgent] 精确匹配: 腹部检查
+    [DoctorAgent] 精确匹配: CT
+    [DoctorAgent] 精确匹配: 血液学检查
+    [DoctorAgent] 精确匹配: 一般检查
+    [DoctorAgent] 精确匹配: 胸部检查
+    [DoctorAgent] 精确匹配: 血液学检查
+    [DoctorAgent] 精确匹配: CT
+    [DoctorAgent] 精确匹配: 一般检查
+    [DoctorAgent] 精确匹配: 腹部检查
+    [DoctorAgent] 精确匹配: 超声
+    [DoctorAgent] 精确匹配: CT
+    [DoctorAgent] 精确匹配: 血液学检查
+    [DoctorAgent] 精确匹配: 病理检查
+API Error: Error code: 402 - Insufficient Balance (request_id: 0b5cc941-016d-412d-817f-d3a36f9b8224)
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 144, in call_llm_api
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_utils/_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 1611, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1474, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1248, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.APIStatusError: Error code: 402 - Insufficient Balance (request_id: 0b5cc941-016d-412d-817f-d3a36f9b8224)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/main.py", line 445, in process_single_case
+    final_state = orchestrator.run(ground_truth, case_id=sample_id)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 162, in run
+    self._warm_start_perceive_hypothesize(ground_truth)
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 307, in _warm_start_perceive_hypothesize
+    missing = self._detect_missing_evidence()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 622, in _detect_missing_evidence
+    response = call_llm_api(MISSING_EVIDENCE_SYSTEM, prompt)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 156, in call_llm_api
+    raise RuntimeError("Default LLM API call failed") from e
+RuntimeError: Default LLM API call failed
+  [DEBUG] extracted personal_info from case summary: {'性别': '女', '年龄': '53岁'}
+Processing:   3%|▎         | 1/30 [04:32<2:11:55, 272.94s/it]  [DEBUG] extracted images_info count: 0
+  [DEBUG] extracted gt_img_paths count: 0
+  [DEBUG] extracted gt_diag: 丙型病毒性肝炎 慢性乙型肝炎 慢性丙型肝炎 病毒性肝炎 乙型肝炎...
+
+============================================================
+Start medical diagnosis orchestration (MCTS)
+============================================================
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+API Error: Error code: 402 - Insufficient Balance (request_id: 6d2bec15-bbf5-46f9-98fc-ef33d7cd9ce2)
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 144, in call_llm_api
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_utils/_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 1611, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1474, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1248, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.APIStatusError: Error code: 402 - Insufficient Balance (request_id: 6d2bec15-bbf5-46f9-98fc-ef33d7cd9ce2)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/main.py", line 445, in process_single_case
+    final_state = orchestrator.run(ground_truth, case_id=sample_id)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 162, in run
+    self._warm_start_perceive_hypothesize(ground_truth)
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 296, in _warm_start_perceive_hypothesize
+    self._execute_mcts_action(
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 581, in _execute_mcts_action
+    transitioned = self._execute_professional_action_on_state(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 380, in _execute_professional_action_on_state
+    l1_result = self.referral_agent.run_l1(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/agents/referral_agent.py", line 91, in run_l1
+    response = call_llm_api("你是一名分诊医生。", prompt)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 156, in call_llm_api
+    raise RuntimeError("Default LLM API call failed") from e
+RuntimeError: Default LLM API call failed
+  [DEBUG] extracted personal_info from case summary: {'性别': '男', '年龄': '37岁'}
+Processing:   7%|▋         | 2/30 [04:34<53:00, 113.57s/it]  [6_乙型肝炎表面抗原阳性15年余，牙龈出血1周余] processing error: cannot access local variable 're' where it is not associated with a value
+  [DEBUG] extracted images_info count: 0
+  [DEBUG] extracted gt_img_paths count: 0
+  [DEBUG] extracted gt_diag: 乙型病毒性肝炎 病毒性肝炎...
+
+============================================================
+Start medical diagnosis orchestration (MCTS)
+============================================================
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+API Error: Error code: 402 - Insufficient Balance (request_id: 39d3b048-f739-41e9-bd64-5efddbc9bac9)
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 144, in call_llm_api
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_utils/_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 1611, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1474, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1248, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.APIStatusError: Error code: 402 - Insufficient Balance (request_id: 39d3b048-f739-41e9-bd64-5efddbc9bac9)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/main.py", line 445, in process_single_case
+    final_state = orchestrator.run(ground_truth, case_id=sample_id)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 162, in run
+    self._warm_start_perceive_hypothesize(ground_truth)
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 296, in _warm_start_perceive_hypothesize
+    self._execute_mcts_action(
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 581, in _execute_mcts_action
+    transitioned = self._execute_professional_action_on_state(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 380, in _execute_professional_action_on_state
+    l1_result = self.referral_agent.run_l1(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/agents/referral_agent.py", line 91, in run_l1
+    response = call_llm_api("你是一名分诊医生。", prompt)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 156, in call_llm_api
+    raise RuntimeError("Default LLM API call failed") from e
+RuntimeError: Default LLM API call failed
+  [DEBUG] extracted personal_info from case summary: {'性别': '男', '年龄': '45岁'}
+Processing:  13%|█▎        | 4/30 [04:36<18:38, 43.01s/it]   [DEBUG] extracted images_info count: 0
+  [DEBUG] extracted gt_img_paths count: 0
+  [DEBUG] extracted gt_diag: 乙型病毒性肝炎 病毒性肝炎...
+
+============================================================
+Start medical diagnosis orchestration (MCTS)
+============================================================
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+API Error: Error code: 402 - Insufficient Balance (request_id: 390fb3bb-a6e5-4051-8863-1f9d95b76298)
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 144, in call_llm_api
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_utils/_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 1611, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1474, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1248, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.APIStatusError: Error code: 402 - Insufficient Balance (request_id: 390fb3bb-a6e5-4051-8863-1f9d95b76298)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/main.py", line 445, in process_single_case
+    final_state = orchestrator.run(ground_truth, case_id=sample_id)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 162, in run
+    self._warm_start_perceive_hypothesize(ground_truth)
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 296, in _warm_start_perceive_hypothesize
+    self._execute_mcts_action(
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 581, in _execute_mcts_action
+    transitioned = self._execute_professional_action_on_state(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 380, in _execute_professional_action_on_state
+    l1_result = self.referral_agent.run_l1(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/agents/referral_agent.py", line 91, in run_l1
+    response = call_llm_api("你是一名分诊医生。", prompt)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 156, in call_llm_api
+    raise RuntimeError("Default LLM API call failed") from e
+RuntimeError: Default LLM API call failed
+  [DEBUG] extracted personal_info from case summary: {'性别': '女', '年龄': '79岁'}
+Processing:  17%|█▋        | 5/30 [04:38<12:34, 30.20s/it]  [DEBUG] extracted images_info count: 5
+  [DEBUG] extracted gt_img_paths count: 0
+  [DEBUG] extracted gt_diag: 冠状动脉粥样硬化性心脏病 乙型病毒性肝炎 窦性心动过速 动脉粥样硬化 病毒性肝炎...
+
+============================================================
+Start medical diagnosis orchestration (MCTS)
+============================================================
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+API Error: Error code: 402 - Insufficient Balance (request_id: 94406e1b-96ca-4993-a9f1-eb5d022145c2)
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 144, in call_llm_api
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_utils/_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 1611, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1474, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1248, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.APIStatusError: Error code: 402 - Insufficient Balance (request_id: 94406e1b-96ca-4993-a9f1-eb5d022145c2)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/main.py", line 445, in process_single_case
+    final_state = orchestrator.run(ground_truth, case_id=sample_id)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 162, in run
+    self._warm_start_perceive_hypothesize(ground_truth)
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 296, in _warm_start_perceive_hypothesize
+    self._execute_mcts_action(
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 581, in _execute_mcts_action
+    transitioned = self._execute_professional_action_on_state(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 380, in _execute_professional_action_on_state
+    l1_result = self.referral_agent.run_l1(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/agents/referral_agent.py", line 91, in run_l1
+    response = call_llm_api("你是一名分诊医生。", prompt)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 156, in call_llm_api
+    raise RuntimeError("Default LLM API call failed") from e
+RuntimeError: Default LLM API call failed
+  [DEBUG] extracted personal_info from case summary: {'性别': '男', '年龄': '68岁'}
+Processing:  20%|██        | 6/30 [04:40<08:35, 21.48s/it]  [DEBUG] extracted images_info count: 2
+  [DEBUG] extracted gt_img_paths count: 0
+  [DEBUG] extracted gt_diag: 乙型病毒性肝炎 病毒性肝炎 冠心病 高血压 肾结石...
+
+============================================================
+Start medical diagnosis orchestration (MCTS)
+============================================================
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+API Error: Error code: 402 - Insufficient Balance (request_id: 2d854fde-fac7-42b8-aae3-1f5a4296a431)
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 144, in call_llm_api
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_utils/_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 1611, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1474, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1248, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.APIStatusError: Error code: 402 - Insufficient Balance (request_id: 2d854fde-fac7-42b8-aae3-1f5a4296a431)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/main.py", line 445, in process_single_case
+    final_state = orchestrator.run(ground_truth, case_id=sample_id)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 162, in run
+    self._warm_start_perceive_hypothesize(ground_truth)
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 296, in _warm_start_perceive_hypothesize
+    self._execute_mcts_action(
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 581, in _execute_mcts_action
+    transitioned = self._execute_professional_action_on_state(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 380, in _execute_professional_action_on_state
+    l1_result = self.referral_agent.run_l1(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/agents/referral_agent.py", line 91, in run_l1
+    response = call_llm_api("你是一名分诊医生。", prompt)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 156, in call_llm_api
+    raise RuntimeError("Default LLM API call failed") from e
+RuntimeError: Default LLM API call failed
+  [DEBUG] extracted personal_info from case summary: {'性别': '男', '年龄': '24岁'}
+Processing:  23%|██▎       | 7/30 [04:41<05:54, 15.40s/it]  [DEBUG] extracted images_info count: 0
+  [DEBUG] extracted gt_img_paths count: 0
+  [DEBUG] extracted gt_diag: 冠状动脉粥样硬化性心脏病 乙型病毒性肝炎 动脉粥样硬化 病毒性肝炎 糖尿病...
+
+============================================================
+Start medical diagnosis orchestration (MCTS)
+============================================================
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+API Error: Error code: 402 - Insufficient Balance (request_id: 2b69f1e1-2e93-40d1-a6a7-225bcf788264)
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 144, in call_llm_api
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_utils/_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 1611, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1474, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1248, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.APIStatusError: Error code: 402 - Insufficient Balance (request_id: 2b69f1e1-2e93-40d1-a6a7-225bcf788264)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/main.py", line 445, in process_single_case
+    final_state = orchestrator.run(ground_truth, case_id=sample_id)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 162, in run
+    self._warm_start_perceive_hypothesize(ground_truth)
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 296, in _warm_start_perceive_hypothesize
+    self._execute_mcts_action(
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 581, in _execute_mcts_action
+    transitioned = self._execute_professional_action_on_state(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 380, in _execute_professional_action_on_state
+    l1_result = self.referral_agent.run_l1(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/agents/referral_agent.py", line 91, in run_l1
+    response = call_llm_api("你是一名分诊医生。", prompt)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 156, in call_llm_api
+    raise RuntimeError("Default LLM API call failed") from e
+RuntimeError: Default LLM API call failed
+  [DEBUG] extracted personal_info from case summary: {'性别': '女', '年龄': '53岁'}
+Processing:  27%|██▋       | 8/30 [04:43<04:06, 11.21s/it]  [DEBUG] extracted images_info count: 0
+  [DEBUG] extracted gt_img_paths count: 0
+  [DEBUG] extracted gt_diag: 乙型病毒性肝炎 原发性肝癌 病毒性肝炎 肝细胞癌 冠心病...
+
+============================================================
+Start medical diagnosis orchestration (MCTS)
+============================================================
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+API Error: Error code: 402 - Insufficient Balance (request_id: 2bd1e52b-a008-45db-86c2-9c1e251c0f10)
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 144, in call_llm_api
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_utils/_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 1611, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1474, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1248, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.APIStatusError: Error code: 402 - Insufficient Balance (request_id: 2bd1e52b-a008-45db-86c2-9c1e251c0f10)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/main.py", line 445, in process_single_case
+    final_state = orchestrator.run(ground_truth, case_id=sample_id)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 162, in run
+    self._warm_start_perceive_hypothesize(ground_truth)
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 296, in _warm_start_perceive_hypothesize
+    self._execute_mcts_action(
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 581, in _execute_mcts_action
+    transitioned = self._execute_professional_action_on_state(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 380, in _execute_professional_action_on_state
+    l1_result = self.referral_agent.run_l1(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/agents/referral_agent.py", line 91, in run_l1
+    response = call_llm_api("你是一名分诊医生。", prompt)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 156, in call_llm_api
+    raise RuntimeError("Default LLM API call failed") from e
+RuntimeError: Default LLM API call failed
+  [DEBUG] extracted personal_info from case summary: {'性别': '女', '年龄': '40岁'}Processing:  30%|███       | 9/30 [04:45<02:55,  8.34s/it]
+  [DEBUG] extracted images_info count: 3
+  [DEBUG] extracted gt_img_paths count: 0
+  [DEBUG] extracted gt_diag: 乙型病毒性肝炎 窦性心动过速 病毒性肝炎 胸腔积液 肾盂积水...
+
+============================================================
+Start medical diagnosis orchestration (MCTS)
+============================================================
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+API Error: Error code: 402 - Insufficient Balance (request_id: 3ec3f939-7160-4ebb-85c5-51bcf5cd5a97)
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 144, in call_llm_api
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_utils/_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 1611, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1474, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1248, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.APIStatusError: Error code: 402 - Insufficient Balance (request_id: 3ec3f939-7160-4ebb-85c5-51bcf5cd5a97)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/main.py", line 445, in process_single_case
+    final_state = orchestrator.run(ground_truth, case_id=sample_id)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 162, in run
+    self._warm_start_perceive_hypothesize(ground_truth)
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 296, in _warm_start_perceive_hypothesize
+    self._execute_mcts_action(
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 581, in _execute_mcts_action
+    transitioned = self._execute_professional_action_on_state(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 380, in _execute_professional_action_on_state
+    l1_result = self.referral_agent.run_l1(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/agents/referral_agent.py", line 91, in run_l1
+    response = call_llm_api("你是一名分诊医生。", prompt)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 156, in call_llm_api
+    raise RuntimeError("Default LLM API call failed") from e
+RuntimeError: Default LLM API call failed
+  [DEBUG] extracted personal_info from case summary: {'性别': '男', '年龄': '59岁'}
+Processing:  33%|███▎      | 10/30 [04:46<02:06,  6.34s/it]  [DEBUG] extracted images_info count: 4
+  [DEBUG] extracted gt_img_paths count: 0
+  [DEBUG] extracted gt_diag: 乙型病毒性肝炎 病毒性肝炎 原发性肝癌 肝细胞癌 支气管炎...
+
+============================================================
+Start medical diagnosis orchestration (MCTS)
+============================================================
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+API Error: Error code: 402 - Insufficient Balance (request_id: 97d051df-d9fc-4be7-9bb1-c11266a1c6de)
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 144, in call_llm_api
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_utils/_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 1611, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1474, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1248, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.APIStatusError: Error code: 402 - Insufficient Balance (request_id: 97d051df-d9fc-4be7-9bb1-c11266a1c6de)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/main.py", line 445, in process_single_case
+    final_state = orchestrator.run(ground_truth, case_id=sample_id)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 162, in run
+    self._warm_start_perceive_hypothesize(ground_truth)
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 296, in _warm_start_perceive_hypothesize
+    self._execute_mcts_action(
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 581, in _execute_mcts_action
+    transitioned = self._execute_professional_action_on_state(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 380, in _execute_professional_action_on_state
+    l1_result = self.referral_agent.run_l1(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/agents/referral_agent.py", line 91, in run_l1
+    response = call_llm_api("你是一名分诊医生。", prompt)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 156, in call_llm_api
+    raise RuntimeError("Default LLM API call failed") from e
+RuntimeError: Default LLM API call failed
+  [DEBUG] extracted personal_info from case summary: {'性别': '男', '年龄': '51岁'}Processing:  37%|███▋      | 11/30 [04:48<01:34,  4.98s/it]
+  [DEBUG] extracted images_info count: 0
+  [DEBUG] extracted gt_img_paths count: 0
+  [DEBUG] extracted gt_diag: 乙型病毒性肝炎 病毒性肝炎 淋巴瘤 肝脓肿 肝癌...
+
+============================================================
+Start medical diagnosis orchestration (MCTS)
+============================================================
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+API Error: Error code: 402 - Insufficient Balance (request_id: 6cea1efd-70fe-48ef-8fdb-fb602ef0a8c2)
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 144, in call_llm_api
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_utils/_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 1611, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1474, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1248, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.APIStatusError: Error code: 402 - Insufficient Balance (request_id: 6cea1efd-70fe-48ef-8fdb-fb602ef0a8c2)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/main.py", line 445, in process_single_case
+    final_state = orchestrator.run(ground_truth, case_id=sample_id)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 162, in run
+    self._warm_start_perceive_hypothesize(ground_truth)
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 296, in _warm_start_perceive_hypothesize
+    self._execute_mcts_action(
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 581, in _execute_mcts_action
+    transitioned = self._execute_professional_action_on_state(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 380, in _execute_professional_action_on_state
+    l1_result = self.referral_agent.run_l1(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/agents/referral_agent.py", line 91, in run_l1
+    response = call_llm_api("你是一名分诊医生。", prompt)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 156, in call_llm_api
+    raise RuntimeError("Default LLM API call failed") from e
+RuntimeError: Default LLM API call failed
+  [DEBUG] extracted personal_info from case summary: {'性别': '男', '年龄': '40岁'}Processing:  40%|████      | 12/30 [04:50<01:12,  4.05s/it]
+  [DEBUG] extracted images_info count: 4
+  [DEBUG] extracted gt_img_paths count: 0
+  [DEBUG] extracted gt_diag: 乙型病毒性肝炎 病毒性肝炎 糖尿病 高血压 昏迷...
+
+============================================================
+Start medical diagnosis orchestration (MCTS)
+============================================================
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+API Error: Error code: 402 - Insufficient Balance (request_id: b1e78220-e0ad-423c-9b75-4c04e8065643)
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 144, in call_llm_api
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_utils/_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 1611, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1474, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1248, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.APIStatusError: Error code: 402 - Insufficient Balance (request_id: b1e78220-e0ad-423c-9b75-4c04e8065643)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/main.py", line 445, in process_single_case
+    final_state = orchestrator.run(ground_truth, case_id=sample_id)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 162, in run
+    self._warm_start_perceive_hypothesize(ground_truth)
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 296, in _warm_start_perceive_hypothesize
+    self._execute_mcts_action(
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 581, in _execute_mcts_action
+    transitioned = self._execute_professional_action_on_state(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 380, in _execute_professional_action_on_state
+    l1_result = self.referral_agent.run_l1(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/agents/referral_agent.py", line 91, in run_l1
+    response = call_llm_api("你是一名分诊医生。", prompt)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 156, in call_llm_api
+    raise RuntimeError("Default LLM API call failed") from e
+RuntimeError: Default LLM API call failed
+  [DEBUG] extracted personal_info from case summary: {'性别': '男', '年龄': '58岁'}
+Processing:  43%|████▎     | 13/30 [04:52<00:57,  3.39s/it]  [DEBUG] extracted images_info count: 0
+  [DEBUG] extracted gt_img_paths count: 0
+  [DEBUG] extracted gt_diag: 乙型病毒性肝炎 病毒性肝炎 骨质疏松 肋骨骨折 酸中毒...
+
+============================================================
+Start medical diagnosis orchestration (MCTS)
+============================================================
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+API Error: Error code: 402 - Insufficient Balance (request_id: 55c53b50-6e09-40f3-9b13-b38eb3d4ee13)
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 144, in call_llm_api
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_utils/_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 1611, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1474, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1248, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.APIStatusError: Error code: 402 - Insufficient Balance (request_id: 55c53b50-6e09-40f3-9b13-b38eb3d4ee13)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/main.py", line 445, in process_single_case
+    final_state = orchestrator.run(ground_truth, case_id=sample_id)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 162, in run
+    self._warm_start_perceive_hypothesize(ground_truth)
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 296, in _warm_start_perceive_hypothesize
+    self._execute_mcts_action(
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 581, in _execute_mcts_action
+    transitioned = self._execute_professional_action_on_state(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 380, in _execute_professional_action_on_state
+    l1_result = self.referral_agent.run_l1(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/agents/referral_agent.py", line 91, in run_l1
+    response = call_llm_api("你是一名分诊医生。", prompt)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 156, in call_llm_api
+    raise RuntimeError("Default LLM API call failed") from e
+RuntimeError: Default LLM API call failed
+  [DEBUG] extracted personal_info from case summary: {'性别': '女', '年龄': '78岁'}
+Processing:  47%|████▋     | 14/30 [04:54<00:46,  2.92s/it]  [DEBUG] extracted images_info count: 0
+  [DEBUG] extracted gt_img_paths count: 0
+  [DEBUG] extracted gt_diag: 乙型病毒性肝炎 脾功能亢进 病毒性肝炎 心力衰竭 心包积液...
+
+============================================================
+Start medical diagnosis orchestration (MCTS)
+============================================================
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+API Error: Error code: 402 - Insufficient Balance (request_id: d774cc72-88c7-434e-9231-6af4a0dc7806)
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 144, in call_llm_api
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_utils/_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 1611, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1474, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1248, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.APIStatusError: Error code: 402 - Insufficient Balance (request_id: d774cc72-88c7-434e-9231-6af4a0dc7806)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/main.py", line 445, in process_single_case
+    final_state = orchestrator.run(ground_truth, case_id=sample_id)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 162, in run
+    self._warm_start_perceive_hypothesize(ground_truth)
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 296, in _warm_start_perceive_hypothesize
+    self._execute_mcts_action(
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 581, in _execute_mcts_action
+    transitioned = self._execute_professional_action_on_state(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 380, in _execute_professional_action_on_state
+    l1_result = self.referral_agent.run_l1(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/agents/referral_agent.py", line 91, in run_l1
+    response = call_llm_api("你是一名分诊医生。", prompt)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 156, in call_llm_api
+    raise RuntimeError("Default LLM API call failed") from e
+RuntimeError: Default LLM API call failed
+  [DEBUG] extracted personal_info from case summary: {'性别': '男', '年龄': '59岁'}Processing:  50%|█████     | 15/30 [04:56<00:39,  2.60s/it]
+  [DEBUG] extracted images_info count: 0
+  [DEBUG] extracted gt_img_paths count: 0
+  [DEBUG] extracted gt_diag: 甲状腺功能亢进症 乙型病毒性肝炎 室性期前收缩 继发性肝癌 病毒性肝炎...
+
+============================================================
+Start medical diagnosis orchestration (MCTS)
+============================================================
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+API Error: Error code: 402 - Insufficient Balance (request_id: 535b83c7-dff7-438a-8f83-72f3f70960e1)
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 144, in call_llm_api
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_utils/_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 1611, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1474, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1248, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.APIStatusError: Error code: 402 - Insufficient Balance (request_id: 535b83c7-dff7-438a-8f83-72f3f70960e1)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/main.py", line 445, in process_single_case
+    final_state = orchestrator.run(ground_truth, case_id=sample_id)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 162, in run
+    self._warm_start_perceive_hypothesize(ground_truth)
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 296, in _warm_start_perceive_hypothesize
+    self._execute_mcts_action(
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 581, in _execute_mcts_action
+    transitioned = self._execute_professional_action_on_state(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 380, in _execute_professional_action_on_state
+    l1_result = self.referral_agent.run_l1(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/agents/referral_agent.py", line 91, in run_l1
+    response = call_llm_api("你是一名分诊医生。", prompt)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 156, in call_llm_api
+    raise RuntimeError("Default LLM API call failed") from e
+RuntimeError: Default LLM API call failed
+  [DEBUG] extracted personal_info from case summary: {'性别': '男', '年龄': '70岁'}Processing:  53%|█████▎    | 16/30 [04:57<00:32,  2.33s/it]
+  [DEBUG] extracted images_info count: 0
+  [DEBUG] extracted gt_img_paths count: 0
+  [DEBUG] extracted gt_diag: 慢性淋巴细胞白血病 系统性红斑狼疮 乙型病毒性肝炎 动脉粥样硬化 十二指肠溃疡...
+
+============================================================
+Start medical diagnosis orchestration (MCTS)
+============================================================
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+API Error: Error code: 402 - Insufficient Balance (request_id: 6586d891-a771-4f3a-97ba-63068c6e18dc)
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 144, in call_llm_api
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_utils/_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 1611, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1474, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1248, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.APIStatusError: Error code: 402 - Insufficient Balance (request_id: 6586d891-a771-4f3a-97ba-63068c6e18dc)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/main.py", line 445, in process_single_case
+    final_state = orchestrator.run(ground_truth, case_id=sample_id)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 162, in run
+    self._warm_start_perceive_hypothesize(ground_truth)
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 296, in _warm_start_perceive_hypothesize
+    self._execute_mcts_action(
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 581, in _execute_mcts_action
+    transitioned = self._execute_professional_action_on_state(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 380, in _execute_professional_action_on_state
+    l1_result = self.referral_agent.run_l1(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/agents/referral_agent.py", line 91, in run_l1
+    response = call_llm_api("你是一名分诊医生。", prompt)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 156, in call_llm_api
+    raise RuntimeError("Default LLM API call failed") from e
+RuntimeError: Default LLM API call failed
+  [DEBUG] extracted personal_info from case summary: {'性别': '男', '年龄': '54岁'}
+Processing:  57%|█████▋    | 17/30 [04:59<00:28,  2.19s/it]  [DEBUG] extracted images_info count: 0
+  [DEBUG] extracted gt_img_paths count: 0
+  [DEBUG] extracted gt_diag: 乙型病毒性肝炎 室性心动过速 室性期前收缩 病毒性肝炎 冠心病...
+
+============================================================
+Start medical diagnosis orchestration (MCTS)
+============================================================
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+API Error: Error code: 402 - Insufficient Balance (request_id: 1d3f5f23-81e2-4908-a73e-8120eeb3a999)
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 144, in call_llm_api
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_utils/_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 1611, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1474, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1248, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.APIStatusError: Error code: 402 - Insufficient Balance (request_id: 1d3f5f23-81e2-4908-a73e-8120eeb3a999)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/main.py", line 445, in process_single_case
+    final_state = orchestrator.run(ground_truth, case_id=sample_id)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 162, in run
+    self._warm_start_perceive_hypothesize(ground_truth)
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 296, in _warm_start_perceive_hypothesize
+    self._execute_mcts_action(
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 581, in _execute_mcts_action
+    transitioned = self._execute_professional_action_on_state(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 380, in _execute_professional_action_on_state
+    l1_result = self.referral_agent.run_l1(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/agents/referral_agent.py", line 91, in run_l1
+    response = call_llm_api("你是一名分诊医生。", prompt)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 156, in call_llm_api
+    raise RuntimeError("Default LLM API call failed") from e
+RuntimeError: Default LLM API call failed
+  [DEBUG] extracted personal_info from case summary: {'性别': '男', '年龄': '61岁'}Processing:  60%|██████    | 18/30 [05:01<00:24,  2.05s/it]
+  [DEBUG] extracted images_info count: 0
+  [DEBUG] extracted gt_img_paths count: 0
+  [DEBUG] extracted gt_diag: 乙型病毒性肝炎 上消化道出血 原发性肝癌 消化道出血 病毒性肝炎...
+
+============================================================
+Start medical diagnosis orchestration (MCTS)
+============================================================
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+API Error: Error code: 402 - Insufficient Balance (request_id: af833a20-f165-4bc9-a47a-da1c56a73b47)
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 144, in call_llm_api
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_utils/_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 1611, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1474, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1248, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.APIStatusError: Error code: 402 - Insufficient Balance (request_id: af833a20-f165-4bc9-a47a-da1c56a73b47)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/main.py", line 445, in process_single_case
+    final_state = orchestrator.run(ground_truth, case_id=sample_id)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 162, in run
+    self._warm_start_perceive_hypothesize(ground_truth)
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 296, in _warm_start_perceive_hypothesize
+    self._execute_mcts_action(
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 581, in _execute_mcts_action
+    transitioned = self._execute_professional_action_on_state(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 380, in _execute_professional_action_on_state
+    l1_result = self.referral_agent.run_l1(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/agents/referral_agent.py", line 91, in run_l1
+    response = call_llm_api("你是一名分诊医生。", prompt)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 156, in call_llm_api
+    raise RuntimeError("Default LLM API call failed") from e
+RuntimeError: Default LLM API call failed
+  [DEBUG] extracted personal_info from case summary: {'性别': '男', '年龄': '39岁'}Processing:  63%|██████▎   | 19/30 [05:02<00:20,  1.86s/it]
+  [DEBUG] extracted images_info count: 0
+  [DEBUG] extracted gt_img_paths count: 0
+  [DEBUG] extracted gt_diag: 乙型病毒性肝炎 急性肾功能衰竭 酒精性肝硬化 IgA肾病 肾功能衰竭...
+
+============================================================
+Start medical diagnosis orchestration (MCTS)
+============================================================
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+API Error: Error code: 402 - Insufficient Balance (request_id: 330175d5-e1cf-4d44-9447-3a0de9f79e6e)
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 144, in call_llm_api
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_utils/_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 1611, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1474, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1248, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.APIStatusError: Error code: 402 - Insufficient Balance (request_id: 330175d5-e1cf-4d44-9447-3a0de9f79e6e)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/main.py", line 445, in process_single_case
+    final_state = orchestrator.run(ground_truth, case_id=sample_id)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 162, in run
+    self._warm_start_perceive_hypothesize(ground_truth)
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 296, in _warm_start_perceive_hypothesize
+    self._execute_mcts_action(
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 581, in _execute_mcts_action
+    transitioned = self._execute_professional_action_on_state(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 380, in _execute_professional_action_on_state
+    l1_result = self.referral_agent.run_l1(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/agents/referral_agent.py", line 91, in run_l1
+    response = call_llm_api("你是一名分诊医生。", prompt)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 156, in call_llm_api
+    raise RuntimeError("Default LLM API call failed") from e
+RuntimeError: Default LLM API call failed
+  [DEBUG] extracted personal_info from case summary: {'性别': '男', '年龄': '28岁'}Processing:  67%|██████▋   | 20/30 [05:04<00:17,  1.73s/it]
+  [DEBUG] extracted images_info count: 0
+  [DEBUG] extracted gt_img_paths count: 0
+  [DEBUG] extracted gt_diag: 原发性胆汁性肝硬化 原发性血小板增多症 真性红细胞增多症 充血性心力衰竭 乙型病毒性肝炎...
+
+============================================================
+Start medical diagnosis orchestration (MCTS)
+============================================================
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+API Error: Error code: 402 - Insufficient Balance (request_id: 13b12b1e-ea60-465f-9028-cc385c4b1397)
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 144, in call_llm_api
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_utils/_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 1611, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1474, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1248, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.APIStatusError: Error code: 402 - Insufficient Balance (request_id: 13b12b1e-ea60-465f-9028-cc385c4b1397)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/main.py", line 445, in process_single_case
+    final_state = orchestrator.run(ground_truth, case_id=sample_id)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 162, in run
+    self._warm_start_perceive_hypothesize(ground_truth)
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 311, in _warm_start_perceive_hypothesize
+    self._execute_backtrack(missing, ground_truth)
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 701, in _execute_backtrack
+    decision = self._decide_backtrack(missing_evidence)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 658, in _decide_backtrack
+    return self._decide_backtrack_from_state(state, missing_evidence)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 568, in _decide_backtrack_from_state
+    response = call_llm_api(BACKTRACK_SYSTEM, prompt)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 156, in call_llm_api
+    raise RuntimeError("Default LLM API call failed") from e
+RuntimeError: Default LLM API call failed
+  [DEBUG] extracted personal_info from case summary: {'性别': '男', '年龄': '未知'}Processing:  70%|███████   | 21/30 [05:05<00:14,  1.57s/it]
+  [DEBUG] extracted images_info count: 0
+  [DEBUG] extracted gt_img_paths count: 0
+  [DEBUG] extracted gt_diag: 乙型病毒性肝炎 肝细胞性黄疸 病毒性肝炎 地中海贫血 原发性肝癌...
+
+============================================================
+Start medical diagnosis orchestration (MCTS)
+============================================================
+[orchestrator] status update
+API Error: Error code: 402 - Insufficient Balance (request_id: 3424cec8-7f27-40f9-ab37-ad2d927bb890)
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 144, in call_llm_api
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_utils/_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 1611, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1474, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1248, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.APIStatusError: Error code: 402 - Insufficient Balance (request_id: 3424cec8-7f27-40f9-ab37-ad2d927bb890)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/main.py", line 445, in process_single_case
+    final_state = orchestrator.run(ground_truth, case_id=sample_id)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 162, in run
+    self._warm_start_perceive_hypothesize(ground_truth)
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 296, in _warm_start_perceive_hypothesize
+    self._execute_mcts_action(
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 581, in _execute_mcts_action
+    transitioned = self._execute_professional_action_on_state(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 380, in _execute_professional_action_on_state
+    l1_result = self.referral_agent.run_l1(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/agents/referral_agent.py", line 91, in run_l1
+    response = call_llm_api("你是一名分诊医生。", prompt)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 156, in call_llm_api
+    raise RuntimeError("Default LLM API call failed") from e
+RuntimeError: Default LLM API call failed
+  [DEBUG] extracted personal_info from case summary: {'性别': '男', '年龄': '45岁'}
+Processing:  73%|███████▎  | 22/30 [05:05<00:09,  1.21s/it]  [DEBUG] extracted images_info count: 0
+  [DEBUG] extracted gt_img_paths count: 0
+  [DEBUG] extracted gt_diag: 乙型病毒性肝炎 病毒性肝炎 高血压 糖尿病 肝硬化...
+
+============================================================
+Start medical diagnosis orchestration (MCTS)
+============================================================
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+API Error: Error code: 402 - Insufficient Balance (request_id: 22e227c6-6f09-451c-9e53-3ecf68369608)
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 144, in call_llm_api
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_utils/_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 1611, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1474, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1248, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.APIStatusError: Error code: 402 - Insufficient Balance (request_id: 22e227c6-6f09-451c-9e53-3ecf68369608)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/main.py", line 445, in process_single_case
+    final_state = orchestrator.run(ground_truth, case_id=sample_id)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 162, in run
+    self._warm_start_perceive_hypothesize(ground_truth)
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 296, in _warm_start_perceive_hypothesize
+    self._execute_mcts_action(
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 581, in _execute_mcts_action
+    transitioned = self._execute_professional_action_on_state(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 380, in _execute_professional_action_on_state
+    l1_result = self.referral_agent.run_l1(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/agents/referral_agent.py", line 91, in run_l1
+    response = call_llm_api("你是一名分诊医生。", prompt)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 156, in call_llm_api
+    raise RuntimeError("Default LLM API call failed") from e
+RuntimeError: Default LLM API call failed
+  [DEBUG] extracted personal_info from case summary: {'性别': '男', '年龄': '50岁'}Processing:  77%|███████▋  | 23/30 [05:06<00:08,  1.19s/it]
+  [DEBUG] extracted images_info count: 0
+  [DEBUG] extracted gt_img_paths count: 0
+  [DEBUG] extracted gt_diag: 乙型病毒性肝炎 病毒性肝炎 门静脉高压 肝硬化 水肿...
+
+============================================================
+Start medical diagnosis orchestration (MCTS)
+============================================================
+[orchestrator] status update
+API Error: Error code: 402 - Insufficient Balance (request_id: 989dc3be-0bb0-42cc-add0-23bd55fd899a)
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 144, in call_llm_api
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_utils/_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 1611, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1474, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1248, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.APIStatusError: Error code: 402 - Insufficient Balance (request_id: 989dc3be-0bb0-42cc-add0-23bd55fd899a)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/main.py", line 445, in process_single_case
+    final_state = orchestrator.run(ground_truth, case_id=sample_id)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 162, in run
+    self._warm_start_perceive_hypothesize(ground_truth)
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 296, in _warm_start_perceive_hypothesize
+    self._execute_mcts_action(
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 581, in _execute_mcts_action
+    transitioned = self._execute_professional_action_on_state(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 380, in _execute_professional_action_on_state
+    l1_result = self.referral_agent.run_l1(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/agents/referral_agent.py", line 91, in run_l1
+    response = call_llm_api("你是一名分诊医生。", prompt)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 156, in call_llm_api
+    raise RuntimeError("Default LLM API call failed") from e
+RuntimeError: Default LLM API call failed
+  [DEBUG] extracted personal_info from case summary: {'性别': '女', '年龄': '49岁'}Processing:  80%|████████  | 24/30 [05:07<00:05,  1.08it/s]
+  [DEBUG] extracted images_info count: 0
+  [DEBUG] extracted gt_img_paths count: 0
+  [DEBUG] extracted gt_diag: 乙型病毒性肝炎 病毒性肝炎 肝硬化 肺结核 肝结核...
+
+============================================================
+Start medical diagnosis orchestration (MCTS)
+============================================================
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+API Error: Error code: 402 - Insufficient Balance (request_id: 35a5b2dd-c65a-4574-9518-ba0347291153)
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 144, in call_llm_api
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_utils/_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 1611, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1474, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1248, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.APIStatusError: Error code: 402 - Insufficient Balance (request_id: 35a5b2dd-c65a-4574-9518-ba0347291153)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/main.py", line 445, in process_single_case
+    final_state = orchestrator.run(ground_truth, case_id=sample_id)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 162, in run
+    self._warm_start_perceive_hypothesize(ground_truth)
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 296, in _warm_start_perceive_hypothesize
+    self._execute_mcts_action(
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 581, in _execute_mcts_action
+    transitioned = self._execute_professional_action_on_state(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 380, in _execute_professional_action_on_state
+    l1_result = self.referral_agent.run_l1(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/agents/referral_agent.py", line 91, in run_l1
+    response = call_llm_api("你是一名分诊医生。", prompt)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 156, in call_llm_api
+    raise RuntimeError("Default LLM API call failed") from e
+RuntimeError: Default LLM API call failed
+  [DEBUG] extracted personal_info from case summary: {'性别': '男', '年龄': '24岁'}Processing:  83%|████████▎ | 25/30 [05:08<00:05,  1.04s/it]
+  [DEBUG] extracted images_info count: 0
+  [DEBUG] extracted gt_img_paths count: 0
+  [DEBUG] extracted gt_diag: 乙型病毒性肝炎 病毒性肝炎...
+
+============================================================
+Start medical diagnosis orchestration (MCTS)
+============================================================
+[orchestrator] status update
+API Error: Error code: 402 - Insufficient Balance (request_id: c764fcfb-c282-4868-a138-f134665b8e60)
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 144, in call_llm_api
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_utils/_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 1611, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1474, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1248, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.APIStatusError: Error code: 402 - Insufficient Balance (request_id: c764fcfb-c282-4868-a138-f134665b8e60)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/main.py", line 445, in process_single_case
+    final_state = orchestrator.run(ground_truth, case_id=sample_id)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 162, in run
+    self._warm_start_perceive_hypothesize(ground_truth)
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 296, in _warm_start_perceive_hypothesize
+    self._execute_mcts_action(
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 581, in _execute_mcts_action
+    transitioned = self._execute_professional_action_on_state(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 380, in _execute_professional_action_on_state
+    l1_result = self.referral_agent.run_l1(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/agents/referral_agent.py", line 91, in run_l1
+    response = call_llm_api("你是一名分诊医生。", prompt)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 156, in call_llm_api
+    raise RuntimeError("Default LLM API call failed") from e
+RuntimeError: Default LLM API call failed
+  [DEBUG] extracted personal_info from case summary: {'性别': '男', '年龄': '26岁'}
+Processing:  87%|████████▋ | 26/30 [05:08<00:03,  1.28it/s]  [DEBUG] extracted images_info count: 0
+  [DEBUG] extracted gt_img_paths count: 0
+  [DEBUG] extracted gt_diag: 乙型病毒性肝炎 病毒性肝炎 黄疸...
+
+============================================================
+Start medical diagnosis orchestration (MCTS)
+============================================================
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+[orchestrator] status update
+API Error: Error code: 402 - Insufficient Balance (request_id: 311c5ce0-7b4e-4a9a-b949-ca750a47a0d3)
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 144, in call_llm_api
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_utils/_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 1611, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1474, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1248, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.APIStatusError: Error code: 402 - Insufficient Balance (request_id: 311c5ce0-7b4e-4a9a-b949-ca750a47a0d3)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/main.py", line 445, in process_single_case
+    final_state = orchestrator.run(ground_truth, case_id=sample_id)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 162, in run
+    self._warm_start_perceive_hypothesize(ground_truth)
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 296, in _warm_start_perceive_hypothesize
+    self._execute_mcts_action(
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 581, in _execute_mcts_action
+    transitioned = self._execute_professional_action_on_state(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 380, in _execute_professional_action_on_state
+    l1_result = self.referral_agent.run_l1(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/agents/referral_agent.py", line 91, in run_l1
+    response = call_llm_api("你是一名分诊医生。", prompt)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 156, in call_llm_api
+    raise RuntimeError("Default LLM API call failed") from e
+RuntimeError: Default LLM API call failed
+Processing:  90%|█████████ | 27/30 [05:10<00:02,  1.03it/s]API Error: Error code: 402 - Insufficient Balance (request_id: cdf640e3-7f1b-42d7-a966-d931a7a77244)
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 144, in call_llm_api
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_utils/_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 1611, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1474, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1248, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.APIStatusError: Error code: 402 - Insufficient Balance (request_id: cdf640e3-7f1b-42d7-a966-d931a7a77244)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/main.py", line 445, in process_single_case
+    final_state = orchestrator.run(ground_truth, case_id=sample_id)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 162, in run
+    self._warm_start_perceive_hypothesize(ground_truth)
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 296, in _warm_start_perceive_hypothesize
+    self._execute_mcts_action(
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 581, in _execute_mcts_action
+    transitioned = self._execute_professional_action_on_state(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 380, in _execute_professional_action_on_state
+    l1_result = self.referral_agent.run_l1(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/agents/referral_agent.py", line 91, in run_l1
+    response = call_llm_api("你是一名分诊医生。", prompt)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 156, in call_llm_api
+    raise RuntimeError("Default LLM API call failed") from e
+RuntimeError: Default LLM API call failed
+Processing:  93%|█████████▎| 28/30 [05:10<00:01,  1.32it/s]    [DoctorAgent] 精确匹配: 一般检查
+    [DoctorAgent] 精确匹配: 胸部检查
+    [DoctorAgent] 精确匹配: 腹部检查
+    [DoctorAgent] 精确匹配: 脊柱和四肢检查
+    [DoctorAgent] 精确匹配: 皮肤检查
+    [DoctorAgent] 精确匹配: 血液学检查
+    [DoctorAgent] 精确匹配: 超声
+    [DoctorAgent] 精确匹配: X-ray
+API Error: Error code: 402 - Insufficient Balance (request_id: aa46465c-9676-4da2-ad1d-fe9f8d77d54f)
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 144, in call_llm_api
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_utils/_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 1611, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1474, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1248, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.APIStatusError: Error code: 402 - Insufficient Balance (request_id: aa46465c-9676-4da2-ad1d-fe9f8d77d54f)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/main.py", line 445, in process_single_case
+    final_state = orchestrator.run(ground_truth, case_id=sample_id)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 186, in run
+    self.memory.update({"missing_evidence": self._detect_missing_evidence()})
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 622, in _detect_missing_evidence
+    response = call_llm_api(MISSING_EVIDENCE_SYSTEM, prompt)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 156, in call_llm_api
+    raise RuntimeError("Default LLM API call failed") from e
+RuntimeError: Default LLM API call failed
+Processing:  97%|█████████▋| 29/30 [06:26<00:23, 23.32s/it]    [DoctorAgent] 精确匹配: 腹部检查
+    [DoctorAgent] 精确匹配: 内镜检查
+    [DoctorAgent] 精确匹配: 血液学检查
+API Error: Error code: 402 - Insufficient Balance (request_id: 98f7cf00-1e5a-4ee8-9a96-512ad2708b8e)
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 144, in call_llm_api
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_utils/_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 1611, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1474, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1248, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.APIStatusError: Error code: 402 - Insufficient Balance (request_id: 98f7cf00-1e5a-4ee8-9a96-512ad2708b8e)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/agents/output/ClinicalAgents-Code/main.py", line 445, in process_single_case
+    final_state = orchestrator.run(ground_truth, case_id=sample_id)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 186, in run
+    self.memory.update({"missing_evidence": self._detect_missing_evidence()})
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/med_orchestrator.py", line 622, in _detect_missing_evidence
+    response = call_llm_api(MISSING_EVIDENCE_SYSTEM, prompt)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/agents/output/ClinicalAgents-Code/utils.py", line 156, in call_llm_api
+    raise RuntimeError("Default LLM API call failed") from e
+RuntimeError: Default LLM API call failed
+Processing: 100%|██████████| 30/30 [06:55<00:00, 25.05s/it]Processing: 100%|██████████| 30/30 [06:55<00:00, 13.85s/it]
+
+============================================================
+BENCHMARK RESULTS
+============================================================
+
+Task 1 (Referral):
+  - L1 Accuracy: 0.0000 (n=0)
+  - L2 IoU: 0.0000 (n=0)
+
+Task 2 (Doctor/Exam Planning):
+  - Exam IoU: 0.0000 (n=0)
+
+Task 3 (Imaging): N/A (no samples)
+
+Task 4 (Diagnosis):
+  - Judge Score: 0.0000 (n=0)
+
+Task 5 (Treatment):
+  - Treatment IoU: 0.0000 (n=0)
+
+============================================================
+
+Processing stats: total 30 | success 0 | failed 30
+Results saved to: /mnt/agents/output/ClinicalAgents-Code/benchmark_results.json
+Orchestration usage summary saved to: /mnt/agents/output/ClinicalAgents-Code/orchestration_usage_summary.json

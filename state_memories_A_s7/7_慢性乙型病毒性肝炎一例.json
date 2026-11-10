@@ -1,0 +1,1056 @@
+{
+  "case_id": "7_慢性乙型病毒性肝炎一例",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "37岁"
+  },
+  "chief_complaint": "乏力、腹胀，尿黄3天",
+  "present_illness": "3天前患者无明显诱因出现双下肢酸软无力，持续性腹胀，进食后加重，尿色如浓茶样改变。无发热,无纳差，无头晕头痛，无咳嗽咳痰，无心慌气促，无反酸嗳气，无恶心呕吐，无腹痛腹泻，以后每天症状同前。未作检查治疗。今来我院就诊，门诊以\"慢性乙型病毒性肝炎\"收入住院。起病后,患者精神.饮食、睡眠一般，大便正常,小便色黄,体力及体重无明显下降。",
+  "dept_l1": "内科",
+  "dept_l2": [
+    "传染科"
+  ],
+  "past_history": "患者有慢性乙肝病史，无手术史，无输血史，无过敏史，无特殊嗜好，无家族遗传史。",
+  "hypothesis_illness": [
+    {
+      "name": "慢性乙型病毒性肝炎急性发作",
+      "disease": "慢性乙型病毒性肝炎急性发作",
+      "evidence": [
+        "慢性乙肝病史",
+        "乏力、腹胀、尿黄3天",
+        "尿色如浓茶样",
+        "肝掌（+）"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "name": "慢加急性肝衰竭",
+      "disease": "慢加急性肝衰竭",
+      "evidence": [
+        "慢性乙肝病史",
+        "明显乏力",
+        "尿黄如浓茶",
+        "腹胀"
+      ],
+      "confidence": 0.35
+    },
+    {
+      "name": "乙肝肝硬化失代偿",
+      "disease": "乙肝肝硬化失代偿",
+      "evidence": [
+        "慢性乙肝病史",
+        "腹胀进食后加重"
+      ],
+      "confidence": 0.2
+    },
+    {
+      "name": "原发性肝癌",
+      "disease": "原发性肝癌",
+      "evidence": [
+        "慢性乙肝病史",
+        "腹胀",
+        "乏力"
+      ],
+      "confidence": 0.2
+    },
+    {
+      "name": "重叠其他嗜肝病毒感染",
+      "disease": "重叠其他嗜肝病毒感染",
+      "evidence": [
+        "慢性乙肝病史",
+        "急性黄疸样表现",
+        "乏力"
+      ],
+      "confidence": 0.3
+    }
+  ],
+  "physical_exams": {
+    "一般检查": "T：36.8℃，P：78次/分，R：18次/分，BP：121/81mmHg。T:36.8℃ ,P:78次/分,R:18次/分,BP:121/81/mmhg。一般情况：发育正常,营养一般，面容自如，主动**，查体合作。",
+    "皮肤检查": "皮肤弹性正常，无水肿,无黄疸，无皮疹，无出血点，毛发分布正常，肝脏（+），蜘蛛痣（-），浅表淋巴结无肿大、无压痛。",
+    "腹部检查": "腹平软，无压痛反跳痛，胆囊：未触及，肝脾肋下未触及，腹水征（-）。肝浊音界存在，肝区无叩击痛，双肾区无叩击痛。"
+  },
+  "auxiliary_exams": {
+    "血液学检查": "乙肝五项示小三阳(2019-04-08)全血细胞计数+五分类:白细胞： 5.6 10^9/L、红细胞： 4.72 10^12/L、血红蛋白 ：149 g/L、血小板： 199 10^9/L。(2019-04-08)血浆氨测定:血浆氨测定： 34.50 umol/L。(2019-04-08)凝血全套:D-二聚体： 0.02 mg/L、凝血酶原时间： 11.10 sec、国际标准化比值： 0.92 、活化部分凝血活酶时间： 24.80 sec、纤维蛋白原 ：3.30 g/L、凝血酶时间： 13.90 sec。(2019-04-08)甲状腺功能(三项）+AFP+CEA:游离三碘甲状原氨酸： 4.68 pmol/L、游离甲状腺素 ：14.10 pmol/L、促甲状腺素： 1.38 u IU/ml、甲胎蛋白：AFP 0.7 ng/ml、癌胚抗原CEA： 2.0 ng/ml。(2019-04-08)肝肾脂糖电解质:总胆红素： 9.8 umol/L、直接胆红素： 2.8 umol/L、间接胆红素： 7.0 umol/L、总胆汁酸： 2.0 umol/L、谷草转氨酶： 28 U/L、谷丙转氨酶： 44 U/L、C-反应蛋白(CRP) ：2.4 mg/L，肾功能、电解质：正常。乙肝DNA示弱阳性。"
+  },
+  "imaging_results": {},
+  "completed_physical_exams": [
+    "一般检查",
+    "皮肤检查",
+    "腹部检查"
+  ],
+  "completed_auxiliary_exams": [
+    "血液学检查"
+  ],
+  "completed_imaging_exams": [],
+  "pending_auxiliary_exams": [
+    "超声"
+  ],
+  "predicted_physical_exams": [
+    "一般检查",
+    "皮肤检查",
+    "腹部检查"
+  ],
+  "predicted_auxiliary_exams": [
+    "超声",
+    "血液学检查"
+  ],
+  "diagnosis_result": [
+    "慢性乙型病毒性肝炎急性发作"
+  ],
+  "treatment_plan": [],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "pending"
+  },
+  "recheck_total": 1,
+  "max_recheck": 3,
+  "mcts_trajectory": [
+    "a_back",
+    "task2_doctor",
+    "task4_diagnosis",
+    "task3_imaging"
+  ],
+  "mcts_step": 4,
+  "mcts_eta": 4,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "a_back",
+      "source": "committed_backtrack",
+      "mcts_step": 1,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task2_doctor",
+      "source": "committed_backtrack_target",
+      "mcts_step": 2,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 4,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 3,
+      "workflow_stage": "task4_diagnosis"
+    },
+    {
+      "sequence_index": 5,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 4,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [
+    {
+      "event_id": 0,
+      "source": "committed",
+      "target_snapshot_id": 1,
+      "target_workflow_stage": "task1_referral",
+      "requested_action": "request_auxiliary_exams",
+      "executed_action": "task2_doctor",
+      "mcts_step": 1
+    }
+  ],
+  "missing_evidence": [
+    "肝脏影像学检查（超声/增强CT/MRI或FibroScan）以评估肝硬化、门脉高压及占位",
+    "甲、戊、丙、丁型肝炎病毒及EBV/CMV血清学标志物",
+    "尿常规及尿胆红素/尿胆原",
+    "高灵敏度HBV DNA定量",
+    "血清白蛋白、胆碱酯酶/前白蛋白等肝合成功能指标"
+  ],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": true,
+  "top_hypothesis_confidence": 0.6,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "7_慢性乙型病毒性肝炎一例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "37岁"
+        },
+        "chief_complaint": "乏力、腹胀，尿黄3天",
+        "present_illness": "3天前患者无明显诱因出现双下肢酸软无力，持续性腹胀，进食后加重，尿色如浓茶样改变。无发热,无纳差，无头晕头痛，无咳嗽咳痰，无心慌气促，无反酸嗳气，无恶心呕吐，无腹痛腹泻，以后每天症状同前。未作检查治疗。今来我院就诊，门诊以\"慢性乙型病毒性肝炎\"收入住院。起病后,患者精神.饮食、睡眠一般，大便正常,小便色黄,体力及体重无明显下降。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "患者有慢性乙肝病史，无手术史，无输血史，无过敏史，无特殊嗜好，无家族遗传史。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "7_慢性乙型病毒性肝炎一例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "37岁"
+        },
+        "chief_complaint": "乏力、腹胀，尿黄3天",
+        "present_illness": "3天前患者无明显诱因出现双下肢酸软无力，持续性腹胀，进食后加重，尿色如浓茶样改变。无发热,无纳差，无头晕头痛，无咳嗽咳痰，无心慌气促，无反酸嗳气，无恶心呕吐，无腹痛腹泻，以后每天症状同前。未作检查治疗。今来我院就诊，门诊以\"慢性乙型病毒性肝炎\"收入住院。起病后,患者精神.饮食、睡眠一般，大便正常,小便色黄,体力及体重无明显下降。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "传染科"
+        ],
+        "past_history": "患者有慢性乙肝病史，无手术史，无输血史，无过敏史，无特殊嗜好，无家族遗传史。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "7_慢性乙型病毒性肝炎一例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "37岁"
+        },
+        "chief_complaint": "乏力、腹胀，尿黄3天",
+        "present_illness": "3天前患者无明显诱因出现双下肢酸软无力，持续性腹胀，进食后加重，尿色如浓茶样改变。无发热,无纳差，无头晕头痛，无咳嗽咳痰，无心慌气促，无反酸嗳气，无恶心呕吐，无腹痛腹泻，以后每天症状同前。未作检查治疗。今来我院就诊，门诊以\"慢性乙型病毒性肝炎\"收入住院。起病后,患者精神.饮食、睡眠一般，大便正常,小便色黄,体力及体重无明显下降。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "传染科"
+        ],
+        "past_history": "患者有慢性乙肝病史，无手术史，无输血史，无过敏史，无特殊嗜好，无家族遗传史。",
+        "hypothesis_illness": [
+          {
+            "name": "慢性乙型病毒性肝炎急性发作/重度",
+            "disease": "慢性乙型病毒性肝炎急性发作/重度",
+            "evidence": [
+              "慢性乙肝病史",
+              "乏力",
+              "尿黄如浓茶"
+            ],
+            "confidence": 0.8
+          },
+          {
+            "name": "肝硬化失代偿",
+            "disease": "肝硬化失代偿",
+            "evidence": [
+              "腹胀、进食后加重",
+              "慢性乙肝病史",
+              "乏力"
+            ],
+            "confidence": 0.55
+          },
+          {
+            "name": "慢加急性肝衰竭",
+            "disease": "慢加急性肝衰竭",
+            "evidence": [
+              "明显乏力",
+              "尿黄如浓茶",
+              "慢性乙肝基础"
+            ],
+            "confidence": 0.35
+          },
+          {
+            "name": "原发性肝癌",
+            "disease": "原发性肝癌",
+            "evidence": [
+              "慢性乙肝病史",
+              "腹胀",
+              "乏力"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "胆道梗阻",
+            "disease": "胆道梗阻",
+            "evidence": [
+              "尿黄",
+              "腹胀"
+            ],
+            "confidence": 0.2
+          }
+        ],
+        "physical_exams": {
+          "腹部检查": "腹平软，无压痛反跳痛，胆囊：未触及，肝脾肋下未触及，腹水征（-）。肝浊音界存在，肝区无叩击痛，双肾区无叩击痛。"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "腹部检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "超声",
+          "血液学检查",
+          "尿液检查"
+        ],
+        "predicted_physical_exams": [
+          "腹部检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "超声",
+          "血液学检查",
+          "尿液检查"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [
+          "肝功能全套（ALT、AST、总/直接胆红素、白蛋白、ALP、GGT）",
+          "凝血功能（PT/INR）",
+          "HBV DNA定量及乙肝两对半（HBeAg/抗-HBe）",
+          "血常规（血小板计数、白细胞、血红蛋白）",
+          "甲胎蛋白（AFP）及异常凝血酶原",
+          "腹部超声或增强CT/MRI（肝脏形态、脾脏大小、腹水、胆道扩张、占位）",
+          "肾功能、电解质、血氨",
+          "甲肝/戊肝/丙肝/丁肝病毒标志物"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.8,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task1_referral",
+      "reason": "committed_backtrack_restored",
+      "state": {
+        "case_id": "7_慢性乙型病毒性肝炎一例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "37岁"
+        },
+        "chief_complaint": "乏力、腹胀，尿黄3天",
+        "present_illness": "3天前患者无明显诱因出现双下肢酸软无力，持续性腹胀，进食后加重，尿色如浓茶样改变。无发热,无纳差，无头晕头痛，无咳嗽咳痰，无心慌气促，无反酸嗳气，无恶心呕吐，无腹痛腹泻，以后每天症状同前。未作检查治疗。今来我院就诊，门诊以\"慢性乙型病毒性肝炎\"收入住院。起病后,患者精神.饮食、睡眠一般，大便正常,小便色黄,体力及体重无明显下降。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "传染科"
+        ],
+        "past_history": "患者有慢性乙肝病史，无手术史，无输血史，无过敏史，无特殊嗜好，无家族遗传史。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exams",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 2,
+      "workflow_action_index": 4,
+      "mcts_step": 2,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "7_慢性乙型病毒性肝炎一例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "37岁"
+        },
+        "chief_complaint": "乏力、腹胀，尿黄3天",
+        "present_illness": "3天前患者无明显诱因出现双下肢酸软无力，持续性腹胀，进食后加重，尿色如浓茶样改变。无发热,无纳差，无头晕头痛，无咳嗽咳痰，无心慌气促，无反酸嗳气，无恶心呕吐，无腹痛腹泻，以后每天症状同前。未作检查治疗。今来我院就诊，门诊以\"慢性乙型病毒性肝炎\"收入住院。起病后,患者精神.饮食、睡眠一般，大便正常,小便色黄,体力及体重无明显下降。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "传染科"
+        ],
+        "past_history": "患者有慢性乙肝病史，无手术史，无输血史，无过敏史，无特殊嗜好，无家族遗传史。",
+        "hypothesis_illness": [
+          {
+            "name": "慢性乙型病毒性肝炎急性发作",
+            "disease": "慢性乙型病毒性肝炎急性发作",
+            "evidence": [
+              "慢性乙肝病史",
+              "乏力",
+              "尿黄如浓茶",
+              "腹胀"
+            ],
+            "confidence": 0.7
+          },
+          {
+            "name": "慢加急性肝衰竭",
+            "disease": "慢加急性肝衰竭",
+            "evidence": [
+              "慢性乙肝病史",
+              "明显乏力",
+              "尿黄如浓茶",
+              "腹胀"
+            ],
+            "confidence": 0.5
+          },
+          {
+            "name": "乙肝肝硬化失代偿",
+            "disease": "乙肝肝硬化失代偿",
+            "evidence": [
+              "慢性乙肝病史",
+              "腹胀进食后加重，提示腹水可能",
+              "尿黄"
+            ],
+            "confidence": 0.45
+          },
+          {
+            "name": "原发性肝癌",
+            "disease": "原发性肝癌",
+            "evidence": [
+              "慢性乙肝病史",
+              "腹胀",
+              "乏力"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "重叠其他嗜肝病毒感染",
+            "disease": "重叠其他嗜肝病毒感染",
+            "evidence": [
+              "慢性乙肝病史",
+              "急性黄疸样表现",
+              "乏力"
+            ],
+            "confidence": 0.3
+          }
+        ],
+        "physical_exams": {
+          "一般检查": "T：36.8℃，P：78次/分，R：18次/分，BP：121/81mmHg。T:36.8℃ ,P:78次/分,R:18次/分,BP:121/81/mmhg。一般情况：发育正常,营养一般，面容自如，主动**，查体合作。",
+          "皮肤检查": "皮肤弹性正常，无水肿,无黄疸，无皮疹，无出血点，毛发分布正常，肝脏（+），蜘蛛痣（-），浅表淋巴结无肿大、无压痛。",
+          "腹部检查": "腹平软，无压痛反跳痛，胆囊：未触及，肝脾肋下未触及，腹水征（-）。肝浊音界存在，肝区无叩击痛，双肾区无叩击痛。"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "一般检查",
+          "皮肤检查",
+          "腹部检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "超声",
+          "血液学检查"
+        ],
+        "predicted_physical_exams": [
+          "一般检查",
+          "皮肤检查",
+          "腹部检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "超声",
+          "血液学检查"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor"
+        ],
+        "mcts_step": 2,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exams",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [
+          "肝功能全套（ALT、AST、总胆红素/直接胆红素、白蛋白、ALP、GGT）",
+          "凝血功能（PT/INR）",
+          "乙肝病毒学标志物及HBV DNA定量",
+          "其他嗜肝病毒标志物（HAV IgM、HCV抗体/RNA、HDV抗体/RNA、HEV IgM）",
+          "腹部超声或CT等影像学检查",
+          "甲胎蛋白（AFP）",
+          "血常规",
+          "肾功能与电解质"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.7,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 5,
+      "trajectory_index": 3,
+      "workflow_action_index": 5,
+      "mcts_step": 3,
+      "workflow_stage": "task4_diagnosis",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "7_慢性乙型病毒性肝炎一例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "37岁"
+        },
+        "chief_complaint": "乏力、腹胀，尿黄3天",
+        "present_illness": "3天前患者无明显诱因出现双下肢酸软无力，持续性腹胀，进食后加重，尿色如浓茶样改变。无发热,无纳差，无头晕头痛，无咳嗽咳痰，无心慌气促，无反酸嗳气，无恶心呕吐，无腹痛腹泻，以后每天症状同前。未作检查治疗。今来我院就诊，门诊以\"慢性乙型病毒性肝炎\"收入住院。起病后,患者精神.饮食、睡眠一般，大便正常,小便色黄,体力及体重无明显下降。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "传染科"
+        ],
+        "past_history": "患者有慢性乙肝病史，无手术史，无输血史，无过敏史，无特殊嗜好，无家族遗传史。",
+        "hypothesis_illness": [
+          {
+            "name": "慢性乙型病毒性肝炎急性发作",
+            "disease": "慢性乙型病毒性肝炎急性发作",
+            "evidence": [
+              "慢性乙肝病史",
+              "乏力、腹胀、尿黄3天",
+              "尿色如浓茶样",
+              "肝掌（+）"
+            ],
+            "confidence": 0.6
+          },
+          {
+            "name": "慢加急性肝衰竭",
+            "disease": "慢加急性肝衰竭",
+            "evidence": [
+              "慢性乙肝病史",
+              "明显乏力",
+              "尿黄如浓茶",
+              "腹胀"
+            ],
+            "confidence": 0.35
+          },
+          {
+            "name": "乙肝肝硬化失代偿",
+            "disease": "乙肝肝硬化失代偿",
+            "evidence": [
+              "慢性乙肝病史",
+              "腹胀进食后加重"
+            ],
+            "confidence": 0.2
+          },
+          {
+            "name": "原发性肝癌",
+            "disease": "原发性肝癌",
+            "evidence": [
+              "慢性乙肝病史",
+              "腹胀",
+              "乏力"
+            ],
+            "confidence": 0.2
+          },
+          {
+            "name": "重叠其他嗜肝病毒感染",
+            "disease": "重叠其他嗜肝病毒感染",
+            "evidence": [
+              "慢性乙肝病史",
+              "急性黄疸样表现",
+              "乏力"
+            ],
+            "confidence": 0.3
+          }
+        ],
+        "physical_exams": {
+          "一般检查": "T：36.8℃，P：78次/分，R：18次/分，BP：121/81mmHg。T:36.8℃ ,P:78次/分,R:18次/分,BP:121/81/mmhg。一般情况：发育正常,营养一般，面容自如，主动**，查体合作。",
+          "皮肤检查": "皮肤弹性正常，无水肿,无黄疸，无皮疹，无出血点，毛发分布正常，肝脏（+），蜘蛛痣（-），浅表淋巴结无肿大、无压痛。",
+          "腹部检查": "腹平软，无压痛反跳痛，胆囊：未触及，肝脾肋下未触及，腹水征（-）。肝浊音界存在，肝区无叩击痛，双肾区无叩击痛。"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "一般检查",
+          "皮肤检查",
+          "腹部检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "超声",
+          "血液学检查"
+        ],
+        "predicted_physical_exams": [
+          "一般检查",
+          "皮肤检查",
+          "腹部检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "超声",
+          "血液学检查"
+        ],
+        "diagnosis_result": [
+          "慢性乙型病毒性肝炎急性发作"
+        ],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "completed",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor",
+          "task4_diagnosis"
+        ],
+        "mcts_step": 3,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 4,
+            "action": "task4_diagnosis",
+            "source": "mcts_selected",
+            "mcts_step": 3,
+            "workflow_stage": "task4_diagnosis"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exams",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [
+          "肝功能全套（ALT、AST、总胆红素、直接胆红素、白蛋白等）及凝血功能（PT/INR）以评估肝损伤严重程度和是否为肝衰竭",
+          "HBV DNA定量及乙肝血清标志物（HBeAg/抗-HBe）以判断乙肝病毒复制活动",
+          "腹部超声或CT/MRI及甲胎蛋白（AFP）以评估有无肝硬化、肝脏占位或肝癌",
+          "其他嗜肝病毒标志物（HAV IgM、HCV抗体/RNA、HDV抗体、HEV IgM）以排除重叠感染",
+          "血常规、肾功能、电解质等以评估有无肝衰竭相关器官功能受累"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.6,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false,
+        "agent_missing_evidence": [
+          {
+            "disease": "慢性乙型病毒性肝炎急性发作",
+            "missing": [
+              "需肝功能排除",
+              "需HBV-DNA排除",
+              "需乙肝两对半排除"
+            ],
+            "suggested_exams": [
+              "肝功能",
+              "HBV-DNA",
+              "乙肝两对半"
+            ]
+          },
+          {
+            "disease": "慢加急性肝衰竭",
+            "missing": [
+              "需凝血功能排除",
+              "需肝功能排除",
+              "需血氨排除"
+            ],
+            "suggested_exams": [
+              "凝血功能",
+              "肝功能",
+              "血氨"
+            ]
+          },
+          {
+            "disease": "乙肝肝硬化失代偿",
+            "missing": [
+              "需腹部超声排除",
+              "需肝脏弹性测定排除",
+              "需胃镜排除"
+            ],
+            "suggested_exams": [
+              "腹部超声",
+              "肝脏弹性测定",
+              "胃镜"
+            ]
+          },
+          {
+            "disease": "原发性肝癌",
+            "missing": [
+              "需AFP排除",
+              "需腹部增强CT或MRI排除"
+            ],
+            "suggested_exams": [
+              "AFP",
+              "腹部增强CT或MRI"
+            ]
+          },
+          {
+            "disease": "重叠其他嗜肝病毒感染",
+            "missing": [
+              "需甲肝排除",
+              "需EBV排除"
+            ],
+            "suggested_exams": [
+              "甲肝",
+              "EBV"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "active_snapshot_id": 1,
+  "terminated_by": "eta",
+  "finalization_used": false,
+  "agent_missing_evidence": [
+    {
+      "disease": "慢性乙型病毒性肝炎急性发作",
+      "missing": [
+        "需肝功能排除",
+        "需HBV-DNA排除",
+        "需乙肝两对半排除"
+      ],
+      "suggested_exams": [
+        "肝功能",
+        "HBV-DNA",
+        "乙肝两对半"
+      ]
+    },
+    {
+      "disease": "慢加急性肝衰竭",
+      "missing": [
+        "需凝血功能排除",
+        "需肝功能排除",
+        "需血氨排除"
+      ],
+      "suggested_exams": [
+        "凝血功能",
+        "肝功能",
+        "血氨"
+      ]
+    },
+    {
+      "disease": "乙肝肝硬化失代偿",
+      "missing": [
+        "需腹部超声排除",
+        "需肝脏弹性测定排除",
+        "需胃镜排除"
+      ],
+      "suggested_exams": [
+        "腹部超声",
+        "肝脏弹性测定",
+        "胃镜"
+      ]
+    },
+    {
+      "disease": "原发性肝癌",
+      "missing": [
+        "需AFP排除",
+        "需腹部增强CT或MRI排除"
+      ],
+      "suggested_exams": [
+        "AFP",
+        "腹部增强CT或MRI"
+      ]
+    },
+    {
+      "disease": "重叠其他嗜肝病毒感染",
+      "missing": [
+        "需甲肝排除",
+        "需EBV排除"
+      ],
+      "suggested_exams": [
+        "甲肝",
+        "EBV"
+      ]
+    }
+  ]
+}

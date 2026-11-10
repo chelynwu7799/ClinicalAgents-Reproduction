@@ -1,0 +1,1018 @@
+{
+  "case_id": "9_肺癌喘憋气短一例",
+  "personal_info": {
+    "性别": "女",
+    "年龄": "79岁"
+  },
+  "chief_complaint": "女性，79岁，已婚，汉族，退休。 活动后气短1年余，加重1个月。",
+  "present_illness": "缘于入院前1年余患者无明显诱因间断出现活动后气短,无胸、胸痛,无心悸、出汗,无发热、咳嗽、咳痰,无盗汗、咳血,休息后可缓解,自感活动耐量逐渐下降,但未引起重视,未予诊治。2015年5月患者上述症状较前加重,稍事活动即\n可诱发,无夜间阵发性呼吸困难,于我院心内科行胸部CT检查提示左侧大量胸腔积液,左肺占位;给予抽取胸水,两次胸水病理示:退变的异型细胞呈团簇状分布,考虑为肿瘤细胞。诊断为左肺癌左侧胸腔积液。于2015-06-02口服靶向药物吉非替尼,患者出现皮疹,2016-02-01自行停药。1个月前,患者喘憋较前加重,偶有咳嗽,\n无咳痰,无发热、胸痛等不适,今为进一步诊治入院。",
+  "dept_l1": "内科",
+  "dept_l2": [
+    "呼吸科"
+  ],
+  "past_history": "既往“高血压”病史40年,血压最高达160/100mmHg,平素口服“硝苯地平片”,血压波动于130-140/80-90mmHg。“冠心病”病史30年,间断出现心悸,平素口服“阿替洛尔及硝酸异山梨酯片”等药物,自述症状控制可;“乙型病毒性肝炎”病史9月余。“无结核、伤寒、疟疾”等传染病史;无手术、外伤及输血史；对“青素类”药物过敏史;预防接种史不详,系统回顺无特殊。",
+  "hypothesis_illness": [
+    {
+      "name": "左肺癌伴恶性胸腔积液",
+      "disease": "左肺癌伴恶性胸腔积液",
+      "evidence": [
+        "胸水病理找到肿瘤细胞",
+        "左侧大量胸腔积液",
+        "停用吉非替尼后喘憋加重"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "name": "心力衰竭",
+      "disease": "心力衰竭",
+      "evidence": [
+        "高龄",
+        "高血压病史40年",
+        "冠心病史30年"
+      ],
+      "confidence": 0.4
+    },
+    {
+      "name": "肺栓塞",
+      "disease": "肺栓塞",
+      "evidence": [
+        "恶性肿瘤高凝状态",
+        "活动后气短加重"
+      ],
+      "confidence": 0.3
+    },
+    {
+      "name": "肺部感染/阻塞性肺炎",
+      "disease": "肺部感染/阻塞性肺炎",
+      "evidence": [
+        "左肺占位",
+        "偶有咳嗽"
+      ],
+      "confidence": 0.3
+    },
+    {
+      "name": "药物相关间质性肺病",
+      "disease": "药物相关间质性肺病",
+      "evidence": [
+        "吉非替尼使用史",
+        "皮疹",
+        "喘憋加重"
+      ],
+      "confidence": 0.3
+    }
+  ],
+  "physical_exams": {
+    "胸部检查": "左下肺叩诊浊音, 呼吸音低, 右肺叩诊清音, 呼吸音粗, 未闻及干湿性啰音; 心界不大, 心律90次/分, 律齐, 心音正常, 主动脉第一听诊区可闻及3/6级舒张期杂音"
+  },
+  "auxiliary_exams": {
+    "CT": "胸部CT提示：1.左侧胸腔积液伴左肺膨胀不全, 较前积液增多, 左肺大部未见膨胀; 2.考虑右肺局部炎性病交, 新出现; 3.右肺上叶条索影, 大致同前; 4.主动脉、冠状动脉硬化改变, 同前; 5.肝顶囊肿, 同前",
+    "血液学检查": "血常规: HGB139.0g/L, WBC5.77×10^9/L, PLT170.0*10^9/L, NEU%77.9%; 电解质: K4.00mmol/L, Na138.0mmol/L, CL103.0mmol/L, Ca2.15mmol/L, GLU 6.9mmol/L, CO2 26mmol/L; 大生化: ALT39U/L, AST32U/L, TP55.2g/L, ALB36.5g/L, GLB18.7g/L, TBIL29.0umol/L, DBIL10.8umol/L, PA107mg/L, CREA62.0umol/L, GLU4.70mmol/L, CHOL5.08mmol/L, K3.5mmol/L, NA143.0mmol/L, Ca2.15mmol/L; D二聚体: 0.47mg/L; 凝血四项: PT15.5S, PT%53.0%, PT-R1.35, F1B1.42g/L，余正常; 肿瘤五项未见明显异常"
+  },
+  "imaging_results": {
+    "CT": "胸部CT提示：1.左侧胸腔积液伴左肺膨胀不全, 较前积液增多, 左肺大部未见膨胀; 2.考虑右肺局部炎性病交, 新出现; 3.右肺上叶条索影, 大致同前; 4.主动脉、冠状动脉硬化改变, 同前; 5.肝顶囊肿, 同前"
+  },
+  "completed_physical_exams": [
+    "胸部检查"
+  ],
+  "completed_auxiliary_exams": [
+    "CT",
+    "血液学检查"
+  ],
+  "completed_imaging_exams": [
+    "CT"
+  ],
+  "pending_auxiliary_exams": [
+    "超声"
+  ],
+  "predicted_physical_exams": [
+    "胸部检查"
+  ],
+  "predicted_auxiliary_exams": [
+    "CT",
+    "超声",
+    "血液学检查"
+  ],
+  "diagnosis_result": [
+    "左肺癌",
+    "左侧恶性胸腔积液"
+  ],
+  "treatment_plan": [],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "pending"
+  },
+  "recheck_total": 1,
+  "max_recheck": 3,
+  "mcts_trajectory": [
+    "a_back",
+    "task2_doctor",
+    "task4_diagnosis",
+    "task3_imaging"
+  ],
+  "mcts_step": 4,
+  "mcts_eta": 4,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "a_back",
+      "source": "committed_backtrack",
+      "mcts_step": 1,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task2_doctor",
+      "source": "committed_backtrack_target",
+      "mcts_step": 2,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 4,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 3,
+      "workflow_stage": "task4_diagnosis"
+    },
+    {
+      "sequence_index": 5,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 4,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [
+    {
+      "event_id": 0,
+      "source": "committed",
+      "target_snapshot_id": 1,
+      "target_workflow_stage": "task1_referral",
+      "requested_action": "request_auxiliary_exams",
+      "executed_action": "task2_doctor",
+      "mcts_step": 1
+    }
+  ],
+  "missing_evidence": [
+    "胸腔穿刺胸水检查（常规、生化、Light标准、细胞学、免疫组化及肺癌分子检测）",
+    "胸部增强CT或PET-CT明确左肺原发病变及胸膜转移",
+    "超声心动图及NT-proBNP评估心功能",
+    "CT肺动脉造影或V/Q显像排除肺栓塞",
+    "支气管镜检查及肺泡灌洗/微生物学检查、CRP/PCT",
+    "肺功能及高分辨率CT评估药物相关间质性肺病"
+  ],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": true,
+  "top_hypothesis_confidence": 0.85,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "9_肺癌喘憋气短一例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "79岁"
+        },
+        "chief_complaint": "女性，79岁，已婚，汉族，退休。 活动后气短1年余，加重1个月。",
+        "present_illness": "缘于入院前1年余患者无明显诱因间断出现活动后气短,无胸、胸痛,无心悸、出汗,无发热、咳嗽、咳痰,无盗汗、咳血,休息后可缓解,自感活动耐量逐渐下降,但未引起重视,未予诊治。2015年5月患者上述症状较前加重,稍事活动即\n可诱发,无夜间阵发性呼吸困难,于我院心内科行胸部CT检查提示左侧大量胸腔积液,左肺占位;给予抽取胸水,两次胸水病理示:退变的异型细胞呈团簇状分布,考虑为肿瘤细胞。诊断为左肺癌左侧胸腔积液。于2015-06-02口服靶向药物吉非替尼,患者出现皮疹,2016-02-01自行停药。1个月前,患者喘憋较前加重,偶有咳嗽,\n无咳痰,无发热、胸痛等不适,今为进一步诊治入院。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "既往“高血压”病史40年,血压最高达160/100mmHg,平素口服“硝苯地平片”,血压波动于130-140/80-90mmHg。“冠心病”病史30年,间断出现心悸,平素口服“阿替洛尔及硝酸异山梨酯片”等药物,自述症状控制可;“乙型病毒性肝炎”病史9月余。“无结核、伤寒、疟疾”等传染病史;无手术、外伤及输血史；对“青素类”药物过敏史;预防接种史不详,系统回顺无特殊。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "9_肺癌喘憋气短一例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "79岁"
+        },
+        "chief_complaint": "女性，79岁，已婚，汉族，退休。 活动后气短1年余，加重1个月。",
+        "present_illness": "缘于入院前1年余患者无明显诱因间断出现活动后气短,无胸、胸痛,无心悸、出汗,无发热、咳嗽、咳痰,无盗汗、咳血,休息后可缓解,自感活动耐量逐渐下降,但未引起重视,未予诊治。2015年5月患者上述症状较前加重,稍事活动即\n可诱发,无夜间阵发性呼吸困难,于我院心内科行胸部CT检查提示左侧大量胸腔积液,左肺占位;给予抽取胸水,两次胸水病理示:退变的异型细胞呈团簇状分布,考虑为肿瘤细胞。诊断为左肺癌左侧胸腔积液。于2015-06-02口服靶向药物吉非替尼,患者出现皮疹,2016-02-01自行停药。1个月前,患者喘憋较前加重,偶有咳嗽,\n无咳痰,无发热、胸痛等不适,今为进一步诊治入院。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "呼吸科"
+        ],
+        "past_history": "既往“高血压”病史40年,血压最高达160/100mmHg,平素口服“硝苯地平片”,血压波动于130-140/80-90mmHg。“冠心病”病史30年,间断出现心悸,平素口服“阿替洛尔及硝酸异山梨酯片”等药物,自述症状控制可;“乙型病毒性肝炎”病史9月余。“无结核、伤寒、疟疾”等传染病史;无手术、外伤及输血史；对“青素类”药物过敏史;预防接种史不详,系统回顺无特殊。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "9_肺癌喘憋气短一例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "79岁"
+        },
+        "chief_complaint": "女性，79岁，已婚，汉族，退休。 活动后气短1年余，加重1个月。",
+        "present_illness": "缘于入院前1年余患者无明显诱因间断出现活动后气短,无胸、胸痛,无心悸、出汗,无发热、咳嗽、咳痰,无盗汗、咳血,休息后可缓解,自感活动耐量逐渐下降,但未引起重视,未予诊治。2015年5月患者上述症状较前加重,稍事活动即\n可诱发,无夜间阵发性呼吸困难,于我院心内科行胸部CT检查提示左侧大量胸腔积液,左肺占位;给予抽取胸水,两次胸水病理示:退变的异型细胞呈团簇状分布,考虑为肿瘤细胞。诊断为左肺癌左侧胸腔积液。于2015-06-02口服靶向药物吉非替尼,患者出现皮疹,2016-02-01自行停药。1个月前,患者喘憋较前加重,偶有咳嗽,\n无咳痰,无发热、胸痛等不适,今为进一步诊治入院。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "呼吸科"
+        ],
+        "past_history": "既往“高血压”病史40年,血压最高达160/100mmHg,平素口服“硝苯地平片”,血压波动于130-140/80-90mmHg。“冠心病”病史30年,间断出现心悸,平素口服“阿替洛尔及硝酸异山梨酯片”等药物,自述症状控制可;“乙型病毒性肝炎”病史9月余。“无结核、伤寒、疟疾”等传染病史;无手术、外伤及输血史；对“青素类”药物过敏史;预防接种史不详,系统回顺无特殊。",
+        "hypothesis_illness": [
+          {
+            "name": "左肺癌进展伴恶性胸腔积液加重",
+            "disease": "左肺癌进展伴恶性胸腔积液加重",
+            "evidence": [
+              "活动后气短1年余，加重1个月",
+              "胸部CT提示左侧大量胸腔积液、左肺占位",
+              "胸水病理见退变的异型细胞，考虑肿瘤细胞",
+              "自行停用吉非替尼后症状加重"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "name": "心功能不全（高血压/冠心病相关）",
+            "disease": "心功能不全（高血压/冠心病相关）",
+            "evidence": [
+              "高血压病史40年",
+              "冠心病病史30年",
+              "活动后气短",
+              "大量胸腔积液需鉴别心源性与恶性"
+            ],
+            "confidence": 0.4
+          },
+          {
+            "name": "肺栓塞",
+            "disease": "肺栓塞",
+            "evidence": [
+              "恶性肿瘤高凝状态",
+              "活动后气短加重",
+              "无发热、咳痰等感染表现"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "肺部感染/阻塞性肺炎",
+            "disease": "肺部感染/阻塞性肺炎",
+            "evidence": [
+              "肺癌占位可致气道阻塞",
+              "偶有咳嗽"
+            ],
+            "confidence": 0.2
+          }
+        ],
+        "physical_exams": {
+          "一般检查": "神志清楚, 精神可, T：36.1℃，P：90次/分，R：22次/分，BP：110/70mmHg",
+          "胸部检查": "左下肺叩诊浊音, 呼吸音低, 右肺叩诊清音, 呼吸音粗, 未闻及干湿性啰音; 心界不大, 心律90次/分, 律齐, 心音正常, 主动脉第一听诊区可闻及3/6级舒张期杂音"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "一般检查",
+          "胸部检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "CT",
+          "超声",
+          "病理检查",
+          "血液学检查"
+        ],
+        "predicted_physical_exams": [
+          "一般检查",
+          "胸部检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "CT",
+          "超声",
+          "病理检查",
+          "血液学检查"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [
+          "血浆D-二聚体及CT肺动脉造影（CTPA）以确认或排除肺栓塞",
+          "NT-proBNP及超声心动图以评估心功能不全及心源性胸腔积液",
+          "胸水生化（总蛋白、LDH、糖、ADA）、细胞计数分类及重复胸水细胞学/免疫组化以明确渗出液/漏出液并确认恶性胸腔积液",
+          "血常规、C反应蛋白、降钙素原及痰/胸水病原学培养以排除或确认肺部感染/阻塞性肺炎",
+          "胸部增强CT或PET-CT及肿瘤标志物/EGFR等分子检测以评估左肺癌进展及转移范围"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task1_referral",
+      "reason": "committed_backtrack_restored",
+      "state": {
+        "case_id": "9_肺癌喘憋气短一例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "79岁"
+        },
+        "chief_complaint": "女性，79岁，已婚，汉族，退休。 活动后气短1年余，加重1个月。",
+        "present_illness": "缘于入院前1年余患者无明显诱因间断出现活动后气短,无胸、胸痛,无心悸、出汗,无发热、咳嗽、咳痰,无盗汗、咳血,休息后可缓解,自感活动耐量逐渐下降,但未引起重视,未予诊治。2015年5月患者上述症状较前加重,稍事活动即\n可诱发,无夜间阵发性呼吸困难,于我院心内科行胸部CT检查提示左侧大量胸腔积液,左肺占位;给予抽取胸水,两次胸水病理示:退变的异型细胞呈团簇状分布,考虑为肿瘤细胞。诊断为左肺癌左侧胸腔积液。于2015-06-02口服靶向药物吉非替尼,患者出现皮疹,2016-02-01自行停药。1个月前,患者喘憋较前加重,偶有咳嗽,\n无咳痰,无发热、胸痛等不适,今为进一步诊治入院。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "呼吸科"
+        ],
+        "past_history": "既往“高血压”病史40年,血压最高达160/100mmHg,平素口服“硝苯地平片”,血压波动于130-140/80-90mmHg。“冠心病”病史30年,间断出现心悸,平素口服“阿替洛尔及硝酸异山梨酯片”等药物,自述症状控制可;“乙型病毒性肝炎”病史9月余。“无结核、伤寒、疟疾”等传染病史;无手术、外伤及输血史；对“青素类”药物过敏史;预防接种史不详,系统回顺无特殊。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exams",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 2,
+      "workflow_action_index": 4,
+      "mcts_step": 2,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "9_肺癌喘憋气短一例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "79岁"
+        },
+        "chief_complaint": "女性，79岁，已婚，汉族，退休。 活动后气短1年余，加重1个月。",
+        "present_illness": "缘于入院前1年余患者无明显诱因间断出现活动后气短,无胸、胸痛,无心悸、出汗,无发热、咳嗽、咳痰,无盗汗、咳血,休息后可缓解,自感活动耐量逐渐下降,但未引起重视,未予诊治。2015年5月患者上述症状较前加重,稍事活动即\n可诱发,无夜间阵发性呼吸困难,于我院心内科行胸部CT检查提示左侧大量胸腔积液,左肺占位;给予抽取胸水,两次胸水病理示:退变的异型细胞呈团簇状分布,考虑为肿瘤细胞。诊断为左肺癌左侧胸腔积液。于2015-06-02口服靶向药物吉非替尼,患者出现皮疹,2016-02-01自行停药。1个月前,患者喘憋较前加重,偶有咳嗽,\n无咳痰,无发热、胸痛等不适,今为进一步诊治入院。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "呼吸科"
+        ],
+        "past_history": "既往“高血压”病史40年,血压最高达160/100mmHg,平素口服“硝苯地平片”,血压波动于130-140/80-90mmHg。“冠心病”病史30年,间断出现心悸,平素口服“阿替洛尔及硝酸异山梨酯片”等药物,自述症状控制可;“乙型病毒性肝炎”病史9月余。“无结核、伤寒、疟疾”等传染病史;无手术、外伤及输血史；对“青素类”药物过敏史;预防接种史不详,系统回顺无特殊。",
+        "hypothesis_illness": [
+          {
+            "name": "肺癌进展/恶性胸腔积液增多",
+            "disease": "肺癌进展/恶性胸腔积液增多",
+            "evidence": [
+              "左侧大量胸腔积液",
+              "胸水病理找到肿瘤细胞",
+              "停用吉非替尼后喘憋加重"
+            ],
+            "confidence": 0.85
+          },
+          {
+            "name": "心力衰竭",
+            "disease": "心力衰竭",
+            "evidence": [
+              "高龄",
+              "高血压病史40年",
+              "冠心病史30年"
+            ],
+            "confidence": 0.4
+          },
+          {
+            "name": "肺栓塞",
+            "disease": "肺栓塞",
+            "evidence": [
+              "恶性肿瘤高凝状态",
+              "活动后气短加重"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "肺部感染/阻塞性肺炎",
+            "disease": "肺部感染/阻塞性肺炎",
+            "evidence": [
+              "左肺占位",
+              "偶有咳嗽"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "药物相关间质性肺病",
+            "disease": "药物相关间质性肺病",
+            "evidence": [
+              "吉非替尼使用史",
+              "皮疹",
+              "喘憋加重"
+            ],
+            "confidence": 0.3
+          }
+        ],
+        "physical_exams": {
+          "胸部检查": "左下肺叩诊浊音, 呼吸音低, 右肺叩诊清音, 呼吸音粗, 未闻及干湿性啰音; 心界不大, 心律90次/分, 律齐, 心音正常, 主动脉第一听诊区可闻及3/6级舒张期杂音"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "胸部检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "CT",
+          "超声",
+          "血液学检查"
+        ],
+        "predicted_physical_exams": [
+          "胸部检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "CT",
+          "超声",
+          "血液学检查"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor"
+        ],
+        "mcts_step": 2,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exams",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [
+          "胸部CT平扫+增强（或至少胸部X线/超声）以明确左侧胸腔积液量、左肺占位及有无阻塞/转移",
+          "诊断性胸腔穿刺及胸水检查（常规、生化、LDH、ADA、细菌/真菌培养、细胞学/肿瘤细胞）",
+          "血BNP/NT-proBNP及超声心动图以评估心力衰竭及主动脉瓣病变",
+          "D-二聚体及CT肺动脉造影（或V/Q扫描）以排除肺栓塞",
+          "血常规、CRP、降钙素原及痰培养/涂片以评估肺部感染/阻塞性肺炎",
+          "高分辨率CT（HRCT）及吉非替尼用药时间关系评估以排除药物相关间质性肺病",
+          "动脉血气分析和血氧饱和度评估缺氧程度"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.85,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 5,
+      "trajectory_index": 3,
+      "workflow_action_index": 5,
+      "mcts_step": 3,
+      "workflow_stage": "task4_diagnosis",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "9_肺癌喘憋气短一例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "79岁"
+        },
+        "chief_complaint": "女性，79岁，已婚，汉族，退休。 活动后气短1年余，加重1个月。",
+        "present_illness": "缘于入院前1年余患者无明显诱因间断出现活动后气短,无胸、胸痛,无心悸、出汗,无发热、咳嗽、咳痰,无盗汗、咳血,休息后可缓解,自感活动耐量逐渐下降,但未引起重视,未予诊治。2015年5月患者上述症状较前加重,稍事活动即\n可诱发,无夜间阵发性呼吸困难,于我院心内科行胸部CT检查提示左侧大量胸腔积液,左肺占位;给予抽取胸水,两次胸水病理示:退变的异型细胞呈团簇状分布,考虑为肿瘤细胞。诊断为左肺癌左侧胸腔积液。于2015-06-02口服靶向药物吉非替尼,患者出现皮疹,2016-02-01自行停药。1个月前,患者喘憋较前加重,偶有咳嗽,\n无咳痰,无发热、胸痛等不适,今为进一步诊治入院。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "呼吸科"
+        ],
+        "past_history": "既往“高血压”病史40年,血压最高达160/100mmHg,平素口服“硝苯地平片”,血压波动于130-140/80-90mmHg。“冠心病”病史30年,间断出现心悸,平素口服“阿替洛尔及硝酸异山梨酯片”等药物,自述症状控制可;“乙型病毒性肝炎”病史9月余。“无结核、伤寒、疟疾”等传染病史;无手术、外伤及输血史；对“青素类”药物过敏史;预防接种史不详,系统回顺无特殊。",
+        "hypothesis_illness": [
+          {
+            "name": "左肺癌伴恶性胸腔积液",
+            "disease": "左肺癌伴恶性胸腔积液",
+            "evidence": [
+              "胸水病理找到肿瘤细胞",
+              "左侧大量胸腔积液",
+              "停用吉非替尼后喘憋加重"
+            ],
+            "confidence": 0.85
+          },
+          {
+            "name": "心力衰竭",
+            "disease": "心力衰竭",
+            "evidence": [
+              "高龄",
+              "高血压病史40年",
+              "冠心病史30年"
+            ],
+            "confidence": 0.4
+          },
+          {
+            "name": "肺栓塞",
+            "disease": "肺栓塞",
+            "evidence": [
+              "恶性肿瘤高凝状态",
+              "活动后气短加重"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "肺部感染/阻塞性肺炎",
+            "disease": "肺部感染/阻塞性肺炎",
+            "evidence": [
+              "左肺占位",
+              "偶有咳嗽"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "药物相关间质性肺病",
+            "disease": "药物相关间质性肺病",
+            "evidence": [
+              "吉非替尼使用史",
+              "皮疹",
+              "喘憋加重"
+            ],
+            "confidence": 0.3
+          }
+        ],
+        "physical_exams": {
+          "胸部检查": "左下肺叩诊浊音, 呼吸音低, 右肺叩诊清音, 呼吸音粗, 未闻及干湿性啰音; 心界不大, 心律90次/分, 律齐, 心音正常, 主动脉第一听诊区可闻及3/6级舒张期杂音"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "胸部检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "CT",
+          "超声",
+          "血液学检查"
+        ],
+        "predicted_physical_exams": [
+          "胸部检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "CT",
+          "超声",
+          "血液学检查"
+        ],
+        "diagnosis_result": [
+          "左肺癌",
+          "左侧恶性胸腔积液"
+        ],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "completed",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor",
+          "task4_diagnosis"
+        ],
+        "mcts_step": 3,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 4,
+            "action": "task4_diagnosis",
+            "source": "mcts_selected",
+            "mcts_step": 3,
+            "workflow_stage": "task4_diagnosis"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exams",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [
+          "胸部增强CT或高分辨率CT明确左肺占位、胸腔积液及有无间质性肺病",
+          "胸腔穿刺抽液行胸水常规、生化、ADA、细胞学及病原学检查",
+          "心脏超声及BNP/NT-proBNP评估心功能、主动脉瓣反流及心力衰竭",
+          "D-二聚体及CT肺动脉造影排除肺栓塞",
+          "支气管镜或经皮肺穿刺活检获取组织病理学诊断",
+          "血常规、CRP、PCT、肿瘤标志物、肝肾功能及凝血功能检查"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.85,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false,
+        "agent_missing_evidence": [
+          {
+            "disease": "心力衰竭",
+            "missing": [
+              "需BNP排除",
+              "需心脏超声排除",
+              "需胸片排除"
+            ],
+            "suggested_exams": [
+              "BNP",
+              "心脏超声",
+              "胸片"
+            ]
+          },
+          {
+            "disease": "肺栓塞",
+            "missing": [
+              "需D-二聚体排除",
+              "需CTPA排除",
+              "需下肢静脉超声排除"
+            ],
+            "suggested_exams": [
+              "D-二聚体",
+              "CTPA",
+              "下肢静脉超声"
+            ]
+          },
+          {
+            "disease": "肺部感染/阻塞性肺炎",
+            "missing": [
+              "需血常规排除",
+              "需CRP排除",
+              "需降钙素原排除"
+            ],
+            "suggested_exams": [
+              "血常规",
+              "CRP",
+              "降钙素原"
+            ]
+          },
+          {
+            "disease": "药物相关间质性肺病",
+            "missing": [
+              "需高分辨率CT排除",
+              "需肺功能排除",
+              "需血气分析排除"
+            ],
+            "suggested_exams": [
+              "高分辨率CT",
+              "肺功能",
+              "血气分析"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "active_snapshot_id": 1,
+  "terminated_by": "eta",
+  "finalization_used": false,
+  "agent_missing_evidence": [
+    {
+      "disease": "心力衰竭",
+      "missing": [
+        "需BNP排除",
+        "需心脏超声排除",
+        "需胸片排除"
+      ],
+      "suggested_exams": [
+        "BNP",
+        "心脏超声",
+        "胸片"
+      ]
+    },
+    {
+      "disease": "肺栓塞",
+      "missing": [
+        "需D-二聚体排除",
+        "需CTPA排除",
+        "需下肢静脉超声排除"
+      ],
+      "suggested_exams": [
+        "D-二聚体",
+        "CTPA",
+        "下肢静脉超声"
+      ]
+    },
+    {
+      "disease": "肺部感染/阻塞性肺炎",
+      "missing": [
+        "需血常规排除",
+        "需CRP排除",
+        "需降钙素原排除"
+      ],
+      "suggested_exams": [
+        "血常规",
+        "CRP",
+        "降钙素原"
+      ]
+    },
+    {
+      "disease": "药物相关间质性肺病",
+      "missing": [
+        "需高分辨率CT排除",
+        "需肺功能排除",
+        "需血气分析排除"
+      ],
+      "suggested_exams": [
+        "高分辨率CT",
+        "肺功能",
+        "血气分析"
+      ]
+    }
+  ]
+}

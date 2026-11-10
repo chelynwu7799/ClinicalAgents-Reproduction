@@ -1,0 +1,1136 @@
+{
+  "case_id": "2_肺癌发热3天一例",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "60岁"
+  },
+  "chief_complaint": "男性，60岁，已婚，汉族，农民。 确诊肺癌4月，发热3天。",
+  "present_illness": "患者缘于2016-9无明显诱因出现发热,午后及夜间明显,体温波动于38.0℃上下,无咳嗽咳痰,无咽痛流涕等不适,就诊于当地传染病医院,考虑肺部感染,遂予以抗感染治疗(具体药物及剂量不详),后体温恢复正常,2016-10复查肺部CT考虑左肺占位,遂于该院行纤维支气管镜检查,病理回报:鳞癌。患者为进一步诊治就诊于北京某肿瘤医院,完善检查,头颅核磁示:多发腔梗,腹部及骨头未见肿瘤转移迹象,遂行两周期紫杉醇脂质体+卡铂方案化疗(具体剂量不详),末次化疗时间2017-2-3。化疗期间曾出现II°骨髓抑制。2017-2-13患者无明显诱因出现发热,最高体温40℃,伴寒颤,自行予以退热药物,体温未见明显下降,伴间断咳嗽咳痰,黄白色粘痰,尚可自行咳出,无痰中带血等不适,今日为进一步诊治***。",
+  "dept_l1": "内科",
+  "dept_l2": [
+    "呼吸科"
+  ],
+  "past_history": "既往“肺结核”病史20年,已治愈;“高血压”病史4月,最高血压210/180mHg,间断服用“硝苯地平”等药物,具体剂量不详,目前已经自行停药,未监测血压;“腔隙性脑梗死”病史2月;“慢性丙型病毒性肝炎”病史4月,无“伤寒、疟疾”等传染病史;无手术、外伤及输血史;无药物及其他过敏史;预防接种史不详,系统回顾无特殊。",
+  "hypothesis_illness": [
+    {
+      "name": "左肺鳞癌",
+      "disease": "左肺鳞癌",
+      "evidence": [
+        "纤维支气管镜病理回报鳞癌",
+        "肺部CT示左肺占位"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "name": "中性粒细胞减少伴感染/败血症",
+      "disease": "中性粒细胞减少伴感染/败血症",
+      "evidence": [
+        "肺癌化疗后10天",
+        "化疗期间曾出现II度骨髓抑制",
+        "最高体温40℃伴寒战",
+        "咳嗽黄白黏痰"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "name": "细菌性肺炎/阻塞性肺炎",
+      "disease": "细菌性肺炎/阻塞性肺炎",
+      "evidence": [
+        "左肺占位肺癌",
+        "咳嗽黄白黏痰",
+        "发热寒战",
+        "双肺呼吸音粗、左上肺可闻及明显啰音"
+      ],
+      "confidence": 0.65
+    },
+    {
+      "name": "肺结核复发",
+      "disease": "肺结核复发",
+      "evidence": [
+        "既往肺结核史",
+        "化疗后免疫抑制",
+        "发热咳嗽"
+      ],
+      "confidence": 0.3
+    },
+    {
+      "name": "肺栓塞",
+      "disease": "肺栓塞",
+      "evidence": [
+        "肿瘤高凝状态",
+        "发热咳嗽"
+      ],
+      "confidence": 0.2
+    },
+    {
+      "name": "肿瘤热",
+      "disease": "肿瘤热",
+      "evidence": [
+        "确诊肺癌",
+        "发热"
+      ],
+      "confidence": 0.1
+    },
+    {
+      "name": "药物热",
+      "disease": "药物热",
+      "evidence": [
+        "化疗史"
+      ],
+      "confidence": 0.05
+    }
+  ],
+  "physical_exams": {
+    "一般检查": "神清,精神可,周身浅表淋巴结未触及\nT：39.8℃，P：110次/分，R：18次/分，BP：130/80mmHg",
+    "胸部检查": "双肺呼吸音粗,左上肺呼吸音低,可闻及明显啰音,左下肺可闻及散在哮鸣音,心律110次/分,律齐,未闻及杂音"
+  },
+  "auxiliary_exams": {},
+  "imaging_results": {},
+  "completed_physical_exams": [
+    "一般检查",
+    "胸部检查"
+  ],
+  "completed_auxiliary_exams": [],
+  "completed_imaging_exams": [],
+  "pending_auxiliary_exams": [
+    "血液学检查",
+    "CT"
+  ],
+  "predicted_physical_exams": [
+    "一般检查",
+    "胸部检查"
+  ],
+  "predicted_auxiliary_exams": [
+    "血液学检查",
+    "CT"
+  ],
+  "diagnosis_result": [
+    "左肺鳞癌"
+  ],
+  "treatment_plan": [],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "pending",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "pending"
+  },
+  "recheck_total": 1,
+  "max_recheck": 3,
+  "mcts_trajectory": [
+    "a_back",
+    "task2_doctor",
+    "a_rag",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 4,
+  "mcts_eta": 4,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "a_back",
+      "source": "committed_backtrack",
+      "mcts_step": 1,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task2_doctor",
+      "source": "committed_backtrack_target",
+      "mcts_step": 2,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 4,
+      "action": "a_rag",
+      "source": "mcts_selected",
+      "mcts_step": 3,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 5,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 4,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [
+    {
+      "event_id": 0,
+      "source": "committed",
+      "target_snapshot_id": 1,
+      "target_workflow_stage": "task1_referral",
+      "requested_action": "request_auxiliary_exam",
+      "executed_action": "task2_doctor",
+      "mcts_step": 1
+    }
+  ],
+  "missing_evidence": [
+    "血常规+中性粒细胞绝对计数",
+    "血培养（需氧和厌氧）及药敏试验",
+    "降钙素原和C反应蛋白",
+    "痰涂片革兰染色及细菌/真菌培养+药敏",
+    "痰抗酸染色/结核分枝杆菌GeneXpert/培养",
+    "胸部高分辨率CT",
+    "D-二聚体及必要时CT肺动脉造影",
+    "结核感染T细胞斑点试验/PPD",
+    "动脉血气分析及血乳酸",
+    "肝肾功能、电解质及凝血功能"
+  ],
+  "potential_missing_evidence": [
+    "一般检查",
+    "头颅眼耳鼻喉检查",
+    "胸部检查",
+    "腹部检查",
+    "脊柱和四肢检查",
+    "CT",
+    "颈部检查",
+    "皮肤检查"
+  ],
+  "experience_knowledge": [
+    "【基本信息】男，56岁，职工 25093.jpg",
+    "【基本信息】男，85岁，农民 25096.jpg 25097.jpg",
+    "【基本信息】男，60岁，农民 25039.jpg 25040.jpg 25041.jpg 25042.jpg 25043.jpg 25044.jpg 25045.jpg"
+  ],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [
+    {
+      "case_id": "11792_肺部感染咳嗽、咳痰、喘息7天",
+      "text": "男性,56岁,职工 咳嗽、咳痰、喘息7天,伴发热3天入院。 患者缘于入院前7天无明显诱因出现咳嗽、咳痰、喘息,痰为白色泡沫状,不易咳出,无发热,无胸闷、胸痛,在家自行口服药物(具体名量不详),症状未见明显好转。近3天来,患者出现发热,体温达38℃,经对症治疗后体温降至正常,但仍复升,为进一步诊治而来我院,门诊查肺部CT示:两肺细支气管炎性改变,故以“肺炎”收入院。 1.肺炎2.高血压1级 1.肺炎2.高血压1级 肺癌；多无急性感染中毒症状，有时咳嗽中带血丝，白细胞计数不高，痰液中发现癌细胞，后期可发生阻塞性肺炎，胸部检查可以发现肺门淋巴结肿大。 口服复方鲜竹沥、盐配溴已以化治疗,静点多索茶碱以扩张支气管,清开灵以清热解毒,左氧氳沙星以制感染",
+      "summary": "【基本信息】男，56岁，职工 25093.jpg",
+      "exams": [
+        "一般检查",
+        "头颅眼耳鼻喉检查",
+        "胸部检查",
+        "腹部检查",
+        "脊柱和四肢检查",
+        "CT"
+      ],
+      "similarity": 0.10457338761290626
+    },
+    {
+      "case_id": "11795_肺部占位发热，咳嗽，咳痰2天一例",
+      "text": "男性,85岁,农民 发热，咳嗽，咳痰2天 患者自2天前受凉后出现发热，最高体温39摄氏度，伴咳嗽，咳少量脓痰，不易咳出，症状发作无时间规律，自服退热药物后体温可降至正常但之后不久在复升，今为进一步诊治就诊我科，病程中无胸痛，咯血，无盗汗，无夜间端坐呼吸，发病以来饮食、睡眠差，大小便正常。 肺部感染 肺癌伴多发转移（临床诊断） 肺部感染 肺结核：结核患者多有咳嗽、低热、盗汗等结核中毒症状，患者发热无盗汗，乏力，消瘦，咯血等，必要时检查PPD试验\r\n肺脓肿：早期临床表现与肺炎相似，咳出大量脓臭痰为肺脓肿的特征，影响学检查可见脓腔与液平，患者临床表现与此不相符 患者以肺部感染收住院，开始并未考虑肺癌可能。该患者没有出现咯血，痰中带血等提示肺癌的症状，说明有些肺癌患者表现并不典型，需在临床工作中对以肺炎表现的患者  需要考虑为 肺癌引起的阻塞性肺部炎症。",
+      "summary": "【基本信息】男，85岁，农民 25096.jpg 25097.jpg",
+      "exams": [
+        "一般检查",
+        "头颅眼耳鼻喉检查",
+        "颈部检查",
+        "胸部检查",
+        "腹部检查",
+        "脊柱和四肢检查",
+        "皮肤检查",
+        "神经系统检查",
+        "CT"
+      ],
+      "similarity": 0.0998619041835893
+    },
+    {
+      "case_id": "11752_咳嗽咳黄痰伴发热半月余，痰血3天",
+      "text": "咳嗽咳黄痰伴发热半月余，痰血3天 患者半月余前受凉后出现咳嗽、咳痰，痰为黄脓痰，量较多，能咳出，咳嗽时伴胸闷、右侧胸痛，同时伴有畏寒发热，最高体温41℃，体温降而复升，于当地诊所就诊，给予药物治疗，具体用药不详，病情无明显改善，3天前开始出现痰血症状，随至我院就诊，拟\"社区获得性肺炎\"收住。病程中，患者神志清，精神一般，无头晕，无头痛，感恶心，无呕吐，有腹胀，无腹痛，饮食睡眠差，大小便如常，近期体重未监测。 1.社区获得性肺炎，非重症2.肺占位性病变 右肺鳞状细胞癌、阻塞性肺炎 1．肺结核球 多见于年轻患者，病灶多见于结核好发部位，如肺上叶尖后段和下叶背段。一般无症状，病灶边界清楚，密度高，可有包膜。有时含钙化点，周围有纤维结节状病灶，多年不变，患者无结核依据，可排除该病。\r\n2．肺门淋巴结结核 易于中央型肺癌相混淆，多见于儿童、青年，多有发热，盗汗等结核中毒症状。结核菌素试验常阳性，抗结核治疗有效。肺癌多见于中年以上成人，病灶发展快，呼吸道症状比较明显，抗结核药物治疗有效，根据患者病史及检查，考虑该病的可能性小，入院后继续排查。\r\n3.肺炎 若无毒性症状，抗生素治疗后肺部阴影吸收缓慢，或同一部位反复发生肺炎时，应考虑到肺癌可能。肺部慢性炎症机化，形成团块状的炎性假瘤，也易于肺癌相混淆。但炎性假瘤往往形态不整，边缘不齐，核心密度较高，易伴有胸膜增厚，病灶长期无明显变化，患者有阻塞性肺炎，但根据胸部CT考虑单纯肺炎的可能性小。\r\n4.肺脓肿 起病急，中毒症状严重，多有寒颤、高热、咳嗽、咳大量脓臭痰等症状。肺部X线表现为均匀的大片状炎性阴影，空洞内常见较深液平。血常规检查可发现白细胞和中性粒细胞增多。癌性空洞继发感染，常为**性咳嗽、反复血痰，随后出现感染、咳嗽加剧。胸片可见癌肿块影有偏心空洞，壁厚，内壁凹凸不平。根据患者病史及检查，可排除该病。 该患者因咳嗽咳痰发热及痰血入院，入院胸部CT及胸部增强CT均提示右下肺占位，且肿瘤指标明显异常，以上证据均高度提示肺恶性肿瘤，但无法取得病理及确诊，反复与患者家属沟通后给予纤维支气管镜及病理检查，最终证实为肺鳞状细胞癌。另外肺鳞癌多见于老年男性，与吸烟有密切关系。以中央型肺癌多见，并有胸管腔内生长的倾向，肺鳞癌早期常引发支气管狭窄，或阻塞性肺炎。该患者有长期吸烟病史，肿瘤向管腔生长，行支气管镜明确，并经病理证实为肺鳞癌。",
+      "summary": "【基本信息】男，60岁，农民 25039.jpg 25040.jpg 25041.jpg 25042.jpg 25043.jpg 25044.jpg 25045.jpg",
+      "exams": [
+        "一般检查",
+        "头颅眼耳鼻喉检查",
+        "颈部检查",
+        "胸部检查",
+        "腹部检查",
+        "脊柱和四肢检查",
+        "皮肤检查",
+        "神经系统检查",
+        "CT",
+        "血液学检查"
+      ],
+      "similarity": 0.09216699168311278
+    }
+  ],
+  "evidence_importance": {},
+  "experience_memory_available": true,
+  "top_hypothesis_confidence": 1.0,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "2_肺癌发热3天一例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "60岁"
+        },
+        "chief_complaint": "男性，60岁，已婚，汉族，农民。 确诊肺癌4月，发热3天。",
+        "present_illness": "患者缘于2016-9无明显诱因出现发热,午后及夜间明显,体温波动于38.0℃上下,无咳嗽咳痰,无咽痛流涕等不适,就诊于当地传染病医院,考虑肺部感染,遂予以抗感染治疗(具体药物及剂量不详),后体温恢复正常,2016-10复查肺部CT考虑左肺占位,遂于该院行纤维支气管镜检查,病理回报:鳞癌。患者为进一步诊治就诊于北京某肿瘤医院,完善检查,头颅核磁示:多发腔梗,腹部及骨头未见肿瘤转移迹象,遂行两周期紫杉醇脂质体+卡铂方案化疗(具体剂量不详),末次化疗时间2017-2-3。化疗期间曾出现II°骨髓抑制。2017-2-13患者无明显诱因出现发热,最高体温40℃,伴寒颤,自行予以退热药物,体温未见明显下降,伴间断咳嗽咳痰,黄白色粘痰,尚可自行咳出,无痰中带血等不适,今日为进一步诊治***。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "既往“肺结核”病史20年,已治愈;“高血压”病史4月,最高血压210/180mHg,间断服用“硝苯地平”等药物,具体剂量不详,目前已经自行停药,未监测血压;“腔隙性脑梗死”病史2月;“慢性丙型病毒性肝炎”病史4月,无“伤寒、疟疾”等传染病史;无手术、外伤及输血史;无药物及其他过敏史;预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "2_肺癌发热3天一例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "60岁"
+        },
+        "chief_complaint": "男性，60岁，已婚，汉族，农民。 确诊肺癌4月，发热3天。",
+        "present_illness": "患者缘于2016-9无明显诱因出现发热,午后及夜间明显,体温波动于38.0℃上下,无咳嗽咳痰,无咽痛流涕等不适,就诊于当地传染病医院,考虑肺部感染,遂予以抗感染治疗(具体药物及剂量不详),后体温恢复正常,2016-10复查肺部CT考虑左肺占位,遂于该院行纤维支气管镜检查,病理回报:鳞癌。患者为进一步诊治就诊于北京某肿瘤医院,完善检查,头颅核磁示:多发腔梗,腹部及骨头未见肿瘤转移迹象,遂行两周期紫杉醇脂质体+卡铂方案化疗(具体剂量不详),末次化疗时间2017-2-3。化疗期间曾出现II°骨髓抑制。2017-2-13患者无明显诱因出现发热,最高体温40℃,伴寒颤,自行予以退热药物,体温未见明显下降,伴间断咳嗽咳痰,黄白色粘痰,尚可自行咳出,无痰中带血等不适,今日为进一步诊治***。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "呼吸科"
+        ],
+        "past_history": "既往“肺结核”病史20年,已治愈;“高血压”病史4月,最高血压210/180mHg,间断服用“硝苯地平”等药物,具体剂量不详,目前已经自行停药,未监测血压;“腔隙性脑梗死”病史2月;“慢性丙型病毒性肝炎”病史4月,无“伤寒、疟疾”等传染病史;无手术、外伤及输血史;无药物及其他过敏史;预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "2_肺癌发热3天一例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "60岁"
+        },
+        "chief_complaint": "男性，60岁，已婚，汉族，农民。 确诊肺癌4月，发热3天。",
+        "present_illness": "患者缘于2016-9无明显诱因出现发热,午后及夜间明显,体温波动于38.0℃上下,无咳嗽咳痰,无咽痛流涕等不适,就诊于当地传染病医院,考虑肺部感染,遂予以抗感染治疗(具体药物及剂量不详),后体温恢复正常,2016-10复查肺部CT考虑左肺占位,遂于该院行纤维支气管镜检查,病理回报:鳞癌。患者为进一步诊治就诊于北京某肿瘤医院,完善检查,头颅核磁示:多发腔梗,腹部及骨头未见肿瘤转移迹象,遂行两周期紫杉醇脂质体+卡铂方案化疗(具体剂量不详),末次化疗时间2017-2-3。化疗期间曾出现II°骨髓抑制。2017-2-13患者无明显诱因出现发热,最高体温40℃,伴寒颤,自行予以退热药物,体温未见明显下降,伴间断咳嗽咳痰,黄白色粘痰,尚可自行咳出,无痰中带血等不适,今日为进一步诊治***。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "呼吸科"
+        ],
+        "past_history": "既往“肺结核”病史20年,已治愈;“高血压”病史4月,最高血压210/180mHg,间断服用“硝苯地平”等药物,具体剂量不详,目前已经自行停药,未监测血压;“腔隙性脑梗死”病史2月;“慢性丙型病毒性肝炎”病史4月,无“伤寒、疟疾”等传染病史;无手术、外伤及输血史;无药物及其他过敏史;预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [
+          {
+            "name": "中性粒细胞减少性发热",
+            "disease": "中性粒细胞减少性发热",
+            "evidence": [
+              "肺癌化疗后10天",
+              "既往II°骨髓抑制",
+              "高热伴寒战"
+            ],
+            "confidence": 0.75
+          },
+          {
+            "name": "细菌性肺炎/阻塞性肺炎",
+            "disease": "细菌性肺炎/阻塞性肺炎",
+            "evidence": [
+              "咳嗽咳黄白色粘痰",
+              "高热",
+              "左肺占位/肺癌病史"
+            ],
+            "confidence": 0.7
+          },
+          {
+            "name": "败血症/血流感染",
+            "disease": "败血症/血流感染",
+            "evidence": [
+              "高热伴寒战",
+              "退热药物效果差",
+              "化疗后免疫抑制"
+            ],
+            "confidence": 0.6
+          },
+          {
+            "name": "肿瘤热",
+            "disease": "肿瘤热",
+            "evidence": [
+              "确诊肺癌",
+              "发热"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "肺结核复发",
+            "disease": "肺结核复发",
+            "evidence": [
+              "既往肺结核史",
+              "化疗后免疫抑制",
+              "发热咳嗽"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "药物热",
+            "disease": "药物热",
+            "evidence": [
+              "近期接受紫杉醇/卡铂化疗",
+              "发热"
+            ],
+            "confidence": 0.2
+          }
+        ],
+        "physical_exams": {
+          "一般检查": "神清,精神可,周身浅表淋巴结未触及\nT：39.8℃，P：110次/分，R：18次/分，BP：130/80mmHg",
+          "胸部检查": "双肺呼吸音粗,左上肺呼吸音低,可闻及明显啰音,左下肺可闻及散在哮鸣音,心律110次/分,律齐,未闻及杂音"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "一般检查",
+          "胸部检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "CT",
+          "血液学检查"
+        ],
+        "predicted_physical_exams": [
+          "一般检查",
+          "胸部检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "CT",
+          "血液学检查"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [
+          "血常规及中性粒细胞绝对计数",
+          "血培养及药敏",
+          "胸部CT或X线",
+          "降钙素原/C反应蛋白",
+          "痰涂片/培养及抗酸染色/结核分枝杆菌核酸检测",
+          "动脉血气分析及乳酸"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.75,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task1_referral",
+      "reason": "committed_backtrack_restored",
+      "state": {
+        "case_id": "2_肺癌发热3天一例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "60岁"
+        },
+        "chief_complaint": "男性，60岁，已婚，汉族，农民。 确诊肺癌4月，发热3天。",
+        "present_illness": "患者缘于2016-9无明显诱因出现发热,午后及夜间明显,体温波动于38.0℃上下,无咳嗽咳痰,无咽痛流涕等不适,就诊于当地传染病医院,考虑肺部感染,遂予以抗感染治疗(具体药物及剂量不详),后体温恢复正常,2016-10复查肺部CT考虑左肺占位,遂于该院行纤维支气管镜检查,病理回报:鳞癌。患者为进一步诊治就诊于北京某肿瘤医院,完善检查,头颅核磁示:多发腔梗,腹部及骨头未见肿瘤转移迹象,遂行两周期紫杉醇脂质体+卡铂方案化疗(具体剂量不详),末次化疗时间2017-2-3。化疗期间曾出现II°骨髓抑制。2017-2-13患者无明显诱因出现发热,最高体温40℃,伴寒颤,自行予以退热药物,体温未见明显下降,伴间断咳嗽咳痰,黄白色粘痰,尚可自行咳出,无痰中带血等不适,今日为进一步诊治***。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "呼吸科"
+        ],
+        "past_history": "既往“肺结核”病史20年,已治愈;“高血压”病史4月,最高血压210/180mHg,间断服用“硝苯地平”等药物,具体剂量不详,目前已经自行停药,未监测血压;“腔隙性脑梗死”病史2月;“慢性丙型病毒性肝炎”病史4月,无“伤寒、疟疾”等传染病史;无手术、外伤及输血史;无药物及其他过敏史;预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exam",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 2,
+      "workflow_action_index": 4,
+      "mcts_step": 2,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "2_肺癌发热3天一例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "60岁"
+        },
+        "chief_complaint": "男性，60岁，已婚，汉族，农民。 确诊肺癌4月，发热3天。",
+        "present_illness": "患者缘于2016-9无明显诱因出现发热,午后及夜间明显,体温波动于38.0℃上下,无咳嗽咳痰,无咽痛流涕等不适,就诊于当地传染病医院,考虑肺部感染,遂予以抗感染治疗(具体药物及剂量不详),后体温恢复正常,2016-10复查肺部CT考虑左肺占位,遂于该院行纤维支气管镜检查,病理回报:鳞癌。患者为进一步诊治就诊于北京某肿瘤医院,完善检查,头颅核磁示:多发腔梗,腹部及骨头未见肿瘤转移迹象,遂行两周期紫杉醇脂质体+卡铂方案化疗(具体剂量不详),末次化疗时间2017-2-3。化疗期间曾出现II°骨髓抑制。2017-2-13患者无明显诱因出现发热,最高体温40℃,伴寒颤,自行予以退热药物,体温未见明显下降,伴间断咳嗽咳痰,黄白色粘痰,尚可自行咳出,无痰中带血等不适,今日为进一步诊治***。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "呼吸科"
+        ],
+        "past_history": "既往“肺结核”病史20年,已治愈;“高血压”病史4月,最高血压210/180mHg,间断服用“硝苯地平”等药物,具体剂量不详,目前已经自行停药,未监测血压;“腔隙性脑梗死”病史2月;“慢性丙型病毒性肝炎”病史4月,无“伤寒、疟疾”等传染病史;无手术、外伤及输血史;无药物及其他过敏史;预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [
+          {
+            "name": "中性粒细胞减少伴感染/败血症",
+            "disease": "中性粒细胞减少伴感染/败血症",
+            "evidence": [
+              "肺癌化疗后10天",
+              "化疗期间II度骨髓抑制",
+              "最高体温40℃伴寒战",
+              "咳嗽黄白黏痰"
+            ],
+            "confidence": 0.75
+          },
+          {
+            "name": "细菌性肺炎/阻塞性肺炎",
+            "disease": "细菌性肺炎/阻塞性肺炎",
+            "evidence": [
+              "左肺占位肺癌",
+              "咳嗽黄白黏痰",
+              "发热寒战"
+            ],
+            "confidence": 0.65
+          },
+          {
+            "name": "肺结核复发",
+            "disease": "肺结核复发",
+            "evidence": [
+              "既往肺结核史",
+              "化疗后免疫抑制",
+              "发热咳嗽"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "肿瘤热",
+            "disease": "肿瘤热",
+            "evidence": [
+              "确诊肺癌",
+              "发热"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "肺栓塞",
+            "disease": "肺栓塞",
+            "evidence": [
+              "肿瘤高凝状态",
+              "发热咳嗽"
+            ],
+            "confidence": 0.2
+          },
+          {
+            "name": "药物热",
+            "disease": "药物热",
+            "evidence": [
+              "化疗史"
+            ],
+            "confidence": 0.15
+          }
+        ],
+        "physical_exams": {
+          "一般检查": "神清,精神可,周身浅表淋巴结未触及\nT：39.8℃，P：110次/分，R：18次/分，BP：130/80mmHg",
+          "胸部检查": "双肺呼吸音粗,左上肺呼吸音低,可闻及明显啰音,左下肺可闻及散在哮鸣音,心律110次/分,律齐,未闻及杂音"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "一般检查",
+          "胸部检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "血液学检查",
+          "CT"
+        ],
+        "predicted_physical_exams": [
+          "一般检查",
+          "胸部检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "血液学检查",
+          "CT"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor"
+        ],
+        "mcts_step": 2,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exam",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [
+          "血常规及中性粒细胞绝对计数",
+          "血培养（需氧+厌氧）及药敏",
+          "降钙素原、C反应蛋白、乳酸等感染/脓毒症标志物",
+          "胸部高分辨率CT或X线平片",
+          "痰涂片革兰染色、抗酸染色及痰培养",
+          "动脉血气分析及氧合评估",
+          "D-二聚体及必要时CT肺动脉造影"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.75,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 5,
+      "trajectory_index": 3,
+      "workflow_action_index": 5,
+      "mcts_step": 3,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "2_肺癌发热3天一例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "60岁"
+        },
+        "chief_complaint": "男性，60岁，已婚，汉族，农民。 确诊肺癌4月，发热3天。",
+        "present_illness": "患者缘于2016-9无明显诱因出现发热,午后及夜间明显,体温波动于38.0℃上下,无咳嗽咳痰,无咽痛流涕等不适,就诊于当地传染病医院,考虑肺部感染,遂予以抗感染治疗(具体药物及剂量不详),后体温恢复正常,2016-10复查肺部CT考虑左肺占位,遂于该院行纤维支气管镜检查,病理回报:鳞癌。患者为进一步诊治就诊于北京某肿瘤医院,完善检查,头颅核磁示:多发腔梗,腹部及骨头未见肿瘤转移迹象,遂行两周期紫杉醇脂质体+卡铂方案化疗(具体剂量不详),末次化疗时间2017-2-3。化疗期间曾出现II°骨髓抑制。2017-2-13患者无明显诱因出现发热,最高体温40℃,伴寒颤,自行予以退热药物,体温未见明显下降,伴间断咳嗽咳痰,黄白色粘痰,尚可自行咳出,无痰中带血等不适,今日为进一步诊治***。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "呼吸科"
+        ],
+        "past_history": "既往“肺结核”病史20年,已治愈;“高血压”病史4月,最高血压210/180mHg,间断服用“硝苯地平”等药物,具体剂量不详,目前已经自行停药,未监测血压;“腔隙性脑梗死”病史2月;“慢性丙型病毒性肝炎”病史4月,无“伤寒、疟疾”等传染病史;无手术、外伤及输血史;无药物及其他过敏史;预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [
+          {
+            "name": "中性粒细胞减少伴感染/败血症",
+            "disease": "中性粒细胞减少伴感染/败血症",
+            "evidence": [
+              "肺癌化疗后10天",
+              "化疗期间II度骨髓抑制",
+              "最高体温40℃伴寒战",
+              "咳嗽黄白黏痰"
+            ],
+            "confidence": 0.75
+          },
+          {
+            "name": "细菌性肺炎/阻塞性肺炎",
+            "disease": "细菌性肺炎/阻塞性肺炎",
+            "evidence": [
+              "左肺占位肺癌",
+              "咳嗽黄白黏痰",
+              "发热寒战"
+            ],
+            "confidence": 0.65
+          },
+          {
+            "name": "肺结核复发",
+            "disease": "肺结核复发",
+            "evidence": [
+              "既往肺结核史",
+              "化疗后免疫抑制",
+              "发热咳嗽"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "肿瘤热",
+            "disease": "肿瘤热",
+            "evidence": [
+              "确诊肺癌",
+              "发热"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "肺栓塞",
+            "disease": "肺栓塞",
+            "evidence": [
+              "肿瘤高凝状态",
+              "发热咳嗽"
+            ],
+            "confidence": 0.2
+          },
+          {
+            "name": "药物热",
+            "disease": "药物热",
+            "evidence": [
+              "化疗史"
+            ],
+            "confidence": 0.15
+          }
+        ],
+        "physical_exams": {
+          "一般检查": "神清,精神可,周身浅表淋巴结未触及\nT：39.8℃，P：110次/分，R：18次/分，BP：130/80mmHg",
+          "胸部检查": "双肺呼吸音粗,左上肺呼吸音低,可闻及明显啰音,左下肺可闻及散在哮鸣音,心律110次/分,律齐,未闻及杂音"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "一般检查",
+          "胸部检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "血液学检查",
+          "CT"
+        ],
+        "predicted_physical_exams": [
+          "一般检查",
+          "胸部检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "血液学检查",
+          "CT"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor",
+          "a_rag"
+        ],
+        "mcts_step": 3,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 4,
+            "action": "a_rag",
+            "source": "mcts_selected",
+            "mcts_step": 3,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exam",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [
+          "血常规及中性粒细胞绝对值计数",
+          "血培养（需氧+厌氧）",
+          "痰涂片革兰染色及细菌/真菌培养+药敏",
+          "胸部CT平扫/增强",
+          "降钙素原及C反应蛋白",
+          "动脉血气分析及血乳酸",
+          "D-二聚体及CTPA（排除肺栓塞）",
+          "结核相关检查（痰抗酸染色/GeneXpert/T-SPOT）"
+        ],
+        "potential_missing_evidence": [
+          "一般检查",
+          "头颅眼耳鼻喉检查",
+          "胸部检查",
+          "腹部检查",
+          "脊柱和四肢检查",
+          "CT",
+          "颈部检查",
+          "皮肤检查"
+        ],
+        "experience_knowledge": [
+          "【基本信息】男，56岁，职工 25093.jpg",
+          "【基本信息】男，85岁，农民 25096.jpg 25097.jpg",
+          "【基本信息】男，60岁，农民 25039.jpg 25040.jpg 25041.jpg 25042.jpg 25043.jpg 25044.jpg 25045.jpg"
+        ],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [
+          {
+            "case_id": "11792_肺部感染咳嗽、咳痰、喘息7天",
+            "text": "男性,56岁,职工 咳嗽、咳痰、喘息7天,伴发热3天入院。 患者缘于入院前7天无明显诱因出现咳嗽、咳痰、喘息,痰为白色泡沫状,不易咳出,无发热,无胸闷、胸痛,在家自行口服药物(具体名量不详),症状未见明显好转。近3天来,患者出现发热,体温达38℃,经对症治疗后体温降至正常,但仍复升,为进一步诊治而来我院,门诊查肺部CT示:两肺细支气管炎性改变,故以“肺炎”收入院。 1.肺炎2.高血压1级 1.肺炎2.高血压1级 肺癌；多无急性感染中毒症状，有时咳嗽中带血丝，白细胞计数不高，痰液中发现癌细胞，后期可发生阻塞性肺炎，胸部检查可以发现肺门淋巴结肿大。 口服复方鲜竹沥、盐配溴已以化治疗,静点多索茶碱以扩张支气管,清开灵以清热解毒,左氧氳沙星以制感染",
+            "summary": "【基本信息】男，56岁，职工 25093.jpg",
+            "exams": [
+              "一般检查",
+              "头颅眼耳鼻喉检查",
+              "胸部检查",
+              "腹部检查",
+              "脊柱和四肢检查",
+              "CT"
+            ],
+            "similarity": 0.10457338761290626
+          },
+          {
+            "case_id": "11795_肺部占位发热，咳嗽，咳痰2天一例",
+            "text": "男性,85岁,农民 发热，咳嗽，咳痰2天 患者自2天前受凉后出现发热，最高体温39摄氏度，伴咳嗽，咳少量脓痰，不易咳出，症状发作无时间规律，自服退热药物后体温可降至正常但之后不久在复升，今为进一步诊治就诊我科，病程中无胸痛，咯血，无盗汗，无夜间端坐呼吸，发病以来饮食、睡眠差，大小便正常。 肺部感染 肺癌伴多发转移（临床诊断） 肺部感染 肺结核：结核患者多有咳嗽、低热、盗汗等结核中毒症状，患者发热无盗汗，乏力，消瘦，咯血等，必要时检查PPD试验\r\n肺脓肿：早期临床表现与肺炎相似，咳出大量脓臭痰为肺脓肿的特征，影响学检查可见脓腔与液平，患者临床表现与此不相符 患者以肺部感染收住院，开始并未考虑肺癌可能。该患者没有出现咯血，痰中带血等提示肺癌的症状，说明有些肺癌患者表现并不典型，需在临床工作中对以肺炎表现的患者  需要考虑为 肺癌引起的阻塞性肺部炎症。",
+            "summary": "【基本信息】男，85岁，农民 25096.jpg 25097.jpg",
+            "exams": [
+              "一般检查",
+              "头颅眼耳鼻喉检查",
+              "颈部检查",
+              "胸部检查",
+              "腹部检查",
+              "脊柱和四肢检查",
+              "皮肤检查",
+              "神经系统检查",
+              "CT"
+            ],
+            "similarity": 0.0998619041835893
+          },
+          {
+            "case_id": "11752_咳嗽咳黄痰伴发热半月余，痰血3天",
+            "text": "咳嗽咳黄痰伴发热半月余，痰血3天 患者半月余前受凉后出现咳嗽、咳痰，痰为黄脓痰，量较多，能咳出，咳嗽时伴胸闷、右侧胸痛，同时伴有畏寒发热，最高体温41℃，体温降而复升，于当地诊所就诊，给予药物治疗，具体用药不详，病情无明显改善，3天前开始出现痰血症状，随至我院就诊，拟\"社区获得性肺炎\"收住。病程中，患者神志清，精神一般，无头晕，无头痛，感恶心，无呕吐，有腹胀，无腹痛，饮食睡眠差，大小便如常，近期体重未监测。 1.社区获得性肺炎，非重症2.肺占位性病变 右肺鳞状细胞癌、阻塞性肺炎 1．肺结核球 多见于年轻患者，病灶多见于结核好发部位，如肺上叶尖后段和下叶背段。一般无症状，病灶边界清楚，密度高，可有包膜。有时含钙化点，周围有纤维结节状病灶，多年不变，患者无结核依据，可排除该病。\r\n2．肺门淋巴结结核 易于中央型肺癌相混淆，多见于儿童、青年，多有发热，盗汗等结核中毒症状。结核菌素试验常阳性，抗结核治疗有效。肺癌多见于中年以上成人，病灶发展快，呼吸道症状比较明显，抗结核药物治疗有效，根据患者病史及检查，考虑该病的可能性小，入院后继续排查。\r\n3.肺炎 若无毒性症状，抗生素治疗后肺部阴影吸收缓慢，或同一部位反复发生肺炎时，应考虑到肺癌可能。肺部慢性炎症机化，形成团块状的炎性假瘤，也易于肺癌相混淆。但炎性假瘤往往形态不整，边缘不齐，核心密度较高，易伴有胸膜增厚，病灶长期无明显变化，患者有阻塞性肺炎，但根据胸部CT考虑单纯肺炎的可能性小。\r\n4.肺脓肿 起病急，中毒症状严重，多有寒颤、高热、咳嗽、咳大量脓臭痰等症状。肺部X线表现为均匀的大片状炎性阴影，空洞内常见较深液平。血常规检查可发现白细胞和中性粒细胞增多。癌性空洞继发感染，常为**性咳嗽、反复血痰，随后出现感染、咳嗽加剧。胸片可见癌肿块影有偏心空洞，壁厚，内壁凹凸不平。根据患者病史及检查，可排除该病。 该患者因咳嗽咳痰发热及痰血入院，入院胸部CT及胸部增强CT均提示右下肺占位，且肿瘤指标明显异常，以上证据均高度提示肺恶性肿瘤，但无法取得病理及确诊，反复与患者家属沟通后给予纤维支气管镜及病理检查，最终证实为肺鳞状细胞癌。另外肺鳞癌多见于老年男性，与吸烟有密切关系。以中央型肺癌多见，并有胸管腔内生长的倾向，肺鳞癌早期常引发支气管狭窄，或阻塞性肺炎。该患者有长期吸烟病史，肿瘤向管腔生长，行支气管镜明确，并经病理证实为肺鳞癌。",
+            "summary": "【基本信息】男，60岁，农民 25039.jpg 25040.jpg 25041.jpg 25042.jpg 25043.jpg 25044.jpg 25045.jpg",
+            "exams": [
+              "一般检查",
+              "头颅眼耳鼻喉检查",
+              "颈部检查",
+              "胸部检查",
+              "腹部检查",
+              "脊柱和四肢检查",
+              "皮肤检查",
+              "神经系统检查",
+              "CT",
+              "血液学检查"
+            ],
+            "similarity": 0.09216699168311278
+          }
+        ],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.75,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false,
+        "experience_retrieval_backend": "tfidf"
+      }
+    }
+  ],
+  "active_snapshot_id": 1,
+  "terminated_by": "eta",
+  "finalization_used": false,
+  "experience_retrieval_backend": "tfidf",
+  "agent_missing_evidence": [
+    {
+      "disease": "中性粒细胞减少伴感染/败血症",
+      "missing": [
+        "需血常规排除",
+        "需PCT排除",
+        "需血培养排除"
+      ],
+      "suggested_exams": [
+        "血常规",
+        "PCT",
+        "血培养"
+      ]
+    },
+    {
+      "disease": "细菌性肺炎/阻塞性肺炎",
+      "missing": [
+        "需胸部CT排除",
+        "需痰涂片+培养排除"
+      ],
+      "suggested_exams": [
+        "胸部CT",
+        "痰涂片+培养"
+      ]
+    },
+    {
+      "disease": "肺结核复发",
+      "missing": [
+        "需痰抗酸杆菌检查排除",
+        "需IGRA排除",
+        "需胸部CT排除"
+      ],
+      "suggested_exams": [
+        "痰抗酸杆菌检查",
+        "IGRA",
+        "胸部CT"
+      ]
+    },
+    {
+      "disease": "肺栓塞",
+      "missing": [
+        "需D-二聚体排除",
+        "需CT肺动脉造影排除"
+      ],
+      "suggested_exams": [
+        "D-二聚体",
+        "CT肺动脉造影"
+      ]
+    }
+  ]
+}

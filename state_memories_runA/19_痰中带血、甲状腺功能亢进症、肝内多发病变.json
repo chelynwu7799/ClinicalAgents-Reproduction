@@ -1,0 +1,978 @@
+{
+  "case_id": "19_痰中带血、甲状腺功能亢进症、肝内多发病变",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "59岁"
+  },
+  "chief_complaint": "患者男，59岁 咳嗽、咳痰、痰中带血2d",
+  "present_illness": "患者2d前受凉后发热（体温未测）、咳嗽、咳痰、痰中带血，无胸痛、气急及其他不适。 该患者有如下特点：（1）男性，59岁；（2）起病急；（3）发热、咳嗽、咳痰、痰中带血2d，无其他不适；(4)既往甲亢病史15年，不规则治疗，病情反复；(5)全身状况良好；(6)两肺湿啰音，期前收缩4次/min；(7)血常规中性粒细胞比例增高，轻度低蛋白血症；(8)X线胸片和肺CT提示两肺炎症性改变；(9)腹部B超和CT提示肝内多发病变；(10)甲状腺功能TSH明显降低。",
+  "dept_l1": "内科",
+  "dept_l2": [
+    "呼吸科"
+  ],
+  "past_history": "患甲状腺功能亢进症（以下简称甲亢）15年，不规则药物治疗，病情反复。",
+  "hypothesis_illness": [
+    {
+      "name": "社区获得性肺炎",
+      "disease": "社区获得性肺炎",
+      "evidence": [
+        "发热",
+        "咳嗽咳痰",
+        "痰中带血",
+        "两肺湿啰音",
+        "X线胸片和肺CT提示两肺炎症性改变",
+        "血常规中性粒细胞比例增高"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "name": "肺结核",
+      "disease": "肺结核",
+      "evidence": [
+        "咳嗽咳痰",
+        "痰中带血",
+        "发热",
+        "两肺炎症性改变"
+      ],
+      "confidence": 0.4
+    },
+    {
+      "name": "支气管肺癌伴肝转移可能",
+      "disease": "支气管肺癌伴肝转移可能",
+      "evidence": [
+        "59岁男性",
+        "痰中带血",
+        "肝内多发病变",
+        "肺部炎症样改变"
+      ],
+      "confidence": 0.35
+    },
+    {
+      "name": "肝脓肿",
+      "disease": "肝脓肿",
+      "evidence": [
+        "发热",
+        "中性粒细胞比例增高",
+        "肝内多发病变"
+      ],
+      "confidence": 0.3
+    },
+    {
+      "name": "甲状腺毒症（甲亢未控制）",
+      "disease": "甲状腺毒症（甲亢未控制）",
+      "evidence": [
+        "甲亢病史15年",
+        "TSH明显降低",
+        "期前收缩"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "name": "甲亢性心脏病可能",
+      "disease": "甲亢性心脏病可能",
+      "evidence": [
+        "甲亢未控制可能",
+        "期前收缩4次/min"
+      ],
+      "confidence": 0.35
+    }
+  ],
+  "physical_exams": {
+    "胸部检查": "两肺呼吸音粗，闻及湿啰音，心浊音界无扩大，心律64次/min，闻及期前收缩4次/min，未闻及杂音",
+    "腹部检查": "腹部无异常",
+    "颈部检查": "甲状腺无肿大、无震颤及血管杂音，浅表淋巴结未触及肿大，气管居中"
+  },
+  "auxiliary_exams": {},
+  "imaging_results": {},
+  "completed_physical_exams": [
+    "胸部检查",
+    "腹部检查",
+    "颈部检查"
+  ],
+  "completed_auxiliary_exams": [],
+  "completed_imaging_exams": [],
+  "pending_auxiliary_exams": [
+    "血液学检查",
+    "内镜检查",
+    "病理检查"
+  ],
+  "predicted_physical_exams": [
+    "胸部检查",
+    "腹部检查",
+    "颈部检查"
+  ],
+  "predicted_auxiliary_exams": [
+    "血液学检查",
+    "内镜检查",
+    "病理检查"
+  ],
+  "diagnosis_result": [
+    "社区获得性肺炎"
+  ],
+  "treatment_plan": [],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "pending"
+  },
+  "recheck_total": 1,
+  "max_recheck": 3,
+  "mcts_trajectory": [
+    "a_back",
+    "task2_doctor",
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 4,
+  "mcts_eta": 4,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 2,
+      "action": "a_back",
+      "source": "committed_backtrack",
+      "mcts_step": 1,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task2_doctor",
+      "source": "committed_backtrack_target",
+      "mcts_step": 2,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 4,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 3,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 5,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 4,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [
+    {
+      "event_id": 0,
+      "source": "committed",
+      "target_snapshot_id": 1,
+      "target_workflow_stage": "task1_referral",
+      "requested_action": null,
+      "executed_action": "task2_doctor",
+      "mcts_step": 1
+    }
+  ],
+  "missing_evidence": [
+    "胸部及腹部影像学检查（胸部X线/CT、肝脏超声/CT/MRI）",
+    "血常规、C反应蛋白、降钙素原等感染相关指标",
+    "痰涂片/培养、抗酸染色及结核分枝杆菌PCR/IGRA",
+    "痰脱落细胞学及支气管镜活检/刷检病理",
+    "甲状腺功能（TSH、FT3、FT4）及甲状腺自身抗体",
+    "心电图、动态心电图及超声心动图",
+    "血培养及肝脓肿相关病原学/穿刺培养",
+    "肝肾功能、电解质、凝血功能及肿瘤标志物"
+  ],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": true,
+  "top_hypothesis_confidence": 0.85,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "19_痰中带血、甲状腺功能亢进症、肝内多发病变",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "59岁"
+        },
+        "chief_complaint": "患者男，59岁 咳嗽、咳痰、痰中带血2d",
+        "present_illness": "患者2d前受凉后发热（体温未测）、咳嗽、咳痰、痰中带血，无胸痛、气急及其他不适。 该患者有如下特点：（1）男性，59岁；（2）起病急；（3）发热、咳嗽、咳痰、痰中带血2d，无其他不适；(4)既往甲亢病史15年，不规则治疗，病情反复；(5)全身状况良好；(6)两肺湿啰音，期前收缩4次/min；(7)血常规中性粒细胞比例增高，轻度低蛋白血症；(8)X线胸片和肺CT提示两肺炎症性改变；(9)腹部B超和CT提示肝内多发病变；(10)甲状腺功能TSH明显降低。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "患甲状腺功能亢进症（以下简称甲亢）15年，不规则药物治疗，病情反复。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "19_痰中带血、甲状腺功能亢进症、肝内多发病变",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "59岁"
+        },
+        "chief_complaint": "患者男，59岁 咳嗽、咳痰、痰中带血2d",
+        "present_illness": "患者2d前受凉后发热（体温未测）、咳嗽、咳痰、痰中带血，无胸痛、气急及其他不适。 该患者有如下特点：（1）男性，59岁；（2）起病急；（3）发热、咳嗽、咳痰、痰中带血2d，无其他不适；(4)既往甲亢病史15年，不规则治疗，病情反复；(5)全身状况良好；(6)两肺湿啰音，期前收缩4次/min；(7)血常规中性粒细胞比例增高，轻度低蛋白血症；(8)X线胸片和肺CT提示两肺炎症性改变；(9)腹部B超和CT提示肝内多发病变；(10)甲状腺功能TSH明显降低。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "呼吸科"
+        ],
+        "past_history": "患甲状腺功能亢进症（以下简称甲亢）15年，不规则药物治疗，病情反复。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "19_痰中带血、甲状腺功能亢进症、肝内多发病变",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "59岁"
+        },
+        "chief_complaint": "患者男，59岁 咳嗽、咳痰、痰中带血2d",
+        "present_illness": "患者2d前受凉后发热（体温未测）、咳嗽、咳痰、痰中带血，无胸痛、气急及其他不适。 该患者有如下特点：（1）男性，59岁；（2）起病急；（3）发热、咳嗽、咳痰、痰中带血2d，无其他不适；(4)既往甲亢病史15年，不规则治疗，病情反复；(5)全身状况良好；(6)两肺湿啰音，期前收缩4次/min；(7)血常规中性粒细胞比例增高，轻度低蛋白血症；(8)X线胸片和肺CT提示两肺炎症性改变；(9)腹部B超和CT提示肝内多发病变；(10)甲状腺功能TSH明显降低。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "呼吸科"
+        ],
+        "past_history": "患甲状腺功能亢进症（以下简称甲亢）15年，不规则药物治疗，病情反复。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [
+          "生命体征及体格检查（体温、心率、呼吸、血压、血氧饱和度、肺部及心脏听诊）",
+          "胸部高分辨率CT或至少胸部X线",
+          "血常规、凝血功能、D-二聚体",
+          "痰液检查（细菌、结核分枝杆菌、细胞学）",
+          "心电图及超声心动图",
+          "甲状腺功能（TSH、FT3、FT4）及用药情况"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task1_referral",
+      "reason": "committed_backtrack_restored",
+      "state": {
+        "case_id": "19_痰中带血、甲状腺功能亢进症、肝内多发病变",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "59岁"
+        },
+        "chief_complaint": "患者男，59岁 咳嗽、咳痰、痰中带血2d",
+        "present_illness": "患者2d前受凉后发热（体温未测）、咳嗽、咳痰、痰中带血，无胸痛、气急及其他不适。 该患者有如下特点：（1）男性，59岁；（2）起病急；（3）发热、咳嗽、咳痰、痰中带血2d，无其他不适；(4)既往甲亢病史15年，不规则治疗，病情反复；(5)全身状况良好；(6)两肺湿啰音，期前收缩4次/min；(7)血常规中性粒细胞比例增高，轻度低蛋白血症；(8)X线胸片和肺CT提示两肺炎症性改变；(9)腹部B超和CT提示肝内多发病变；(10)甲状腺功能TSH明显降低。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "呼吸科"
+        ],
+        "past_history": "患甲状腺功能亢进症（以下简称甲亢）15年，不规则药物治疗，病情反复。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": null,
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 2,
+      "workflow_action_index": 4,
+      "mcts_step": 2,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "19_痰中带血、甲状腺功能亢进症、肝内多发病变",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "59岁"
+        },
+        "chief_complaint": "患者男，59岁 咳嗽、咳痰、痰中带血2d",
+        "present_illness": "患者2d前受凉后发热（体温未测）、咳嗽、咳痰、痰中带血，无胸痛、气急及其他不适。 该患者有如下特点：（1）男性，59岁；（2）起病急；（3）发热、咳嗽、咳痰、痰中带血2d，无其他不适；(4)既往甲亢病史15年，不规则治疗，病情反复；(5)全身状况良好；(6)两肺湿啰音，期前收缩4次/min；(7)血常规中性粒细胞比例增高，轻度低蛋白血症；(8)X线胸片和肺CT提示两肺炎症性改变；(9)腹部B超和CT提示肝内多发病变；(10)甲状腺功能TSH明显降低。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "呼吸科"
+        ],
+        "past_history": "患甲状腺功能亢进症（以下简称甲亢）15年，不规则药物治疗，病情反复。",
+        "hypothesis_illness": [
+          {
+            "name": "社区获得性肺炎",
+            "disease": "社区获得性肺炎",
+            "evidence": [
+              "发热",
+              "咳嗽咳痰",
+              "痰中带血",
+              "两肺湿啰音",
+              "X线胸片和肺CT提示两肺炎症性改变",
+              "血常规中性粒细胞比例增高"
+            ],
+            "confidence": 0.85
+          },
+          {
+            "name": "肺结核",
+            "disease": "肺结核",
+            "evidence": [
+              "咳嗽咳痰",
+              "痰中带血",
+              "发热",
+              "两肺炎症性改变"
+            ],
+            "confidence": 0.4
+          },
+          {
+            "name": "支气管肺癌伴肝转移可能",
+            "disease": "支气管肺癌伴肝转移可能",
+            "evidence": [
+              "59岁男性",
+              "痰中带血",
+              "肝内多发病变",
+              "肺部炎症样改变"
+            ],
+            "confidence": 0.35
+          },
+          {
+            "name": "肝脓肿",
+            "disease": "肝脓肿",
+            "evidence": [
+              "发热",
+              "中性粒细胞比例增高",
+              "肝内多发病变"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "甲状腺毒症（甲亢未控制）",
+            "disease": "甲状腺毒症（甲亢未控制）",
+            "evidence": [
+              "甲亢病史15年",
+              "TSH明显降低",
+              "期前收缩"
+            ],
+            "confidence": 0.6
+          },
+          {
+            "name": "甲亢性心脏病可能",
+            "disease": "甲亢性心脏病可能",
+            "evidence": [
+              "甲亢未控制",
+              "期前收缩4次/min"
+            ],
+            "confidence": 0.35
+          }
+        ],
+        "physical_exams": {
+          "胸部检查": "两肺呼吸音粗，闻及湿啰音，心浊音界无扩大，心律64次/min，闻及期前收缩4次/min，未闻及杂音",
+          "腹部检查": "腹部无异常",
+          "颈部检查": "甲状腺无肿大、无震颤及血管杂音，浅表淋巴结未触及肿大，气管居中"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "胸部检查",
+          "腹部检查",
+          "颈部检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "血液学检查",
+          "内镜检查",
+          "病理检查"
+        ],
+        "predicted_physical_exams": [
+          "胸部检查",
+          "腹部检查",
+          "颈部检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "血液学检查",
+          "内镜检查",
+          "病理检查"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor"
+        ],
+        "mcts_step": 2,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": null,
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [
+          "胸部CT（平扫+增强）以明确肺部病变性质、有无占位/空洞及纵隔淋巴结",
+          "痰病原学检查（细菌涂片/培养、抗酸染色、结核分枝杆菌PCR）",
+          "血常规及炎症指标（白细胞/中性粒细胞、CRP、PCT）",
+          "甲状腺功能（TSH、FT3、FT4、TRAb）",
+          "腹部超声/增强CT或MRI以明确肝内病变性质",
+          "支气管镜及病理/肿瘤标志物用于排除肺癌",
+          "心电图、动态心电图及超声心动图评估期前收缩和甲亢性心脏病",
+          "血培养及肝脓肿穿刺引流（若影像提示肝脓肿）"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.85,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 5,
+      "trajectory_index": 3,
+      "workflow_action_index": 5,
+      "mcts_step": 3,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "19_痰中带血、甲状腺功能亢进症、肝内多发病变",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "59岁"
+        },
+        "chief_complaint": "患者男，59岁 咳嗽、咳痰、痰中带血2d",
+        "present_illness": "患者2d前受凉后发热（体温未测）、咳嗽、咳痰、痰中带血，无胸痛、气急及其他不适。 该患者有如下特点：（1）男性，59岁；（2）起病急；（3）发热、咳嗽、咳痰、痰中带血2d，无其他不适；(4)既往甲亢病史15年，不规则治疗，病情反复；(5)全身状况良好；(6)两肺湿啰音，期前收缩4次/min；(7)血常规中性粒细胞比例增高，轻度低蛋白血症；(8)X线胸片和肺CT提示两肺炎症性改变；(9)腹部B超和CT提示肝内多发病变；(10)甲状腺功能TSH明显降低。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "呼吸科"
+        ],
+        "past_history": "患甲状腺功能亢进症（以下简称甲亢）15年，不规则药物治疗，病情反复。",
+        "hypothesis_illness": [
+          {
+            "name": "社区获得性肺炎",
+            "disease": "社区获得性肺炎",
+            "evidence": [
+              "发热",
+              "咳嗽咳痰",
+              "痰中带血",
+              "两肺湿啰音",
+              "X线胸片和肺CT提示两肺炎症性改变",
+              "血常规中性粒细胞比例增高"
+            ],
+            "confidence": 0.85
+          },
+          {
+            "name": "肺结核",
+            "disease": "肺结核",
+            "evidence": [
+              "咳嗽咳痰",
+              "痰中带血",
+              "发热",
+              "两肺炎症性改变"
+            ],
+            "confidence": 0.4
+          },
+          {
+            "name": "支气管肺癌伴肝转移可能",
+            "disease": "支气管肺癌伴肝转移可能",
+            "evidence": [
+              "59岁男性",
+              "痰中带血",
+              "肝内多发病变",
+              "肺部炎症样改变"
+            ],
+            "confidence": 0.35
+          },
+          {
+            "name": "肝脓肿",
+            "disease": "肝脓肿",
+            "evidence": [
+              "发热",
+              "中性粒细胞比例增高",
+              "肝内多发病变"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "甲状腺毒症（甲亢未控制）",
+            "disease": "甲状腺毒症（甲亢未控制）",
+            "evidence": [
+              "甲亢病史15年",
+              "TSH明显降低",
+              "期前收缩"
+            ],
+            "confidence": 0.6
+          },
+          {
+            "name": "甲亢性心脏病可能",
+            "disease": "甲亢性心脏病可能",
+            "evidence": [
+              "甲亢未控制",
+              "期前收缩4次/min"
+            ],
+            "confidence": 0.35
+          }
+        ],
+        "physical_exams": {
+          "胸部检查": "两肺呼吸音粗，闻及湿啰音，心浊音界无扩大，心律64次/min，闻及期前收缩4次/min，未闻及杂音",
+          "腹部检查": "腹部无异常",
+          "颈部检查": "甲状腺无肿大、无震颤及血管杂音，浅表淋巴结未触及肿大，气管居中"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "胸部检查",
+          "腹部检查",
+          "颈部检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "血液学检查",
+          "内镜检查",
+          "病理检查"
+        ],
+        "predicted_physical_exams": [
+          "胸部检查",
+          "腹部检查",
+          "颈部检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "血液学检查",
+          "内镜检查",
+          "病理检查"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor",
+          "task3_imaging"
+        ],
+        "mcts_step": 3,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 4,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 3,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": null,
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [
+          "胸部高分辨率CT/增强CT",
+          "血常规、CRP、PCT等感染炎症指标",
+          "痰液细菌涂片/培养、抗酸染色/结核PCR、脱落细胞学",
+          "结核感染T细胞检测或PPD试验",
+          "甲状腺功能全套（TSH、FT3、FT4、TRAb）",
+          "心电图、超声心动图/动态心电图",
+          "腹部增强CT/MRI或超声明确肝内病变性质",
+          "支气管镜及病灶/肝病灶穿刺病理活检",
+          "血培养（疑肝脓肿或重症感染时）",
+          "肿瘤标志物（CEA、CYFRA21-1、NSE等）"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.85,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": 1,
+  "terminated_by": "eta",
+  "finalization_used": false,
+  "agent_missing_evidence": [
+    {
+      "disease": "肺结核",
+      "missing": [
+        "需痰涂片抗酸染色排除",
+        "需结核分枝杆菌培养排除",
+        "需T-SPOT排除"
+      ],
+      "suggested_exams": [
+        "痰涂片抗酸染色",
+        "结核分枝杆菌培养",
+        "T-SPOT"
+      ]
+    },
+    {
+      "disease": "支气管肺癌伴肝转移可能",
+      "missing": [
+        "需胸部增强CT排除",
+        "需支气管镜检查排除",
+        "需肝增强MRI排除"
+      ],
+      "suggested_exams": [
+        "胸部增强CT",
+        "支气管镜检查",
+        "肝增强MRI"
+      ]
+    },
+    {
+      "disease": "肝脓肿",
+      "missing": [
+        "需肝增强CT排除",
+        "需血培养排除",
+        "需PCT排除"
+      ],
+      "suggested_exams": [
+        "肝增强CT",
+        "血培养",
+        "PCT"
+      ]
+    },
+    {
+      "disease": "甲状腺毒症（甲亢未控制）",
+      "missing": [
+        "需FT3排除",
+        "需TRAb排除",
+        "需甲状腺超声排除"
+      ],
+      "suggested_exams": [
+        "FT3",
+        "TRAb",
+        "甲状腺超声"
+      ]
+    },
+    {
+      "disease": "甲亢性心脏病可能",
+      "missing": [
+        "需心脏彩超排除",
+        "需24小时动态心电图排除",
+        "需BNP排除"
+      ],
+      "suggested_exams": [
+        "心脏彩超",
+        "24小时动态心电图",
+        "BNP"
+      ]
+    }
+  ]
+}

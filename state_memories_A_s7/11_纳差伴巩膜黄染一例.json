@@ -1,0 +1,941 @@
+{
+  "case_id": "11_纳差伴巩膜黄染一例",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "24岁"
+  },
+  "chief_complaint": "24岁，职工，男性 主因：纳差伴巩膜黄染2天入院。",
+  "present_illness": "患者于入院前2天无明显诱因出现纳差,伴巩膜轻度黄染,无恶心、呕吐,无烧心、反酸,无明显腹痛、腹胀,就诊于我院门诊,查肝功能示:总胆红素31.22umol/L直接胆红素16.67umol/L谷丙转氨酶1332.7U/L谷草转氨酶807.6U/L,为求进一步治疗收入我科,故以“肝功能异常”收入院。自发病以来,患者精神可,饮食差,睡眠尚可,小便频,大便量少,近期体重无明显变化。",
+  "dept_l1": "内科",
+  "dept_l2": [
+    "消化内科"
+  ],
+  "past_history": "无高血压、糖尿病及冠状动脉粥样硬化性心脏病病史,无外伤、手术及输血史,否认肝炎、结核及其他传染病史,无食物及药物过敏史。",
+  "hypothesis_illness": [
+    {
+      "name": "急性病毒性肝炎",
+      "disease": "急性病毒性肝炎",
+      "evidence": [
+        "24岁男性",
+        "急性纳差伴巩膜黄染",
+        "ALT/AST显著升高"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "name": "药物性肝损伤",
+      "disease": "药物性肝损伤",
+      "evidence": [
+        "急性肝功能异常",
+        "转氨酶显著升高"
+      ],
+      "confidence": 0.35
+    },
+    {
+      "name": "自身免疫性肝炎",
+      "disease": "自身免疫性肝炎",
+      "evidence": [
+        "年轻男性",
+        "重度肝细胞损伤"
+      ],
+      "confidence": 0.3
+    },
+    {
+      "name": "肝豆状核变性（Wilson病）",
+      "disease": "肝豆状核变性（Wilson病）",
+      "evidence": [
+        "24岁",
+        "急性肝损伤伴黄疸"
+      ],
+      "confidence": 0.25
+    },
+    {
+      "name": "胆道梗阻/胆管病变",
+      "disease": "胆道梗阻/胆管病变",
+      "evidence": [
+        "直接胆红素比例稍高"
+      ],
+      "confidence": 0.2
+    },
+    {
+      "name": "EBV/CMV肝炎",
+      "disease": "EBV/CMV肝炎",
+      "evidence": [
+        "年轻男性",
+        "急性肝损伤"
+      ],
+      "confidence": 0.25
+    }
+  ],
+  "physical_exams": {
+    "腹部检查": "腹软,无压痛,无反跳痛及肌紧张,肝脾未及,肠鸣音可"
+  },
+  "auxiliary_exams": {
+    "超声": "入院查腹部B超未见明显异常",
+    "血液学检查": "我院查肝功能示:总胆红素31.22umol/L直接胆红素16.67umol/L谷丙转氨1332.7U/L谷草转氨酶807.6U/L"
+  },
+  "imaging_results": {
+    "超声": "入院查腹部B超未见明显异常"
+  },
+  "completed_physical_exams": [
+    "腹部检查"
+  ],
+  "completed_auxiliary_exams": [
+    "超声",
+    "血液学检查"
+  ],
+  "completed_imaging_exams": [
+    "超声"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "腹部检查"
+  ],
+  "predicted_auxiliary_exams": [
+    "血液学检查",
+    "超声"
+  ],
+  "diagnosis_result": [
+    "急性病毒性肝炎"
+  ],
+  "treatment_plan": [],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "pending"
+  },
+  "recheck_total": 1,
+  "max_recheck": 3,
+  "mcts_trajectory": [
+    "a_back",
+    "task2_doctor",
+    "task4_diagnosis",
+    "task3_imaging"
+  ],
+  "mcts_step": 4,
+  "mcts_eta": 4,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "a_back",
+      "source": "committed_backtrack",
+      "mcts_step": 1,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task2_doctor",
+      "source": "committed_backtrack_target",
+      "mcts_step": 2,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 4,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 3,
+      "workflow_stage": "task4_diagnosis"
+    },
+    {
+      "sequence_index": 5,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 4,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [
+    {
+      "event_id": 0,
+      "source": "committed",
+      "target_snapshot_id": 1,
+      "target_workflow_stage": "task1_referral",
+      "requested_action": null,
+      "executed_action": "task2_doctor",
+      "mcts_step": 1
+    }
+  ],
+  "missing_evidence": [
+    "甲型/乙型/丙型/戊型肝炎病毒血清学标志物（HAV IgM、HBsAg、HBcIgM、抗HCV、HEV IgM）",
+    "EBV/CMV血清学或核酸检测",
+    "近期药物、中草药、保健品、酒精及毒物暴露史",
+    "自身免疫性肝炎相关检查（ANA、抗平滑肌抗体、抗LKM1、血清IgG）",
+    "肝豆状核变性相关检查（铜蓝蛋白、血清铜、24小时尿铜、角膜K-F环、溶血相关指标）",
+    "凝血功能（PT/INR）、白蛋白等肝脏合成功能评估",
+    "碱性磷酸酶、GGT及必要时MRCP/ERCP评估胆道梗阻"
+  ],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": true,
+  "top_hypothesis_confidence": 0.75,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "11_纳差伴巩膜黄染一例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "24岁"
+        },
+        "chief_complaint": "24岁，职工，男性 主因：纳差伴巩膜黄染2天入院。",
+        "present_illness": "患者于入院前2天无明显诱因出现纳差,伴巩膜轻度黄染,无恶心、呕吐,无烧心、反酸,无明显腹痛、腹胀,就诊于我院门诊,查肝功能示:总胆红素31.22umol/L直接胆红素16.67umol/L谷丙转氨酶1332.7U/L谷草转氨酶807.6U/L,为求进一步治疗收入我科,故以“肝功能异常”收入院。自发病以来,患者精神可,饮食差,睡眠尚可,小便频,大便量少,近期体重无明显变化。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "无高血压、糖尿病及冠状动脉粥样硬化性心脏病病史,无外伤、手术及输血史,否认肝炎、结核及其他传染病史,无食物及药物过敏史。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "11_纳差伴巩膜黄染一例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "24岁"
+        },
+        "chief_complaint": "24岁，职工，男性 主因：纳差伴巩膜黄染2天入院。",
+        "present_illness": "患者于入院前2天无明显诱因出现纳差,伴巩膜轻度黄染,无恶心、呕吐,无烧心、反酸,无明显腹痛、腹胀,就诊于我院门诊,查肝功能示:总胆红素31.22umol/L直接胆红素16.67umol/L谷丙转氨酶1332.7U/L谷草转氨酶807.6U/L,为求进一步治疗收入我科,故以“肝功能异常”收入院。自发病以来,患者精神可,饮食差,睡眠尚可,小便频,大便量少,近期体重无明显变化。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "消化内科"
+        ],
+        "past_history": "无高血压、糖尿病及冠状动脉粥样硬化性心脏病病史,无外伤、手术及输血史,否认肝炎、结核及其他传染病史,无食物及药物过敏史。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "11_纳差伴巩膜黄染一例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "24岁"
+        },
+        "chief_complaint": "24岁，职工，男性 主因：纳差伴巩膜黄染2天入院。",
+        "present_illness": "患者于入院前2天无明显诱因出现纳差,伴巩膜轻度黄染,无恶心、呕吐,无烧心、反酸,无明显腹痛、腹胀,就诊于我院门诊,查肝功能示:总胆红素31.22umol/L直接胆红素16.67umol/L谷丙转氨酶1332.7U/L谷草转氨酶807.6U/L,为求进一步治疗收入我科,故以“肝功能异常”收入院。自发病以来,患者精神可,饮食差,睡眠尚可,小便频,大便量少,近期体重无明显变化。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "消化内科"
+        ],
+        "past_history": "无高血压、糖尿病及冠状动脉粥样硬化性心脏病病史,无外伤、手术及输血史,否认肝炎、结核及其他传染病史,无食物及药物过敏史。",
+        "hypothesis_illness": [
+          {
+            "name": "急性病毒性肝炎（甲型/戊型/乙型等）",
+            "disease": "急性病毒性肝炎（甲型/戊型/乙型等）",
+            "evidence": [
+              "24岁男性",
+              "急性纳差、巩膜黄染",
+              "ALT 1332.7 U/L，AST 807.6 U/L",
+              "直接胆红素升高"
+            ],
+            "confidence": 0.75
+          },
+          {
+            "name": "药物性肝损伤",
+            "disease": "药物性肝损伤",
+            "evidence": [
+              "急性肝细胞损伤",
+              "无已知病毒性肝炎史"
+            ],
+            "confidence": 0.4
+          },
+          {
+            "name": "自身免疫性肝炎",
+            "disease": "自身免疫性肝炎",
+            "evidence": [
+              "年轻男性",
+              "显著转氨酶升高",
+              "急性肝损伤"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "Wilson病（肝豆状核变性）",
+            "disease": "Wilson病（肝豆状核变性）",
+            "evidence": [
+              "24岁",
+              "急性肝损伤",
+              "无其他明确诱因"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "EB病毒/巨细胞病毒性肝炎",
+            "disease": "EB病毒/巨细胞病毒性肝炎",
+            "evidence": [
+              "年轻",
+              "急性肝损伤"
+            ],
+            "confidence": 0.15
+          },
+          {
+            "name": "急性胆道梗阻/胆管炎",
+            "disease": "急性胆道梗阻/胆管炎",
+            "evidence": [
+              "黄疸"
+            ],
+            "confidence": 0.1
+          }
+        ],
+        "physical_exams": {
+          "腹部检查": "腹软,无压痛,无反跳痛及肌紧张,肝脾未及,肠鸣音可",
+          "皮肤检查": "神志清晰,查体合作,全身皮肤黏膜轻度黄染,无出血点,周身浅表淋巴结无肿大"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "腹部检查",
+          "皮肤检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "血液学检查",
+          "超声",
+          "尿液检查"
+        ],
+        "predicted_physical_exams": [
+          "腹部检查",
+          "皮肤检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "血液学检查",
+          "超声",
+          "尿液检查"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [
+          "病毒性肝炎血清学标志物（抗HAV-IgM、HBsAg、抗HBc-IgM、抗HCV、HEV-IgM/HEV RNA）",
+          "腹部超声或MRCP排除胆道梗阻",
+          "详细用药史及酒精、保健品、毒物暴露史",
+          "自身免疫性肝炎相关检查（ANA、抗SMA、抗LKM-1、IgG）",
+          "Wilson病筛查（血清铜蓝蛋白、24小时尿铜、角膜K-F环）",
+          "EBV/CMV特异性IgM及核酸检测",
+          "凝血功能PT/INR",
+          "ALP、GGT、白蛋白及总/直接胆红素等肝生化补充"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.75,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task1_referral",
+      "reason": "committed_backtrack_restored",
+      "state": {
+        "case_id": "11_纳差伴巩膜黄染一例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "24岁"
+        },
+        "chief_complaint": "24岁，职工，男性 主因：纳差伴巩膜黄染2天入院。",
+        "present_illness": "患者于入院前2天无明显诱因出现纳差,伴巩膜轻度黄染,无恶心、呕吐,无烧心、反酸,无明显腹痛、腹胀,就诊于我院门诊,查肝功能示:总胆红素31.22umol/L直接胆红素16.67umol/L谷丙转氨酶1332.7U/L谷草转氨酶807.6U/L,为求进一步治疗收入我科,故以“肝功能异常”收入院。自发病以来,患者精神可,饮食差,睡眠尚可,小便频,大便量少,近期体重无明显变化。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "消化内科"
+        ],
+        "past_history": "无高血压、糖尿病及冠状动脉粥样硬化性心脏病病史,无外伤、手术及输血史,否认肝炎、结核及其他传染病史,无食物及药物过敏史。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": null,
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 2,
+      "workflow_action_index": 4,
+      "mcts_step": 2,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "11_纳差伴巩膜黄染一例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "24岁"
+        },
+        "chief_complaint": "24岁，职工，男性 主因：纳差伴巩膜黄染2天入院。",
+        "present_illness": "患者于入院前2天无明显诱因出现纳差,伴巩膜轻度黄染,无恶心、呕吐,无烧心、反酸,无明显腹痛、腹胀,就诊于我院门诊,查肝功能示:总胆红素31.22umol/L直接胆红素16.67umol/L谷丙转氨酶1332.7U/L谷草转氨酶807.6U/L,为求进一步治疗收入我科,故以“肝功能异常”收入院。自发病以来,患者精神可,饮食差,睡眠尚可,小便频,大便量少,近期体重无明显变化。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "消化内科"
+        ],
+        "past_history": "无高血压、糖尿病及冠状动脉粥样硬化性心脏病病史,无外伤、手术及输血史,否认肝炎、结核及其他传染病史,无食物及药物过敏史。",
+        "hypothesis_illness": [
+          {
+            "name": "急性病毒性肝炎",
+            "disease": "急性病毒性肝炎",
+            "evidence": [
+              "24岁男性",
+              "急性纳差伴巩膜黄染",
+              "ALT/AST显著升高"
+            ],
+            "confidence": 0.75
+          },
+          {
+            "name": "药物性肝损伤",
+            "disease": "药物性肝损伤",
+            "evidence": [
+              "急性肝功能异常",
+              "转氨酶显著升高"
+            ],
+            "confidence": 0.35
+          },
+          {
+            "name": "自身免疫性肝炎",
+            "disease": "自身免疫性肝炎",
+            "evidence": [
+              "年轻男性",
+              "重度肝细胞损伤"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "肝豆状核变性（Wilson病）",
+            "disease": "肝豆状核变性（Wilson病）",
+            "evidence": [
+              "24岁",
+              "急性肝损伤伴黄疸"
+            ],
+            "confidence": 0.25
+          },
+          {
+            "name": "胆道梗阻/胆管病变",
+            "disease": "胆道梗阻/胆管病变",
+            "evidence": [
+              "直接胆红素比例稍高"
+            ],
+            "confidence": 0.2
+          },
+          {
+            "name": "EBV/CMV肝炎",
+            "disease": "EBV/CMV肝炎",
+            "evidence": [
+              "年轻男性",
+              "急性肝损伤"
+            ],
+            "confidence": 0.25
+          }
+        ],
+        "physical_exams": {
+          "腹部检查": "腹软,无压痛,无反跳痛及肌紧张,肝脾未及,肠鸣音可"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "腹部检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "血液学检查",
+          "超声"
+        ],
+        "predicted_physical_exams": [
+          "腹部检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "血液学检查",
+          "超声"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor"
+        ],
+        "mcts_step": 2,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": null,
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [
+          "肝功能全套（ALT、AST、ALP、GGT、总胆红素/直接胆红素、白蛋白）及凝血酶原时间/INR",
+          "甲、乙、丙、戊型肝炎病毒血清学标志物及核酸（HAV IgM、HBsAg、HBc IgM、HCV RNA、HEV IgM）",
+          "详细用药史及毒物、保健品、草药暴露史",
+          "自身免疫性肝炎相关自身抗体（ANA、ASMA、抗LKM-1）及免疫球蛋白IgG",
+          "腹部超声或CT/MRCP评估胆道梗阻和肝胆形态",
+          "EBV/CMV血清学抗体或核酸",
+          "血清铜蓝蛋白、24小时尿铜及裂隙灯K-F环检查"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.75,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 5,
+      "trajectory_index": 3,
+      "workflow_action_index": 5,
+      "mcts_step": 3,
+      "workflow_stage": "task4_diagnosis",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "11_纳差伴巩膜黄染一例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "24岁"
+        },
+        "chief_complaint": "24岁，职工，男性 主因：纳差伴巩膜黄染2天入院。",
+        "present_illness": "患者于入院前2天无明显诱因出现纳差,伴巩膜轻度黄染,无恶心、呕吐,无烧心、反酸,无明显腹痛、腹胀,就诊于我院门诊,查肝功能示:总胆红素31.22umol/L直接胆红素16.67umol/L谷丙转氨酶1332.7U/L谷草转氨酶807.6U/L,为求进一步治疗收入我科,故以“肝功能异常”收入院。自发病以来,患者精神可,饮食差,睡眠尚可,小便频,大便量少,近期体重无明显变化。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "消化内科"
+        ],
+        "past_history": "无高血压、糖尿病及冠状动脉粥样硬化性心脏病病史,无外伤、手术及输血史,否认肝炎、结核及其他传染病史,无食物及药物过敏史。",
+        "hypothesis_illness": [
+          {
+            "name": "急性病毒性肝炎",
+            "disease": "急性病毒性肝炎",
+            "evidence": [
+              "24岁男性",
+              "急性纳差伴巩膜黄染",
+              "ALT/AST显著升高"
+            ],
+            "confidence": 0.75
+          },
+          {
+            "name": "药物性肝损伤",
+            "disease": "药物性肝损伤",
+            "evidence": [
+              "急性肝功能异常",
+              "转氨酶显著升高"
+            ],
+            "confidence": 0.35
+          },
+          {
+            "name": "自身免疫性肝炎",
+            "disease": "自身免疫性肝炎",
+            "evidence": [
+              "年轻男性",
+              "重度肝细胞损伤"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "肝豆状核变性（Wilson病）",
+            "disease": "肝豆状核变性（Wilson病）",
+            "evidence": [
+              "24岁",
+              "急性肝损伤伴黄疸"
+            ],
+            "confidence": 0.25
+          },
+          {
+            "name": "胆道梗阻/胆管病变",
+            "disease": "胆道梗阻/胆管病变",
+            "evidence": [
+              "直接胆红素比例稍高"
+            ],
+            "confidence": 0.2
+          },
+          {
+            "name": "EBV/CMV肝炎",
+            "disease": "EBV/CMV肝炎",
+            "evidence": [
+              "年轻男性",
+              "急性肝损伤"
+            ],
+            "confidence": 0.25
+          }
+        ],
+        "physical_exams": {
+          "腹部检查": "腹软,无压痛,无反跳痛及肌紧张,肝脾未及,肠鸣音可"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "腹部检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "血液学检查",
+          "超声"
+        ],
+        "predicted_physical_exams": [
+          "腹部检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "血液学检查",
+          "超声"
+        ],
+        "diagnosis_result": [
+          "急性病毒性肝炎"
+        ],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "completed",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor",
+          "task4_diagnosis"
+        ],
+        "mcts_step": 3,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 4,
+            "action": "task4_diagnosis",
+            "source": "mcts_selected",
+            "mcts_step": 3,
+            "workflow_stage": "task4_diagnosis"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": null,
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [
+          "肝功能全套（ALT/AST/ALP/GGT/总胆红素/直接胆红素/白蛋白）",
+          "凝血功能（PT/INR）",
+          "甲肝、乙肝、丙肝、戊肝病毒标志物及EBV/CMV血清学或核酸检测",
+          "腹部超声或MRCP排除胆道梗阻",
+          "药物/保健品/毒物接触史及对乙酰氨基酚血药浓度",
+          "自身免疫性肝炎相关抗体（ANA/SMA/抗LKM-1/IgG）",
+          "铜蓝蛋白/血清铜/24小时尿铜/眼科KF环",
+          "血常规/肾功能/电解质"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.75,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false,
+        "agent_missing_evidence": []
+      }
+    }
+  ],
+  "active_snapshot_id": 1,
+  "terminated_by": "eta",
+  "finalization_used": false,
+  "agent_missing_evidence": []
+}

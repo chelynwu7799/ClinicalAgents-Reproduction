@@ -1,0 +1,1071 @@
+{
+  "case_id": "12_原发性肝细胞肝癌I期术后二次介入术后伴慢性乙型病毒性肝炎1例",
+  "personal_info": {
+    "性别": "女",
+    "年龄": "53岁"
+  },
+  "chief_complaint": "女性，53岁，已婚，汉族，农民。 确诊肝癌1年余，拟行进一步治疗。",
+  "present_illness": "患者缘于2013-12月初无明显诱因自觉上腹部隐痛不适,伴右侧腰背部麻木感,与饮食无明显关系,休息时明显,活动时症状感觉不明显,无皮肤、巩膜黄染,无恶心、呕吐、腹泻等,无寒颤、发热,就诊于当地中医院行腹部彩超肝实质内不均质回声团大小约4.5*3.9cm,形态规整,边界清晰,内偏低回声为主,其内可见1.4*1.4cm的中强回声,CDFI示不均质回声团周边血流信号丰富,性质待定,后就诊于我院查腹部MRI考虑“肝细胞癌”,后就诊于北京某三级医院,2013-12-26在全麻下行剖腹探查术、右肝肿物切除术、肠粘连松解术,肉眼肿瘤大小约4*4.5*5cm，偶见脉管内癌栓,切缘未见癌组织,术后病理示:(右肝占位)肝细胞肝癌,中一低分化,以假腺泡型及实性型为主,免疫组化:CD34(+)、GPC-3(+)、Hepatocyte(+）、ki-67(index约10-20%)、p53(个别+)、CK19(-)、CK7(灶+)。2014-1-21患者于该院行肝动脉介入化疗栓塞术,术程顺利,术后患者恢复可。后患者每半年复査一次,未见肿瘤复发转移迹象。2015-7-10患者查上腹部MRI考虑复发可能性大,为进一步诊治***。",
+  "dept_l1": "内科",
+  "dept_l2": [
+    "肝病科"
+  ],
+  "past_history": "既往“慢性乙型病毒性肝炎”5年余;否认“冠心病、糖尿病”病史,无结核等传染病史;无手术及外伤史;无药物及其他过敏史;预防接种史不祥,系统回顾无特殊。",
+  "hypothesis_illness": [
+    {
+      "name": "肝细胞癌术后复发",
+      "disease": "肝细胞癌术后复发",
+      "evidence": [
+        "肝细胞癌手术史",
+        "术后TACE",
+        "上腹部MRI提示复发可能",
+        "脉管内癌栓"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "name": "肝癌远处转移",
+      "disease": "肝癌远处转移",
+      "evidence": [
+        "脉管内癌栓",
+        "肝细胞癌复发高风险"
+      ],
+      "confidence": 0.4
+    },
+    {
+      "name": "肝硬化再生结节或异型增生结节",
+      "disease": "肝硬化再生结节或异型增生结节",
+      "evidence": [
+        "慢性乙型病毒性肝炎病史",
+        "肝脏占位"
+      ],
+      "confidence": 0.3
+    },
+    {
+      "name": "肝内胆管细胞癌",
+      "disease": "肝内胆管细胞癌",
+      "evidence": [
+        "肝脏占位"
+      ],
+      "confidence": 0.15
+    },
+    {
+      "name": "肝脓肿",
+      "disease": "肝脓肿",
+      "evidence": [
+        "肝脏占位"
+      ],
+      "confidence": 0.05
+    },
+    {
+      "name": "慢性乙型病毒性肝炎活动",
+      "disease": "慢性乙型病毒性肝炎活动",
+      "evidence": [
+        "乙肝病史"
+      ],
+      "confidence": 0.2
+    }
+  ],
+  "physical_exams": {
+    "腹部检查": "腹平坦,上腹部可见一长约20cm弯曲形状陈旧性手术瘢痕,愈合良好,未见胃肠型及蠕动波,腹软,无压痛,未触及肿块,肝脾肋下未触及,腹部叩诊鼓音,双肾区无叩痛,移动性浊音阴性,肠鸣音正常。"
+  },
+  "auxiliary_exams": {
+    "CT": "胸胸部CT:与原片(2014-12-15)比较:右肺上叶后段、下叶背段高密度影:左肺上叶舌段纤维条索;主动脉硬化;肝小钙化灶:基本同前。",
+    "血液学检查": "血常规、肾功能、电解质、凝血四项、DD基本正常。"
+  },
+  "imaging_results": {
+    "CT": "胸胸部CT:与原片(2014-12-15)比较:右肺上叶后段、下叶背段高密度影:左肺上叶舌段纤维条索;主动脉硬化;肝小钙化灶:基本同前。"
+  },
+  "completed_physical_exams": [
+    "腹部检查"
+  ],
+  "completed_auxiliary_exams": [
+    "CT",
+    "血液学检查"
+  ],
+  "completed_imaging_exams": [
+    "CT"
+  ],
+  "pending_auxiliary_exams": [
+    "超声",
+    "病理检查"
+  ],
+  "predicted_physical_exams": [
+    "腹部检查"
+  ],
+  "predicted_auxiliary_exams": [
+    "CT",
+    "超声",
+    "血液学检查",
+    "病理检查"
+  ],
+  "diagnosis_result": [],
+  "treatment_plan": [],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "pending",
+    "task5_treatment": "pending"
+  },
+  "recheck_total": 1,
+  "max_recheck": 3,
+  "mcts_trajectory": [
+    "a_back",
+    "task2_doctor",
+    "a_rag",
+    "task3_imaging"
+  ],
+  "mcts_step": 4,
+  "mcts_eta": 4,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "a_back",
+      "source": "committed_backtrack",
+      "mcts_step": 1,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task2_doctor",
+      "source": "committed_backtrack_target",
+      "mcts_step": 2,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 4,
+      "action": "a_rag",
+      "source": "mcts_selected",
+      "mcts_step": 3,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 5,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 4,
+      "workflow_stage": "task3_imaging"
+    }
+  ],
+  "backtrack_events": [
+    {
+      "event_id": 0,
+      "source": "committed",
+      "target_snapshot_id": 1,
+      "target_workflow_stage": "task1_referral",
+      "requested_action": "request_auxiliary_exams",
+      "executed_action": "task2_doctor",
+      "mcts_step": 1
+    }
+  ],
+  "missing_evidence": [
+    "肝脏动态增强CT/MRI（动脉期/门静脉期/延迟期）及门静脉、肝静脉癌栓评估",
+    "血清肿瘤标志物：AFP、异常凝血酶原（DCP/PIVKA-II）、CA19-9",
+    "肝功能、HBV-DNA及乙肝血清标志物",
+    "肝脏病灶或可疑转移灶病理活检/免疫组化",
+    "胸腹盆腔增强CT或全身PET-CT评估远处转移",
+    "既往肝脏手术病理及TACE前后影像资料"
+  ],
+  "potential_missing_evidence": [
+    "一般检查",
+    "头颅眼耳鼻喉检查",
+    "颈部检查",
+    "胸部检查",
+    "腹部检查",
+    "脊柱和四肢检查",
+    "神经系统检查",
+    "CT"
+  ],
+  "experience_knowledge": [
+    "【基本信息】男，61岁，农民 24907.jpg",
+    "【基本信息】男，14岁，学生 【发病原因】乙肝病毒感染 【临床诊断】1.慢性病毒性肝炎 乙型 2.脂肪肝 3，窦性心动过速 【治疗方案】护肝保肝治疗：如异甘草酸镁，促肝细胞生长素等，适时抗病毒治疗（富马酸替诺福韦） 【治疗结果】病情好转 【病案重点】乙肝病毒感染 19390.png 19391.png 19392.png 19393.png 19394.png 19395.png 19396.png 19397.png",
+    "【基本信息】女，29岁，职员 24926.jpg"
+  ],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [
+    {
+      "case_id": "11637_腹胀、腹痛患者一例",
+      "text": "腹胀、腹痛2个月余，加重1天。 患者缘于2月余前无诱因出现腹胀，腹痛，厌食、乏力，就诊于青龙县医院，行腹部增强CT检查示：肝硬化，肝左叶较著，考虑肝左叶弥漫性肝癌伴门静脉左支及主干瘤栓形成，脾大，肝内余处多发微小乏血供结节，胆囊饱满。诊断为“肝恶性肿瘤、乙型肝炎后肝硬化”，予“保肝降酶、抗病毒、抗肿瘤”等药物治疗（具体药名及剂量不详）后病情好转出院。1天前患者腹痛加重，以右上腹为主，呈持续性胀痛，厌食、乏力加重，无寒颤发热，无意识障碍，无呕血及黑便，无未用药治疗，为系统治疗而入我院。 1.原发性肝癌  2.肝炎后肝硬化（失代偿期） 3.慢性病毒性乙型肝炎 1.原发性肝癌  2.肝炎后肝硬化（失代偿期） 3.慢性病毒性乙型肝炎 肝脓肿：临床表现为发热、肝区疼痛、压痛明显，肿大肝脏表面平滑无结节。白细胞计数和中性粒细胞升高。多次超声检查可发现脓肿的液性暗区。必要时在超声引导下做诊断性穿刺或药物试验性治疗以明确诊断。 本例患者是由于慢性病毒性乙型肝炎未及时治疗，发展为肝硬化失代偿期、原发性肝癌，可以通过肝脏加强CT检查明确诊断。慢性病毒性乙型肝炎患者一定要引起足够重视，定期复查乙肝病毒指数和肝功能，如果乙肝病毒指数明显升高，肝功能明显异常，应早期抗病毒治疗，以免病情进一步恶化。本患者已经发展到晚期，失去手术机会，只能采取保守治疗，可以使用保肝降酶、利尿、营养支持、止痛等药物治疗，如果出现大量腹水，可以采取腹腔穿刺防水，减轻患者痛苦，延长寿命。",
+      "summary": "【基本信息】男，61岁，农民 24907.jpg",
+      "exams": [
+        "一般检查",
+        "头颅眼耳鼻喉检查",
+        "颈部检查",
+        "胸部检查",
+        "腹部检查",
+        "脊柱和四肢检查",
+        "神经系统检查",
+        "CT",
+        "血液学检查"
+      ],
+      "similarity": 0.08297586036060216
+    },
+    {
+      "case_id": "9480_慢性病毒性乙型肝炎青少年如何治疗？",
+      "text": "乏力、纳差一周 患儿一周前开始渐感乏力，尤以活动后明显，饮食减少，无恶心及呕吐，无咳嗽及发热，无头昏头痛，无腹痛腹泻，在外体检发现肝功能异常，今到本院就诊，门诊以\"慢性病毒性肝炎 乙型\"收入住院。 1.慢性病毒性肝炎 乙型 2.脂肪肝 1.慢性病毒性肝炎 乙型 2.脂肪肝 3，窦性心动过速 本病应与急性病毒性肝炎、慢性丙型病毒性肝炎、酒精性肝炎、自身免疫性肝炎、药物性肝炎、肝硬化等鉴别。依据各自疾病的临床特点及相关辅检可以鉴别。 本病需与以下疾病鉴别： 1.支气管异物：当有呼吸道阻塞伴感染时，其呼吸道症状与急性气管炎相似，应注意询问有无呼吸道异物吸入史，经治疗后，疗效不好，迁延不愈，反复发作。胸部X线检查表现有肺不张、肺气肿等梗阻现象。必要时可行纤支镜检查。 2.急性支气管炎：全身症状轻，一般无明显的呼吸困难及缺氧症状，肺部闻及中湿啰音，多不固定，随咳嗽而改变。 3.急性粟粒性肺结核：粟粒性肺结核也可表现高热、气促、咳嗽、紫绀等与肺炎相似症状，但肺部罗音常不明显。根具有结核病接触史、结核菌素试验阳性及X线检查肺部呈粟粒状阴影可资鉴别。 4.支原体肺炎：应注意排除有无支原体及衣原体感染。MP-IgM及CPN-IgM有助鉴别。继续加强抗感染，对症支持治疗，完善相关检查，密切观察病情变化。",
+      "summary": "【基本信息】男，14岁，学生 【发病原因】乙肝病毒感染 【临床诊断】1.慢性病毒性肝炎 乙型 2.脂肪肝 3，窦性心动过速 【治疗方案】护肝保肝治疗：如异甘草酸镁，促肝细胞生长素等，适时抗病毒治疗（富马酸替诺福韦） 【治疗结果】病情好转 【病案重点】乙肝病毒感染 19390.png 19391.png 19392.png 19393.png 19394.png 19395.png 19396.png 19397.png",
+      "exams": [
+        "一般检查",
+        "颈部检查",
+        "胸部检查",
+        "腹部检查",
+        "脊柱和四肢检查",
+        "皮肤检查",
+        "超声",
+        "血液学检查",
+        "内镜检查"
+      ],
+      "similarity": 0.07456874470580785
+    },
+    {
+      "case_id": "11658_瘢痕子宫不规律下腹痛一例",
+      "text": "女性,29岁,职员 三胎孕足月头位，不规律下腹痛3小时 平素月经7/30天，末次月经2017-12-20，预产期2018-09-26，早孕期超声符合孕周，孕期定期产检，唐氏筛查低风险，糖耐量试验及甲状腺功能未见异常，系统超声及四维超声未见明显异常，现三胎孕足月头位，不规律下腹痛3小时，未见红，未破水入院。 1.孕38+6周第三胎头位 先兆临产\r\n2.瘢痕子宫\r\n3.乙型病毒性肝炎病原携带 1.孕38+6周第三胎头位 先兆临产\r\n2.瘢痕子宫\r\n3.乙型病毒性肝炎病原携带 1.急性阑尾炎，患者无转移性下腹痛，无恶心、呕吐，无发热可除外。\r\n2.急性胃肠炎，患者无不洁食物饮食史，无恶心，呕吐，腹泻及持续性脐周痛可鉴别。 患者两次剖宫产史，剖宫产终止妊娠相对母胎安全。积极术前准备。",
+      "summary": "【基本信息】女，29岁，职员 24926.jpg",
+      "exams": [
+        "一般检查",
+        "胸部检查",
+        "泌尿生殖系统检查",
+        "超声"
+      ],
+      "similarity": 0.07249231529921499
+    }
+  ],
+  "evidence_importance": {},
+  "experience_memory_available": true,
+  "top_hypothesis_confidence": 0.85,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "12_原发性肝细胞肝癌I期术后二次介入术后伴慢性乙型病毒性肝炎1例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "53岁"
+        },
+        "chief_complaint": "女性，53岁，已婚，汉族，农民。 确诊肝癌1年余，拟行进一步治疗。",
+        "present_illness": "患者缘于2013-12月初无明显诱因自觉上腹部隐痛不适,伴右侧腰背部麻木感,与饮食无明显关系,休息时明显,活动时症状感觉不明显,无皮肤、巩膜黄染,无恶心、呕吐、腹泻等,无寒颤、发热,就诊于当地中医院行腹部彩超肝实质内不均质回声团大小约4.5*3.9cm,形态规整,边界清晰,内偏低回声为主,其内可见1.4*1.4cm的中强回声,CDFI示不均质回声团周边血流信号丰富,性质待定,后就诊于我院查腹部MRI考虑“肝细胞癌”,后就诊于北京某三级医院,2013-12-26在全麻下行剖腹探查术、右肝肿物切除术、肠粘连松解术,肉眼肿瘤大小约4*4.5*5cm，偶见脉管内癌栓,切缘未见癌组织,术后病理示:(右肝占位)肝细胞肝癌,中一低分化,以假腺泡型及实性型为主,免疫组化:CD34(+)、GPC-3(+)、Hepatocyte(+）、ki-67(index约10-20%)、p53(个别+)、CK19(-)、CK7(灶+)。2014-1-21患者于该院行肝动脉介入化疗栓塞术,术程顺利,术后患者恢复可。后患者每半年复査一次,未见肿瘤复发转移迹象。2015-7-10患者查上腹部MRI考虑复发可能性大,为进一步诊治***。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "既往“慢性乙型病毒性肝炎”5年余;否认“冠心病、糖尿病”病史,无结核等传染病史;无手术及外伤史;无药物及其他过敏史;预防接种史不祥,系统回顾无特殊。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "12_原发性肝细胞肝癌I期术后二次介入术后伴慢性乙型病毒性肝炎1例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "53岁"
+        },
+        "chief_complaint": "女性，53岁，已婚，汉族，农民。 确诊肝癌1年余，拟行进一步治疗。",
+        "present_illness": "患者缘于2013-12月初无明显诱因自觉上腹部隐痛不适,伴右侧腰背部麻木感,与饮食无明显关系,休息时明显,活动时症状感觉不明显,无皮肤、巩膜黄染,无恶心、呕吐、腹泻等,无寒颤、发热,就诊于当地中医院行腹部彩超肝实质内不均质回声团大小约4.5*3.9cm,形态规整,边界清晰,内偏低回声为主,其内可见1.4*1.4cm的中强回声,CDFI示不均质回声团周边血流信号丰富,性质待定,后就诊于我院查腹部MRI考虑“肝细胞癌”,后就诊于北京某三级医院,2013-12-26在全麻下行剖腹探查术、右肝肿物切除术、肠粘连松解术,肉眼肿瘤大小约4*4.5*5cm，偶见脉管内癌栓,切缘未见癌组织,术后病理示:(右肝占位)肝细胞肝癌,中一低分化,以假腺泡型及实性型为主,免疫组化:CD34(+)、GPC-3(+)、Hepatocyte(+）、ki-67(index约10-20%)、p53(个别+)、CK19(-)、CK7(灶+)。2014-1-21患者于该院行肝动脉介入化疗栓塞术,术程顺利,术后患者恢复可。后患者每半年复査一次,未见肿瘤复发转移迹象。2015-7-10患者查上腹部MRI考虑复发可能性大,为进一步诊治***。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科"
+        ],
+        "past_history": "既往“慢性乙型病毒性肝炎”5年余;否认“冠心病、糖尿病”病史,无结核等传染病史;无手术及外伤史;无药物及其他过敏史;预防接种史不祥,系统回顾无特殊。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "12_原发性肝细胞肝癌I期术后二次介入术后伴慢性乙型病毒性肝炎1例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "53岁"
+        },
+        "chief_complaint": "女性，53岁，已婚，汉族，农民。 确诊肝癌1年余，拟行进一步治疗。",
+        "present_illness": "患者缘于2013-12月初无明显诱因自觉上腹部隐痛不适,伴右侧腰背部麻木感,与饮食无明显关系,休息时明显,活动时症状感觉不明显,无皮肤、巩膜黄染,无恶心、呕吐、腹泻等,无寒颤、发热,就诊于当地中医院行腹部彩超肝实质内不均质回声团大小约4.5*3.9cm,形态规整,边界清晰,内偏低回声为主,其内可见1.4*1.4cm的中强回声,CDFI示不均质回声团周边血流信号丰富,性质待定,后就诊于我院查腹部MRI考虑“肝细胞癌”,后就诊于北京某三级医院,2013-12-26在全麻下行剖腹探查术、右肝肿物切除术、肠粘连松解术,肉眼肿瘤大小约4*4.5*5cm，偶见脉管内癌栓,切缘未见癌组织,术后病理示:(右肝占位)肝细胞肝癌,中一低分化,以假腺泡型及实性型为主,免疫组化:CD34(+)、GPC-3(+)、Hepatocyte(+）、ki-67(index约10-20%)、p53(个别+)、CK19(-)、CK7(灶+)。2014-1-21患者于该院行肝动脉介入化疗栓塞术,术程顺利,术后患者恢复可。后患者每半年复査一次,未见肿瘤复发转移迹象。2015-7-10患者查上腹部MRI考虑复发可能性大,为进一步诊治***。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科"
+        ],
+        "past_history": "既往“慢性乙型病毒性肝炎”5年余;否认“冠心病、糖尿病”病史,无结核等传染病史;无手术及外伤史;无药物及其他过敏史;预防接种史不祥,系统回顾无特殊。",
+        "hypothesis_illness": [
+          {
+            "name": "肝细胞肝癌术后复发",
+            "disease": "肝细胞肝癌术后复发",
+            "evidence": [
+              "肝癌病史1年余",
+              "术后TACE史",
+              "上腹部MRI考虑复发可能性大",
+              "原发灶中低分化伴脉管癌栓"
+            ],
+            "confidence": 0.85
+          },
+          {
+            "name": "慢性乙型病毒性肝炎活动",
+            "disease": "慢性乙型病毒性肝炎活动",
+            "evidence": [
+              "慢性乙型病毒性肝炎5年余",
+              "肝癌基础肝病"
+            ],
+            "confidence": 0.5
+          },
+          {
+            "name": "肝硬化再生结节/不典型增生结节",
+            "disease": "肝硬化再生结节/不典型增生结节",
+            "evidence": [
+              "慢性乙肝背景",
+              "肝癌术后肝内新发结节"
+            ],
+            "confidence": 0.4
+          },
+          {
+            "name": "肝癌肝外转移",
+            "disease": "肝癌肝外转移",
+            "evidence": [
+              "原发灶中低分化",
+              "原发灶偶见脉管内癌栓",
+              "肝癌术后复发风险高"
+            ],
+            "confidence": 0.35
+          },
+          {
+            "name": "胆管细胞癌",
+            "disease": "胆管细胞癌",
+            "evidence": [
+              "原发HCC术后，免疫组化CK7灶阳性"
+            ],
+            "confidence": 0.2
+          },
+          {
+            "name": "转移性肝癌",
+            "disease": "转移性肝癌",
+            "evidence": [
+              "肝内新发病灶"
+            ],
+            "confidence": 0.15
+          },
+          {
+            "name": "肝脓肿",
+            "disease": "肝脓肿",
+            "evidence": [
+              "肝内占位"
+            ],
+            "confidence": 0.1
+          },
+          {
+            "name": "肝血管瘤",
+            "disease": "肝血管瘤",
+            "evidence": [
+              "肝内占位"
+            ],
+            "confidence": 0.1
+          }
+        ],
+        "physical_exams": {
+          "腹部检查": "腹平坦,上腹部可见一长约20cm弯曲形状陈旧性手术瘢痕,愈合良好,未见胃肠型及蠕动波,腹软,无压痛,未触及肿块,肝脾肋下未触及,腹部叩诊鼓音,双肾区无叩痛,移动性浊音阴性,肠鸣音正常。"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "腹部检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "MRI",
+          "CT",
+          "血液学检查"
+        ],
+        "predicted_physical_exams": [
+          "腹部检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "MRI",
+          "CT",
+          "血液学检查"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [
+          "上腹部增强MRI/CT（含肝细胞特异性对比剂）及与既往影像对比",
+          "血清AFP、异常凝血酶原(PIVKA-II/DCP)及CA19-9",
+          "胸部及全腹部增强CT或PET-CT评估肝外转移",
+          "肝内病灶穿刺活检病理及免疫组化（GPC3/HepPar1/CK7/CK19等）",
+          "HBV-DNA、乙肝血清标志物及肝功能",
+          "血常规、CRP/PCT等感染相关指标"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.85,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task1_referral",
+      "reason": "committed_backtrack_restored",
+      "state": {
+        "case_id": "12_原发性肝细胞肝癌I期术后二次介入术后伴慢性乙型病毒性肝炎1例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "53岁"
+        },
+        "chief_complaint": "女性，53岁，已婚，汉族，农民。 确诊肝癌1年余，拟行进一步治疗。",
+        "present_illness": "患者缘于2013-12月初无明显诱因自觉上腹部隐痛不适,伴右侧腰背部麻木感,与饮食无明显关系,休息时明显,活动时症状感觉不明显,无皮肤、巩膜黄染,无恶心、呕吐、腹泻等,无寒颤、发热,就诊于当地中医院行腹部彩超肝实质内不均质回声团大小约4.5*3.9cm,形态规整,边界清晰,内偏低回声为主,其内可见1.4*1.4cm的中强回声,CDFI示不均质回声团周边血流信号丰富,性质待定,后就诊于我院查腹部MRI考虑“肝细胞癌”,后就诊于北京某三级医院,2013-12-26在全麻下行剖腹探查术、右肝肿物切除术、肠粘连松解术,肉眼肿瘤大小约4*4.5*5cm，偶见脉管内癌栓,切缘未见癌组织,术后病理示:(右肝占位)肝细胞肝癌,中一低分化,以假腺泡型及实性型为主,免疫组化:CD34(+)、GPC-3(+)、Hepatocyte(+）、ki-67(index约10-20%)、p53(个别+)、CK19(-)、CK7(灶+)。2014-1-21患者于该院行肝动脉介入化疗栓塞术,术程顺利,术后患者恢复可。后患者每半年复査一次,未见肿瘤复发转移迹象。2015-7-10患者查上腹部MRI考虑复发可能性大,为进一步诊治***。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科"
+        ],
+        "past_history": "既往“慢性乙型病毒性肝炎”5年余;否认“冠心病、糖尿病”病史,无结核等传染病史;无手术及外伤史;无药物及其他过敏史;预防接种史不祥,系统回顾无特殊。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exams",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 2,
+      "workflow_action_index": 4,
+      "mcts_step": 2,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "12_原发性肝细胞肝癌I期术后二次介入术后伴慢性乙型病毒性肝炎1例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "53岁"
+        },
+        "chief_complaint": "女性，53岁，已婚，汉族，农民。 确诊肝癌1年余，拟行进一步治疗。",
+        "present_illness": "患者缘于2013-12月初无明显诱因自觉上腹部隐痛不适,伴右侧腰背部麻木感,与饮食无明显关系,休息时明显,活动时症状感觉不明显,无皮肤、巩膜黄染,无恶心、呕吐、腹泻等,无寒颤、发热,就诊于当地中医院行腹部彩超肝实质内不均质回声团大小约4.5*3.9cm,形态规整,边界清晰,内偏低回声为主,其内可见1.4*1.4cm的中强回声,CDFI示不均质回声团周边血流信号丰富,性质待定,后就诊于我院查腹部MRI考虑“肝细胞癌”,后就诊于北京某三级医院,2013-12-26在全麻下行剖腹探查术、右肝肿物切除术、肠粘连松解术,肉眼肿瘤大小约4*4.5*5cm，偶见脉管内癌栓,切缘未见癌组织,术后病理示:(右肝占位)肝细胞肝癌,中一低分化,以假腺泡型及实性型为主,免疫组化:CD34(+)、GPC-3(+)、Hepatocyte(+）、ki-67(index约10-20%)、p53(个别+)、CK19(-)、CK7(灶+)。2014-1-21患者于该院行肝动脉介入化疗栓塞术,术程顺利,术后患者恢复可。后患者每半年复査一次,未见肿瘤复发转移迹象。2015-7-10患者查上腹部MRI考虑复发可能性大,为进一步诊治***。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科"
+        ],
+        "past_history": "既往“慢性乙型病毒性肝炎”5年余;否认“冠心病、糖尿病”病史,无结核等传染病史;无手术及外伤史;无药物及其他过敏史;预防接种史不祥,系统回顾无特殊。",
+        "hypothesis_illness": [
+          {
+            "name": "肝细胞癌术后复发",
+            "disease": "肝细胞癌术后复发",
+            "evidence": [
+              "肝细胞癌手术史",
+              "术后TACE",
+              "上腹部MRI提示复发可能",
+              "脉管内癌栓"
+            ],
+            "confidence": 0.85
+          },
+          {
+            "name": "肝癌远处转移",
+            "disease": "肝癌远处转移",
+            "evidence": [
+              "脉管内癌栓",
+              "肝细胞癌复发高风险"
+            ],
+            "confidence": 0.4
+          },
+          {
+            "name": "肝硬化再生结节或异型增生结节",
+            "disease": "肝硬化再生结节或异型增生结节",
+            "evidence": [
+              "慢性乙型病毒性肝炎病史",
+              "肝脏占位"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "肝内胆管细胞癌",
+            "disease": "肝内胆管细胞癌",
+            "evidence": [
+              "肝脏占位"
+            ],
+            "confidence": 0.15
+          },
+          {
+            "name": "肝脓肿",
+            "disease": "肝脓肿",
+            "evidence": [
+              "肝脏占位"
+            ],
+            "confidence": 0.05
+          },
+          {
+            "name": "慢性乙型病毒性肝炎活动",
+            "disease": "慢性乙型病毒性肝炎活动",
+            "evidence": [
+              "乙肝病史"
+            ],
+            "confidence": 0.2
+          }
+        ],
+        "physical_exams": {
+          "腹部检查": "腹平坦,上腹部可见一长约20cm弯曲形状陈旧性手术瘢痕,愈合良好,未见胃肠型及蠕动波,腹软,无压痛,未触及肿块,肝脾肋下未触及,腹部叩诊鼓音,双肾区无叩痛,移动性浊音阴性,肠鸣音正常。"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "腹部检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "CT",
+          "超声",
+          "血液学检查",
+          "病理检查"
+        ],
+        "predicted_physical_exams": [
+          "腹部检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "CT",
+          "超声",
+          "血液学检查",
+          "病理检查"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor"
+        ],
+        "mcts_step": 2,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exams",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [
+          "动态增强MRI/CT影像及规范化报告（病灶大小、数目、动脉期强化、门静脉/延迟期廓清、包膜、脉管癌栓范围），并与既往术后/介入后影像对比",
+          "血清甲胎蛋白（AFP）及异常凝血酶原（DCP/PIVKA-II）等肝癌肿瘤标志物",
+          "胸部、腹部、盆腔增强CT或全身PET-CT/骨扫描等肝外转移评估",
+          "可疑复发灶穿刺活检或病理学证据，与既往肝癌病理对比",
+          "乙肝两对半、HBV DNA、肝肾功能、凝血功能及Child-Pugh评分等基础肝病活动性与储备功能评估"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.85,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 5,
+      "trajectory_index": 3,
+      "workflow_action_index": 5,
+      "mcts_step": 3,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "12_原发性肝细胞肝癌I期术后二次介入术后伴慢性乙型病毒性肝炎1例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "53岁"
+        },
+        "chief_complaint": "女性，53岁，已婚，汉族，农民。 确诊肝癌1年余，拟行进一步治疗。",
+        "present_illness": "患者缘于2013-12月初无明显诱因自觉上腹部隐痛不适,伴右侧腰背部麻木感,与饮食无明显关系,休息时明显,活动时症状感觉不明显,无皮肤、巩膜黄染,无恶心、呕吐、腹泻等,无寒颤、发热,就诊于当地中医院行腹部彩超肝实质内不均质回声团大小约4.5*3.9cm,形态规整,边界清晰,内偏低回声为主,其内可见1.4*1.4cm的中强回声,CDFI示不均质回声团周边血流信号丰富,性质待定,后就诊于我院查腹部MRI考虑“肝细胞癌”,后就诊于北京某三级医院,2013-12-26在全麻下行剖腹探查术、右肝肿物切除术、肠粘连松解术,肉眼肿瘤大小约4*4.5*5cm，偶见脉管内癌栓,切缘未见癌组织,术后病理示:(右肝占位)肝细胞肝癌,中一低分化,以假腺泡型及实性型为主,免疫组化:CD34(+)、GPC-3(+)、Hepatocyte(+）、ki-67(index约10-20%)、p53(个别+)、CK19(-)、CK7(灶+)。2014-1-21患者于该院行肝动脉介入化疗栓塞术,术程顺利,术后患者恢复可。后患者每半年复査一次,未见肿瘤复发转移迹象。2015-7-10患者查上腹部MRI考虑复发可能性大,为进一步诊治***。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科"
+        ],
+        "past_history": "既往“慢性乙型病毒性肝炎”5年余;否认“冠心病、糖尿病”病史,无结核等传染病史;无手术及外伤史;无药物及其他过敏史;预防接种史不祥,系统回顾无特殊。",
+        "hypothesis_illness": [
+          {
+            "name": "肝细胞癌术后复发",
+            "disease": "肝细胞癌术后复发",
+            "evidence": [
+              "肝细胞癌手术史",
+              "术后TACE",
+              "上腹部MRI提示复发可能",
+              "脉管内癌栓"
+            ],
+            "confidence": 0.85
+          },
+          {
+            "name": "肝癌远处转移",
+            "disease": "肝癌远处转移",
+            "evidence": [
+              "脉管内癌栓",
+              "肝细胞癌复发高风险"
+            ],
+            "confidence": 0.4
+          },
+          {
+            "name": "肝硬化再生结节或异型增生结节",
+            "disease": "肝硬化再生结节或异型增生结节",
+            "evidence": [
+              "慢性乙型病毒性肝炎病史",
+              "肝脏占位"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "肝内胆管细胞癌",
+            "disease": "肝内胆管细胞癌",
+            "evidence": [
+              "肝脏占位"
+            ],
+            "confidence": 0.15
+          },
+          {
+            "name": "肝脓肿",
+            "disease": "肝脓肿",
+            "evidence": [
+              "肝脏占位"
+            ],
+            "confidence": 0.05
+          },
+          {
+            "name": "慢性乙型病毒性肝炎活动",
+            "disease": "慢性乙型病毒性肝炎活动",
+            "evidence": [
+              "乙肝病史"
+            ],
+            "confidence": 0.2
+          }
+        ],
+        "physical_exams": {
+          "腹部检查": "腹平坦,上腹部可见一长约20cm弯曲形状陈旧性手术瘢痕,愈合良好,未见胃肠型及蠕动波,腹软,无压痛,未触及肿块,肝脾肋下未触及,腹部叩诊鼓音,双肾区无叩痛,移动性浊音阴性,肠鸣音正常。"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "腹部检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "CT",
+          "超声",
+          "血液学检查",
+          "病理检查"
+        ],
+        "predicted_physical_exams": [
+          "腹部检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "CT",
+          "超声",
+          "血液学检查",
+          "病理检查"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor",
+          "a_rag"
+        ],
+        "mcts_step": 3,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 4,
+            "action": "a_rag",
+            "source": "mcts_selected",
+            "mcts_step": 3,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exams",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [
+          "近期肝脏增强MRI/CT及与既往影像对比",
+          "血清肿瘤标志物（AFP、异常凝血酶原、CA19-9）",
+          "肝脏占位穿刺病理或术后病理复核",
+          "胸部CT或PET-CT等全身转移评估",
+          "肝功能、乙肝病毒学标志物及HBV DNA",
+          "感染相关指标（血常规、CRP、PCT、血培养）"
+        ],
+        "potential_missing_evidence": [
+          "一般检查",
+          "头颅眼耳鼻喉检查",
+          "颈部检查",
+          "胸部检查",
+          "腹部检查",
+          "脊柱和四肢检查",
+          "神经系统检查",
+          "CT"
+        ],
+        "experience_knowledge": [
+          "【基本信息】男，61岁，农民 24907.jpg",
+          "【基本信息】男，14岁，学生 【发病原因】乙肝病毒感染 【临床诊断】1.慢性病毒性肝炎 乙型 2.脂肪肝 3，窦性心动过速 【治疗方案】护肝保肝治疗：如异甘草酸镁，促肝细胞生长素等，适时抗病毒治疗（富马酸替诺福韦） 【治疗结果】病情好转 【病案重点】乙肝病毒感染 19390.png 19391.png 19392.png 19393.png 19394.png 19395.png 19396.png 19397.png",
+          "【基本信息】女，29岁，职员 24926.jpg"
+        ],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [
+          {
+            "case_id": "11637_腹胀、腹痛患者一例",
+            "text": "腹胀、腹痛2个月余，加重1天。 患者缘于2月余前无诱因出现腹胀，腹痛，厌食、乏力，就诊于青龙县医院，行腹部增强CT检查示：肝硬化，肝左叶较著，考虑肝左叶弥漫性肝癌伴门静脉左支及主干瘤栓形成，脾大，肝内余处多发微小乏血供结节，胆囊饱满。诊断为“肝恶性肿瘤、乙型肝炎后肝硬化”，予“保肝降酶、抗病毒、抗肿瘤”等药物治疗（具体药名及剂量不详）后病情好转出院。1天前患者腹痛加重，以右上腹为主，呈持续性胀痛，厌食、乏力加重，无寒颤发热，无意识障碍，无呕血及黑便，无未用药治疗，为系统治疗而入我院。 1.原发性肝癌  2.肝炎后肝硬化（失代偿期） 3.慢性病毒性乙型肝炎 1.原发性肝癌  2.肝炎后肝硬化（失代偿期） 3.慢性病毒性乙型肝炎 肝脓肿：临床表现为发热、肝区疼痛、压痛明显，肿大肝脏表面平滑无结节。白细胞计数和中性粒细胞升高。多次超声检查可发现脓肿的液性暗区。必要时在超声引导下做诊断性穿刺或药物试验性治疗以明确诊断。 本例患者是由于慢性病毒性乙型肝炎未及时治疗，发展为肝硬化失代偿期、原发性肝癌，可以通过肝脏加强CT检查明确诊断。慢性病毒性乙型肝炎患者一定要引起足够重视，定期复查乙肝病毒指数和肝功能，如果乙肝病毒指数明显升高，肝功能明显异常，应早期抗病毒治疗，以免病情进一步恶化。本患者已经发展到晚期，失去手术机会，只能采取保守治疗，可以使用保肝降酶、利尿、营养支持、止痛等药物治疗，如果出现大量腹水，可以采取腹腔穿刺防水，减轻患者痛苦，延长寿命。",
+            "summary": "【基本信息】男，61岁，农民 24907.jpg",
+            "exams": [
+              "一般检查",
+              "头颅眼耳鼻喉检查",
+              "颈部检查",
+              "胸部检查",
+              "腹部检查",
+              "脊柱和四肢检查",
+              "神经系统检查",
+              "CT",
+              "血液学检查"
+            ],
+            "similarity": 0.08297586036060216
+          },
+          {
+            "case_id": "9480_慢性病毒性乙型肝炎青少年如何治疗？",
+            "text": "乏力、纳差一周 患儿一周前开始渐感乏力，尤以活动后明显，饮食减少，无恶心及呕吐，无咳嗽及发热，无头昏头痛，无腹痛腹泻，在外体检发现肝功能异常，今到本院就诊，门诊以\"慢性病毒性肝炎 乙型\"收入住院。 1.慢性病毒性肝炎 乙型 2.脂肪肝 1.慢性病毒性肝炎 乙型 2.脂肪肝 3，窦性心动过速 本病应与急性病毒性肝炎、慢性丙型病毒性肝炎、酒精性肝炎、自身免疫性肝炎、药物性肝炎、肝硬化等鉴别。依据各自疾病的临床特点及相关辅检可以鉴别。 本病需与以下疾病鉴别： 1.支气管异物：当有呼吸道阻塞伴感染时，其呼吸道症状与急性气管炎相似，应注意询问有无呼吸道异物吸入史，经治疗后，疗效不好，迁延不愈，反复发作。胸部X线检查表现有肺不张、肺气肿等梗阻现象。必要时可行纤支镜检查。 2.急性支气管炎：全身症状轻，一般无明显的呼吸困难及缺氧症状，肺部闻及中湿啰音，多不固定，随咳嗽而改变。 3.急性粟粒性肺结核：粟粒性肺结核也可表现高热、气促、咳嗽、紫绀等与肺炎相似症状，但肺部罗音常不明显。根具有结核病接触史、结核菌素试验阳性及X线检查肺部呈粟粒状阴影可资鉴别。 4.支原体肺炎：应注意排除有无支原体及衣原体感染。MP-IgM及CPN-IgM有助鉴别。继续加强抗感染，对症支持治疗，完善相关检查，密切观察病情变化。",
+            "summary": "【基本信息】男，14岁，学生 【发病原因】乙肝病毒感染 【临床诊断】1.慢性病毒性肝炎 乙型 2.脂肪肝 3，窦性心动过速 【治疗方案】护肝保肝治疗：如异甘草酸镁，促肝细胞生长素等，适时抗病毒治疗（富马酸替诺福韦） 【治疗结果】病情好转 【病案重点】乙肝病毒感染 19390.png 19391.png 19392.png 19393.png 19394.png 19395.png 19396.png 19397.png",
+            "exams": [
+              "一般检查",
+              "颈部检查",
+              "胸部检查",
+              "腹部检查",
+              "脊柱和四肢检查",
+              "皮肤检查",
+              "超声",
+              "血液学检查",
+              "内镜检查"
+            ],
+            "similarity": 0.07456874470580785
+          },
+          {
+            "case_id": "11658_瘢痕子宫不规律下腹痛一例",
+            "text": "女性,29岁,职员 三胎孕足月头位，不规律下腹痛3小时 平素月经7/30天，末次月经2017-12-20，预产期2018-09-26，早孕期超声符合孕周，孕期定期产检，唐氏筛查低风险，糖耐量试验及甲状腺功能未见异常，系统超声及四维超声未见明显异常，现三胎孕足月头位，不规律下腹痛3小时，未见红，未破水入院。 1.孕38+6周第三胎头位 先兆临产\r\n2.瘢痕子宫\r\n3.乙型病毒性肝炎病原携带 1.孕38+6周第三胎头位 先兆临产\r\n2.瘢痕子宫\r\n3.乙型病毒性肝炎病原携带 1.急性阑尾炎，患者无转移性下腹痛，无恶心、呕吐，无发热可除外。\r\n2.急性胃肠炎，患者无不洁食物饮食史，无恶心，呕吐，腹泻及持续性脐周痛可鉴别。 患者两次剖宫产史，剖宫产终止妊娠相对母胎安全。积极术前准备。",
+            "summary": "【基本信息】女，29岁，职员 24926.jpg",
+            "exams": [
+              "一般检查",
+              "胸部检查",
+              "泌尿生殖系统检查",
+              "超声"
+            ],
+            "similarity": 0.07249231529921499
+          }
+        ],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.85,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false,
+        "experience_retrieval_backend": "tfidf"
+      }
+    }
+  ],
+  "active_snapshot_id": 1,
+  "terminated_by": "eta",
+  "finalization_used": false,
+  "experience_retrieval_backend": "tfidf"
+}

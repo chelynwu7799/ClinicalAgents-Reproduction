@@ -1,0 +1,2061 @@
+[
+  {
+    "id": "1_一例急诊胃切开取异物术的麻醉处理",
+    "case_file": "/mnt/agents/output/ClinicalAgents-Code/state_memories/1_一例急诊胃切开取异物术的麻醉处理.json",
+    "evaluations": {
+      "task1": {
+        "l1_accuracy": 0.0,
+        "l2_iou": 0.0,
+        "pred_l1": "内科",
+        "pred_l2": [
+          "消化内科"
+        ],
+        "gt_l1": "外科",
+        "gt_l2": [
+          "麻醉疼痛科"
+        ]
+      },
+      "task2": {
+        "exam_iou": 0.16666666666666666,
+        "pred_exams": [
+          "腹部检查",
+          "内镜检查",
+          "血液学检查"
+        ],
+        "gt_exams": [
+          "一般检查",
+          "头颅眼耳鼻喉检查",
+          "颈部检查",
+          "胸部检查",
+          "腹部检查",
+          "脊柱和四肢检查",
+          "皮肤检查",
+          "神经系统检查",
+          "X-ray",
+          "CT",
+          "血液学检查"
+        ]
+      },
+      "task3": {
+        "score": null,
+        "skipped": true
+      },
+      "task4": {
+        "score": 0.2,
+        "raw_score": 1.0,
+        "pred": "",
+        "gt": "胃内异物 丙型病毒性肝炎"
+      },
+      "task5": {
+        "treatment_iou": 0.0,
+        "pred": [],
+        "gt": [
+          "手术"
+        ]
+      }
+    },
+    "metrics": {
+      "t1_acc": 0.0,
+      "t1_iou": 0.0,
+      "t2_iou": 0.16666666666666666,
+      "t3_score": null,
+      "t4_score": 0.2,
+      "t5_iou": 0.0,
+      "llm_calls": 19,
+      "recheck_count": 1,
+      "rollout_llm_calls": 8,
+      "paper_average": 0.07333333333333333
+    },
+    "llm_usage": {
+      "case_id": "1_一例急诊胃切开取异物术的麻醉处理",
+      "llm_calls_total": 19,
+      "llm_calls_base": 17,
+      "llm_calls_recheck": 2,
+      "rollout_calls_total": 8,
+      "rollout_calls_base": 8,
+      "rollout_calls_recheck": 0,
+      "api_calls": {
+        "call_llm_api": 10,
+        "img_api": 0,
+        "judge_api": 0,
+        "judge_api_messages": 0,
+        "mcts_planning_llm": 1,
+        "mcts_rollout_simulation_llm": 8
+      },
+      "errors": 0
+    },
+    "recheck_total": 1
+  },
+  {
+    "id": "4_病例报告；发热、腹痛",
+    "case_file": "/mnt/agents/output/ClinicalAgents-Code/state_memories/4_病例报告；发热、腹痛.json",
+    "evaluations": {
+      "task1": {
+        "l1_accuracy": 1.0,
+        "l2_iou": 0.0,
+        "pred_l1": "内科",
+        "pred_l2": [
+          "肝病科",
+          "消化内科",
+          "感染科"
+        ],
+        "gt_l1": "内科",
+        "gt_l2": [
+          "结核病科"
+        ]
+      },
+      "task2": {
+        "exam_iou": 0.4,
+        "pred_exams": [
+          "腹部检查",
+          "超声",
+          "CT",
+          "血液学检查",
+          "病理检查"
+        ],
+        "gt_exams": [
+          "一般检查",
+          "颈部检查",
+          "胸部检查",
+          "腹部检查",
+          "CT",
+          "超声",
+          "血液学检查",
+          "尿液检查",
+          "粪便检查"
+        ]
+      },
+      "task3": {
+        "score": null,
+        "skipped": true
+      },
+      "task4": {
+        "score": 0.2,
+        "raw_score": 1.0,
+        "pred": "",
+        "gt": "原发性硬化性胆管炎 原发性胆汁性肝硬化 丙型病毒性肝炎 系统性红斑狼疮 感染性心内膜炎"
+      },
+      "task5": {
+        "treatment_iou": 0.0,
+        "pred": [],
+        "gt": [
+          "药物治疗"
+        ]
+      }
+    },
+    "metrics": {
+      "t1_acc": 1.0,
+      "t1_iou": 0.0,
+      "t2_iou": 0.4,
+      "t3_score": null,
+      "t4_score": 0.2,
+      "t5_iou": 0.0,
+      "llm_calls": 19,
+      "recheck_count": 1,
+      "rollout_llm_calls": 8,
+      "paper_average": 0.32
+    },
+    "llm_usage": {
+      "case_id": "4_病例报告；发热、腹痛",
+      "llm_calls_total": 19,
+      "llm_calls_base": 17,
+      "llm_calls_recheck": 2,
+      "rollout_calls_total": 8,
+      "rollout_calls_base": 8,
+      "rollout_calls_recheck": 0,
+      "api_calls": {
+        "call_llm_api": 10,
+        "img_api": 0,
+        "judge_api": 0,
+        "judge_api_messages": 0,
+        "mcts_planning_llm": 1,
+        "mcts_rollout_simulation_llm": 8
+      },
+      "errors": 0
+    },
+    "recheck_total": 1
+  },
+  {
+    "id": "3_血液透析并鸟肠球菌感染一例",
+    "case_file": "/mnt/agents/output/ClinicalAgents-Code/state_memories/3_血液透析并鸟肠球菌感染一例.json",
+    "evaluations": {
+      "task1": {
+        "l1_accuracy": 1.0,
+        "l2_iou": 1.0,
+        "pred_l1": "内科",
+        "pred_l2": [
+          "肾脏内科"
+        ],
+        "gt_l1": "内科",
+        "gt_l2": [
+          "肾脏内科"
+        ]
+      },
+      "task2": {
+        "exam_iou": 0.6666666666666666,
+        "pred_exams": [
+          "一般检查",
+          "胸部检查",
+          "腹部检查",
+          "脊柱和四肢检查",
+          "皮肤检查",
+          "血液学检查",
+          "超声",
+          "X-ray"
+        ],
+        "gt_exams": [
+          "一般检查",
+          "胸部检查",
+          "腹部检查",
+          "脊柱和四肢检查",
+          "神经系统检查",
+          "X-ray",
+          "血液学检查"
+        ]
+      },
+      "task3": {
+        "score": null,
+        "skipped": true
+      },
+      "task4": {
+        "score": 0.2,
+        "raw_score": 1.0,
+        "pred": "感染性心内膜炎（鸟肠球菌）",
+        "gt": "丙型病毒性肝炎 病毒性肝炎 型糖尿病 糖尿病 高血压"
+      },
+      "task5": {
+        "treatment_iou": 0.0,
+        "pred": [],
+        "gt": [
+          "药物治疗",
+          "抗生素治疗",
+          "物理疗法"
+        ]
+      }
+    },
+    "metrics": {
+      "t1_acc": 1.0,
+      "t1_iou": 1.0,
+      "t2_iou": 0.6666666666666666,
+      "t3_score": null,
+      "t4_score": 0.2,
+      "t5_iou": 0.0,
+      "llm_calls": 51,
+      "recheck_count": 1,
+      "rollout_llm_calls": 34,
+      "paper_average": 0.5733333333333334
+    },
+    "llm_usage": {
+      "case_id": "3_血液透析并鸟肠球菌感染一例",
+      "llm_calls_total": 51,
+      "llm_calls_base": 49,
+      "llm_calls_recheck": 2,
+      "rollout_calls_total": 34,
+      "rollout_calls_base": 34,
+      "rollout_calls_recheck": 0,
+      "api_calls": {
+        "call_llm_api": 11,
+        "img_api": 0,
+        "judge_api": 0,
+        "judge_api_messages": 0,
+        "mcts_planning_llm": 6,
+        "mcts_rollout_simulation_llm": 34
+      },
+      "errors": 0
+    },
+    "recheck_total": 1
+  },
+  {
+    "id": "2_肺癌发热3天一例",
+    "case_file": "/mnt/agents/output/ClinicalAgents-Code/state_memories/2_肺癌发热3天一例.json",
+    "evaluations": {
+      "task1": {
+        "l1_accuracy": 0.0,
+        "l2_iou": 0.0,
+        "pred_l1": "内科",
+        "pred_l2": [
+          "呼吸科"
+        ],
+        "gt_l1": "肿瘤科",
+        "gt_l2": [
+          "肿瘤内科"
+        ]
+      },
+      "task2": {
+        "exam_iou": 0.42857142857142855,
+        "pred_exams": [
+          "胸部检查",
+          "血液学检查",
+          "CT"
+        ],
+        "gt_exams": [
+          "一般检查",
+          "胸部检查",
+          "腹部检查",
+          "皮肤检查",
+          "CT",
+          "血液学检查",
+          "尿液检查"
+        ]
+      },
+      "task3": {
+        "score": null,
+        "skipped": true
+      },
+      "task4": {
+        "score": 0.2,
+        "raw_score": 1.0,
+        "pred": "左肺鳞癌",
+        "gt": "丙型病毒性肝炎 慢性支气管炎 病毒性肝炎 低钙血症 低钠血症"
+      },
+      "task5": {
+        "treatment_iou": 0.0,
+        "pred": [],
+        "gt": [
+          "药物治疗",
+          "抗生素治疗",
+          "免疫疗法",
+          "中医治疗"
+        ]
+      }
+    },
+    "metrics": {
+      "t1_acc": 0.0,
+      "t1_iou": 0.0,
+      "t2_iou": 0.42857142857142855,
+      "t3_score": null,
+      "t4_score": 0.2,
+      "t5_iou": 0.0,
+      "llm_calls": 51,
+      "recheck_count": 1,
+      "rollout_llm_calls": 34,
+      "paper_average": 0.12571428571428572
+    },
+    "llm_usage": {
+      "case_id": "2_肺癌发热3天一例",
+      "llm_calls_total": 51,
+      "llm_calls_base": 49,
+      "llm_calls_recheck": 2,
+      "rollout_calls_total": 34,
+      "rollout_calls_base": 34,
+      "rollout_calls_recheck": 0,
+      "api_calls": {
+        "call_llm_api": 11,
+        "img_api": 0,
+        "judge_api": 0,
+        "judge_api_messages": 0,
+        "mcts_planning_llm": 6,
+        "mcts_rollout_simulation_llm": 34
+      },
+      "errors": 0
+    },
+    "recheck_total": 1
+  },
+  {
+    "id": "6_乙型肝炎表面抗原阳性15年余，牙龈出血1周余",
+    "case_file": "/mnt/agents/output/ClinicalAgents-Code/state_memories/6_乙型肝炎表面抗原阳性15年余，牙龈出血1周余.json",
+    "evaluations": {
+      "task1": {
+        "l1_accuracy": 1.0,
+        "l2_iou": 0.0,
+        "pred_l1": "内科",
+        "pred_l2": [
+          "肝病科",
+          "消化内科",
+          "传染科"
+        ],
+        "gt_l1": "内科",
+        "gt_l2": [
+          "免疫科"
+        ]
+      },
+      "task2": {
+        "exam_iou": null,
+        "pred_exams": [
+          "腹部检查",
+          "皮肤检查",
+          "头颅眼耳鼻喉检查",
+          "血液学检查",
+          "超声"
+        ],
+        "gt_exams": []
+      },
+      "task3": {
+        "score": null,
+        "skipped": true
+      },
+      "task4": {
+        "score": 0.6,
+        "raw_score": 3.0,
+        "pred": "乙型肝炎肝硬化伴脾功能亢进/血小板减少",
+        "gt": "血栓性血小板减少性紫癜 血小板减少性紫癜 丙型病毒性肝炎 乙型病毒性肝炎 慢性乙型肝炎"
+      },
+      "task5": {
+        "treatment_iou": 0.0,
+        "pred": [],
+        "gt": [
+          "药物治疗"
+        ]
+      }
+    },
+    "metrics": {
+      "t1_acc": 1.0,
+      "t1_iou": 0.0,
+      "t2_iou": null,
+      "t3_score": null,
+      "t4_score": 0.6,
+      "t5_iou": 0.0,
+      "llm_calls": 37,
+      "recheck_count": 1,
+      "rollout_llm_calls": 22,
+      "paper_average": 0.4
+    },
+    "llm_usage": {
+      "case_id": "6_乙型肝炎表面抗原阳性15年余，牙龈出血1周余",
+      "llm_calls_total": 37,
+      "llm_calls_base": 35,
+      "llm_calls_recheck": 2,
+      "rollout_calls_total": 22,
+      "rollout_calls_base": 22,
+      "rollout_calls_recheck": 0,
+      "api_calls": {
+        "call_llm_api": 11,
+        "img_api": 0,
+        "judge_api": 0,
+        "judge_api_messages": 0,
+        "mcts_planning_llm": 4,
+        "mcts_rollout_simulation_llm": 22
+      },
+      "errors": 0
+    },
+    "recheck_total": 1
+  },
+  {
+    "id": "7_慢性乙型病毒性肝炎一例",
+    "case_file": "/mnt/agents/output/ClinicalAgents-Code/state_memories/7_慢性乙型病毒性肝炎一例.json",
+    "evaluations": {
+      "task1": {
+        "l1_accuracy": 1.0,
+        "l2_iou": 0.0,
+        "pred_l1": "内科",
+        "pred_l2": [
+          "传染科"
+        ],
+        "gt_l1": "内科",
+        "gt_l2": [
+          "感染科"
+        ]
+      },
+      "task2": {
+        "exam_iou": 0.25,
+        "pred_exams": [
+          "腹部检查",
+          "皮肤检查",
+          "血液学检查",
+          "超声"
+        ],
+        "gt_exams": [
+          "一般检查",
+          "头颅眼耳鼻喉检查",
+          "颈部检查",
+          "胸部检查",
+          "腹部检查",
+          "脊柱和四肢检查",
+          "皮肤检查",
+          "神经系统检查",
+          "泌尿生殖系统检查",
+          "CT",
+          "血液学检查"
+        ]
+      },
+      "task3": {
+        "score": null,
+        "skipped": true
+      },
+      "task4": {
+        "score": 1.0,
+        "raw_score": 5.0,
+        "pred": "慢性乙型病毒性肝炎（活动性）",
+        "gt": "乙型病毒性肝炎 病毒性肝炎"
+      },
+      "task5": {
+        "treatment_iou": 0.0,
+        "pred": [],
+        "gt": [
+          "药物治疗"
+        ]
+      }
+    },
+    "metrics": {
+      "t1_acc": 1.0,
+      "t1_iou": 0.0,
+      "t2_iou": 0.25,
+      "t3_score": null,
+      "t4_score": 1.0,
+      "t5_iou": 0.0,
+      "llm_calls": 44,
+      "recheck_count": 1,
+      "rollout_llm_calls": 27,
+      "paper_average": 0.45
+    },
+    "llm_usage": {
+      "case_id": "7_慢性乙型病毒性肝炎一例",
+      "llm_calls_total": 44,
+      "llm_calls_base": 42,
+      "llm_calls_recheck": 2,
+      "rollout_calls_total": 27,
+      "rollout_calls_base": 27,
+      "rollout_calls_recheck": 0,
+      "api_calls": {
+        "call_llm_api": 11,
+        "img_api": 0,
+        "judge_api": 0,
+        "judge_api_messages": 0,
+        "mcts_planning_llm": 6,
+        "mcts_rollout_simulation_llm": 27
+      },
+      "errors": 0
+    },
+    "recheck_total": 1
+  },
+  {
+    "id": "5_双耳持续性高调耳鸣",
+    "case_file": "/mnt/agents/output/ClinicalAgents-Code/state_memories/5_双耳持续性高调耳鸣.json",
+    "evaluations": {
+      "task1": {
+        "l1_accuracy": 1.0,
+        "l2_iou": 0.25,
+        "pred_l1": "内科",
+        "pred_l2": [
+          "肝病科",
+          "消化内科",
+          "传染科",
+          "感染科"
+        ],
+        "gt_l1": "内科",
+        "gt_l2": [
+          "肝病科"
+        ]
+      },
+      "task2": {
+        "exam_iou": 0.2857142857142857,
+        "pred_exams": [
+          "腹部检查",
+          "血液学检查",
+          "超声"
+        ],
+        "gt_exams": [
+          "一般检查",
+          "胸部检查",
+          "腹部检查",
+          "皮肤检查",
+          "血液学检查",
+          "病理检查"
+        ]
+      },
+      "task3": {
+        "score": null,
+        "skipped": true
+      },
+      "task4": {
+        "score": 0.6,
+        "raw_score": 3.0,
+        "pred": "慢性丙型病毒性肝炎（活动性）",
+        "gt": "丙型病毒性肝炎 慢性乙型肝炎 慢性丙型肝炎 病毒性肝炎 乙型肝炎"
+      },
+      "task5": {
+        "treatment_iou": 0.0,
+        "pred": [],
+        "gt": [
+          "药物治疗"
+        ]
+      }
+    },
+    "metrics": {
+      "t1_acc": 1.0,
+      "t1_iou": 0.25,
+      "t2_iou": 0.2857142857142857,
+      "t3_score": null,
+      "t4_score": 0.6,
+      "t5_iou": 0.0,
+      "llm_calls": 44,
+      "recheck_count": 1,
+      "rollout_llm_calls": 28,
+      "paper_average": 0.42714285714285716
+    },
+    "llm_usage": {
+      "case_id": "5_双耳持续性高调耳鸣",
+      "llm_calls_total": 44,
+      "llm_calls_base": 42,
+      "llm_calls_recheck": 2,
+      "rollout_calls_total": 28,
+      "rollout_calls_base": 28,
+      "rollout_calls_recheck": 0,
+      "api_calls": {
+        "call_llm_api": 11,
+        "img_api": 0,
+        "judge_api": 0,
+        "judge_api_messages": 0,
+        "mcts_planning_llm": 5,
+        "mcts_rollout_simulation_llm": 28
+      },
+      "errors": 0
+    },
+    "recheck_total": 1
+  },
+  {
+    "id": "8_乙型病毒性肝炎乏力，腹胀",
+    "case_file": "/mnt/agents/output/ClinicalAgents-Code/state_memories/8_乙型病毒性肝炎乏力，腹胀.json",
+    "evaluations": {
+      "task1": {
+        "l1_accuracy": 1.0,
+        "l2_iou": 0.3333333333333333,
+        "pred_l1": "内科",
+        "pred_l2": [
+          "肝病科",
+          "消化内科",
+          "传染科"
+        ],
+        "gt_l1": "内科",
+        "gt_l2": [
+          "肝病科"
+        ]
+      },
+      "task2": {
+        "exam_iou": 0.3,
+        "pred_exams": [
+          "腹部检查",
+          "血液学检查",
+          "超声"
+        ],
+        "gt_exams": [
+          "一般检查",
+          "头颅眼耳鼻喉检查",
+          "颈部检查",
+          "胸部检查",
+          "腹部检查",
+          "脊柱和四肢检查",
+          "皮肤检查",
+          "神经系统检查",
+          "超声",
+          "血液学检查"
+        ]
+      },
+      "task3": {
+        "score": null,
+        "skipped": true
+      },
+      "task4": {
+        "score": 1.0,
+        "raw_score": 5.0,
+        "pred": "乙型病毒性肝炎（活动期）",
+        "gt": "乙型病毒性肝炎 病毒性肝炎"
+      },
+      "task5": {
+        "treatment_iou": 0.0,
+        "pred": [],
+        "gt": [
+          "药物治疗"
+        ]
+      }
+    },
+    "metrics": {
+      "t1_acc": 1.0,
+      "t1_iou": 0.3333333333333333,
+      "t2_iou": 0.3,
+      "t3_score": null,
+      "t4_score": 1.0,
+      "t5_iou": 0.0,
+      "llm_calls": 42,
+      "recheck_count": 1,
+      "rollout_llm_calls": 26,
+      "paper_average": 0.5266666666666666
+    },
+    "llm_usage": {
+      "case_id": "8_乙型病毒性肝炎乏力，腹胀",
+      "llm_calls_total": 42,
+      "llm_calls_base": 40,
+      "llm_calls_recheck": 2,
+      "rollout_calls_total": 26,
+      "rollout_calls_base": 26,
+      "rollout_calls_recheck": 0,
+      "api_calls": {
+        "call_llm_api": 11,
+        "img_api": 0,
+        "judge_api": 0,
+        "judge_api_messages": 0,
+        "mcts_planning_llm": 5,
+        "mcts_rollout_simulation_llm": 26
+      },
+      "errors": 0
+    },
+    "recheck_total": 1
+  },
+  {
+    "id": "9_肺癌喘憋气短一例",
+    "case_file": "/mnt/agents/output/ClinicalAgents-Code/state_memories/9_肺癌喘憋气短一例.json",
+    "evaluations": {
+      "task1": {
+        "l1_accuracy": 0.0,
+        "l2_iou": 0.0,
+        "pred_l1": "外科",
+        "pred_l2": [
+          "心脏外科",
+          "心胸外科",
+          "胸外科"
+        ],
+        "gt_l1": "肿瘤科",
+        "gt_l2": [
+          "肿瘤内科"
+        ]
+      },
+      "task2": {
+        "exam_iou": 0.4444444444444444,
+        "pred_exams": [
+          "一般检查",
+          "胸部检查",
+          "CT",
+          "超声",
+          "血液学检查",
+          "病理检查"
+        ],
+        "gt_exams": [
+          "一般检查",
+          "颈部检查",
+          "胸部检查",
+          "腹部检查",
+          "脊柱和四肢检查",
+          "CT",
+          "血液学检查"
+        ]
+      },
+      "task3": {
+        "score": 0.0,
+        "scores": {
+          "CT": {
+            "score": 0.0,
+            "claim_recall": 0.0,
+            "claim_precision": 0.0,
+            "gt_claims": [],
+            "pred_claims": []
+          }
+        },
+        "pred_reports": {
+          "CT": "胸部CT提示：1.左侧胸腔积液伴左肺膨胀不全, 较前积液增多, 左肺大部未见膨胀; 2.考虑右肺局部炎性病交, 新出现; 3.右肺上叶条索影, 大致同前; 4.主动脉、冠状动脉硬化改变, 同前; 5.肝顶囊肿, 同前"
+        },
+        "gt_reports": {
+          "CT": "胸部CT提示：1.左侧胸腔积液伴左肺膨胀不全, 较前积液增多, 左肺大部未见膨胀; 2.考虑右肺局部炎性病交, 新出现; 3.右肺上叶条索影, 大致同前; 4.主动脉、冠状动脉硬化改变, 同前; 5.肝顶囊肿, 同前"
+        }
+      },
+      "task4": {
+        "score": 0.2,
+        "raw_score": 1.0,
+        "pred": "",
+        "gt": "冠状动脉粥样硬化性心脏病 乙型病毒性肝炎 窦性心动过速 动脉粥样硬化 病毒性肝炎"
+      },
+      "task5": {
+        "treatment_iou": 0.0,
+        "pred": [],
+        "gt": [
+          "药物治疗"
+        ]
+      }
+    },
+    "metrics": {
+      "t1_acc": 0.0,
+      "t1_iou": 0.0,
+      "t2_iou": 0.4444444444444444,
+      "t3_score": 0.0,
+      "t4_score": 0.2,
+      "t5_iou": 0.0,
+      "llm_calls": 39,
+      "recheck_count": 2,
+      "rollout_llm_calls": 26,
+      "paper_average": 0.1074074074074074
+    },
+    "llm_usage": {
+      "case_id": "9_肺癌喘憋气短一例",
+      "llm_calls_total": 39,
+      "llm_calls_base": 36,
+      "llm_calls_recheck": 3,
+      "rollout_calls_total": 26,
+      "rollout_calls_base": 26,
+      "rollout_calls_recheck": 0,
+      "api_calls": {
+        "call_llm_api": 9,
+        "img_api": 0,
+        "judge_api": 0,
+        "judge_api_messages": 0,
+        "mcts_planning_llm": 4,
+        "mcts_rollout_simulation_llm": 26
+      },
+      "errors": 0
+    },
+    "recheck_total": 2
+  },
+  {
+    "id": "10_胆囊炎厌食伴右上腹不适1例",
+    "case_file": "/mnt/agents/output/ClinicalAgents-Code/state_memories/10_胆囊炎厌食伴右上腹不适1例.json",
+    "evaluations": {
+      "task1": {
+        "l1_accuracy": 0.0,
+        "l2_iou": 0.0,
+        "pred_l1": "内科",
+        "pred_l2": [
+          "肾脏内科",
+          "消化内科"
+        ],
+        "gt_l1": "中医科",
+        "gt_l2": [
+          "中西医结合科"
+        ]
+      },
+      "task2": {
+        "exam_iou": 0.08333333333333333,
+        "pred_exams": [
+          "腹部检查",
+          "皮肤检查",
+          "MRI",
+          "血液学检查",
+          "内镜检查",
+          "病理检查"
+        ],
+        "gt_exams": [
+          "一般检查",
+          "胸部检查",
+          "腹部检查",
+          "脊柱和四肢检查",
+          "神经系统检查",
+          "CT",
+          "超声"
+        ]
+      },
+      "task3": {
+        "score": 0.0,
+        "skipped": false,
+        "scores": {},
+        "pred_reports": {},
+        "gt_reports": {
+          "CT": "上腹CT示：慢性胆囊炎，肝右叶钙化斑，左侧肾结石",
+          "超声": "腹部彩超示：胆总管上段扩张，肝内胆管扩张，胆囊壁增厚，左肾强回声光（钙化斑？结石？），肝脾胰双肾未见明显异常"
+        }
+      },
+      "task4": {
+        "score": 0.4,
+        "raw_score": 2.0,
+        "pred": "慢性胆囊炎, 左侧肾结石",
+        "gt": "乙型病毒性肝炎 病毒性肝炎 冠心病 高血压 肾结石"
+      },
+      "task5": {
+        "treatment_iou": 0.0,
+        "pred": [],
+        "gt": [
+          "药物治疗"
+        ]
+      }
+    },
+    "metrics": {
+      "t1_acc": 0.0,
+      "t1_iou": 0.0,
+      "t2_iou": 0.08333333333333333,
+      "t3_score": 0.0,
+      "t4_score": 0.4,
+      "t5_iou": 0.0,
+      "llm_calls": 44,
+      "recheck_count": 1,
+      "rollout_llm_calls": 28,
+      "paper_average": 0.08055555555555556
+    },
+    "llm_usage": {
+      "case_id": "10_胆囊炎厌食伴右上腹不适1例",
+      "llm_calls_total": 44,
+      "llm_calls_base": 42,
+      "llm_calls_recheck": 2,
+      "rollout_calls_total": 28,
+      "rollout_calls_base": 28,
+      "rollout_calls_recheck": 0,
+      "api_calls": {
+        "call_llm_api": 11,
+        "img_api": 0,
+        "judge_api": 0,
+        "judge_api_messages": 0,
+        "mcts_planning_llm": 5,
+        "mcts_rollout_simulation_llm": 28
+      },
+      "errors": 0
+    },
+    "recheck_total": 1
+  },
+  {
+    "id": "11_纳差伴巩膜黄染一例",
+    "case_file": "/mnt/agents/output/ClinicalAgents-Code/state_memories/11_纳差伴巩膜黄染一例.json",
+    "evaluations": {
+      "task1": {
+        "l1_accuracy": 1.0,
+        "l2_iou": 0.5,
+        "pred_l1": "内科",
+        "pred_l2": [
+          "肝病科",
+          "消化内科"
+        ],
+        "gt_l1": "内科",
+        "gt_l2": [
+          "消化内科"
+        ]
+      },
+      "task2": {
+        "exam_iou": 0.4,
+        "pred_exams": [
+          "腹部检查",
+          "皮肤检查",
+          "血液学检查",
+          "超声"
+        ],
+        "gt_exams": [
+          "一般检查",
+          "头颅眼耳鼻喉检查",
+          "颈部检查",
+          "胸部检查",
+          "腹部检查",
+          "脊柱和四肢检查",
+          "皮肤检查",
+          "神经系统检查",
+          "超声",
+          "血液学检查"
+        ]
+      },
+      "task3": {
+        "score": null,
+        "skipped": true
+      },
+      "task4": {
+        "score": 0.2,
+        "raw_score": 1.0,
+        "pred": "",
+        "gt": "冠状动脉粥样硬化性心脏病 乙型病毒性肝炎 动脉粥样硬化 病毒性肝炎 糖尿病"
+      },
+      "task5": {
+        "treatment_iou": 0.0,
+        "pred": [],
+        "gt": [
+          "药物治疗"
+        ]
+      }
+    },
+    "metrics": {
+      "t1_acc": 1.0,
+      "t1_iou": 0.5,
+      "t2_iou": 0.4,
+      "t3_score": null,
+      "t4_score": 0.2,
+      "t5_iou": 0.0,
+      "llm_calls": 43,
+      "recheck_count": 2,
+      "rollout_llm_calls": 27,
+      "paper_average": 0.42000000000000004
+    },
+    "llm_usage": {
+      "case_id": "11_纳差伴巩膜黄染一例",
+      "llm_calls_total": 43,
+      "llm_calls_base": 39,
+      "llm_calls_recheck": 4,
+      "rollout_calls_total": 27,
+      "rollout_calls_base": 27,
+      "rollout_calls_recheck": 0,
+      "api_calls": {
+        "call_llm_api": 10,
+        "img_api": 0,
+        "judge_api": 0,
+        "judge_api_messages": 0,
+        "mcts_planning_llm": 6,
+        "mcts_rollout_simulation_llm": 27
+      },
+      "errors": 0
+    },
+    "recheck_total": 2
+  },
+  {
+    "id": "12_原发性肝细胞肝癌I期术后二次介入术后伴慢性乙型病毒性肝炎1例",
+    "case_file": "/mnt/agents/output/ClinicalAgents-Code/state_memories/12_原发性肝细胞肝癌I期术后二次介入术后伴慢性乙型病毒性肝炎1例.json",
+    "evaluations": {
+      "task1": {
+        "l1_accuracy": 0.0,
+        "l2_iou": 0.0,
+        "pred_l1": "内科",
+        "pred_l2": [
+          "肝病科",
+          "消化内科",
+          "传染科",
+          "感染科"
+        ],
+        "gt_l1": "肿瘤科",
+        "gt_l2": [
+          "肿瘤内科"
+        ]
+      },
+      "task2": {
+        "exam_iou": 0.3333333333333333,
+        "pred_exams": [
+          "腹部检查",
+          "血液学检查",
+          "MRI"
+        ],
+        "gt_exams": [
+          "一般检查",
+          "颈部检查",
+          "胸部检查",
+          "腹部检查",
+          "脊柱和四肢检查",
+          "MRI",
+          "CT",
+          "血液学检查",
+          "内镜检查"
+        ]
+      },
+      "task3": {
+        "score": null,
+        "skipped": true
+      },
+      "task4": {
+        "score": 0.2,
+        "raw_score": 1.0,
+        "pred": "肝细胞癌肝内复发",
+        "gt": "乙型病毒性肝炎 原发性肝癌 病毒性肝炎 肝细胞癌 冠心病"
+      },
+      "task5": {
+        "treatment_iou": 0.0,
+        "pred": [],
+        "gt": [
+          "手术",
+          "介入治疗",
+          "化学治疗"
+        ]
+      }
+    },
+    "metrics": {
+      "t1_acc": 0.0,
+      "t1_iou": 0.0,
+      "t2_iou": 0.3333333333333333,
+      "t3_score": null,
+      "t4_score": 0.2,
+      "t5_iou": 0.0,
+      "llm_calls": 39,
+      "recheck_count": 1,
+      "rollout_llm_calls": 24,
+      "paper_average": 0.10666666666666666
+    },
+    "llm_usage": {
+      "case_id": "12_原发性肝细胞肝癌I期术后二次介入术后伴慢性乙型病毒性肝炎1例",
+      "llm_calls_total": 39,
+      "llm_calls_base": 37,
+      "llm_calls_recheck": 2,
+      "rollout_calls_total": 24,
+      "rollout_calls_base": 24,
+      "rollout_calls_recheck": 0,
+      "api_calls": {
+        "call_llm_api": 11,
+        "img_api": 0,
+        "judge_api": 0,
+        "judge_api_messages": 0,
+        "mcts_planning_llm": 4,
+        "mcts_rollout_simulation_llm": 24
+      },
+      "errors": 0
+    },
+    "recheck_total": 1
+  },
+  {
+    "id": "13_宫颈癌直肠侵犯呼吸循环衰竭一例",
+    "case_file": "/mnt/agents/output/ClinicalAgents-Code/state_memories/13_宫颈癌直肠侵犯呼吸循环衰竭一例.json",
+    "evaluations": {
+      "task1": {
+        "l1_accuracy": 0.0,
+        "l2_iou": 0.0,
+        "pred_l1": "内科",
+        "pred_l2": [
+          "消化内科"
+        ],
+        "gt_l1": "肿瘤科",
+        "gt_l2": [
+          "肿瘤内科"
+        ]
+      },
+      "task2": {
+        "exam_iou": 0.45454545454545453,
+        "pred_exams": [
+          "一般检查",
+          "腹部检查",
+          "胸部检查",
+          "血液学检查",
+          "内镜检查"
+        ],
+        "gt_exams": [
+          "一般检查",
+          "颈部检查",
+          "胸部检查",
+          "腹部检查",
+          "脊柱和四肢检查",
+          "X-ray",
+          "CT",
+          "血液学检查",
+          "尿液检查",
+          "粪便检查",
+          "内镜检查"
+        ]
+      },
+      "task3": {
+        "score": 0.0,
+        "skipped": false,
+        "scores": {},
+        "pred_reports": {},
+        "gt_reports": {
+          "CT": "胸部CT: 1、两肺内多发异常密度影, 大部位于胸膜下, 右肺上叶病变范围较大伴多发空洞形成, 考虑感染可能大; 2、心包少量积液, 右侧胸腔少量积液; 3、两侧胸膜稍肥厚\n影像报告结论：\n\n1. 两肺内未见明确异常密度影，支气管正常，未见明显扩张。\n2. 纵隔内及两肺门未见明显肿大淋巴结影。\n3. 前纵隔内见一直径约8.3cm的软组织密度肿块。\n4. 余纵隔内诸结构未见明显移位，心影大小形态正常。\n\n印象：\n\n1. 前纵隔内软组织密度肿块，考虑畸胎瘤可能。\n2. 建议结合临床，必要时进一步检查。"
+        }
+      },
+      "task4": {
+        "score": 0.2,
+        "raw_score": 1.0,
+        "pred": "",
+        "gt": "乙型病毒性肝炎 窦性心动过速 病毒性肝炎 胸腔积液 肾盂积水"
+      },
+      "task5": {
+        "treatment_iou": 0.0,
+        "pred": [],
+        "gt": [
+          "药物治疗"
+        ]
+      }
+    },
+    "metrics": {
+      "t1_acc": 0.0,
+      "t1_iou": 0.0,
+      "t2_iou": 0.45454545454545453,
+      "t3_score": 0.0,
+      "t4_score": 0.2,
+      "t5_iou": 0.0,
+      "llm_calls": 29,
+      "recheck_count": 2,
+      "rollout_llm_calls": 16,
+      "paper_average": 0.10909090909090909
+    },
+    "llm_usage": {
+      "case_id": "13_宫颈癌直肠侵犯呼吸循环衰竭一例",
+      "llm_calls_total": 29,
+      "llm_calls_base": 25,
+      "llm_calls_recheck": 4,
+      "rollout_calls_total": 16,
+      "rollout_calls_base": 16,
+      "rollout_calls_recheck": 0,
+      "api_calls": {
+        "call_llm_api": 10,
+        "img_api": 0,
+        "judge_api": 0,
+        "judge_api_messages": 0,
+        "mcts_planning_llm": 3,
+        "mcts_rollout_simulation_llm": 16
+      },
+      "errors": 1
+    },
+    "recheck_total": 2
+  },
+  {
+    "id": "14_原发性肝癌术后介入术后伴肝炎肝硬化胆囊结石1例",
+    "case_file": "/mnt/agents/output/ClinicalAgents-Code/state_memories/14_原发性肝癌术后介入术后伴肝炎肝硬化胆囊结石1例.json",
+    "evaluations": {
+      "task1": {
+        "l1_accuracy": 0.0,
+        "l2_iou": 0.0,
+        "pred_l1": "内科",
+        "pred_l2": [
+          "肝病科"
+        ],
+        "gt_l1": "肿瘤科",
+        "gt_l2": [
+          "肿瘤内科"
+        ]
+      },
+      "task2": {
+        "exam_iou": 0.4,
+        "pred_exams": [
+          "一般检查",
+          "腹部检查",
+          "脊柱和四肢检查",
+          "血液学检查",
+          "尿液检查",
+          "超声"
+        ],
+        "gt_exams": [
+          "一般检查",
+          "颈部检查",
+          "胸部检查",
+          "腹部检查",
+          "脊柱和四肢检查",
+          "CT",
+          "血液学检查",
+          "X-ray"
+        ]
+      },
+      "task3": {
+        "score": 0.0,
+        "skipped": false,
+        "scores": {},
+        "pred_reports": {},
+        "gt_reports": {
+          "CT": "1.支气管炎;2.肝脏形态异常,其内多发异常密度影。\n印象：\n1. 支气管炎。\n2. 肝脏形态异常，其中多发高密度影，请结合脾部检查。",
+          "X-ray": "\n右肺下叶结节影。\n右侧膈肌肥厚。\n肝区团状密度影。"
+        }
+      },
+      "task4": {
+        "score": 0.2,
+        "raw_score": 1.0,
+        "pred": "原发性肝癌复发或肝内转移",
+        "gt": "乙型病毒性肝炎 病毒性肝炎 原发性肝癌 肝细胞癌 支气管炎"
+      },
+      "task5": {
+        "treatment_iou": 0.0,
+        "pred": [],
+        "gt": [
+          "手术",
+          "介入治疗",
+          "药物治疗",
+          "化学治疗",
+          "免疫疗法"
+        ]
+      }
+    },
+    "metrics": {
+      "t1_acc": 0.0,
+      "t1_iou": 0.0,
+      "t2_iou": 0.4,
+      "t3_score": 0.0,
+      "t4_score": 0.2,
+      "t5_iou": 0.0,
+      "llm_calls": 53,
+      "recheck_count": 1,
+      "rollout_llm_calls": 36,
+      "paper_average": 0.10000000000000002
+    },
+    "llm_usage": {
+      "case_id": "14_原发性肝癌术后介入术后伴肝炎肝硬化胆囊结石1例",
+      "llm_calls_total": 53,
+      "llm_calls_base": 51,
+      "llm_calls_recheck": 2,
+      "rollout_calls_total": 36,
+      "rollout_calls_base": 36,
+      "rollout_calls_recheck": 0,
+      "api_calls": {
+        "call_llm_api": 11,
+        "img_api": 0,
+        "judge_api": 0,
+        "judge_api_messages": 0,
+        "mcts_planning_llm": 6,
+        "mcts_rollout_simulation_llm": 36
+      },
+      "errors": 0
+    },
+    "recheck_total": 1
+  },
+  {
+    "id": "15_肝脏炎性假瘤样滤泡树突状细胞肿瘤一例",
+    "error": "Missing-evidence verifier returned invalid JSON",
+    "llm_usage": {
+      "case_id": "15_肝脏炎性假瘤样滤泡树突状细胞肿瘤一例",
+      "llm_calls_total": 55,
+      "llm_calls_base": 55,
+      "llm_calls_recheck": 0,
+      "rollout_calls_total": 36,
+      "rollout_calls_base": 36,
+      "rollout_calls_recheck": 0,
+      "api_calls": {
+        "call_llm_api": 12,
+        "img_api": 0,
+        "judge_api": 0,
+        "judge_api_messages": 0,
+        "mcts_planning_llm": 7,
+        "mcts_rollout_simulation_llm": 36
+      },
+      "errors": 0
+    }
+  },
+  {
+    "id": "16_复杂性铜绿假单胞菌脓毒症1例",
+    "case_file": "/mnt/agents/output/ClinicalAgents-Code/state_memories/16_复杂性铜绿假单胞菌脓毒症1例.json",
+    "evaluations": {
+      "task1": {
+        "l1_accuracy": 1.0,
+        "l2_iou": 0.0,
+        "pred_l1": "内科",
+        "pred_l2": [
+          "感染科"
+        ],
+        "gt_l1": "内科",
+        "gt_l2": [
+          "心血管内科"
+        ]
+      },
+      "task2": {
+        "exam_iou": 0.5454545454545454,
+        "pred_exams": [
+          "一般检查",
+          "颈部检查",
+          "胸部检查",
+          "腹部检查",
+          "皮肤检查",
+          "脊柱和四肢检查",
+          "血液学检查",
+          "超声",
+          "CT"
+        ],
+        "gt_exams": [
+          "一般检查",
+          "头颅眼耳鼻喉检查",
+          "颈部检查",
+          "胸部检查",
+          "腹部检查",
+          "脊柱和四肢检查",
+          "皮肤检查",
+          "神经系统检查"
+        ]
+      },
+      "task3": {
+        "score": null,
+        "skipped": true
+      },
+      "task4": {
+        "score": 0.2,
+        "raw_score": 1.0,
+        "pred": "感染性心内膜炎",
+        "gt": "乙型病毒性肝炎 病毒性肝炎 糖尿病 高血压 昏迷"
+      },
+      "task5": {
+        "treatment_iou": 0.0,
+        "pred": [],
+        "gt": [
+          "手术"
+        ]
+      }
+    },
+    "metrics": {
+      "t1_acc": 1.0,
+      "t1_iou": 0.0,
+      "t2_iou": 0.5454545454545454,
+      "t3_score": null,
+      "t4_score": 0.2,
+      "t5_iou": 0.0,
+      "llm_calls": 42,
+      "recheck_count": 1,
+      "rollout_llm_calls": 26,
+      "paper_average": 0.34909090909090906
+    },
+    "llm_usage": {
+      "case_id": "16_复杂性铜绿假单胞菌脓毒症1例",
+      "llm_calls_total": 42,
+      "llm_calls_base": 40,
+      "llm_calls_recheck": 2,
+      "rollout_calls_total": 26,
+      "rollout_calls_base": 26,
+      "rollout_calls_recheck": 0,
+      "api_calls": {
+        "call_llm_api": 11,
+        "img_api": 0,
+        "judge_api": 0,
+        "judge_api_messages": 0,
+        "mcts_planning_llm": 5,
+        "mcts_rollout_simulation_llm": 26
+      },
+      "errors": 0
+    },
+    "recheck_total": 1
+  },
+  {
+    "id": "18_肝硬化、气急、肝-颈静脉回流征弱阳性",
+    "case_file": "/mnt/agents/output/ClinicalAgents-Code/state_memories/18_肝硬化、气急、肝-颈静脉回流征弱阳性.json",
+    "evaluations": {
+      "task1": {
+        "l1_accuracy": 1.0,
+        "l2_iou": 0.5,
+        "pred_l1": "内科",
+        "pred_l2": [
+          "肝病科",
+          "消化内科"
+        ],
+        "gt_l1": "内科",
+        "gt_l2": [
+          "肝病科"
+        ]
+      },
+      "task2": {
+        "exam_iou": 0.0,
+        "pred_exams": [],
+        "gt_exams": [
+          "一般检查",
+          "颈部检查",
+          "胸部检查",
+          "腹部检查",
+          "脊柱和四肢检查",
+          "神经系统检查"
+        ]
+      },
+      "task3": {
+        "score": null,
+        "skipped": true
+      },
+      "task4": {
+        "score": 0.2,
+        "raw_score": 1.0,
+        "pred": "",
+        "gt": "乙型病毒性肝炎 脾功能亢进 病毒性肝炎 心力衰竭 心包积液"
+      },
+      "task5": {
+        "treatment_iou": 0.0,
+        "pred": [],
+        "gt": [
+          "药物治疗"
+        ]
+      }
+    },
+    "metrics": {
+      "t1_acc": 1.0,
+      "t1_iou": 0.5,
+      "t2_iou": 0.0,
+      "t3_score": null,
+      "t4_score": 0.2,
+      "t5_iou": 0.0,
+      "llm_calls": 8,
+      "recheck_count": 0,
+      "rollout_llm_calls": 0,
+      "paper_average": 0.33999999999999997
+    },
+    "llm_usage": {
+      "case_id": "18_肝硬化、气急、肝-颈静脉回流征弱阳性",
+      "llm_calls_total": 8,
+      "llm_calls_base": 6,
+      "llm_calls_recheck": 2,
+      "rollout_calls_total": 0,
+      "rollout_calls_base": 0,
+      "rollout_calls_recheck": 0,
+      "api_calls": {
+        "call_llm_api": 8,
+        "img_api": 0,
+        "judge_api": 0,
+        "judge_api_messages": 0,
+        "mcts_planning_llm": 0,
+        "mcts_rollout_simulation_llm": 0
+      },
+      "errors": 0
+    },
+    "recheck_total": 0
+  },
+  {
+    "id": "17_小剂量阿德福韦酯抗乙肝治疗后致低磷软骨病1例",
+    "case_file": "/mnt/agents/output/ClinicalAgents-Code/state_memories/17_小剂量阿德福韦酯抗乙肝治疗后致低磷软骨病1例.json",
+    "evaluations": {
+      "task1": {
+        "l1_accuracy": 1.0,
+        "l2_iou": 1.0,
+        "pred_l1": "内科",
+        "pred_l2": [
+          "内分泌科"
+        ],
+        "gt_l1": "内科",
+        "gt_l2": [
+          "内分泌科"
+        ]
+      },
+      "task2": {
+        "exam_iou": 0.36363636363636365,
+        "pred_exams": [
+          "脊柱和四肢检查",
+          "血液学检查",
+          "尿液检查",
+          "X-ray"
+        ],
+        "gt_exams": [
+          "一般检查",
+          "颈部检查",
+          "胸部检查",
+          "脊柱和四肢检查",
+          "皮肤检查",
+          "X-ray",
+          "超声",
+          "核医学成像",
+          "血液学检查",
+          "尿液检查",
+          "粪便检查"
+        ]
+      },
+      "task3": {
+        "score": null,
+        "skipped": true
+      },
+      "task4": {
+        "score": 0.6,
+        "raw_score": 3.0,
+        "pred": "阿德福韦酯相关范可尼综合征并低磷性骨软化症",
+        "gt": "乙型病毒性肝炎 病毒性肝炎 骨质疏松 肋骨骨折 酸中毒"
+      },
+      "task5": {
+        "treatment_iou": 0.0,
+        "pred": [],
+        "gt": [
+          "药物治疗"
+        ]
+      }
+    },
+    "metrics": {
+      "t1_acc": 1.0,
+      "t1_iou": 1.0,
+      "t2_iou": 0.36363636363636365,
+      "t3_score": null,
+      "t4_score": 0.6,
+      "t5_iou": 0.0,
+      "llm_calls": 55,
+      "recheck_count": 1,
+      "rollout_llm_calls": 38,
+      "paper_average": 0.5927272727272728
+    },
+    "llm_usage": {
+      "case_id": "17_小剂量阿德福韦酯抗乙肝治疗后致低磷软骨病1例",
+      "llm_calls_total": 55,
+      "llm_calls_base": 53,
+      "llm_calls_recheck": 2,
+      "rollout_calls_total": 38,
+      "rollout_calls_base": 38,
+      "rollout_calls_recheck": 0,
+      "api_calls": {
+        "call_llm_api": 11,
+        "img_api": 0,
+        "judge_api": 0,
+        "judge_api_messages": 0,
+        "mcts_planning_llm": 6,
+        "mcts_rollout_simulation_llm": 38
+      },
+      "errors": 0
+    },
+    "recheck_total": 1
+  },
+  {
+    "id": "19_痰中带血、甲状腺功能亢进症、肝内多发病变",
+    "case_file": "/mnt/agents/output/ClinicalAgents-Code/state_memories/19_痰中带血、甲状腺功能亢进症、肝内多发病变.json",
+    "evaluations": {
+      "task1": {
+        "l1_accuracy": 1.0,
+        "l2_iou": 0.0,
+        "pred_l1": "内科",
+        "pred_l2": [
+          "呼吸科"
+        ],
+        "gt_l1": "内科",
+        "gt_l2": [
+          "内分泌科"
+        ]
+      },
+      "task2": {
+        "exam_iou": 0.2727272727272727,
+        "pred_exams": [
+          "颈部检查",
+          "胸部检查",
+          "腹部检查",
+          "血液学检查",
+          "内镜检查",
+          "病理检查"
+        ],
+        "gt_exams": [
+          "一般检查",
+          "头颅眼耳鼻喉检查",
+          "颈部检查",
+          "胸部检查",
+          "腹部检查",
+          "脊柱和四肢检查",
+          "神经系统检查",
+          "泌尿生殖系统检查"
+        ]
+      },
+      "task3": {
+        "score": null,
+        "skipped": true
+      },
+      "task4": {
+        "score": 0.6,
+        "raw_score": 3.0,
+        "pred": "社区获得性肺炎, 甲状腺功能亢进症（未控制）",
+        "gt": "甲状腺功能亢进症 乙型病毒性肝炎 室性期前收缩 继发性肝癌 病毒性肝炎"
+      },
+      "task5": {
+        "treatment_iou": 0.0,
+        "pred": [],
+        "gt": [
+          "手术",
+          "抗生素治疗"
+        ]
+      }
+    },
+    "metrics": {
+      "t1_acc": 1.0,
+      "t1_iou": 0.0,
+      "t2_iou": 0.2727272727272727,
+      "t3_score": null,
+      "t4_score": 0.6,
+      "t5_iou": 0.0,
+      "llm_calls": 44,
+      "recheck_count": 1,
+      "rollout_llm_calls": 27,
+      "paper_average": 0.3745454545454545
+    },
+    "llm_usage": {
+      "case_id": "19_痰中带血、甲状腺功能亢进症、肝内多发病变",
+      "llm_calls_total": 44,
+      "llm_calls_base": 42,
+      "llm_calls_recheck": 2,
+      "rollout_calls_total": 27,
+      "rollout_calls_base": 27,
+      "rollout_calls_recheck": 0,
+      "api_calls": {
+        "call_llm_api": 11,
+        "img_api": 0,
+        "judge_api": 0,
+        "judge_api_messages": 0,
+        "mcts_planning_llm": 6,
+        "mcts_rollout_simulation_llm": 27
+      },
+      "errors": 0
+    },
+    "recheck_total": 1
+  },
+  {
+    "id": "20_疑难病例：皮肤紫癜伴肾脏损害",
+    "case_file": "/mnt/agents/output/ClinicalAgents-Code/state_memories/20_疑难病例：皮肤紫癜伴肾脏损害.json",
+    "evaluations": {
+      "task1": {
+        "l1_accuracy": 1.0,
+        "l2_iou": 1.0,
+        "pred_l1": "内科",
+        "pred_l2": [
+          "肾脏内科"
+        ],
+        "gt_l1": "内科",
+        "gt_l2": [
+          "肾脏内科"
+        ]
+      },
+      "task2": {
+        "exam_iou": 0.38461538461538464,
+        "pred_exams": [
+          "皮肤检查",
+          "腹部检查",
+          "血液学检查",
+          "尿液检查",
+          "病理检查",
+          "超声"
+        ],
+        "gt_exams": [
+          "一般检查",
+          "头颅眼耳鼻喉检查",
+          "颈部检查",
+          "胸部检查",
+          "腹部检查",
+          "皮肤检查",
+          "MRI",
+          "CT",
+          "血液学检查",
+          "尿液检查",
+          "内镜检查",
+          "病理检查"
+        ]
+      },
+      "task3": {
+        "score": null,
+        "skipped": true
+      },
+      "task4": {
+        "score": 0.2,
+        "raw_score": 1.0,
+        "pred": "冷球蛋白血症性血管炎（冷球蛋白血症相关肾小球肾炎）",
+        "gt": "慢性淋巴细胞白血病 系统性红斑狼疮 乙型病毒性肝炎 动脉粥样硬化 十二指肠溃疡"
+      },
+      "task5": {
+        "treatment_iou": 0.0,
+        "pred": [],
+        "gt": [
+          "药物治疗"
+        ]
+      }
+    },
+    "metrics": {
+      "t1_acc": 1.0,
+      "t1_iou": 1.0,
+      "t2_iou": 0.38461538461538464,
+      "t3_score": null,
+      "t4_score": 0.2,
+      "t5_iou": 0.0,
+      "llm_calls": 39,
+      "recheck_count": 1,
+      "rollout_llm_calls": 24,
+      "paper_average": 0.5169230769230769
+    },
+    "llm_usage": {
+      "case_id": "20_疑难病例：皮肤紫癜伴肾脏损害",
+      "llm_calls_total": 39,
+      "llm_calls_base": 37,
+      "llm_calls_recheck": 2,
+      "rollout_calls_total": 24,
+      "rollout_calls_base": 24,
+      "rollout_calls_recheck": 0,
+      "api_calls": {
+        "call_llm_api": 11,
+        "img_api": 0,
+        "judge_api": 0,
+        "judge_api_messages": 0,
+        "mcts_planning_llm": 4,
+        "mcts_rollout_simulation_llm": 24
+      },
+      "errors": 0
+    },
+    "recheck_total": 1
+  },
+  {
+    "id": "21_发作性心悸4年，加重2周。",
+    "case_file": "/mnt/agents/output/ClinicalAgents-Code/state_memories/21_发作性心悸4年，加重2周。.json",
+    "evaluations": {
+      "task1": {
+        "l1_accuracy": 1.0,
+        "l2_iou": 1.0,
+        "pred_l1": "内科",
+        "pred_l2": [
+          "心血管内科"
+        ],
+        "gt_l1": "内科",
+        "gt_l2": [
+          "心血管内科"
+        ]
+      },
+      "task2": {
+        "exam_iou": 0.3333333333333333,
+        "pred_exams": [
+          "胸部检查",
+          "颈部检查",
+          "超声",
+          "X-ray",
+          "CT",
+          "血液学检查"
+        ],
+        "gt_exams": [
+          "一般检查",
+          "头颅眼耳鼻喉检查",
+          "颈部检查",
+          "胸部检查",
+          "超声",
+          "内镜检查"
+        ]
+      },
+      "task3": {
+        "score": null,
+        "skipped": true
+      },
+      "task4": {
+        "score": 0.2,
+        "raw_score": 1.0,
+        "pred": "",
+        "gt": "乙型病毒性肝炎 室性心动过速 室性期前收缩 病毒性肝炎 冠心病"
+      },
+      "task5": {
+        "treatment_iou": 0.0,
+        "pred": [],
+        "gt": []
+      }
+    },
+    "metrics": {
+      "t1_acc": 1.0,
+      "t1_iou": 1.0,
+      "t2_iou": 0.3333333333333333,
+      "t3_score": null,
+      "t4_score": 0.2,
+      "t5_iou": 0.0,
+      "llm_calls": 19,
+      "recheck_count": 1,
+      "rollout_llm_calls": 8,
+      "paper_average": 0.5066666666666666
+    },
+    "llm_usage": {
+      "case_id": "21_发作性心悸4年，加重2周。",
+      "llm_calls_total": 19,
+      "llm_calls_base": 17,
+      "llm_calls_recheck": 2,
+      "rollout_calls_total": 8,
+      "rollout_calls_base": 8,
+      "rollout_calls_recheck": 0,
+      "api_calls": {
+        "call_llm_api": 10,
+        "img_api": 0,
+        "judge_api": 0,
+        "judge_api_messages": 0,
+        "mcts_planning_llm": 1,
+        "mcts_rollout_simulation_llm": 8
+      },
+      "errors": 0
+    },
+    "recheck_total": 1
+  },
+  {
+    "id": "22_规范治疗避免肝癌者再受伤",
+    "case_file": "/mnt/agents/output/ClinicalAgents-Code/state_memories/22_规范治疗避免肝癌者再受伤.json",
+    "evaluations": {
+      "task1": {
+        "l1_accuracy": 0.0,
+        "l2_iou": 0.0,
+        "pred_l1": "肿瘤科",
+        "pred_l2": [
+          "肿瘤内科"
+        ],
+        "gt_l1": "外科",
+        "gt_l2": [
+          "肝胆外科"
+        ]
+      },
+      "task2": {
+        "exam_iou": 0.3,
+        "pred_exams": [
+          "腹部检查",
+          "CT",
+          "血液学检查",
+          "病理检查"
+        ],
+        "gt_exams": [
+          "一般检查",
+          "腹部检查",
+          "脊柱和四肢检查",
+          "皮肤检查",
+          "MRI",
+          "CT",
+          "超声",
+          "血液学检查",
+          "内镜检查"
+        ]
+      },
+      "task3": {
+        "score": null,
+        "skipped": true
+      },
+      "task4": {
+        "score": 0.2,
+        "raw_score": 1.0,
+        "pred": "",
+        "gt": "乙型病毒性肝炎 上消化道出血 原发性肝癌 消化道出血 病毒性肝炎"
+      },
+      "task5": {
+        "treatment_iou": 0.0,
+        "pred": [],
+        "gt": [
+          "手术"
+        ]
+      }
+    },
+    "metrics": {
+      "t1_acc": 0.0,
+      "t1_iou": 0.0,
+      "t2_iou": 0.3,
+      "t3_score": null,
+      "t4_score": 0.2,
+      "t5_iou": 0.0,
+      "llm_calls": 10,
+      "recheck_count": 1,
+      "rollout_llm_calls": 0,
+      "paper_average": 0.1
+    },
+    "llm_usage": {
+      "case_id": "22_规范治疗避免肝癌者再受伤",
+      "llm_calls_total": 10,
+      "llm_calls_base": 8,
+      "llm_calls_recheck": 2,
+      "rollout_calls_total": 0,
+      "rollout_calls_base": 0,
+      "rollout_calls_recheck": 0,
+      "api_calls": {
+        "call_llm_api": 10,
+        "img_api": 0,
+        "judge_api": 0,
+        "judge_api_messages": 0,
+        "mcts_planning_llm": 0,
+        "mcts_rollout_simulation_llm": 0
+      },
+      "errors": 0
+    },
+    "recheck_total": 1
+  },
+  {
+    "id": "25_急性乙型病毒性肝炎伴极高度甲胎蛋白水平一例",
+    "error": "Default LLM API call failed",
+    "llm_usage": {
+      "case_id": "25_急性乙型病毒性肝炎伴极高度甲胎蛋白水平一例",
+      "llm_calls_total": 10,
+      "llm_calls_base": 8,
+      "llm_calls_recheck": 2,
+      "rollout_calls_total": 0,
+      "rollout_calls_base": 0,
+      "rollout_calls_recheck": 0,
+      "api_calls": {
+        "call_llm_api": 10,
+        "img_api": 0,
+        "judge_api": 0,
+        "judge_api_messages": 0,
+        "mcts_planning_llm": 0,
+        "mcts_rollout_simulation_llm": 0
+      },
+      "errors": 1
+    }
+  },
+  {
+    "id": "23_急性戊型肝炎误诊为肾综合征出血热一例报告",
+    "error": "Default LLM API call failed",
+    "llm_usage": {
+      "case_id": "23_急性戊型肝炎误诊为肾综合征出血热一例报告",
+      "llm_calls_total": 39,
+      "llm_calls_base": 37,
+      "llm_calls_recheck": 2,
+      "rollout_calls_total": 26,
+      "rollout_calls_base": 26,
+      "rollout_calls_recheck": 0,
+      "api_calls": {
+        "call_llm_api": 8,
+        "img_api": 0,
+        "judge_api": 0,
+        "judge_api_messages": 0,
+        "mcts_planning_llm": 5,
+        "mcts_rollout_simulation_llm": 26
+      },
+      "errors": 5
+    }
+  },
+  {
+    "id": "28_黄疸，肝大，腹水，肝功能减退",
+    "error": "Default LLM API call failed",
+    "llm_usage": {
+      "case_id": "28_黄疸，肝大，腹水，肝功能减退",
+      "llm_calls_total": 1,
+      "llm_calls_base": 1,
+      "llm_calls_recheck": 0,
+      "rollout_calls_total": 0,
+      "rollout_calls_base": 0,
+      "rollout_calls_recheck": 0,
+      "api_calls": {
+        "call_llm_api": 1,
+        "img_api": 0,
+        "judge_api": 0,
+        "judge_api_messages": 0,
+        "mcts_planning_llm": 0,
+        "mcts_rollout_simulation_llm": 0
+      },
+      "errors": 1
+    }
+  },
+  {
+    "id": "29_肝功极其顽固慢性乙型病毒性肝炎一例",
+    "error": "Default LLM API call failed",
+    "llm_usage": {
+      "case_id": "29_肝功极其顽固慢性乙型病毒性肝炎一例",
+      "llm_calls_total": 1,
+      "llm_calls_base": 1,
+      "llm_calls_recheck": 0,
+      "rollout_calls_total": 0,
+      "rollout_calls_base": 0,
+      "rollout_calls_recheck": 0,
+      "api_calls": {
+        "call_llm_api": 1,
+        "img_api": 0,
+        "judge_api": 0,
+        "judge_api_messages": 0,
+        "mcts_planning_llm": 0,
+        "mcts_rollout_simulation_llm": 0
+      },
+      "errors": 1
+    }
+  },
+  {
+    "id": "30_急性黄疸型乙型病毒性肝炎恢复后期黄疸急升",
+    "error": "Default LLM API call failed",
+    "llm_usage": {
+      "case_id": "30_急性黄疸型乙型病毒性肝炎恢复后期黄疸急升",
+      "llm_calls_total": 1,
+      "llm_calls_base": 1,
+      "llm_calls_recheck": 0,
+      "rollout_calls_total": 0,
+      "rollout_calls_base": 0,
+      "rollout_calls_recheck": 0,
+      "api_calls": {
+        "call_llm_api": 1,
+        "img_api": 0,
+        "judge_api": 0,
+        "judge_api_messages": 0,
+        "mcts_planning_llm": 0,
+        "mcts_rollout_simulation_llm": 0
+      },
+      "errors": 1
+    }
+  },
+  {
+    "id": "27_乏力、食欲减退2年腹胀3月加重3天",
+    "error": "Default LLM API call failed",
+    "llm_usage": {
+      "case_id": "27_乏力、食欲减退2年腹胀3月加重3天",
+      "llm_calls_total": 2,
+      "llm_calls_base": 2,
+      "llm_calls_recheck": 0,
+      "rollout_calls_total": 0,
+      "rollout_calls_base": 0,
+      "rollout_calls_recheck": 0,
+      "api_calls": {
+        "call_llm_api": 2,
+        "img_api": 0,
+        "judge_api": 0,
+        "judge_api_messages": 0,
+        "mcts_planning_llm": 0,
+        "mcts_rollout_simulation_llm": 0
+      },
+      "errors": 1
+    }
+  },
+  {
+    "id": "24_Budd-Chiari综合征、诊为乙肝肝硬化",
+    "error": "Default LLM API call failed",
+    "llm_usage": {
+      "case_id": "24_Budd-Chiari综合征、诊为乙肝肝硬化",
+      "llm_calls_total": 42,
+      "llm_calls_base": 40,
+      "llm_calls_recheck": 2,
+      "rollout_calls_total": 28,
+      "rollout_calls_base": 28,
+      "rollout_calls_recheck": 0,
+      "api_calls": {
+        "call_llm_api": 8,
+        "img_api": 0,
+        "judge_api": 0,
+        "judge_api_messages": 0,
+        "mcts_planning_llm": 6,
+        "mcts_rollout_simulation_llm": 28
+      },
+      "errors": 12
+    }
+  },
+  {
+    "id": "26_肝硬化、乙型病毒性重型肝炎一例",
+    "error": "Default LLM API call failed",
+    "llm_usage": {
+      "case_id": "26_肝硬化、乙型病毒性重型肝炎一例",
+      "llm_calls_total": 44,
+      "llm_calls_base": 42,
+      "llm_calls_recheck": 2,
+      "rollout_calls_total": 28,
+      "rollout_calls_base": 28,
+      "rollout_calls_recheck": 0,
+      "api_calls": {
+        "call_llm_api": 8,
+        "img_api": 0,
+        "judge_api": 0,
+        "judge_api_messages": 0,
+        "mcts_planning_llm": 8,
+        "mcts_rollout_simulation_llm": 28
+      },
+      "errors": 32
+    }
+  }
+]

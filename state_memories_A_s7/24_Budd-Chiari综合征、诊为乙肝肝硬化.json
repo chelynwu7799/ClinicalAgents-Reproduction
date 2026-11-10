@@ -1,0 +1,993 @@
+{
+  "case_id": "24_Budd-Chiari综合征、诊为乙肝肝硬化",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "28岁"
+  },
+  "chief_complaint": "患者：男性，28岁。 主因间断乏力、腹胀伴肝功能异常半年余，呕血2小时收住我院。",
+  "present_illness": "患者于1999年12月始，间断出现乏力、食欲不振、肝区不适、腹胀、尿黄、双下肢水肿，查肝功能异常，乙肝标志物阳性，当时在外院诊为“慢性乙型肝炎，肝硬化”服用多种保肝药物等治疗，病情无明显改善。于入院前2小时患者突然出现呕血2次，为暗红色伴血块，量约800毫升。遂来我院就诊，于2000年6月21日收住院治疗。",
+  "dept_l1": "儿科",
+  "dept_l2": [
+    "小儿消化科"
+  ],
+  "past_history": "患者平素体健，无外伤、手术及输血史，无烟酒嗜好。否认乙肝家族史。",
+  "hypothesis_illness": [
+    {
+      "name": "Budd-Chiari综合征",
+      "disease": "Budd-Chiari综合征",
+      "evidence": [
+        "年轻男性、肝大、腹水、脾大、门脉高压出血",
+        "乙肝标志物不符合活动性乙肝，按乙肝肝硬化治疗效果差"
+      ],
+      "confidence": 0.65
+    },
+    {
+      "name": "乙肝肝硬化失代偿期并食管胃底静脉曲张破裂出血",
+      "disease": "乙肝肝硬化失代偿期并食管胃底静脉曲张破裂出血",
+      "evidence": [
+        "肝功能异常、肝脾大、腹水、呕血",
+        "外院曾诊为慢性乙型肝炎肝硬化"
+      ],
+      "confidence": 0.35
+    },
+    {
+      "name": "门静脉血栓形成",
+      "disease": "门静脉血栓形成",
+      "evidence": [
+        "门脉高压表现（腹水、脾大、呕血）",
+        "肝脏增大"
+      ],
+      "confidence": 0.3
+    },
+    {
+      "name": "原发性肝癌合并门脉高压出血",
+      "disease": "原发性肝癌合并门脉高压出血",
+      "evidence": [
+        "肝区不适、病情进展",
+        "肝硬化背景可能"
+      ],
+      "confidence": 0.3
+    },
+    {
+      "name": "消化性溃疡并出血",
+      "disease": "消化性溃疡并出血",
+      "evidence": [
+        "呕血"
+      ],
+      "confidence": 0.25
+    }
+  ],
+  "physical_exams": {
+    "腹部检查": "腹平软，无压痛、反跳痛，肝剑突下4cm、肋下3cm，脾肋下icm，质地中等，移动性浊音阳性"
+  },
+  "auxiliary_exams": {
+    "超声": "外院腹部彩色多普勒：肝硬化腹水，肝脾肿大",
+    "血液学检查": "血常规：WBC3.52×109/L，N1×109/L，L1.96×109/L，RBC3.04×1012/L，Hb92g/L，PLT68×109／L，肝功能检查：ALT74U/L，TBIL36.6umol/L，TP61.3g/L，ALB30.2g/L’乙肝标志物：HBsAb(+)、HBeAb(+)、HBcAb(+)"
+  },
+  "imaging_results": {
+    "超声": "外院腹部彩色多普勒：肝硬化腹水，肝脾肿大"
+  },
+  "completed_physical_exams": [
+    "腹部检查"
+  ],
+  "completed_auxiliary_exams": [
+    "超声",
+    "血液学检查"
+  ],
+  "completed_imaging_exams": [
+    "超声"
+  ],
+  "pending_auxiliary_exams": [
+    "内镜检查",
+    "CT"
+  ],
+  "predicted_physical_exams": [
+    "腹部检查"
+  ],
+  "predicted_auxiliary_exams": [
+    "内镜检查",
+    "血液学检查",
+    "超声",
+    "CT"
+  ],
+  "diagnosis_result": [
+    "Budd-Chiari综合征"
+  ],
+  "treatment_plan": [],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "pending"
+  },
+  "recheck_total": 1,
+  "max_recheck": 3,
+  "mcts_trajectory": [
+    "a_back",
+    "task2_doctor",
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 4,
+  "mcts_eta": 4,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "a_back",
+      "source": "committed_backtrack",
+      "mcts_step": 1,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task2_doctor",
+      "source": "committed_backtrack_target",
+      "mcts_step": 2,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 4,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 3,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 5,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 4,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [
+    {
+      "event_id": 0,
+      "source": "committed",
+      "target_snapshot_id": 1,
+      "target_workflow_stage": "task1_referral",
+      "requested_action": "request_auxiliary_exams",
+      "executed_action": "task2_doctor",
+      "mcts_step": 1
+    }
+  ],
+  "missing_evidence": [
+    "上消化道内镜/胃镜检查以明确出血来源及有无食管胃底静脉曲张",
+    "腹部增强CT/MRI及肝静脉、下腔静脉、门静脉血管成像评估血管通畅性及肝脏占位",
+    "乙肝五项全项（含HBsAg）及HBV DNA定量确认乙肝感染状态",
+    "血清甲胎蛋白及肝脏增强影像排除原发性肝癌",
+    "腹腔穿刺腹水检查（SAAG、细胞学、细菌培养等）",
+    "肝静脉/下腔静脉造影及压力测定确诊或排除Budd-Chiari综合征"
+  ],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.65,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "24_Budd-Chiari综合征、诊为乙肝肝硬化",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "28岁"
+        },
+        "chief_complaint": "患者：男性，28岁。 主因间断乏力、腹胀伴肝功能异常半年余，呕血2小时收住我院。",
+        "present_illness": "患者于1999年12月始，间断出现乏力、食欲不振、肝区不适、腹胀、尿黄、双下肢水肿，查肝功能异常，乙肝标志物阳性，当时在外院诊为“慢性乙型肝炎，肝硬化”服用多种保肝药物等治疗，病情无明显改善。于入院前2小时患者突然出现呕血2次，为暗红色伴血块，量约800毫升。遂来我院就诊，于2000年6月21日收住院治疗。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "患者平素体健，无外伤、手术及输血史，无烟酒嗜好。否认乙肝家族史。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "24_Budd-Chiari综合征、诊为乙肝肝硬化",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "28岁"
+        },
+        "chief_complaint": "患者：男性，28岁。 主因间断乏力、腹胀伴肝功能异常半年余，呕血2小时收住我院。",
+        "present_illness": "患者于1999年12月始，间断出现乏力、食欲不振、肝区不适、腹胀、尿黄、双下肢水肿，查肝功能异常，乙肝标志物阳性，当时在外院诊为“慢性乙型肝炎，肝硬化”服用多种保肝药物等治疗，病情无明显改善。于入院前2小时患者突然出现呕血2次，为暗红色伴血块，量约800毫升。遂来我院就诊，于2000年6月21日收住院治疗。",
+        "dept_l1": "儿科",
+        "dept_l2": [
+          "小儿消化科"
+        ],
+        "past_history": "患者平素体健，无外伤、手术及输血史，无烟酒嗜好。否认乙肝家族史。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "24_Budd-Chiari综合征、诊为乙肝肝硬化",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "28岁"
+        },
+        "chief_complaint": "患者：男性，28岁。 主因间断乏力、腹胀伴肝功能异常半年余，呕血2小时收住我院。",
+        "present_illness": "患者于1999年12月始，间断出现乏力、食欲不振、肝区不适、腹胀、尿黄、双下肢水肿，查肝功能异常，乙肝标志物阳性，当时在外院诊为“慢性乙型肝炎，肝硬化”服用多种保肝药物等治疗，病情无明显改善。于入院前2小时患者突然出现呕血2次，为暗红色伴血块，量约800毫升。遂来我院就诊，于2000年6月21日收住院治疗。",
+        "dept_l1": "儿科",
+        "dept_l2": [
+          "小儿消化科"
+        ],
+        "past_history": "患者平素体健，无外伤、手术及输血史，无烟酒嗜好。否认乙肝家族史。",
+        "hypothesis_illness": [
+          {
+            "name": "乙肝肝硬化失代偿期并食管胃底静脉曲张破裂出血",
+            "disease": "乙肝肝硬化失代偿期并食管胃底静脉曲张破裂出血",
+            "evidence": [
+              "乙肝标志物阳性",
+              "慢性肝病表现：乏力、腹胀、双下肢水肿、尿黄",
+              "突发大量暗红色呕血伴血块"
+            ],
+            "confidence": 0.78
+          },
+          {
+            "name": "Budd-Chiari综合征",
+            "disease": "Budd-Chiari综合征",
+            "evidence": [
+              "年轻男性",
+              "门脉高压表现：腹胀、双下肢水肿、呕血",
+              "病例提示需鉴别，乙肝肝硬化不能完全解释"
+            ],
+            "confidence": 0.4
+          },
+          {
+            "name": "门静脉高压性胃病出血",
+            "disease": "门静脉高压性胃病出血",
+            "evidence": [
+              "肝硬化门脉高压背景",
+              "呕血"
+            ],
+            "confidence": 0.32
+          },
+          {
+            "name": "消化性溃疡出血",
+            "disease": "消化性溃疡出血",
+            "evidence": [
+              "急性上消化道出血"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "急性胃黏膜病变出血",
+            "disease": "急性胃黏膜病变出血",
+            "evidence": [
+              "肝功能异常",
+              "急性出血"
+            ],
+            "confidence": 0.18
+          },
+          {
+            "name": "肝硬化合并肝癌破裂或门静脉癌栓出血",
+            "disease": "肝硬化合并肝癌破裂或门静脉癌栓出血",
+            "evidence": [
+              "乙肝肝硬化背景",
+              "门脉高压表现"
+            ],
+            "confidence": 0.15
+          },
+          {
+            "name": "食管贲门黏膜撕裂症",
+            "disease": "食管贲门黏膜撕裂症",
+            "evidence": [
+              "呕血"
+            ],
+            "confidence": 0.12
+          }
+        ],
+        "physical_exams": {
+          "一般检查": "体温36.7cC，脉搏106次/nun，呼吸25次/min，血压1l/6kPa，发育正常，营养中等，面色苍黄，神志清，查体合作",
+          "腹部检查": "腹平软，无压痛、反跳痛，肝剑突下4cm、肋下3cm，脾肋下icm，质地中等，移动性浊音阳性"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "一般检查",
+          "腹部检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "内镜检查",
+          "血液学检查",
+          "超声",
+          "CT"
+        ],
+        "predicted_physical_exams": [
+          "一般检查",
+          "腹部检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "内镜检查",
+          "血液学检查",
+          "超声",
+          "CT"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [
+          "乙肝血清学标志物（HBsAg、HBeAg等）及HBV DNA定量",
+          "急诊上消化道内镜检查，明确出血来源及有无食管胃底静脉曲张",
+          "肝功能、凝血功能、血常规、肾功能及电解质",
+          "腹部增强CT或磁共振及门静脉/肝静脉血管成像，评估肝硬化、门脉高压，并排除Budd-Chiari综合征、肝癌或门静脉血栓",
+          "血清甲胎蛋白",
+          "诊断性腹水穿刺（SAAG、细胞学、生化检查）"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.78,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task1_referral",
+      "reason": "committed_backtrack_restored",
+      "state": {
+        "case_id": "24_Budd-Chiari综合征、诊为乙肝肝硬化",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "28岁"
+        },
+        "chief_complaint": "患者：男性，28岁。 主因间断乏力、腹胀伴肝功能异常半年余，呕血2小时收住我院。",
+        "present_illness": "患者于1999年12月始，间断出现乏力、食欲不振、肝区不适、腹胀、尿黄、双下肢水肿，查肝功能异常，乙肝标志物阳性，当时在外院诊为“慢性乙型肝炎，肝硬化”服用多种保肝药物等治疗，病情无明显改善。于入院前2小时患者突然出现呕血2次，为暗红色伴血块，量约800毫升。遂来我院就诊，于2000年6月21日收住院治疗。",
+        "dept_l1": "儿科",
+        "dept_l2": [
+          "小儿消化科"
+        ],
+        "past_history": "患者平素体健，无外伤、手术及输血史，无烟酒嗜好。否认乙肝家族史。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exams",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 2,
+      "workflow_action_index": 4,
+      "mcts_step": 2,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "24_Budd-Chiari综合征、诊为乙肝肝硬化",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "28岁"
+        },
+        "chief_complaint": "患者：男性，28岁。 主因间断乏力、腹胀伴肝功能异常半年余，呕血2小时收住我院。",
+        "present_illness": "患者于1999年12月始，间断出现乏力、食欲不振、肝区不适、腹胀、尿黄、双下肢水肿，查肝功能异常，乙肝标志物阳性，当时在外院诊为“慢性乙型肝炎，肝硬化”服用多种保肝药物等治疗，病情无明显改善。于入院前2小时患者突然出现呕血2次，为暗红色伴血块，量约800毫升。遂来我院就诊，于2000年6月21日收住院治疗。",
+        "dept_l1": "儿科",
+        "dept_l2": [
+          "小儿消化科"
+        ],
+        "past_history": "患者平素体健，无外伤、手术及输血史，无烟酒嗜好。否认乙肝家族史。",
+        "hypothesis_illness": [
+          {
+            "name": "乙肝肝硬化失代偿期并食管胃底静脉曲张破裂出血",
+            "disease": "乙肝肝硬化失代偿期并食管胃底静脉曲张破裂出血",
+            "evidence": [
+              "乙肝标志物阳性",
+              "间断乏力、腹胀、双下肢水肿",
+              "大量呕血，暗红色伴血块"
+            ],
+            "confidence": 0.7
+          },
+          {
+            "name": "Budd-Chiari综合征",
+            "disease": "Budd-Chiari综合征",
+            "evidence": [
+              "年轻男性",
+              "腹水、下肢水肿、肝区不适",
+              "呕血提示门脉高压",
+              "外院按乙肝肝硬化治疗效果差"
+            ],
+            "confidence": 0.6
+          },
+          {
+            "name": "门静脉血栓形成",
+            "disease": "门静脉血栓形成",
+            "evidence": [
+              "可能有肝硬化基础",
+              "突发呕血及腹水症状"
+            ],
+            "confidence": 0.35
+          },
+          {
+            "name": "原发性肝癌合并门脉高压出血",
+            "disease": "原发性肝癌合并门脉高压出血",
+            "evidence": [
+              "乙肝肝硬化基础",
+              "肝区不适、病情进展",
+              "呕血"
+            ],
+            "confidence": 0.35
+          },
+          {
+            "name": "消化性溃疡并出血",
+            "disease": "消化性溃疡并出血",
+            "evidence": [
+              "呕血"
+            ],
+            "confidence": 0.3
+          }
+        ],
+        "physical_exams": {
+          "腹部检查": "腹平软，无压痛、反跳痛，肝剑突下4cm、肋下3cm，脾肋下icm，质地中等，移动性浊音阳性"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "腹部检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "内镜检查",
+          "血液学检查",
+          "超声",
+          "CT"
+        ],
+        "predicted_physical_exams": [
+          "腹部检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "内镜检查",
+          "血液学检查",
+          "超声",
+          "CT"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor"
+        ],
+        "mcts_step": 2,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exams",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [
+          "急诊胃镜检查明确出血来源及有无食管胃底静脉曲张",
+          "乙肝病毒标志物及HBV-DNA定量",
+          "肝功能、凝血功能及血常规",
+          "腹部彩色多普勒超声/增强CT或MRI评估肝脾、门静脉、肝静脉及有无占位",
+          "甲胎蛋白（AFP）",
+          "腹水穿刺检查"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.7,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 5,
+      "trajectory_index": 3,
+      "workflow_action_index": 5,
+      "mcts_step": 3,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "24_Budd-Chiari综合征、诊为乙肝肝硬化",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "28岁"
+        },
+        "chief_complaint": "患者：男性，28岁。 主因间断乏力、腹胀伴肝功能异常半年余，呕血2小时收住我院。",
+        "present_illness": "患者于1999年12月始，间断出现乏力、食欲不振、肝区不适、腹胀、尿黄、双下肢水肿，查肝功能异常，乙肝标志物阳性，当时在外院诊为“慢性乙型肝炎，肝硬化”服用多种保肝药物等治疗，病情无明显改善。于入院前2小时患者突然出现呕血2次，为暗红色伴血块，量约800毫升。遂来我院就诊，于2000年6月21日收住院治疗。",
+        "dept_l1": "儿科",
+        "dept_l2": [
+          "小儿消化科"
+        ],
+        "past_history": "患者平素体健，无外伤、手术及输血史，无烟酒嗜好。否认乙肝家族史。",
+        "hypothesis_illness": [
+          {
+            "name": "乙肝肝硬化失代偿期并食管胃底静脉曲张破裂出血",
+            "disease": "乙肝肝硬化失代偿期并食管胃底静脉曲张破裂出血",
+            "evidence": [
+              "乙肝标志物阳性",
+              "间断乏力、腹胀、双下肢水肿",
+              "大量呕血，暗红色伴血块"
+            ],
+            "confidence": 0.7
+          },
+          {
+            "name": "Budd-Chiari综合征",
+            "disease": "Budd-Chiari综合征",
+            "evidence": [
+              "年轻男性",
+              "腹水、下肢水肿、肝区不适",
+              "呕血提示门脉高压",
+              "外院按乙肝肝硬化治疗效果差"
+            ],
+            "confidence": 0.6
+          },
+          {
+            "name": "门静脉血栓形成",
+            "disease": "门静脉血栓形成",
+            "evidence": [
+              "可能有肝硬化基础",
+              "突发呕血及腹水症状"
+            ],
+            "confidence": 0.35
+          },
+          {
+            "name": "原发性肝癌合并门脉高压出血",
+            "disease": "原发性肝癌合并门脉高压出血",
+            "evidence": [
+              "乙肝肝硬化基础",
+              "肝区不适、病情进展",
+              "呕血"
+            ],
+            "confidence": 0.35
+          },
+          {
+            "name": "消化性溃疡并出血",
+            "disease": "消化性溃疡并出血",
+            "evidence": [
+              "呕血"
+            ],
+            "confidence": 0.3
+          }
+        ],
+        "physical_exams": {
+          "腹部检查": "腹平软，无压痛、反跳痛，肝剑突下4cm、肋下3cm，脾肋下icm，质地中等，移动性浊音阳性"
+        },
+        "auxiliary_exams": {
+          "超声": "外院腹部彩色多普勒：肝硬化腹水，肝脾肿大",
+          "血液学检查": "血常规：WBC3.52×109/L，N1×109/L，L1.96×109/L，RBC3.04×1012/L，Hb92g/L，PLT68×109／L，肝功能检查：ALT74U/L，TBIL36.6umol/L，TP61.3g/L，ALB30.2g/L’乙肝标志物：HBsAb(+)、HBeAb(+)、HBcAb(+)"
+        },
+        "imaging_results": {
+          "超声": "外院腹部彩色多普勒：肝硬化腹水，肝脾肿大"
+        },
+        "completed_physical_exams": [
+          "腹部检查"
+        ],
+        "completed_auxiliary_exams": [
+          "超声",
+          "血液学检查"
+        ],
+        "completed_imaging_exams": [
+          "超声"
+        ],
+        "pending_auxiliary_exams": [
+          "内镜检查",
+          "CT"
+        ],
+        "predicted_physical_exams": [
+          "腹部检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "内镜检查",
+          "血液学检查",
+          "超声",
+          "CT"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor",
+          "task3_imaging"
+        ],
+        "mcts_step": 3,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 4,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 3,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exams",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [
+          "急诊胃镜检查以明确有无食管胃底静脉曲张破裂出血或消化性溃疡出血",
+          "HBsAg及HBV DNA定量检测以确认有无活动性HBV感染",
+          "腹部增强CT/血管成像或肝静脉、门静脉多普勒超声以鉴别Budd-Chiari综合征和门静脉血栓形成",
+          "凝血功能检查（PT/INR）以评估肝功能失代偿及出血风险",
+          "血清AFP及肝脏增强MRI/CT以筛查原发性肝癌",
+          "腹水穿刺检查（SAAG、细胞学）以鉴别腹水性质"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.7,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": 1,
+  "terminated_by": "eta",
+  "finalization_used": false,
+  "agent_missing_evidence": [
+    {
+      "disease": "Budd-Chiari综合征",
+      "missing": [
+        "需腹部增强CT排除",
+        "需肝静脉排除"
+      ],
+      "suggested_exams": [
+        "腹部增强CT",
+        "肝静脉"
+      ]
+    },
+    {
+      "disease": "乙肝肝硬化失代偿期",
+      "missing": [
+        "需HBV DNA排除",
+        "需肝穿刺活检排除"
+      ],
+      "suggested_exams": [
+        "HBV DNA",
+        "肝穿刺活检"
+      ]
+    },
+    {
+      "disease": "门静脉血栓形成",
+      "missing": [
+        "需门静脉彩色多普勒排除",
+        "需腹部增强CT门静脉成像排除"
+      ],
+      "suggested_exams": [
+        "门静脉彩色多普勒",
+        "腹部增强CT门静脉成像"
+      ]
+    },
+    {
+      "disease": "原发性肝癌",
+      "missing": [
+        "需AFP排除",
+        "需肝脏增强CT排除"
+      ],
+      "suggested_exams": [
+        "AFP",
+        "肝脏增强CT"
+      ]
+    },
+    {
+      "disease": "消化性溃疡并出血",
+      "missing": [
+        "需急诊胃镜排除"
+      ],
+      "suggested_exams": [
+        "急诊胃镜"
+      ]
+    }
+  ]
+}

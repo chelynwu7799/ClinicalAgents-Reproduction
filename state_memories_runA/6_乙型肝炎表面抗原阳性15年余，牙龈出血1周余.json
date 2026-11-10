@@ -1,0 +1,1003 @@
+{
+  "case_id": "6_乙型肝炎表面抗原阳性15年余，牙龈出血1周余",
+  "personal_info": {
+    "性别": "未知",
+    "年龄": "未知"
+  },
+  "chief_complaint": "乙型肝炎表面抗原阳性15年余，牙龈出血1周余",
+  "present_illness": "",
+  "dept_l1": "内科",
+  "dept_l2": [
+    "肝病科"
+  ],
+  "past_history": "",
+  "hypothesis_illness": [
+    {
+      "name": "乙肝肝硬化失代偿期",
+      "disease": "乙肝肝硬化失代偿期",
+      "evidence": [
+        "乙型肝炎表面抗原阳性15年余",
+        "牙龈出血1周余"
+      ],
+      "confidence": 0.7
+    },
+    {
+      "name": "慢性乙型肝炎活动",
+      "disease": "慢性乙型肝炎活动",
+      "evidence": [
+        "乙型肝炎表面抗原阳性15年余"
+      ],
+      "confidence": 0.5
+    },
+    {
+      "name": "脾功能亢进（继发于肝硬化）",
+      "disease": "脾功能亢进（继发于肝硬化）",
+      "evidence": [
+        "乙型肝炎表面抗原阳性15年余",
+        "牙龈出血1周余"
+      ],
+      "confidence": 0.5
+    },
+    {
+      "name": "原发性肝癌",
+      "disease": "原发性肝癌",
+      "evidence": [
+        "乙型肝炎表面抗原阳性15年余"
+      ],
+      "confidence": 0.3
+    },
+    {
+      "name": "免疫性血小板减少症",
+      "disease": "免疫性血小板减少症",
+      "evidence": [
+        "牙龈出血1周余"
+      ],
+      "confidence": 0.3
+    },
+    {
+      "name": "牙周疾病/牙龈炎",
+      "disease": "牙周疾病/牙龈炎",
+      "evidence": [
+        "牙龈出血1周余"
+      ],
+      "confidence": 0.3
+    }
+  ],
+  "physical_exams": {},
+  "auxiliary_exams": {},
+  "imaging_results": {},
+  "completed_physical_exams": [],
+  "completed_auxiliary_exams": [],
+  "completed_imaging_exams": [],
+  "pending_auxiliary_exams": [
+    "血液学检查",
+    "超声"
+  ],
+  "predicted_physical_exams": [
+    "腹部检查",
+    "皮肤检查",
+    "头颅眼耳鼻喉检查"
+  ],
+  "predicted_auxiliary_exams": [
+    "血液学检查",
+    "超声"
+  ],
+  "diagnosis_result": [],
+  "treatment_plan": [],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "pending",
+    "task5_treatment": "pending"
+  },
+  "recheck_total": 1,
+  "max_recheck": 3,
+  "mcts_trajectory": [
+    "a_back",
+    "task2_doctor",
+    "a_rag",
+    "task3_imaging"
+  ],
+  "mcts_step": 4,
+  "mcts_eta": 4,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "a_back",
+      "source": "committed_backtrack",
+      "mcts_step": 1,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task2_doctor",
+      "source": "committed_backtrack_target",
+      "mcts_step": 2,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 4,
+      "action": "a_rag",
+      "source": "mcts_selected",
+      "mcts_step": 3,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 5,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 4,
+      "workflow_stage": "task2_doctor"
+    }
+  ],
+  "backtrack_events": [
+    {
+      "event_id": 0,
+      "source": "committed",
+      "target_snapshot_id": 1,
+      "target_workflow_stage": "task1_referral",
+      "requested_action": "physical_examination",
+      "executed_action": "task2_doctor",
+      "mcts_step": 1
+    }
+  ],
+  "missing_evidence": [
+    "血常规及血小板计数",
+    "凝血功能（PT/INR）",
+    "肝功能及白蛋白/胆红素",
+    "HBV DNA及乙肝血清标志物",
+    "腹部超声/CT/MRI（肝脾、门静脉、腹水、占位）",
+    "甲胎蛋白（AFP）",
+    "胃镜检查（食管胃底静脉曲张）",
+    "口腔/牙周检查"
+  ],
+  "potential_missing_evidence": [
+    "一般检查",
+    "头颅眼耳鼻喉检查",
+    "颈部检查",
+    "胸部检查",
+    "腹部检查",
+    "脊柱和四肢检查",
+    "神经系统检查",
+    "CT"
+  ],
+  "experience_knowledge": [
+    "【基本信息】男，61岁，农民 24907.jpg",
+    "【基本信息】女，30岁",
+    "【基本信息】男，43岁 【发病原因】病因不明 【临床诊断】乙型肝炎、急性黄疸型，EB病毒感染 【治疗方案】予阿糖腺苷抗感染、保肝、退黄、对症支持治疗 【治疗结果】病情好转 【病案重点】急性乙型肝炎合并EB病毒感染 19399.png"
+  ],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [
+    {
+      "case_id": "11637_腹胀、腹痛患者一例",
+      "text": "腹胀、腹痛2个月余，加重1天。 患者缘于2月余前无诱因出现腹胀，腹痛，厌食、乏力，就诊于青龙县医院，行腹部增强CT检查示：肝硬化，肝左叶较著，考虑肝左叶弥漫性肝癌伴门静脉左支及主干瘤栓形成，脾大，肝内余处多发微小乏血供结节，胆囊饱满。诊断为“肝恶性肿瘤、乙型肝炎后肝硬化”，予“保肝降酶、抗病毒、抗肿瘤”等药物治疗（具体药名及剂量不详）后病情好转出院。1天前患者腹痛加重，以右上腹为主，呈持续性胀痛，厌食、乏力加重，无寒颤发热，无意识障碍，无呕血及黑便，无未用药治疗，为系统治疗而入我院。 1.原发性肝癌  2.肝炎后肝硬化（失代偿期） 3.慢性病毒性乙型肝炎 1.原发性肝癌  2.肝炎后肝硬化（失代偿期） 3.慢性病毒性乙型肝炎 肝脓肿：临床表现为发热、肝区疼痛、压痛明显，肿大肝脏表面平滑无结节。白细胞计数和中性粒细胞升高。多次超声检查可发现脓肿的液性暗区。必要时在超声引导下做诊断性穿刺或药物试验性治疗以明确诊断。 本例患者是由于慢性病毒性乙型肝炎未及时治疗，发展为肝硬化失代偿期、原发性肝癌，可以通过肝脏加强CT检查明确诊断。慢性病毒性乙型肝炎患者一定要引起足够重视，定期复查乙肝病毒指数和肝功能，如果乙肝病毒指数明显升高，肝功能明显异常，应早期抗病毒治疗，以免病情进一步恶化。本患者已经发展到晚期，失去手术机会，只能采取保守治疗，可以使用保肝降酶、利尿、营养支持、止痛等药物治疗，如果出现大量腹水，可以采取腹腔穿刺防水，减轻患者痛苦，延长寿命。",
+      "summary": "【基本信息】男，61岁，农民 24907.jpg",
+      "exams": [
+        "一般检查",
+        "头颅眼耳鼻喉检查",
+        "颈部检查",
+        "胸部检查",
+        "腹部检查",
+        "脊柱和四肢检查",
+        "神经系统检查",
+        "CT",
+        "血液学检查"
+      ],
+      "similarity": 0.1960155389282888
+    },
+    {
+      "case_id": "9485_妊娠期需谨慎选择抗病毒药物",
+      "text": "女性，30岁。患慢性乙型肝炎病，服用阿德福韦酯抗病毒治疗1.5年，因希望怀孕，于2011年7月9日到我院门诊咨询。 患者曾于2010年1月12日到我院门诊就诊，开始服用阿德福韦酯10mg/d治疗。治疗3个月后肝功能恢复正常，6个月后乙型肝炎病毒（HBV）DNA",
+      "summary": "【基本信息】女，30岁",
+      "exams": [],
+      "similarity": 0.10033862015833532
+    },
+    {
+      "case_id": "9482_急性乙型肝炎合并EB病毒感染",
+      "text": "发热6d，目黄4天 患者于入院前6d无明显诱因出现发热、双腿瘀斑、尿黄，发热时伴有大汗，未监测体温，未行系统诊治，入院前4d出现目黄，入院前1d进食油腻食物后出现呕吐，呕吐物为内容物。 乙型肝炎、急性黄疸型，EB病毒感染。",
+      "summary": "【基本信息】男，43岁 【发病原因】病因不明 【临床诊断】乙型肝炎、急性黄疸型，EB病毒感染 【治疗方案】予阿糖腺苷抗感染、保肝、退黄、对症支持治疗 【治疗结果】病情好转 【病案重点】急性乙型肝炎合并EB病毒感染 19399.png",
+      "exams": [
+        "一般检查",
+        "胸部检查",
+        "腹部检查",
+        "脊柱和四肢检查",
+        "皮肤检查",
+        "神经系统检查",
+        "CT",
+        "血液学检查"
+      ],
+      "similarity": 0.08146556489185133
+    }
+  ],
+  "evidence_importance": {},
+  "experience_memory_available": true,
+  "top_hypothesis_confidence": 0.7,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "6_乙型肝炎表面抗原阳性15年余，牙龈出血1周余",
+        "personal_info": {
+          "性别": "未知",
+          "年龄": "未知"
+        },
+        "chief_complaint": "乙型肝炎表面抗原阳性15年余，牙龈出血1周余",
+        "present_illness": "",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "6_乙型肝炎表面抗原阳性15年余，牙龈出血1周余",
+        "personal_info": {
+          "性别": "未知",
+          "年龄": "未知"
+        },
+        "chief_complaint": "乙型肝炎表面抗原阳性15年余，牙龈出血1周余",
+        "present_illness": "",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "6_乙型肝炎表面抗原阳性15年余，牙龈出血1周余",
+        "personal_info": {
+          "性别": "未知",
+          "年龄": "未知"
+        },
+        "chief_complaint": "乙型肝炎表面抗原阳性15年余，牙龈出血1周余",
+        "present_illness": "",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "慢性乙型肝炎肝硬化失代偿期（凝血功能障碍/脾功能亢进）",
+            "disease": "慢性乙型肝炎肝硬化失代偿期（凝血功能障碍/脾功能亢进）",
+            "evidence": [
+              "乙型肝炎表面抗原阳性15年余",
+              "牙龈出血1周余"
+            ],
+            "confidence": 0.7
+          },
+          {
+            "name": "慢性乙型肝炎活动（无明显肝硬化）",
+            "disease": "慢性乙型肝炎活动（无明显肝硬化）",
+            "evidence": [
+              "乙型肝炎表面抗原阳性15年余",
+              "牙龈出血1周余"
+            ],
+            "confidence": 0.5
+          },
+          {
+            "name": "肝细胞癌",
+            "disease": "肝细胞癌",
+            "evidence": [
+              "长期乙肝感染",
+              "新发出血倾向"
+            ],
+            "confidence": 0.35
+          },
+          {
+            "name": "牙周病/牙龈炎",
+            "disease": "牙周病/牙龈炎",
+            "evidence": [
+              "牙龈出血1周余"
+            ],
+            "confidence": 0.35
+          },
+          {
+            "name": "免疫性血小板减少症",
+            "disease": "免疫性血小板减少症",
+            "evidence": [
+              "牙龈出血",
+              "慢性乙肝可合并免疫紊乱"
+            ],
+            "confidence": 0.3
+          }
+        ],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "血液学检查",
+          "超声"
+        ],
+        "predicted_physical_exams": [
+          "头颅眼耳鼻喉检查",
+          "腹部检查",
+          "皮肤检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "血液学检查",
+          "超声"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [
+          "体格检查（慢性肝病体征、肝脾触诊、腹水征、牙龈及口腔局部检查）",
+          "血常规及血小板计数",
+          "凝血功能（PT/INR、APTT、纤维蛋白原）",
+          "肝功能（ALT/AST、白蛋白、总胆红素）",
+          "HBV DNA定量及HBeAg/抗-HBe",
+          "腹部超声或肝脏瞬时弹性成像",
+          "甲胎蛋白及肝脏增强影像（CT/MRI）",
+          "外周血涂片、血小板相关抗体或自身免疫指标"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.7,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task1_referral",
+      "reason": "committed_backtrack_restored",
+      "state": {
+        "case_id": "6_乙型肝炎表面抗原阳性15年余，牙龈出血1周余",
+        "personal_info": {
+          "性别": "未知",
+          "年龄": "未知"
+        },
+        "chief_complaint": "乙型肝炎表面抗原阳性15年余，牙龈出血1周余",
+        "present_illness": "",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "physical_examination",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 2,
+      "workflow_action_index": 4,
+      "mcts_step": 2,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "6_乙型肝炎表面抗原阳性15年余，牙龈出血1周余",
+        "personal_info": {
+          "性别": "未知",
+          "年龄": "未知"
+        },
+        "chief_complaint": "乙型肝炎表面抗原阳性15年余，牙龈出血1周余",
+        "present_illness": "",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "乙肝肝硬化失代偿期",
+            "disease": "乙肝肝硬化失代偿期",
+            "evidence": [
+              "乙型肝炎表面抗原阳性15年余",
+              "牙龈出血1周余"
+            ],
+            "confidence": 0.7
+          },
+          {
+            "name": "慢性乙型肝炎活动",
+            "disease": "慢性乙型肝炎活动",
+            "evidence": [
+              "乙型肝炎表面抗原阳性15年余"
+            ],
+            "confidence": 0.5
+          },
+          {
+            "name": "脾功能亢进（继发于肝硬化）",
+            "disease": "脾功能亢进（继发于肝硬化）",
+            "evidence": [
+              "乙型肝炎表面抗原阳性15年余",
+              "牙龈出血1周余"
+            ],
+            "confidence": 0.5
+          },
+          {
+            "name": "原发性肝癌",
+            "disease": "原发性肝癌",
+            "evidence": [
+              "乙型肝炎表面抗原阳性15年余"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "免疫性血小板减少症",
+            "disease": "免疫性血小板减少症",
+            "evidence": [
+              "牙龈出血1周余"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "牙周疾病/牙龈炎",
+            "disease": "牙周疾病/牙龈炎",
+            "evidence": [
+              "牙龈出血1周余"
+            ],
+            "confidence": 0.3
+          }
+        ],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "血液学检查",
+          "超声"
+        ],
+        "predicted_physical_exams": [
+          "腹部检查",
+          "皮肤检查",
+          "头颅眼耳鼻喉检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "血液学检查",
+          "超声"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor"
+        ],
+        "mcts_step": 2,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "physical_examination",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [
+          "血常规及血小板计数",
+          "凝血功能（PT、INR、APTT）",
+          "肝功能（ALT、AST、胆红素、白蛋白）",
+          "HBV DNA定量及乙肝标志物（HBeAg/抗HBe）",
+          "甲胎蛋白（AFP）",
+          "腹部超声或CT/MRI（肝脾形态、门静脉内径、腹水、占位）",
+          "肝脏瞬时弹性成像（FibroScan）",
+          "胃镜检查（食管胃静脉曲张）",
+          "口腔科检查"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.7,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 5,
+      "trajectory_index": 3,
+      "workflow_action_index": 5,
+      "mcts_step": 3,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "6_乙型肝炎表面抗原阳性15年余，牙龈出血1周余",
+        "personal_info": {
+          "性别": "未知",
+          "年龄": "未知"
+        },
+        "chief_complaint": "乙型肝炎表面抗原阳性15年余，牙龈出血1周余",
+        "present_illness": "",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "乙肝肝硬化失代偿期",
+            "disease": "乙肝肝硬化失代偿期",
+            "evidence": [
+              "乙型肝炎表面抗原阳性15年余",
+              "牙龈出血1周余"
+            ],
+            "confidence": 0.7
+          },
+          {
+            "name": "慢性乙型肝炎活动",
+            "disease": "慢性乙型肝炎活动",
+            "evidence": [
+              "乙型肝炎表面抗原阳性15年余"
+            ],
+            "confidence": 0.5
+          },
+          {
+            "name": "脾功能亢进（继发于肝硬化）",
+            "disease": "脾功能亢进（继发于肝硬化）",
+            "evidence": [
+              "乙型肝炎表面抗原阳性15年余",
+              "牙龈出血1周余"
+            ],
+            "confidence": 0.5
+          },
+          {
+            "name": "原发性肝癌",
+            "disease": "原发性肝癌",
+            "evidence": [
+              "乙型肝炎表面抗原阳性15年余"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "免疫性血小板减少症",
+            "disease": "免疫性血小板减少症",
+            "evidence": [
+              "牙龈出血1周余"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "牙周疾病/牙龈炎",
+            "disease": "牙周疾病/牙龈炎",
+            "evidence": [
+              "牙龈出血1周余"
+            ],
+            "confidence": 0.3
+          }
+        ],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "血液学检查",
+          "超声"
+        ],
+        "predicted_physical_exams": [
+          "腹部检查",
+          "皮肤检查",
+          "头颅眼耳鼻喉检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "血液学检查",
+          "超声"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor",
+          "a_rag"
+        ],
+        "mcts_step": 3,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 4,
+            "action": "a_rag",
+            "source": "mcts_selected",
+            "mcts_step": 3,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "physical_examination",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [
+          "血常规（尤其血小板计数）",
+          "凝血功能（PT/INR）",
+          "肝功能（ALT/AST/白蛋白/胆红素）",
+          "HBV DNA及乙肝血清学标志物",
+          "腹部超声或CT/MRI（肝脏形态、脾大、腹水、占位）",
+          "甲胎蛋白（AFP）",
+          "体格检查（肝病体征：黄疸、肝掌、蜘蛛痣、脾大、腹水）",
+          "口腔/牙科检查"
+        ],
+        "potential_missing_evidence": [
+          "一般检查",
+          "头颅眼耳鼻喉检查",
+          "颈部检查",
+          "胸部检查",
+          "腹部检查",
+          "脊柱和四肢检查",
+          "神经系统检查",
+          "CT"
+        ],
+        "experience_knowledge": [
+          "【基本信息】男，61岁，农民 24907.jpg",
+          "【基本信息】女，30岁",
+          "【基本信息】男，43岁 【发病原因】病因不明 【临床诊断】乙型肝炎、急性黄疸型，EB病毒感染 【治疗方案】予阿糖腺苷抗感染、保肝、退黄、对症支持治疗 【治疗结果】病情好转 【病案重点】急性乙型肝炎合并EB病毒感染 19399.png"
+        ],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [
+          {
+            "case_id": "11637_腹胀、腹痛患者一例",
+            "text": "腹胀、腹痛2个月余，加重1天。 患者缘于2月余前无诱因出现腹胀，腹痛，厌食、乏力，就诊于青龙县医院，行腹部增强CT检查示：肝硬化，肝左叶较著，考虑肝左叶弥漫性肝癌伴门静脉左支及主干瘤栓形成，脾大，肝内余处多发微小乏血供结节，胆囊饱满。诊断为“肝恶性肿瘤、乙型肝炎后肝硬化”，予“保肝降酶、抗病毒、抗肿瘤”等药物治疗（具体药名及剂量不详）后病情好转出院。1天前患者腹痛加重，以右上腹为主，呈持续性胀痛，厌食、乏力加重，无寒颤发热，无意识障碍，无呕血及黑便，无未用药治疗，为系统治疗而入我院。 1.原发性肝癌  2.肝炎后肝硬化（失代偿期） 3.慢性病毒性乙型肝炎 1.原发性肝癌  2.肝炎后肝硬化（失代偿期） 3.慢性病毒性乙型肝炎 肝脓肿：临床表现为发热、肝区疼痛、压痛明显，肿大肝脏表面平滑无结节。白细胞计数和中性粒细胞升高。多次超声检查可发现脓肿的液性暗区。必要时在超声引导下做诊断性穿刺或药物试验性治疗以明确诊断。 本例患者是由于慢性病毒性乙型肝炎未及时治疗，发展为肝硬化失代偿期、原发性肝癌，可以通过肝脏加强CT检查明确诊断。慢性病毒性乙型肝炎患者一定要引起足够重视，定期复查乙肝病毒指数和肝功能，如果乙肝病毒指数明显升高，肝功能明显异常，应早期抗病毒治疗，以免病情进一步恶化。本患者已经发展到晚期，失去手术机会，只能采取保守治疗，可以使用保肝降酶、利尿、营养支持、止痛等药物治疗，如果出现大量腹水，可以采取腹腔穿刺防水，减轻患者痛苦，延长寿命。",
+            "summary": "【基本信息】男，61岁，农民 24907.jpg",
+            "exams": [
+              "一般检查",
+              "头颅眼耳鼻喉检查",
+              "颈部检查",
+              "胸部检查",
+              "腹部检查",
+              "脊柱和四肢检查",
+              "神经系统检查",
+              "CT",
+              "血液学检查"
+            ],
+            "similarity": 0.1960155389282888
+          },
+          {
+            "case_id": "9485_妊娠期需谨慎选择抗病毒药物",
+            "text": "女性，30岁。患慢性乙型肝炎病，服用阿德福韦酯抗病毒治疗1.5年，因希望怀孕，于2011年7月9日到我院门诊咨询。 患者曾于2010年1月12日到我院门诊就诊，开始服用阿德福韦酯10mg/d治疗。治疗3个月后肝功能恢复正常，6个月后乙型肝炎病毒（HBV）DNA",
+            "summary": "【基本信息】女，30岁",
+            "exams": [],
+            "similarity": 0.10033862015833532
+          },
+          {
+            "case_id": "9482_急性乙型肝炎合并EB病毒感染",
+            "text": "发热6d，目黄4天 患者于入院前6d无明显诱因出现发热、双腿瘀斑、尿黄，发热时伴有大汗，未监测体温，未行系统诊治，入院前4d出现目黄，入院前1d进食油腻食物后出现呕吐，呕吐物为内容物。 乙型肝炎、急性黄疸型，EB病毒感染。",
+            "summary": "【基本信息】男，43岁 【发病原因】病因不明 【临床诊断】乙型肝炎、急性黄疸型，EB病毒感染 【治疗方案】予阿糖腺苷抗感染、保肝、退黄、对症支持治疗 【治疗结果】病情好转 【病案重点】急性乙型肝炎合并EB病毒感染 19399.png",
+            "exams": [
+              "一般检查",
+              "胸部检查",
+              "腹部检查",
+              "脊柱和四肢检查",
+              "皮肤检查",
+              "神经系统检查",
+              "CT",
+              "血液学检查"
+            ],
+            "similarity": 0.08146556489185133
+          }
+        ],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.7,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false,
+        "experience_retrieval_backend": "tfidf"
+      }
+    }
+  ],
+  "active_snapshot_id": 1,
+  "terminated_by": "eta",
+  "finalization_used": false,
+  "experience_retrieval_backend": "tfidf"
+}

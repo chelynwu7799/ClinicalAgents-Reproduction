@@ -1,0 +1,1072 @@
+{
+  "case_id": "17_小剂量阿德福韦酯抗乙肝治疗后致低磷软骨病1例",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "58岁"
+  },
+  "chief_complaint": "患者男性，58岁 主因“骨痛进行性加重1年”入院。",
+  "present_illness": "患者于1年前无明显诱因自觉左足部疼痛，无红肿及骨骼变形，于当地医院查足部正侧位X片后未见异常，曾应用药物局部外敷治疗后症状无缓解，疼痛逐渐加重，后行风湿、类风湿相关检查未及异常。近4个月来，疼痛逐渐累及下肢、髋部、肋骨，左下肢屈曲不能伸直，每于变换**时疼痛加重，行走受限需借助轮椅。外院SPECT检查示：多发性肋骨骨折，左侧骶髂关节、左髋臼、左胫骨下段、双膝及右踝异常放射浓聚，肝硬化。1个月前外院查血磷0.29mmol/L（0.89~1.6mmol/L），血钾2.97mmol/L（3.5~5.5mmol/L）；尿常规示：酮体±，尿糖±；甲状旁腺激素升高157.6pg/ml，甲状旁腺ECT检查未见异常；髋臼、骶髂关节CT平扫示：双髋关节及骶髂关节改变。予补钙治疗后，患者疼痛症状无缓解，复查血磷0.36mmol/L，遂就诊于我院。发病以来，患者食欲可，大小便正常，1年内体重下降约5kg。",
+  "dept_l1": "内科",
+  "dept_l2": [
+    "内分泌科",
+    "风湿科"
+  ],
+  "past_history": "【既往史】\n乙型病毒性肝炎病史12年，9年前因肝硬化（失代偿期）行脾全切除术。曾予口服拉米夫定抗病毒治疗，效果不佳，7年前改用阿德福韦酯10mg/d抗病毒治疗至今。否认糖尿病、高血压病史。",
+  "hypothesis_illness": [
+    {
+      "name": "阿德福韦酯相关范可尼综合征/低磷性骨软化症",
+      "disease": "阿德福韦酯相关范可尼综合征/低磷性骨软化症",
+      "evidence": [
+        "长期口服阿德福韦酯10 mg/d达7年",
+        "血磷极低0.29 mmol/L，血钾2.97 mmol/L",
+        "尿糖±提示近端肾小管重吸收障碍",
+        "进行性骨痛、多发性肋骨骨折、SPECT异常浓聚",
+        "PTH升高但甲状旁腺ECT阴性，补钙无效"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "多发性骨髓瘤",
+      "disease": "多发性骨髓瘤",
+      "evidence": [
+        "58岁男性，进行性骨痛",
+        "多发性肋骨骨折",
+        "体重下降约5 kg"
+      ],
+      "confidence": 0.25
+    },
+    {
+      "name": "骨转移瘤（肝癌等）",
+      "disease": "骨转移瘤（肝癌等）",
+      "evidence": [
+        "乙肝肝硬化失代偿病史",
+        "SPECT多发性异常浓聚",
+        "体重下降"
+      ],
+      "confidence": 0.3
+    },
+    {
+      "name": "原发性甲状旁腺功能亢进症",
+      "disease": "原发性甲状旁腺功能亢进症",
+      "evidence": [
+        "PTH升高",
+        "骨痛、多发性骨折"
+      ],
+      "confidence": 0.2
+    },
+    {
+      "name": "肾小管酸中毒/其他原因范可尼综合征",
+      "disease": "肾小管酸中毒/其他原因范可尼综合征",
+      "evidence": [
+        "低钾血症",
+        "尿糖±",
+        "低磷血症"
+      ],
+      "confidence": 0.3
+    },
+    {
+      "name": "维生素D缺乏性骨软化症",
+      "disease": "维生素D缺乏性骨软化症",
+      "evidence": [
+        "骨痛",
+        "PTH升高",
+        "多发性骨折"
+      ],
+      "confidence": 0.2
+    },
+    {
+      "name": "肿瘤性低磷性骨软化症",
+      "disease": "肿瘤性低磷性骨软化症",
+      "evidence": [
+        "低磷血症",
+        "骨痛",
+        "PTH升高"
+      ],
+      "confidence": 0.2
+    },
+    {
+      "name": "肝硬化相关性骨病/骨质疏松",
+      "disease": "肝硬化相关性骨病/骨质疏松",
+      "evidence": [
+        "乙肝肝硬化失代偿、脾切除术后",
+        "骨痛、骨折"
+      ],
+      "confidence": 0.2
+    }
+  ],
+  "physical_exams": {
+    "脊柱和四肢检查": "骨盆挤压痛(+) 脊柱无明显畸形，双下肢无浮肿"
+  },
+  "auxiliary_exams": {
+    "X-ray": "X线检查示：胸片、骨盆、头颅正侧位片未见异常。",
+    "血液学检查": "血常规、凝血四项、肿瘤标记物、全血糖化血红蛋白测定、血脂未及明显异常。血生化示：葡萄糖4.97mmol/L，碱性磷酸酶185.1U/L（0~130U/L），血肌酐91.7μmol/L（30~110μmol/L），血磷0.42mmol/L（0.89~1.6mmol/L），血钾3.08mmol/L（3.5~5.5mmol/L），游离血钙1.10mmol/L（1.02~1.6mmol/L），血钙2.25mmol/L（2.09~2.54mmol/L），γ-谷氨酰基转移酶73.9U/L（0~50U/L），全段甲状旁腺激素47.96pg/ml（15~65pg/ml）。血气分析示：PH7.37，BE-4.0（-3~+3），提示代谢性酸中毒。",
+    "尿液检查": "尿液常规：尿液PH值8，尿红细胞检查25/ul，尿蛋白定性试验25mg/dl，尿糖定性试验50mg/dl，尿磷14.26mmol/24h（23~48mmol/24h）。"
+  },
+  "imaging_results": {
+    "X-ray": "X线检查示：胸片、骨盆、头颅正侧位片未见异常。"
+  },
+  "completed_physical_exams": [
+    "脊柱和四肢检查"
+  ],
+  "completed_auxiliary_exams": [
+    "X-ray",
+    "血液学检查",
+    "尿液检查"
+  ],
+  "completed_imaging_exams": [
+    "X-ray"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "脊柱和四肢检查"
+  ],
+  "predicted_auxiliary_exams": [
+    "血液学检查",
+    "尿液检查",
+    "X-ray"
+  ],
+  "diagnosis_result": [],
+  "treatment_plan": [],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "pending",
+    "task5_treatment": "pending"
+  },
+  "recheck_total": 1,
+  "max_recheck": 3,
+  "mcts_trajectory": [
+    "a_back",
+    "task2_doctor",
+    "task3_imaging",
+    "a_rag"
+  ],
+  "mcts_step": 4,
+  "mcts_eta": 4,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "a_back",
+      "source": "committed_backtrack",
+      "mcts_step": 1,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task2_doctor",
+      "source": "committed_backtrack_target",
+      "mcts_step": 2,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 4,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 3,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 5,
+      "action": "a_rag",
+      "source": "mcts_selected",
+      "mcts_step": 4,
+      "workflow_stage": "task3_imaging"
+    }
+  ],
+  "backtrack_events": [
+    {
+      "event_id": 0,
+      "source": "committed",
+      "target_snapshot_id": 1,
+      "target_workflow_stage": "task1_referral",
+      "requested_action": "request_auxiliary_exams",
+      "executed_action": "task2_doctor",
+      "mcts_step": 1
+    }
+  ],
+  "missing_evidence": [
+    "血清25-羟维生素D、1,25-二羟维生素D及FGF23水平",
+    "尿氨基酸、尿β2微球蛋白、尿尿酸、尿钙及肾小管最大磷重吸收率(TmP/GFR)",
+    "血/尿蛋白电泳、免疫固定电泳、血清游离轻链及骨髓穿刺",
+    "全身骨显像/SPECT/CT或PET-CT",
+    "停用阿德福韦酯后血磷、尿糖及肾小管功能变化",
+    "腹部增强CT/MRI或肝脏影像",
+    "骨密度(DXA)"
+  ],
+  "potential_missing_evidence": [
+    "一般检查",
+    "胸部检查",
+    "腹部检查",
+    "脊柱和四肢检查",
+    "血液学检查",
+    "泌尿生殖系统检查",
+    "超声",
+    "X-ray"
+  ],
+  "experience_knowledge": [
+    "【基本信息】女，65岁",
+    "【基本信息】男，1岁8个月",
+    "【基本信息】女，63岁 21229.png"
+  ],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [
+    {
+      "case_id": "10806_血液透析中低血压",
+      "text": "患者女性，65岁，血液透析2年，近3月来在血液透析过程中反复出现低血压。 20年前，患者因头痛就诊，发现血压160/90mmHg，诊断为高血压。之后未接受规律降压治疗，血压控制不佳。5年前发现患者的肾功能减退，2年前肌酐清除率下降至4.5ml/min，进入血液透析治疗。1年前尿量渐减至无尿。6月来，患者停用降压药，透析间期血压维持在大约120/60-70mmHg。近3月来，在36次透析中，27次出现出现低血压（80-90/50-60mmHg）伴随眩晕和恶心，心律不快（70-80次/分）。透析方案：每周3次，每次4小时，血流速250ml/min，透析液流速500ml/min。透析液温度35.5?C，使用聚砜膜透析器(F6，FreseniusCo.)。血透中脱水量2-2.5kg。 身高160cm，体重60kg，血压：112/67mmHg、脉搏71次/分。听诊双肺呼吸音清，没有干湿啰音。心界向左扩大，心律齐，心律正常，未闻及杂音和额外心音。腹平软，无压痛和反跳痛，肝脾未及，可闻及肠鸣音。双下肢浮肿。实验室检查（透前）：血色素12.1g/l,尿素氮21.4mmol/l,肌酐782.4umol/l,白蛋白36.5g/l,钙2.41mmol/l;磷1.94mmol/l,钾5.2mmol/l，钠140mmol/l，氯98mmol/l，二氧化碳结合力21mmol/l。",
+      "summary": "【基本信息】女，65岁",
+      "exams": [
+        "一般检查",
+        "胸部检查",
+        "腹部检查",
+        "脊柱和四肢检查",
+        "血液学检查"
+      ],
+      "similarity": 0.14660538247551053
+    },
+    {
+      "case_id": "9343_幼儿Ⅲ型睾丸横过异位1例",
+      "text": "血压140/90mmHg，脉搏60次/分，半卧位，颈静脉怒张，心界向左下扩大，心前区闻及3/6级收缩期杂音，胸骨左缘4、5肋间闻及3/6收缩期杂音，右下肺呼吸音减弱，左下肺闻及中量湿啰音，肝脏肋下2指，肝颈回流征阳性，双下肢、阴囊及尾骶部重度水肿。入院后辅助检查:cTnI0.146ng/ml，血浆脑钠素(BNP)374pg/ml，总胆红素24.7μmol/L，直接胆红素12.2μmol/L，尿素7.6mmol/L，肌酐121μmol/L，总胆固醇2.54mmol/L，LDL-C1.05mmol/L。 术前诊断：①会阴型尿道下裂；②左侧睾丸横过异位完善术前检查后予分期手术治疗，先行**下弯矫正术，术后6个月行尿道成形术，术后**伸直满意，排尿通畅，无尿瘘、尿道憩室。术后3个月再行左睾丸复位固定术＋右疝囊高位结扎术。",
+      "summary": "【基本信息】男，1岁8个月",
+      "exams": [
+        "泌尿生殖系统检查",
+        "超声",
+        "血液学检查"
+      ],
+      "similarity": 0.13874660489229723
+    },
+    {
+      "case_id": "10242_腰椎管内间叶性肿瘤致低血磷骨软化症1例",
+      "text": "患者女性，63岁 因“全身骨痛2年余、不能行走1年余”于2015年4月就诊北京协和医院。 患者于2012年12月无明显诱因出现双髋关节酸胀性疼痛，双下肢跛行，爬楼后疼痛加重，骨痛渐延至腰背部、胸肋部及双下肢。于2013年4月仅能平地缓慢步行，无法爬楼，双上肢上举、翻身均困难，生活不能完全自理。于2014年1月起只能床上活动，无法走路，需家人照顾日常起居。在外院被诊为“骶髂关节炎”，治疗效果不满意，转来北京协和医院就诊。查血钙2.43mmol/L、血磷0.57mmol/L、碱性磷酸酶（ALP）373U/L、甲状旁腺激素（PTH）47.4pg/ml；髋关节、腰椎正侧位X线片示骨质疏松、骨质软化。患者近3年来身高下降187.5px（162→3862.5px），牙齿脱落2颗。 “骶髂关节炎”",
+      "summary": "【基本信息】女，63岁 21229.png",
+      "exams": [
+        "一般检查",
+        "胸部检查",
+        "脊柱和四肢检查",
+        "X-ray",
+        "MRI",
+        "CT",
+        "核医学成像"
+      ],
+      "similarity": 0.1380936528295081
+    }
+  ],
+  "evidence_importance": {},
+  "experience_memory_available": true,
+  "top_hypothesis_confidence": 0.9,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "17_小剂量阿德福韦酯抗乙肝治疗后致低磷软骨病1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "58岁"
+        },
+        "chief_complaint": "患者男性，58岁 主因“骨痛进行性加重1年”入院。",
+        "present_illness": "患者于1年前无明显诱因自觉左足部疼痛，无红肿及骨骼变形，于当地医院查足部正侧位X片后未见异常，曾应用药物局部外敷治疗后症状无缓解，疼痛逐渐加重，后行风湿、类风湿相关检查未及异常。近4个月来，疼痛逐渐累及下肢、髋部、肋骨，左下肢屈曲不能伸直，每于变换**时疼痛加重，行走受限需借助轮椅。外院SPECT检查示：多发性肋骨骨折，左侧骶髂关节、左髋臼、左胫骨下段、双膝及右踝异常放射浓聚，肝硬化。1个月前外院查血磷0.29mmol/L（0.89~1.6mmol/L），血钾2.97mmol/L（3.5~5.5mmol/L）；尿常规示：酮体±，尿糖±；甲状旁腺激素升高157.6pg/ml，甲状旁腺ECT检查未见异常；髋臼、骶髂关节CT平扫示：双髋关节及骶髂关节改变。予补钙治疗后，患者疼痛症状无缓解，复查血磷0.36mmol/L，遂就诊于我院。发病以来，患者食欲可，大小便正常，1年内体重下降约5kg。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "【既往史】\n乙型病毒性肝炎病史12年，9年前因肝硬化（失代偿期）行脾全切除术。曾予口服拉米夫定抗病毒治疗，效果不佳，7年前改用阿德福韦酯10mg/d抗病毒治疗至今。否认糖尿病、高血压病史。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "17_小剂量阿德福韦酯抗乙肝治疗后致低磷软骨病1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "58岁"
+        },
+        "chief_complaint": "患者男性，58岁 主因“骨痛进行性加重1年”入院。",
+        "present_illness": "患者于1年前无明显诱因自觉左足部疼痛，无红肿及骨骼变形，于当地医院查足部正侧位X片后未见异常，曾应用药物局部外敷治疗后症状无缓解，疼痛逐渐加重，后行风湿、类风湿相关检查未及异常。近4个月来，疼痛逐渐累及下肢、髋部、肋骨，左下肢屈曲不能伸直，每于变换**时疼痛加重，行走受限需借助轮椅。外院SPECT检查示：多发性肋骨骨折，左侧骶髂关节、左髋臼、左胫骨下段、双膝及右踝异常放射浓聚，肝硬化。1个月前外院查血磷0.29mmol/L（0.89~1.6mmol/L），血钾2.97mmol/L（3.5~5.5mmol/L）；尿常规示：酮体±，尿糖±；甲状旁腺激素升高157.6pg/ml，甲状旁腺ECT检查未见异常；髋臼、骶髂关节CT平扫示：双髋关节及骶髂关节改变。予补钙治疗后，患者疼痛症状无缓解，复查血磷0.36mmol/L，遂就诊于我院。发病以来，患者食欲可，大小便正常，1年内体重下降约5kg。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "内分泌科",
+          "风湿科"
+        ],
+        "past_history": "【既往史】\n乙型病毒性肝炎病史12年，9年前因肝硬化（失代偿期）行脾全切除术。曾予口服拉米夫定抗病毒治疗，效果不佳，7年前改用阿德福韦酯10mg/d抗病毒治疗至今。否认糖尿病、高血压病史。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "17_小剂量阿德福韦酯抗乙肝治疗后致低磷软骨病1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "58岁"
+        },
+        "chief_complaint": "患者男性，58岁 主因“骨痛进行性加重1年”入院。",
+        "present_illness": "患者于1年前无明显诱因自觉左足部疼痛，无红肿及骨骼变形，于当地医院查足部正侧位X片后未见异常，曾应用药物局部外敷治疗后症状无缓解，疼痛逐渐加重，后行风湿、类风湿相关检查未及异常。近4个月来，疼痛逐渐累及下肢、髋部、肋骨，左下肢屈曲不能伸直，每于变换**时疼痛加重，行走受限需借助轮椅。外院SPECT检查示：多发性肋骨骨折，左侧骶髂关节、左髋臼、左胫骨下段、双膝及右踝异常放射浓聚，肝硬化。1个月前外院查血磷0.29mmol/L（0.89~1.6mmol/L），血钾2.97mmol/L（3.5~5.5mmol/L）；尿常规示：酮体±，尿糖±；甲状旁腺激素升高157.6pg/ml，甲状旁腺ECT检查未见异常；髋臼、骶髂关节CT平扫示：双髋关节及骶髂关节改变。予补钙治疗后，患者疼痛症状无缓解，复查血磷0.36mmol/L，遂就诊于我院。发病以来，患者食欲可，大小便正常，1年内体重下降约5kg。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "内分泌科",
+          "风湿科"
+        ],
+        "past_history": "【既往史】\n乙型病毒性肝炎病史12年，9年前因肝硬化（失代偿期）行脾全切除术。曾予口服拉米夫定抗病毒治疗，效果不佳，7年前改用阿德福韦酯10mg/d抗病毒治疗至今。否认糖尿病、高血压病史。",
+        "hypothesis_illness": [
+          {
+            "name": "阿德福韦酯相关范可尼综合征并低磷骨软化症",
+            "disease": "阿德福韦酯相关范可尼综合征并低磷骨软化症",
+            "evidence": [
+              "长期口服阿德福韦酯10mg/d 7年",
+              "血磷0.29mmol/L，血钾2.97mmol/L",
+              "尿糖±",
+              "进行性骨痛、多发肋骨骨折、SPECT多发放射浓聚",
+              "补钙后疼痛无缓解，血磷仍低"
+            ],
+            "confidence": 0.92
+          },
+          {
+            "name": "肿瘤性低磷骨软化症",
+            "disease": "肿瘤性低磷骨软化症",
+            "evidence": [
+              "低磷、骨痛、多发性骨折",
+              "SPECT多发放射浓聚"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "多发性骨髓瘤",
+            "disease": "多发性骨髓瘤",
+            "evidence": [
+              "骨痛、多发性肋骨骨折",
+              "1年内体重下降5kg"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "原发性甲状旁腺功能亢进症",
+            "disease": "原发性甲状旁腺功能亢进症",
+            "evidence": [
+              "PTH升高",
+              "骨痛、骨骼改变"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "肾小管酸中毒",
+            "disease": "肾小管酸中毒",
+            "evidence": [
+              "低钾、低磷、尿糖",
+              "骨痛"
+            ],
+            "confidence": 0.4
+          }
+        ],
+        "physical_exams": {
+          "脊柱和四肢检查": "骨盆挤压痛(+) 脊柱无明显畸形，双下肢无浮肿"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "脊柱和四肢检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "血液学检查",
+          "尿液检查"
+        ],
+        "predicted_physical_exams": [
+          "脊柱和四肢检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "血液学检查",
+          "尿液检查"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [
+          "血钙、碱性磷酸酶、25-羟维生素D、1,25-二羟维生素D、PTH及血肌酐/eGFR",
+          "动脉血气、血清碳酸氢盐、尿pH及尿阴离子间隙",
+          "24小时尿磷、尿钙、尿氨基酸、尿β2微球蛋白及肾小管磷重吸收率/TmP-GFR",
+          "血清FGF23及生长抑素受体显像/68Ga-DOTATATE PET-CT",
+          "血清和尿蛋白电泳、免疫固定电泳、血清游离轻链及骨髓穿刺/活检",
+          "骨骼X线/全身骨骼影像寻找Looser带或假骨折",
+          "颈部超声或99mTc-MIBI核素显像评估甲状旁腺病变"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.92,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task1_referral",
+      "reason": "committed_backtrack_restored",
+      "state": {
+        "case_id": "17_小剂量阿德福韦酯抗乙肝治疗后致低磷软骨病1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "58岁"
+        },
+        "chief_complaint": "患者男性，58岁 主因“骨痛进行性加重1年”入院。",
+        "present_illness": "患者于1年前无明显诱因自觉左足部疼痛，无红肿及骨骼变形，于当地医院查足部正侧位X片后未见异常，曾应用药物局部外敷治疗后症状无缓解，疼痛逐渐加重，后行风湿、类风湿相关检查未及异常。近4个月来，疼痛逐渐累及下肢、髋部、肋骨，左下肢屈曲不能伸直，每于变换**时疼痛加重，行走受限需借助轮椅。外院SPECT检查示：多发性肋骨骨折，左侧骶髂关节、左髋臼、左胫骨下段、双膝及右踝异常放射浓聚，肝硬化。1个月前外院查血磷0.29mmol/L（0.89~1.6mmol/L），血钾2.97mmol/L（3.5~5.5mmol/L）；尿常规示：酮体±，尿糖±；甲状旁腺激素升高157.6pg/ml，甲状旁腺ECT检查未见异常；髋臼、骶髂关节CT平扫示：双髋关节及骶髂关节改变。予补钙治疗后，患者疼痛症状无缓解，复查血磷0.36mmol/L，遂就诊于我院。发病以来，患者食欲可，大小便正常，1年内体重下降约5kg。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "内分泌科",
+          "风湿科"
+        ],
+        "past_history": "【既往史】\n乙型病毒性肝炎病史12年，9年前因肝硬化（失代偿期）行脾全切除术。曾予口服拉米夫定抗病毒治疗，效果不佳，7年前改用阿德福韦酯10mg/d抗病毒治疗至今。否认糖尿病、高血压病史。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exams",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 2,
+      "workflow_action_index": 4,
+      "mcts_step": 2,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "17_小剂量阿德福韦酯抗乙肝治疗后致低磷软骨病1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "58岁"
+        },
+        "chief_complaint": "患者男性，58岁 主因“骨痛进行性加重1年”入院。",
+        "present_illness": "患者于1年前无明显诱因自觉左足部疼痛，无红肿及骨骼变形，于当地医院查足部正侧位X片后未见异常，曾应用药物局部外敷治疗后症状无缓解，疼痛逐渐加重，后行风湿、类风湿相关检查未及异常。近4个月来，疼痛逐渐累及下肢、髋部、肋骨，左下肢屈曲不能伸直，每于变换**时疼痛加重，行走受限需借助轮椅。外院SPECT检查示：多发性肋骨骨折，左侧骶髂关节、左髋臼、左胫骨下段、双膝及右踝异常放射浓聚，肝硬化。1个月前外院查血磷0.29mmol/L（0.89~1.6mmol/L），血钾2.97mmol/L（3.5~5.5mmol/L）；尿常规示：酮体±，尿糖±；甲状旁腺激素升高157.6pg/ml，甲状旁腺ECT检查未见异常；髋臼、骶髂关节CT平扫示：双髋关节及骶髂关节改变。予补钙治疗后，患者疼痛症状无缓解，复查血磷0.36mmol/L，遂就诊于我院。发病以来，患者食欲可，大小便正常，1年内体重下降约5kg。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "内分泌科",
+          "风湿科"
+        ],
+        "past_history": "【既往史】\n乙型病毒性肝炎病史12年，9年前因肝硬化（失代偿期）行脾全切除术。曾予口服拉米夫定抗病毒治疗，效果不佳，7年前改用阿德福韦酯10mg/d抗病毒治疗至今。否认糖尿病、高血压病史。",
+        "hypothesis_illness": [
+          {
+            "name": "阿德福韦酯相关范可尼综合征/低磷性骨软化症",
+            "disease": "阿德福韦酯相关范可尼综合征/低磷性骨软化症",
+            "evidence": [
+              "长期口服阿德福韦酯10 mg/d达7年",
+              "血磷极低0.29 mmol/L，血钾2.97 mmol/L",
+              "尿糖±提示近端肾小管重吸收障碍",
+              "进行性骨痛、多发性肋骨骨折、SPECT异常浓聚",
+              "PTH升高但甲状旁腺ECT阴性，补钙无效"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "name": "多发性骨髓瘤",
+            "disease": "多发性骨髓瘤",
+            "evidence": [
+              "58岁男性，进行性骨痛",
+              "多发性肋骨骨折",
+              "体重下降约5 kg"
+            ],
+            "confidence": 0.25
+          },
+          {
+            "name": "骨转移瘤（肝癌等）",
+            "disease": "骨转移瘤（肝癌等）",
+            "evidence": [
+              "乙肝肝硬化失代偿病史",
+              "SPECT多发性异常浓聚",
+              "体重下降"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "原发性甲状旁腺功能亢进症",
+            "disease": "原发性甲状旁腺功能亢进症",
+            "evidence": [
+              "PTH升高",
+              "骨痛、多发性骨折"
+            ],
+            "confidence": 0.2
+          },
+          {
+            "name": "肾小管酸中毒/其他原因范可尼综合征",
+            "disease": "肾小管酸中毒/其他原因范可尼综合征",
+            "evidence": [
+              "低钾血症",
+              "尿糖±",
+              "低磷血症"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "维生素D缺乏性骨软化症",
+            "disease": "维生素D缺乏性骨软化症",
+            "evidence": [
+              "骨痛",
+              "PTH升高",
+              "多发性骨折"
+            ],
+            "confidence": 0.2
+          },
+          {
+            "name": "肿瘤性低磷性骨软化症",
+            "disease": "肿瘤性低磷性骨软化症",
+            "evidence": [
+              "低磷血症",
+              "骨痛",
+              "PTH升高"
+            ],
+            "confidence": 0.2
+          },
+          {
+            "name": "肝硬化相关性骨病/骨质疏松",
+            "disease": "肝硬化相关性骨病/骨质疏松",
+            "evidence": [
+              "乙肝肝硬化失代偿、脾切除术后",
+              "骨痛、骨折"
+            ],
+            "confidence": 0.2
+          }
+        ],
+        "physical_exams": {
+          "脊柱和四肢检查": "骨盆挤压痛(+) 脊柱无明显畸形，双下肢无浮肿"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "脊柱和四肢检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "血液学检查",
+          "尿液检查",
+          "X-ray"
+        ],
+        "predicted_physical_exams": [
+          "脊柱和四肢检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "血液学检查",
+          "尿液检查",
+          "X-ray"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor"
+        ],
+        "mcts_step": 2,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exams",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [
+          "血清钙、磷、镁、碱性磷酸酶、25-羟维生素D、1,25-(OH)2维生素D、甲状旁腺激素及FGF23",
+          "动脉血气/碳酸氢盐、血清尿酸、肌酐及估算肾小球滤过率",
+          "同步血磷、尿磷、尿肌酐计算TmP/GFR或磷排泄分数；24小时尿磷、尿钙、尿糖、尿氨基酸、尿β2微球蛋白、尿pH及尿蛋白定量",
+          "血清蛋白电泳、免疫固定电泳、血清游离轻链及骨髓穿刺/活检",
+          "肿瘤标志物（AFP等）及胸腹盆腔增强CT、肝脏MRI或全身PET/CT",
+          "骨盆、肋骨、脊柱X线或全身骨显像寻找假性骨折/Looser区",
+          "停用阿德福韦酯后血磷、尿磷、骨痛及血气等动态变化"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 5,
+      "trajectory_index": 3,
+      "workflow_action_index": 5,
+      "mcts_step": 3,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "17_小剂量阿德福韦酯抗乙肝治疗后致低磷软骨病1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "58岁"
+        },
+        "chief_complaint": "患者男性，58岁 主因“骨痛进行性加重1年”入院。",
+        "present_illness": "患者于1年前无明显诱因自觉左足部疼痛，无红肿及骨骼变形，于当地医院查足部正侧位X片后未见异常，曾应用药物局部外敷治疗后症状无缓解，疼痛逐渐加重，后行风湿、类风湿相关检查未及异常。近4个月来，疼痛逐渐累及下肢、髋部、肋骨，左下肢屈曲不能伸直，每于变换**时疼痛加重，行走受限需借助轮椅。外院SPECT检查示：多发性肋骨骨折，左侧骶髂关节、左髋臼、左胫骨下段、双膝及右踝异常放射浓聚，肝硬化。1个月前外院查血磷0.29mmol/L（0.89~1.6mmol/L），血钾2.97mmol/L（3.5~5.5mmol/L）；尿常规示：酮体±，尿糖±；甲状旁腺激素升高157.6pg/ml，甲状旁腺ECT检查未见异常；髋臼、骶髂关节CT平扫示：双髋关节及骶髂关节改变。予补钙治疗后，患者疼痛症状无缓解，复查血磷0.36mmol/L，遂就诊于我院。发病以来，患者食欲可，大小便正常，1年内体重下降约5kg。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "内分泌科",
+          "风湿科"
+        ],
+        "past_history": "【既往史】\n乙型病毒性肝炎病史12年，9年前因肝硬化（失代偿期）行脾全切除术。曾予口服拉米夫定抗病毒治疗，效果不佳，7年前改用阿德福韦酯10mg/d抗病毒治疗至今。否认糖尿病、高血压病史。",
+        "hypothesis_illness": [
+          {
+            "name": "阿德福韦酯相关范可尼综合征/低磷性骨软化症",
+            "disease": "阿德福韦酯相关范可尼综合征/低磷性骨软化症",
+            "evidence": [
+              "长期口服阿德福韦酯10 mg/d达7年",
+              "血磷极低0.29 mmol/L，血钾2.97 mmol/L",
+              "尿糖±提示近端肾小管重吸收障碍",
+              "进行性骨痛、多发性肋骨骨折、SPECT异常浓聚",
+              "PTH升高但甲状旁腺ECT阴性，补钙无效"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "name": "多发性骨髓瘤",
+            "disease": "多发性骨髓瘤",
+            "evidence": [
+              "58岁男性，进行性骨痛",
+              "多发性肋骨骨折",
+              "体重下降约5 kg"
+            ],
+            "confidence": 0.25
+          },
+          {
+            "name": "骨转移瘤（肝癌等）",
+            "disease": "骨转移瘤（肝癌等）",
+            "evidence": [
+              "乙肝肝硬化失代偿病史",
+              "SPECT多发性异常浓聚",
+              "体重下降"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "原发性甲状旁腺功能亢进症",
+            "disease": "原发性甲状旁腺功能亢进症",
+            "evidence": [
+              "PTH升高",
+              "骨痛、多发性骨折"
+            ],
+            "confidence": 0.2
+          },
+          {
+            "name": "肾小管酸中毒/其他原因范可尼综合征",
+            "disease": "肾小管酸中毒/其他原因范可尼综合征",
+            "evidence": [
+              "低钾血症",
+              "尿糖±",
+              "低磷血症"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "维生素D缺乏性骨软化症",
+            "disease": "维生素D缺乏性骨软化症",
+            "evidence": [
+              "骨痛",
+              "PTH升高",
+              "多发性骨折"
+            ],
+            "confidence": 0.2
+          },
+          {
+            "name": "肿瘤性低磷性骨软化症",
+            "disease": "肿瘤性低磷性骨软化症",
+            "evidence": [
+              "低磷血症",
+              "骨痛",
+              "PTH升高"
+            ],
+            "confidence": 0.2
+          },
+          {
+            "name": "肝硬化相关性骨病/骨质疏松",
+            "disease": "肝硬化相关性骨病/骨质疏松",
+            "evidence": [
+              "乙肝肝硬化失代偿、脾切除术后",
+              "骨痛、骨折"
+            ],
+            "confidence": 0.2
+          }
+        ],
+        "physical_exams": {
+          "脊柱和四肢检查": "骨盆挤压痛(+) 脊柱无明显畸形，双下肢无浮肿"
+        },
+        "auxiliary_exams": {
+          "X-ray": "X线检查示：胸片、骨盆、头颅正侧位片未见异常。",
+          "血液学检查": "血常规、凝血四项、肿瘤标记物、全血糖化血红蛋白测定、血脂未及明显异常。血生化示：葡萄糖4.97mmol/L，碱性磷酸酶185.1U/L（0~130U/L），血肌酐91.7μmol/L（30~110μmol/L），血磷0.42mmol/L（0.89~1.6mmol/L），血钾3.08mmol/L（3.5~5.5mmol/L），游离血钙1.10mmol/L（1.02~1.6mmol/L），血钙2.25mmol/L（2.09~2.54mmol/L），γ-谷氨酰基转移酶73.9U/L（0~50U/L），全段甲状旁腺激素47.96pg/ml（15~65pg/ml）。血气分析示：PH7.37，BE-4.0（-3~+3），提示代谢性酸中毒。",
+          "尿液检查": "尿液常规：尿液PH值8，尿红细胞检查25/ul，尿蛋白定性试验25mg/dl，尿糖定性试验50mg/dl，尿磷14.26mmol/24h（23~48mmol/24h）。"
+        },
+        "imaging_results": {
+          "X-ray": "X线检查示：胸片、骨盆、头颅正侧位片未见异常。"
+        },
+        "completed_physical_exams": [
+          "脊柱和四肢检查"
+        ],
+        "completed_auxiliary_exams": [
+          "X-ray",
+          "血液学检查",
+          "尿液检查"
+        ],
+        "completed_imaging_exams": [
+          "X-ray"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "脊柱和四肢检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "血液学检查",
+          "尿液检查",
+          "X-ray"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor",
+          "task3_imaging"
+        ],
+        "mcts_step": 3,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 4,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 3,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exams",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [
+          "血清25-羟维生素D和1,25-二羟维生素D水平",
+          "肾小管磷最大重吸收率（TmP/GFR）或磷排泄分数",
+          "尿氨基酸、β2-微球蛋白、血尿酸等近端肾小管损伤指标",
+          "血清FGF23水平",
+          "血清/尿蛋白电泳、免疫固定电泳及血清游离轻链",
+          "全身骨显像或PET-CT",
+          "停用阿德福韦酯前后血磷、尿磷及骨痛变化"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": 1,
+  "terminated_by": "eta",
+  "finalization_used": false,
+  "experience_retrieval_backend": "tfidf"
+}

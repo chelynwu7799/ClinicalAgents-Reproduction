@@ -1,0 +1,1138 @@
+{
+  "case_id": "3_血液透析并鸟肠球菌感染一例",
+  "personal_info": {
+    "性别": "女",
+    "年龄": "81岁"
+  },
+  "chief_complaint": "患者：女性，81岁。 因“维持性血液透析4年，双下肢水肿1个月”于2013年8月2日入院。",
+  "present_illness": "",
+  "dept_l1": "内科",
+  "dept_l2": [
+    "肾脏内科"
+  ],
+  "past_history": "【既往史】\n既往有糖尿病史30余年，有血液透析长期导管置人史，有高血压及丙型病毒性肝炎病史；",
+  "hypothesis_illness": [
+    {
+      "name": "鸟肠球菌导管相关血流感染",
+      "disease": "鸟肠球菌导管相关血流感染",
+      "evidence": [
+        "病例标题明确鸟肠球菌感染",
+        "长期血液透析导管置入史",
+        "C反应蛋白19.3mg/L、血沉133mm/h升高",
+        "重度贫血、低白蛋白血症等全身消耗/感染表现"
+      ],
+      "confidence": 0.88
+    },
+    {
+      "name": "低白蛋白血症",
+      "disease": "低白蛋白血症",
+      "evidence": [
+        "血白蛋白27.9g/L",
+        "高龄、长期透析、丙型肝炎病史"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "name": "重度贫血",
+      "disease": "重度贫血",
+      "evidence": [
+        "血红蛋白36g/L",
+        "红细胞1.02X10^12/L"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "name": "慢性肾脏病5期 维持性血液透析",
+      "disease": "慢性肾脏病5期 维持性血液透析",
+      "evidence": [
+        "维持性血液透析4年",
+        "血肌酐437umol/L",
+        "尿素氮12.6mmol/L"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "name": "心力衰竭/容量超负荷",
+      "disease": "心力衰竭/容量超负荷",
+      "evidence": [
+        "双下肢高度水肿1个月",
+        "维持性血液透析4年",
+        "糖尿病、高血压史"
+      ],
+      "confidence": 0.5
+    },
+    {
+      "name": "深静脉血栓形成/中心静脉狭窄",
+      "disease": "深静脉血栓形成/中心静脉狭窄",
+      "evidence": [
+        "长期透析导管置入史",
+        "双下肢水肿"
+      ],
+      "confidence": 0.45
+    },
+    {
+      "name": "感染性心内膜炎",
+      "disease": "感染性心内膜炎",
+      "evidence": [
+        "长期透析导管置入史",
+        "鸟肠球菌血流感染可能",
+        "CRP、ESR升高"
+      ],
+      "confidence": 0.4
+    },
+    {
+      "name": "丙肝相关肝硬化/门脉高压",
+      "disease": "丙肝相关肝硬化/门脉高压",
+      "evidence": [
+        "丙型病毒性肝炎病史",
+        "腹膨隆",
+        "低白蛋白、血小板减少、APTT延长"
+      ],
+      "confidence": 0.4
+    },
+    {
+      "name": "甲状腺功能减退",
+      "disease": "甲状腺功能减退",
+      "evidence": [
+        "81岁女性",
+        "双下肢水肿"
+      ],
+      "confidence": 0.2
+    },
+    {
+      "name": "药物性水肿",
+      "disease": "药物性水肿",
+      "evidence": [
+        "高血压病史",
+        "双下肢水肿"
+      ],
+      "confidence": 0.2
+    }
+  ],
+  "physical_exams": {
+    "一般检查": "T：36.6℃，P：75次/分，R：25次/分，BP：105/70mmHg",
+    "胸部检查": "双肺呼吸音略粗，未及明显干湿性啰音，心律尚齐",
+    "腹部检查": "腹膨隆，无压痛及反跳痛",
+    "脊柱和四肢检查": "双下肢高度水肿"
+  },
+  "auxiliary_exams": {
+    "X-ray": "胸片：两侧胸腹肥厚",
+    "血液学检查": "血常规：白细胞3.16X10^9/L，红细胞1.02X10^12/L，血红蛋白36g/L，血小板45X10^9/L；N69.0%，L21.8%；生化指标：血白蛋白27.9g/L，尿素氮12.6mmol/L，血肌酐437umol/L，C反应蛋白19.3mg/L，丁酰胆碱酯酶1330U/L，余正常；血凝三项：活化部分凝血酶时间89.1s；血沉133mm/L；甲状旁腺激素67.34pg/ml"
+  },
+  "imaging_results": {
+    "X-ray": "胸片：两侧胸腹肥厚"
+  },
+  "completed_physical_exams": [
+    "一般检查",
+    "胸部检查",
+    "腹部检查",
+    "脊柱和四肢检查"
+  ],
+  "completed_auxiliary_exams": [
+    "X-ray",
+    "血液学检查"
+  ],
+  "completed_imaging_exams": [
+    "X-ray"
+  ],
+  "pending_auxiliary_exams": [
+    "超声"
+  ],
+  "predicted_physical_exams": [
+    "一般检查",
+    "颈部检查",
+    "胸部检查",
+    "腹部检查",
+    "脊柱和四肢检查",
+    "皮肤检查"
+  ],
+  "predicted_auxiliary_exams": [
+    "血液学检查",
+    "超声",
+    "X-ray"
+  ],
+  "diagnosis_result": [
+    "鸟肠球菌导管相关血流感染",
+    "低白蛋白血症",
+    "重度贫血",
+    "慢性肾脏病5期 维持性血液透析"
+  ],
+  "treatment_plan": [],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "pending"
+  },
+  "recheck_total": 1,
+  "max_recheck": 3,
+  "mcts_trajectory": [
+    "a_back",
+    "task2_doctor",
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 4,
+  "mcts_eta": 4,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "a_back",
+      "source": "committed_backtrack",
+      "mcts_step": 1,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task2_doctor",
+      "source": "committed_backtrack_target",
+      "mcts_step": 2,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 4,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 3,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 5,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 4,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [
+    {
+      "event_id": 0,
+      "source": "committed",
+      "target_snapshot_id": 1,
+      "target_workflow_stage": "task1_referral",
+      "requested_action": "request_auxiliary_exams",
+      "executed_action": "task2_doctor",
+      "mcts_step": 1
+    }
+  ],
+  "missing_evidence": [
+    "外周血及导管血培养、导管尖端培养及药敏结果",
+    "超声心动图（经胸/经食管）评估感染性心内膜炎、心功能及容量状态",
+    "BNP或NT-proBNP",
+    "下肢深静脉及中心静脉彩色多普勒/CTV",
+    "甲状腺功能（TSH、FT4）",
+    "肝功能、HCV RNA及腹部超声/CT评估肝硬化、门脉高压及腹水"
+  ],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": true,
+  "top_hypothesis_confidence": 0.99,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "3_血液透析并鸟肠球菌感染一例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "81岁"
+        },
+        "chief_complaint": "患者：女性，81岁。 因“维持性血液透析4年，双下肢水肿1个月”于2013年8月2日入院。",
+        "present_illness": "",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "【既往史】\n既往有糖尿病史30余年，有血液透析长期导管置人史，有高血压及丙型病毒性肝炎病史；",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "3_血液透析并鸟肠球菌感染一例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "81岁"
+        },
+        "chief_complaint": "患者：女性，81岁。 因“维持性血液透析4年，双下肢水肿1个月”于2013年8月2日入院。",
+        "present_illness": "",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肾脏内科"
+        ],
+        "past_history": "【既往史】\n既往有糖尿病史30余年，有血液透析长期导管置人史，有高血压及丙型病毒性肝炎病史；",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "3_血液透析并鸟肠球菌感染一例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "81岁"
+        },
+        "chief_complaint": "患者：女性，81岁。 因“维持性血液透析4年，双下肢水肿1个月”于2013年8月2日入院。",
+        "present_illness": "",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肾脏内科"
+        ],
+        "past_history": "【既往史】\n既往有糖尿病史30余年，有血液透析长期导管置人史，有高血压及丙型病毒性肝炎病史；",
+        "hypothesis_illness": [
+          {
+            "name": "慢性心力衰竭/透析间期容量过负荷",
+            "disease": "慢性心力衰竭/透析间期容量过负荷",
+            "evidence": [
+              "维持性血液透析4年",
+              "双下肢水肿1个月",
+              "高血压及糖尿病史"
+            ],
+            "confidence": 0.7
+          },
+          {
+            "name": "感染性心内膜炎",
+            "disease": "感染性心内膜炎",
+            "evidence": [
+              "长期血液透析导管置入史",
+              "糖尿病史",
+              "双下肢水肿（可能由瓣膜损害/心衰引起）"
+            ],
+            "confidence": 0.55
+          },
+          {
+            "name": "导管相关血流感染/脓毒症",
+            "disease": "导管相关血流感染/脓毒症",
+            "evidence": [
+              "长期血液透析导管置入史",
+              "糖尿病史",
+              "高龄"
+            ],
+            "confidence": 0.5
+          },
+          {
+            "name": "低白蛋白血症/营养不良",
+            "disease": "低白蛋白血症/营养不良",
+            "evidence": [
+              "维持性血液透析",
+              "丙型病毒性肝炎病史",
+              "高龄"
+            ],
+            "confidence": 0.35
+          },
+          {
+            "name": "丙型病毒性肝炎相关肝硬化失代偿",
+            "disease": "丙型病毒性肝炎相关肝硬化失代偿",
+            "evidence": [
+              "丙型病毒性肝炎病史",
+              "双下肢水肿",
+              "高龄"
+            ],
+            "confidence": 0.32
+          },
+          {
+            "name": "下肢深静脉血栓形成",
+            "disease": "下肢深静脉血栓形成",
+            "evidence": [
+              "长期血液透析导管置入史",
+              "双下肢水肿",
+              "高龄"
+            ],
+            "confidence": 0.31
+          }
+        ],
+        "physical_exams": {
+          "一般检查": "T：36.6℃，P：75次/分，R：25次/分，BP：105/70mmHg",
+          "胸部检查": "双肺呼吸音略粗，未及明显干湿性啰音，心律尚齐",
+          "腹部检查": "腹膨隆，无压痛及反跳痛",
+          "脊柱和四肢检查": "双下肢高度水肿"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "一般检查",
+          "胸部检查",
+          "腹部检查",
+          "脊柱和四肢检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "血液学检查",
+          "超声",
+          "X-ray"
+        ],
+        "predicted_physical_exams": [
+          "一般检查",
+          "颈部检查",
+          "胸部检查",
+          "皮肤检查",
+          "腹部检查",
+          "脊柱和四肢检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "血液学检查",
+          "超声",
+          "X-ray"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [
+          "NT-proBNP/BNP及超声心动图以评估心衰、容量过负荷及感染性心内膜炎瓣膜赘生物",
+          "血培养（外周血及导管血）、血常规、CRP/降钙素原以评估导管相关血流感染/感染性心内膜炎",
+          "血清白蛋白、肝功能、凝血功能及腹部超声以评估低白蛋白血症/肝硬化失代偿",
+          "下肢静脉彩色多普勒超声及D-二聚体以排除下肢深静脉血栓形成",
+          "胸片/肺部超声及透析间期体重、超滤记录以评估肺淤血/容量负荷"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.7,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task1_referral",
+      "reason": "committed_backtrack_restored",
+      "state": {
+        "case_id": "3_血液透析并鸟肠球菌感染一例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "81岁"
+        },
+        "chief_complaint": "患者：女性，81岁。 因“维持性血液透析4年，双下肢水肿1个月”于2013年8月2日入院。",
+        "present_illness": "",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肾脏内科"
+        ],
+        "past_history": "【既往史】\n既往有糖尿病史30余年，有血液透析长期导管置人史，有高血压及丙型病毒性肝炎病史；",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exams",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 2,
+      "workflow_action_index": 4,
+      "mcts_step": 2,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "3_血液透析并鸟肠球菌感染一例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "81岁"
+        },
+        "chief_complaint": "患者：女性，81岁。 因“维持性血液透析4年，双下肢水肿1个月”于2013年8月2日入院。",
+        "present_illness": "",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肾脏内科"
+        ],
+        "past_history": "【既往史】\n既往有糖尿病史30余年，有血液透析长期导管置人史，有高血压及丙型病毒性肝炎病史；",
+        "hypothesis_illness": [
+          {
+            "name": "心力衰竭/容量超负荷",
+            "disease": "心力衰竭/容量超负荷",
+            "evidence": [
+              "双下肢水肿1个月",
+              "维持性血液透析4年",
+              "糖尿病、高血压史"
+            ],
+            "confidence": 0.75
+          },
+          {
+            "name": "低白蛋白血症/营养不良",
+            "disease": "低白蛋白血症/营养不良",
+            "evidence": [
+              "双下肢水肿",
+              "81岁",
+              "长期透析",
+              "丙型肝炎病史"
+            ],
+            "confidence": 0.55
+          },
+          {
+            "name": "深静脉血栓形成/中心静脉狭窄",
+            "disease": "深静脉血栓形成/中心静脉狭窄",
+            "evidence": [
+              "长期透析导管置入史",
+              "双下肢水肿"
+            ],
+            "confidence": 0.5
+          },
+          {
+            "name": "感染性心内膜炎/导管相关血流感染",
+            "disease": "感染性心内膜炎/导管相关血流感染",
+            "evidence": [
+              "长期透析导管置入史",
+              "糖尿病史",
+              "维持性血液透析",
+              "水肿可由心衰继发"
+            ],
+            "confidence": 0.45
+          },
+          {
+            "name": "丙肝相关肝硬化/门脉高压",
+            "disease": "丙肝相关肝硬化/门脉高压",
+            "evidence": [
+              "丙型肝炎病史",
+              "双下肢水肿"
+            ],
+            "confidence": 0.4
+          },
+          {
+            "name": "甲状腺功能减退",
+            "disease": "甲状腺功能减退",
+            "evidence": [
+              "81岁女性",
+              "双下肢水肿"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "药物性水肿",
+            "disease": "药物性水肿",
+            "evidence": [
+              "高血压病史",
+              "双下肢水肿"
+            ],
+            "confidence": 0.3
+          }
+        ],
+        "physical_exams": {
+          "一般检查": "T：36.6℃，P：75次/分，R：25次/分，BP：105/70mmHg",
+          "胸部检查": "双肺呼吸音略粗，未及明显干湿性啰音，心律尚齐",
+          "腹部检查": "腹膨隆，无压痛及反跳痛",
+          "脊柱和四肢检查": "双下肢高度水肿"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "一般检查",
+          "胸部检查",
+          "腹部检查",
+          "脊柱和四肢检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "血液学检查",
+          "超声",
+          "X-ray"
+        ],
+        "predicted_physical_exams": [
+          "一般检查",
+          "颈部检查",
+          "胸部检查",
+          "腹部检查",
+          "脊柱和四肢检查",
+          "皮肤检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "血液学检查",
+          "超声",
+          "X-ray"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor"
+        ],
+        "mcts_step": 2,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exams",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [
+          "NT-proBNP/BNP",
+          "血清白蛋白、前白蛋白及总蛋白",
+          "超声心动图（心功能、瓣膜、心内膜炎）",
+          "下肢深静脉超声/中心静脉CT或造影",
+          "胸部X线或肺超声",
+          "血常规、CRP、降钙素原及血培养（导管血+外周血）",
+          "肝功能、凝血、腹部超声（肝硬化/腹水/门脉高压）",
+          "甲状腺功能（TSH、FT4）",
+          "透析记录：干体重、超滤量、体重变化",
+          "用药清单排查药物性水肿"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.75,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 5,
+      "trajectory_index": 3,
+      "workflow_action_index": 5,
+      "mcts_step": 3,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "3_血液透析并鸟肠球菌感染一例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "81岁"
+        },
+        "chief_complaint": "患者：女性，81岁。 因“维持性血液透析4年，双下肢水肿1个月”于2013年8月2日入院。",
+        "present_illness": "",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肾脏内科"
+        ],
+        "past_history": "【既往史】\n既往有糖尿病史30余年，有血液透析长期导管置人史，有高血压及丙型病毒性肝炎病史；",
+        "hypothesis_illness": [
+          {
+            "name": "心力衰竭/容量超负荷",
+            "disease": "心力衰竭/容量超负荷",
+            "evidence": [
+              "双下肢水肿1个月",
+              "维持性血液透析4年",
+              "糖尿病、高血压史"
+            ],
+            "confidence": 0.75
+          },
+          {
+            "name": "低白蛋白血症/营养不良",
+            "disease": "低白蛋白血症/营养不良",
+            "evidence": [
+              "双下肢水肿",
+              "81岁",
+              "长期透析",
+              "丙型肝炎病史"
+            ],
+            "confidence": 0.55
+          },
+          {
+            "name": "深静脉血栓形成/中心静脉狭窄",
+            "disease": "深静脉血栓形成/中心静脉狭窄",
+            "evidence": [
+              "长期透析导管置入史",
+              "双下肢水肿"
+            ],
+            "confidence": 0.5
+          },
+          {
+            "name": "感染性心内膜炎/导管相关血流感染",
+            "disease": "感染性心内膜炎/导管相关血流感染",
+            "evidence": [
+              "长期透析导管置入史",
+              "糖尿病史",
+              "维持性血液透析",
+              "水肿可由心衰继发"
+            ],
+            "confidence": 0.45
+          },
+          {
+            "name": "丙肝相关肝硬化/门脉高压",
+            "disease": "丙肝相关肝硬化/门脉高压",
+            "evidence": [
+              "丙型肝炎病史",
+              "双下肢水肿"
+            ],
+            "confidence": 0.4
+          },
+          {
+            "name": "甲状腺功能减退",
+            "disease": "甲状腺功能减退",
+            "evidence": [
+              "81岁女性",
+              "双下肢水肿"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "药物性水肿",
+            "disease": "药物性水肿",
+            "evidence": [
+              "高血压病史",
+              "双下肢水肿"
+            ],
+            "confidence": 0.3
+          }
+        ],
+        "physical_exams": {
+          "一般检查": "T：36.6℃，P：75次/分，R：25次/分，BP：105/70mmHg",
+          "胸部检查": "双肺呼吸音略粗，未及明显干湿性啰音，心律尚齐",
+          "腹部检查": "腹膨隆，无压痛及反跳痛",
+          "脊柱和四肢检查": "双下肢高度水肿"
+        },
+        "auxiliary_exams": {
+          "X-ray": "胸片：两侧胸腹肥厚",
+          "血液学检查": "血常规：白细胞3.16X10^9/L，红细胞1.02X10^12/L，血红蛋白36g/L，血小板45X10^9/L；N69.0%，L21.8%；生化指标：血白蛋白27.9g/L，尿素氮12.6mmol/L，血肌酐437umol/L，C反应蛋白19.3mg/L，丁酰胆碱酯酶1330U/L，余正常；血凝三项：活化部分凝血酶时间89.1s；血沉133mm/L；甲状旁腺激素67.34pg/ml"
+        },
+        "imaging_results": {
+          "X-ray": "胸片：两侧胸腹肥厚"
+        },
+        "completed_physical_exams": [
+          "一般检查",
+          "胸部检查",
+          "腹部检查",
+          "脊柱和四肢检查"
+        ],
+        "completed_auxiliary_exams": [
+          "X-ray",
+          "血液学检查"
+        ],
+        "completed_imaging_exams": [
+          "X-ray"
+        ],
+        "pending_auxiliary_exams": [
+          "超声"
+        ],
+        "predicted_physical_exams": [
+          "一般检查",
+          "颈部检查",
+          "胸部检查",
+          "腹部检查",
+          "脊柱和四肢检查",
+          "皮肤检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "血液学检查",
+          "超声",
+          "X-ray"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor",
+          "task3_imaging"
+        ],
+        "mcts_step": 3,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 4,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 3,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exams",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [
+          "超声心动图（评估心功能、瓣膜赘生物、心包积液）",
+          "血浆BNP或NT-proBNP",
+          "下肢静脉彩色多普勒超声和/或中心静脉造影/CTV",
+          "血培养及导管出口/隧道评估（必要时经食管超声）",
+          "肝功能、HCV RNA及腹部超声/CT（评估肝硬化、门脉高压、腹水）",
+          "甲状腺功能（TSH、FT4）",
+          "当前用药清单/药物核查",
+          "透析间期体重变化/容量状态评估（下腔静脉超声、超滤量）"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.75,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": 1,
+  "terminated_by": "eta",
+  "finalization_used": false,
+  "agent_missing_evidence": [
+    {
+      "disease": "心力衰竭/容量超负荷",
+      "missing": [
+        "需BNP排除",
+        "需超声心动图排除",
+        "需下腔静脉超声排除"
+      ],
+      "suggested_exams": [
+        "BNP",
+        "超声心动图",
+        "下腔静脉超声"
+      ]
+    },
+    {
+      "disease": "深静脉血栓形成/中心静脉狭窄",
+      "missing": [
+        "需下肢静脉超声排除",
+        "需CTV排除"
+      ],
+      "suggested_exams": [
+        "下肢静脉超声",
+        "CTV"
+      ]
+    },
+    {
+      "disease": "感染性心内膜炎",
+      "missing": [
+        "需血培养排除",
+        "需经胸排除"
+      ],
+      "suggested_exams": [
+        "血培养",
+        "经胸"
+      ]
+    },
+    {
+      "disease": "丙肝相关肝硬化/门脉高压",
+      "missing": [
+        "需肝功能排除",
+        "需腹部超声排除",
+        "需腹水常规排除"
+      ],
+      "suggested_exams": [
+        "肝功能",
+        "腹部超声",
+        "腹水常规"
+      ]
+    },
+    {
+      "disease": "甲状腺功能减退",
+      "missing": [
+        "需TSH排除",
+        "需FT4排除"
+      ],
+      "suggested_exams": [
+        "TSH",
+        "FT4"
+      ]
+    },
+    {
+      "disease": "药物性水肿",
+      "missing": [
+        "需用药审查排除"
+      ],
+      "suggested_exams": [
+        "用药审查"
+      ]
+    }
+  ]
+}

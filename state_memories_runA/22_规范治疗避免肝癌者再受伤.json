@@ -1,0 +1,807 @@
+{
+  "case_id": "22_规范治疗避免肝癌者再受伤",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "61岁"
+  },
+  "chief_complaint": "患者男性，61岁， 因“肝癌行剖腹探查术后3月余，介入治疗后2月”入院。",
+  "present_illness": "病史患者于2010年9月体检时CT发现肝脏占位病变，无腹痛、腹胀、恶心、呕吐，无寒颤、高热，无皮肤巩膜黄染。外院CT示肝右10cm×10cm占位病变，考虑为原发性肝癌，遂入上海某医院治疗，于2010年9月在全麻下行剖腹探查术。术中见“中度肝硬化，肿瘤侵犯膈肌，且与右肝静脉关系密切、无法切除，胆囊内未及结石，无息肉”，立即告知患者家属无法根治性切除肿瘤，建议行原位肝移植术，但遭家属拒绝，遂切除胆囊后关腹。为进一步治疗于2010年10月入本院。",
+  "dept_l1": "内科",
+  "dept_l2": [
+    "肝病科",
+    "消化内科"
+  ],
+  "past_history": "有乙肝病史（病程不详），未正规治疗；发现高血压5年；无酗酒史、糖尿病史、遗传病史。",
+  "hypothesis_illness": [],
+  "physical_exams": {},
+  "auxiliary_exams": {},
+  "imaging_results": {},
+  "completed_physical_exams": [],
+  "completed_auxiliary_exams": [],
+  "completed_imaging_exams": [],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [],
+  "predicted_auxiliary_exams": [],
+  "diagnosis_result": [],
+  "treatment_plan": [],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "pending",
+    "task4_diagnosis": "pending",
+    "task5_treatment": "pending"
+  },
+  "recheck_total": 1,
+  "max_recheck": 3,
+  "mcts_trajectory": [
+    "a_back",
+    "task2_doctor",
+    "a_rag",
+    "a_rag"
+  ],
+  "mcts_step": 4,
+  "mcts_eta": 4,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "a_back",
+      "source": "committed_backtrack",
+      "mcts_step": 1,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task2_doctor",
+      "source": "committed_backtrack_target",
+      "mcts_step": 2,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 4,
+      "action": "a_rag",
+      "source": "mcts_selected",
+      "mcts_step": 3,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 5,
+      "action": "a_rag",
+      "source": "mcts_selected",
+      "mcts_step": 4,
+      "workflow_stage": "task1_referral"
+    }
+  ],
+  "backtrack_events": [
+    {
+      "event_id": 0,
+      "source": "committed",
+      "target_snapshot_id": 1,
+      "target_workflow_stage": "task1_referral",
+      "requested_action": "request_auxiliary_exam",
+      "executed_action": "task2_doctor",
+      "mcts_step": 1
+    }
+  ],
+  "missing_evidence": [],
+  "potential_missing_evidence": [
+    "一般检查",
+    "颈部检查",
+    "胸部检查",
+    "腹部检查",
+    "皮肤检查",
+    "神经系统检查",
+    "头颅眼耳鼻喉检查",
+    "MRI"
+  ],
+  "experience_knowledge": [
+    "【基本信息】男，65岁",
+    "【基本信息】男，21岁",
+    "【基本信息】男，22岁"
+  ],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [
+    {
+      "case_id": "11452_门静脉高压一例",
+      "text": "患者男，65岁 因“发现肝脾肿大7年，腹胀1年，皮疹半年”于2010年6月入院。\r\n患者2003年体检发现肝脾轻度肿大，当时无症状，未诊治。2009年5月出现腹胀、腹围增加，无纳差、乏力、厌油及水肿，B超示腹水，利尿治疗后好转。2010年1月起全身出现红色多形性斑丘疹，伴瘙痒。",
+      "summary": "【基本信息】男，65岁",
+      "exams": [
+        "一般检查",
+        "颈部检查",
+        "胸部检查",
+        "腹部检查",
+        "皮肤检查",
+        "神经系统检查"
+      ],
+      "similarity": 0.08313109620223962
+    },
+    {
+      "case_id": "11525_经**海绵体输液抢救大面积烧伤患者1例",
+      "text": "男，21岁 于2010年9月10日，因水泥厂意外事故，被“火焰烧伤全身2h”入本院急诊科抢救室。患者伤后未做任何处理送来本院。 入院诊断特重度烧伤，III度35%，II度50%，烧伤性休克。",
+      "summary": "【基本信息】男，21岁",
+      "exams": [
+        "一般检查",
+        "头颅眼耳鼻喉检查",
+        "皮肤检查",
+        "神经系统检查"
+      ],
+      "similarity": 0.07981826604671145
+    },
+    {
+      "case_id": "11717_腹腔恶性纤维组织细胞瘤1例",
+      "text": "肤巩膜黄染ll天",
+      "summary": "【基本信息】男，22岁",
+      "exams": [
+        "腹部检查",
+        "MRI",
+        "CT",
+        "超声"
+      ],
+      "similarity": 0.07350527570730139
+    }
+  ],
+  "evidence_importance": {},
+  "experience_memory_available": true,
+  "top_hypothesis_confidence": 0.0,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "22_规范治疗避免肝癌者再受伤",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "61岁"
+        },
+        "chief_complaint": "患者男性，61岁， 因“肝癌行剖腹探查术后3月余，介入治疗后2月”入院。",
+        "present_illness": "病史患者于2010年9月体检时CT发现肝脏占位病变，无腹痛、腹胀、恶心、呕吐，无寒颤、高热，无皮肤巩膜黄染。外院CT示肝右10cm×10cm占位病变，考虑为原发性肝癌，遂入上海某医院治疗，于2010年9月在全麻下行剖腹探查术。术中见“中度肝硬化，肿瘤侵犯膈肌，且与右肝静脉关系密切、无法切除，胆囊内未及结石，无息肉”，立即告知患者家属无法根治性切除肿瘤，建议行原位肝移植术，但遭家属拒绝，遂切除胆囊后关腹。为进一步治疗于2010年10月入本院。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "有乙肝病史（病程不详），未正规治疗；发现高血压5年；无酗酒史、糖尿病史、遗传病史。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "22_规范治疗避免肝癌者再受伤",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "61岁"
+        },
+        "chief_complaint": "患者男性，61岁， 因“肝癌行剖腹探查术后3月余，介入治疗后2月”入院。",
+        "present_illness": "病史患者于2010年9月体检时CT发现肝脏占位病变，无腹痛、腹胀、恶心、呕吐，无寒颤、高热，无皮肤巩膜黄染。外院CT示肝右10cm×10cm占位病变，考虑为原发性肝癌，遂入上海某医院治疗，于2010年9月在全麻下行剖腹探查术。术中见“中度肝硬化，肿瘤侵犯膈肌，且与右肝静脉关系密切、无法切除，胆囊内未及结石，无息肉”，立即告知患者家属无法根治性切除肿瘤，建议行原位肝移植术，但遭家属拒绝，遂切除胆囊后关腹。为进一步治疗于2010年10月入本院。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科",
+          "消化内科"
+        ],
+        "past_history": "有乙肝病史（病程不详），未正规治疗；发现高血压5年；无酗酒史、糖尿病史、遗传病史。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "22_规范治疗避免肝癌者再受伤",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "61岁"
+        },
+        "chief_complaint": "患者男性，61岁， 因“肝癌行剖腹探查术后3月余，介入治疗后2月”入院。",
+        "present_illness": "病史患者于2010年9月体检时CT发现肝脏占位病变，无腹痛、腹胀、恶心、呕吐，无寒颤、高热，无皮肤巩膜黄染。外院CT示肝右10cm×10cm占位病变，考虑为原发性肝癌，遂入上海某医院治疗，于2010年9月在全麻下行剖腹探查术。术中见“中度肝硬化，肿瘤侵犯膈肌，且与右肝静脉关系密切、无法切除，胆囊内未及结石，无息肉”，立即告知患者家属无法根治性切除肿瘤，建议行原位肝移植术，但遭家属拒绝，遂切除胆囊后关腹。为进一步治疗于2010年10月入本院。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科",
+          "消化内科"
+        ],
+        "past_history": "有乙肝病史（病程不详），未正规治疗；发现高血压5年；无酗酒史、糖尿病史、遗传病史。",
+        "hypothesis_illness": [
+          {
+            "name": "原发性肝细胞癌",
+            "disease": "原发性肝细胞癌",
+            "evidence": [
+              "乙肝病史",
+              "术中见中度肝硬化",
+              "肝右叶10cm×10cm占位",
+              "肿瘤侵犯膈肌且与右肝静脉关系密切"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "name": "乙肝肝硬化",
+            "disease": "乙肝肝硬化",
+            "evidence": [
+              "乙肝病史未正规治疗",
+              "术中见中度肝硬化"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "name": "慢性乙型病毒性肝炎",
+            "disease": "慢性乙型病毒性肝炎",
+            "evidence": [
+              "乙肝病史未正规治疗"
+            ],
+            "confidence": 0.85
+          },
+          {
+            "name": "肝内胆管细胞癌",
+            "disease": "肝内胆管细胞癌",
+            "evidence": [
+              "肝右叶占位"
+            ],
+            "confidence": 0.35
+          },
+          {
+            "name": "转移性肝癌",
+            "disease": "转移性肝癌",
+            "evidence": [
+              "肝右叶占位"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "介入治疗后肿瘤坏死/感染",
+            "disease": "介入治疗后肿瘤坏死/感染",
+            "evidence": [
+              "肝癌介入治疗后2月"
+            ],
+            "confidence": 0.2
+          }
+        ],
+        "physical_exams": {
+          "腹部检查": "腹平软，右上腹肋缘下见一长约30cm、愈合较好的陈旧性手术瘢痕，肝上界位于锁骨中线第5肋间，肋下约3cm触及肝下缘，脾肋下未及，移动性浊音阴性"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "腹部检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "血液学检查",
+          "CT",
+          "MRI",
+          "病理检查"
+        ],
+        "predicted_physical_exams": [
+          "腹部检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "血液学检查",
+          "CT",
+          "MRI",
+          "病理检查"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [
+          "肝占位病理组织学及免疫组化结果（如HepPar-1、GPC3、CK7、CK19等）以确认肝细胞癌并排除肝内胆管细胞癌或转移性肝癌",
+          "血清AFP、异常凝血酶原（DCP）等肝细胞癌相关肿瘤标志物",
+          "乙肝病毒血清学标志物（HBsAg、HBeAg、HBV DNA）及肝功能Child-Pugh评分、凝血功能以确认慢性乙肝及肝硬化程度",
+          "腹部增强CT或MRI三期扫描结果，评估肝内病灶、血管侵犯、肝外转移及介入后肿瘤坏死/存活情况",
+          "血常规、CRP、PCT及血培养等感染相关指标，以评估介入治疗后肿瘤坏死/感染",
+          "CA19-9、CEA等肿瘤标志物及胸腹盆影像或PET-CT以排除肝内胆管细胞癌和转移性肝癌",
+          "既往剖腹探查术后病理及手术记录，明确术中所见、病理诊断及切缘情况"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task1_referral",
+      "reason": "committed_backtrack_restored",
+      "state": {
+        "case_id": "22_规范治疗避免肝癌者再受伤",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "61岁"
+        },
+        "chief_complaint": "患者男性，61岁， 因“肝癌行剖腹探查术后3月余，介入治疗后2月”入院。",
+        "present_illness": "病史患者于2010年9月体检时CT发现肝脏占位病变，无腹痛、腹胀、恶心、呕吐，无寒颤、高热，无皮肤巩膜黄染。外院CT示肝右10cm×10cm占位病变，考虑为原发性肝癌，遂入上海某医院治疗，于2010年9月在全麻下行剖腹探查术。术中见“中度肝硬化，肿瘤侵犯膈肌，且与右肝静脉关系密切、无法切除，胆囊内未及结石，无息肉”，立即告知患者家属无法根治性切除肿瘤，建议行原位肝移植术，但遭家属拒绝，遂切除胆囊后关腹。为进一步治疗于2010年10月入本院。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科",
+          "消化内科"
+        ],
+        "past_history": "有乙肝病史（病程不详），未正规治疗；发现高血压5年；无酗酒史、糖尿病史、遗传病史。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exam",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 2,
+      "workflow_action_index": 4,
+      "mcts_step": 2,
+      "workflow_stage": "task1_referral",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "22_规范治疗避免肝癌者再受伤",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "61岁"
+        },
+        "chief_complaint": "患者男性，61岁， 因“肝癌行剖腹探查术后3月余，介入治疗后2月”入院。",
+        "present_illness": "病史患者于2010年9月体检时CT发现肝脏占位病变，无腹痛、腹胀、恶心、呕吐，无寒颤、高热，无皮肤巩膜黄染。外院CT示肝右10cm×10cm占位病变，考虑为原发性肝癌，遂入上海某医院治疗，于2010年9月在全麻下行剖腹探查术。术中见“中度肝硬化，肿瘤侵犯膈肌，且与右肝静脉关系密切、无法切除，胆囊内未及结石，无息肉”，立即告知患者家属无法根治性切除肿瘤，建议行原位肝移植术，但遭家属拒绝，遂切除胆囊后关腹。为进一步治疗于2010年10月入本院。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科",
+          "消化内科"
+        ],
+        "past_history": "有乙肝病史（病程不详），未正规治疗；发现高血压5年；无酗酒史、糖尿病史、遗传病史。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor"
+        ],
+        "mcts_step": 2,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exam",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 5,
+      "trajectory_index": 3,
+      "workflow_action_index": 5,
+      "mcts_step": 3,
+      "workflow_stage": "task1_referral",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "22_规范治疗避免肝癌者再受伤",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "61岁"
+        },
+        "chief_complaint": "患者男性，61岁， 因“肝癌行剖腹探查术后3月余，介入治疗后2月”入院。",
+        "present_illness": "病史患者于2010年9月体检时CT发现肝脏占位病变，无腹痛、腹胀、恶心、呕吐，无寒颤、高热，无皮肤巩膜黄染。外院CT示肝右10cm×10cm占位病变，考虑为原发性肝癌，遂入上海某医院治疗，于2010年9月在全麻下行剖腹探查术。术中见“中度肝硬化，肿瘤侵犯膈肌，且与右肝静脉关系密切、无法切除，胆囊内未及结石，无息肉”，立即告知患者家属无法根治性切除肿瘤，建议行原位肝移植术，但遭家属拒绝，遂切除胆囊后关腹。为进一步治疗于2010年10月入本院。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科",
+          "消化内科"
+        ],
+        "past_history": "有乙肝病史（病程不详），未正规治疗；发现高血压5年；无酗酒史、糖尿病史、遗传病史。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor",
+          "a_rag"
+        ],
+        "mcts_step": 3,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 4,
+            "action": "a_rag",
+            "source": "mcts_selected",
+            "mcts_step": 3,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exam",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [],
+        "potential_missing_evidence": [
+          "一般检查",
+          "颈部检查",
+          "胸部检查",
+          "腹部检查",
+          "皮肤检查",
+          "神经系统检查",
+          "头颅眼耳鼻喉检查",
+          "MRI"
+        ],
+        "experience_knowledge": [
+          "【基本信息】男，65岁",
+          "【基本信息】男，21岁",
+          "【基本信息】男，22岁"
+        ],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [
+          {
+            "case_id": "11452_门静脉高压一例",
+            "text": "患者男，65岁 因“发现肝脾肿大7年，腹胀1年，皮疹半年”于2010年6月入院。\r\n患者2003年体检发现肝脾轻度肿大，当时无症状，未诊治。2009年5月出现腹胀、腹围增加，无纳差、乏力、厌油及水肿，B超示腹水，利尿治疗后好转。2010年1月起全身出现红色多形性斑丘疹，伴瘙痒。",
+            "summary": "【基本信息】男，65岁",
+            "exams": [
+              "一般检查",
+              "颈部检查",
+              "胸部检查",
+              "腹部检查",
+              "皮肤检查",
+              "神经系统检查"
+            ],
+            "similarity": 0.08313109620223962
+          },
+          {
+            "case_id": "11525_经**海绵体输液抢救大面积烧伤患者1例",
+            "text": "男，21岁 于2010年9月10日，因水泥厂意外事故，被“火焰烧伤全身2h”入本院急诊科抢救室。患者伤后未做任何处理送来本院。 入院诊断特重度烧伤，III度35%，II度50%，烧伤性休克。",
+            "summary": "【基本信息】男，21岁",
+            "exams": [
+              "一般检查",
+              "头颅眼耳鼻喉检查",
+              "皮肤检查",
+              "神经系统检查"
+            ],
+            "similarity": 0.07981826604671145
+          },
+          {
+            "case_id": "11717_腹腔恶性纤维组织细胞瘤1例",
+            "text": "肤巩膜黄染ll天",
+            "summary": "【基本信息】男，22岁",
+            "exams": [
+              "腹部检查",
+              "MRI",
+              "CT",
+              "超声"
+            ],
+            "similarity": 0.07350527570730139
+          }
+        ],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false,
+        "experience_retrieval_backend": "tfidf"
+      }
+    }
+  ],
+  "active_snapshot_id": 1,
+  "terminated_by": "eta",
+  "finalization_used": false,
+  "experience_retrieval_backend": "tfidf"
+}

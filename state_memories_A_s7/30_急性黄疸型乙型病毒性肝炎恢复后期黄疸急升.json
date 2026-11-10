@@ -1,0 +1,943 @@
+{
+  "case_id": "30_急性黄疸型乙型病毒性肝炎恢复后期黄疸急升",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "26岁"
+  },
+  "chief_complaint": "：青年男性，待业，生活习惯规则，偶饮酒（2——3次/月，1瓶啤酒/次），既往有急甲肝、急戊肝病史。 ：发热、腹胀、尿黄半月",
+  "present_illness": "",
+  "dept_l1": "内科",
+  "dept_l2": [
+    "肝病科",
+    "消化内科",
+    "传染科"
+  ],
+  "past_history": "",
+  "hypothesis_illness": [
+    {
+      "name": "急性乙型病毒性肝炎恢复期再燃（重症倾向）",
+      "disease": "急性乙型病毒性肝炎恢复期再燃（重症倾向）",
+      "evidence": [
+        "青年男性，既往有病毒性肝炎病史",
+        "主诉发热、腹胀、尿黄半月",
+        "急性黄疸型乙型病毒性肝炎恢复后期黄疸急升"
+      ],
+      "confidence": 0.65
+    },
+    {
+      "name": "重叠急性戊型或甲型病毒性肝炎",
+      "disease": "重叠急性戊型或甲型病毒性肝炎",
+      "evidence": [
+        "既往有急甲肝、急戊肝病史",
+        "发热、尿黄",
+        "黄疸急升"
+      ],
+      "confidence": 0.4
+    },
+    {
+      "name": "药物性肝损伤",
+      "disease": "药物性肝损伤",
+      "evidence": [
+        "发热、黄疸",
+        "恢复后期可能使用解热镇痛药或中草药"
+      ],
+      "confidence": 0.3
+    },
+    {
+      "name": "胆道梗阻/急性胆管炎",
+      "disease": "胆道梗阻/急性胆管炎",
+      "evidence": [
+        "发热",
+        "黄疸急升",
+        "腹胀"
+      ],
+      "confidence": 0.3
+    },
+    {
+      "name": "自身免疫性肝炎",
+      "disease": "自身免疫性肝炎",
+      "evidence": [
+        "青年男性",
+        "发热、黄疸"
+      ],
+      "confidence": 0.3
+    },
+    {
+      "name": "急性/亚急性肝衰竭",
+      "disease": "急性/亚急性肝衰竭",
+      "evidence": [
+        "黄疸急升",
+        "腹胀可能提示腹水",
+        "多种肝炎病史"
+      ],
+      "confidence": 0.35
+    }
+  ],
+  "physical_exams": {},
+  "auxiliary_exams": {
+    "血液学检查": "血常规：08/07 WBC 4.30 NE 2.04 LY 1.46 RBC 5.03 HGB 136 PLT 286，11/07 WBC 4.39 NE 2.36 LY 1.37 RBC 4.88 HGB 138 PLT 265。生化：08/07 ALT 1388 AST 471 TB 111.6 DB 74.7 ID 36.9 ALB 46.1 GGT 130 CHE 8470，11/07 ALT 0853 AST 283 TB 145.3 DB 099.3 ID 46.0 ALB 47.1 GGT 096 CHE 8092，15/07 ALT 0283 AST 054 TB 159.5 DB 106.4 ID 53.1 ALB 48.2 GGT 054 CHE（未）。19/07 ALT 0106 AST 038 TB 162.4 DB 109.4 ID 53.0 ALB 44.5 GGT 040 CHE 7890，25/07 ALT 0049 AST 031 TB 191.1 DB 126.9 ID 64.2 ALB 44.3 GGT 033 CHE 6634"
+  },
+  "imaging_results": {},
+  "completed_physical_exams": [],
+  "completed_auxiliary_exams": [
+    "血液学检查"
+  ],
+  "completed_imaging_exams": [],
+  "pending_auxiliary_exams": [
+    "超声"
+  ],
+  "predicted_physical_exams": [
+    "腹部检查",
+    "皮肤检查"
+  ],
+  "predicted_auxiliary_exams": [
+    "血液学检查",
+    "超声"
+  ],
+  "diagnosis_result": [
+    "急性乙型病毒性肝炎恢复期再燃（重症倾向）"
+  ],
+  "treatment_plan": [],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "pending"
+  },
+  "recheck_total": 1,
+  "max_recheck": 3,
+  "mcts_trajectory": [
+    "a_back",
+    "task2_doctor",
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 4,
+  "mcts_eta": 4,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "a_back",
+      "source": "committed_backtrack",
+      "mcts_step": 1,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task2_doctor",
+      "source": "committed_backtrack_target",
+      "mcts_step": 2,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 4,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 3,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 5,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 4,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [
+    {
+      "event_id": 0,
+      "source": "committed",
+      "target_snapshot_id": 1,
+      "target_workflow_stage": "task1_referral",
+      "requested_action": "request_auxiliary_exams",
+      "executed_action": "task2_doctor",
+      "mcts_step": 1
+    }
+  ],
+  "missing_evidence": [
+    "肝炎病毒血清学与核酸：HBsAg、抗-HBc IgM、HBV DNA、抗-HAV IgM、抗-HEV IgM/HEV RNA（必要时HCV抗体/RNA）",
+    "凝血功能（PT/INR）及肝性脑病/血氨评估",
+    "腹部超声或MRCP/CT：明确有无胆道梗阻、腹水及肝脏/脾脏形态",
+    "详细用药史及近期中草药/保健品暴露史",
+    "自身免疫性肝病标志物：ANA、SMA、抗-LKM-1、IgG",
+    "炎症/感染指标（CRP、PCT、血培养）以辅助除外急性胆管炎"
+  ],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.65,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "30_急性黄疸型乙型病毒性肝炎恢复后期黄疸急升",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "26岁"
+        },
+        "chief_complaint": "：青年男性，待业，生活习惯规则，偶饮酒（2——3次/月，1瓶啤酒/次），既往有急甲肝、急戊肝病史。 ：发热、腹胀、尿黄半月",
+        "present_illness": "",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "30_急性黄疸型乙型病毒性肝炎恢复后期黄疸急升",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "26岁"
+        },
+        "chief_complaint": "：青年男性，待业，生活习惯规则，偶饮酒（2——3次/月，1瓶啤酒/次），既往有急甲肝、急戊肝病史。 ：发热、腹胀、尿黄半月",
+        "present_illness": "",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科",
+          "消化内科",
+          "传染科"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "30_急性黄疸型乙型病毒性肝炎恢复后期黄疸急升",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "26岁"
+        },
+        "chief_complaint": "：青年男性，待业，生活习惯规则，偶饮酒（2——3次/月，1瓶啤酒/次），既往有急甲肝、急戊肝病史。 ：发热、腹胀、尿黄半月",
+        "present_illness": "",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科",
+          "消化内科",
+          "传染科"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "急性乙型病毒性肝炎恢复期病毒再燃/黄疸反跳",
+            "disease": "急性乙型病毒性肝炎恢复期病毒再燃/黄疸反跳",
+            "evidence": [
+              "已诊断急性黄疸型乙型病毒性肝炎恢复期",
+              "黄疸急升",
+              "发热、尿黄半月"
+            ],
+            "confidence": 0.65
+          },
+          {
+            "name": "重型肝炎倾向/慢加急性肝衰竭",
+            "disease": "重型肝炎倾向/慢加急性肝衰竭",
+            "evidence": [
+              "黄疸急升",
+              "腹胀，需警惕腹水",
+              "发热"
+            ],
+            "confidence": 0.5
+          },
+          {
+            "name": "合并丁型肝炎病毒感染",
+            "disease": "合并丁型肝炎病毒感染",
+            "evidence": [
+              "乙肝基础上黄疸急升",
+              "发热、尿黄"
+            ],
+            "confidence": 0.35
+          },
+          {
+            "name": "合并急性戊型或甲型肝炎",
+            "disease": "合并急性戊型或甲型肝炎",
+            "evidence": [
+              "既往有急甲肝、急戊肝病史",
+              "急性黄疸表现",
+              "发热"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "胆道梗阻/胆管炎",
+            "disease": "胆道梗阻/胆管炎",
+            "evidence": [
+              "发热、黄疸",
+              "腹胀"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "药物性肝损伤",
+            "disease": "药物性肝损伤",
+            "evidence": [
+              "恢复期用药史不详",
+              "黄疸急升"
+            ],
+            "confidence": 0.3
+          }
+        ],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "血液学检查",
+          "尿液检查",
+          "超声"
+        ],
+        "predicted_physical_exams": [
+          "腹部检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "血液学检查",
+          "尿液检查",
+          "超声"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [
+          "肝功能全套及凝血酶原时间/INR（PT/INR）",
+          "HBV血清学标志物（HBsAg、抗-HBc IgM等）及HBV DNA定量",
+          "抗HDV抗体/HDV RNA",
+          "抗HAV IgM、抗HEV IgM/HEV RNA",
+          "腹部超声或CT/MRCP（评估肝胆形态、胆道梗阻、腹水）",
+          "详细用药史及近期药物/中草药暴露史",
+          "血常规、CRP/PCT、血培养（评估感染/胆管炎）"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.65,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task1_referral",
+      "reason": "committed_backtrack_restored",
+      "state": {
+        "case_id": "30_急性黄疸型乙型病毒性肝炎恢复后期黄疸急升",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "26岁"
+        },
+        "chief_complaint": "：青年男性，待业，生活习惯规则，偶饮酒（2——3次/月，1瓶啤酒/次），既往有急甲肝、急戊肝病史。 ：发热、腹胀、尿黄半月",
+        "present_illness": "",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科",
+          "消化内科",
+          "传染科"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exams",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 2,
+      "workflow_action_index": 4,
+      "mcts_step": 2,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "30_急性黄疸型乙型病毒性肝炎恢复后期黄疸急升",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "26岁"
+        },
+        "chief_complaint": "：青年男性，待业，生活习惯规则，偶饮酒（2——3次/月，1瓶啤酒/次），既往有急甲肝、急戊肝病史。 ：发热、腹胀、尿黄半月",
+        "present_illness": "",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科",
+          "消化内科",
+          "传染科"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "急性乙型病毒性肝炎恢复期再燃（重症倾向）",
+            "disease": "急性乙型病毒性肝炎恢复期再燃（重症倾向）",
+            "evidence": [
+              "青年男性，既往有病毒性肝炎病史",
+              "主诉发热、腹胀、尿黄半月",
+              "急性黄疸型乙型病毒性肝炎恢复后期黄疸急升"
+            ],
+            "confidence": 0.65
+          },
+          {
+            "name": "重叠急性戊型或甲型病毒性肝炎",
+            "disease": "重叠急性戊型或甲型病毒性肝炎",
+            "evidence": [
+              "既往有急甲肝、急戊肝病史",
+              "发热、尿黄",
+              "黄疸急升"
+            ],
+            "confidence": 0.4
+          },
+          {
+            "name": "药物性肝损伤",
+            "disease": "药物性肝损伤",
+            "evidence": [
+              "发热、黄疸",
+              "恢复后期可能使用解热镇痛药或中草药"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "胆道梗阻/急性胆管炎",
+            "disease": "胆道梗阻/急性胆管炎",
+            "evidence": [
+              "发热",
+              "黄疸急升",
+              "腹胀"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "自身免疫性肝炎",
+            "disease": "自身免疫性肝炎",
+            "evidence": [
+              "青年男性",
+              "发热、黄疸"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "急性/亚急性肝衰竭",
+            "disease": "急性/亚急性肝衰竭",
+            "evidence": [
+              "黄疸急升",
+              "腹胀可能提示腹水",
+              "多种肝炎病史"
+            ],
+            "confidence": 0.35
+          }
+        ],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "血液学检查",
+          "超声"
+        ],
+        "predicted_physical_exams": [
+          "腹部检查",
+          "皮肤检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "血液学检查",
+          "超声"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor"
+        ],
+        "mcts_step": 2,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exams",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [
+          "完整体格检查及生命体征（意识、血压、体温、腹部压痛/反跳痛、肝脾触诊、移动性浊音、Murphy征等）",
+          "肝炎病毒标志物及病毒载量：HBsAg、抗-HBc IgM、HBeAg/抗-HBe、HBV DNA；抗-HAV IgM；抗-HEV IgM/HEV RNA",
+          "肝功能与凝血功能：ALT、AST、总/直接胆红素、ALP、GGT、白蛋白、PT/INR、血氨",
+          "血常规、CRP/PCT、肾功能及电解质",
+          "腹部超声/CT/MRCP排除胆道梗阻、胆管炎、腹水、肝脏占位或肝实质病变",
+          "近期用药史（处方药、非处方药、中草药、保健品、对乙酰氨基酚）及饮酒变化",
+          "自身免疫性肝病标志物：IgG、ANA、SMA、抗-LKM-1、抗-SLA/LP等",
+          "必要时肝组织活检病理"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.65,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 5,
+      "trajectory_index": 3,
+      "workflow_action_index": 5,
+      "mcts_step": 3,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "30_急性黄疸型乙型病毒性肝炎恢复后期黄疸急升",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "26岁"
+        },
+        "chief_complaint": "：青年男性，待业，生活习惯规则，偶饮酒（2——3次/月，1瓶啤酒/次），既往有急甲肝、急戊肝病史。 ：发热、腹胀、尿黄半月",
+        "present_illness": "",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科",
+          "消化内科",
+          "传染科"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "急性乙型病毒性肝炎恢复期再燃（重症倾向）",
+            "disease": "急性乙型病毒性肝炎恢复期再燃（重症倾向）",
+            "evidence": [
+              "青年男性，既往有病毒性肝炎病史",
+              "主诉发热、腹胀、尿黄半月",
+              "急性黄疸型乙型病毒性肝炎恢复后期黄疸急升"
+            ],
+            "confidence": 0.65
+          },
+          {
+            "name": "重叠急性戊型或甲型病毒性肝炎",
+            "disease": "重叠急性戊型或甲型病毒性肝炎",
+            "evidence": [
+              "既往有急甲肝、急戊肝病史",
+              "发热、尿黄",
+              "黄疸急升"
+            ],
+            "confidence": 0.4
+          },
+          {
+            "name": "药物性肝损伤",
+            "disease": "药物性肝损伤",
+            "evidence": [
+              "发热、黄疸",
+              "恢复后期可能使用解热镇痛药或中草药"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "胆道梗阻/急性胆管炎",
+            "disease": "胆道梗阻/急性胆管炎",
+            "evidence": [
+              "发热",
+              "黄疸急升",
+              "腹胀"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "自身免疫性肝炎",
+            "disease": "自身免疫性肝炎",
+            "evidence": [
+              "青年男性",
+              "发热、黄疸"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "急性/亚急性肝衰竭",
+            "disease": "急性/亚急性肝衰竭",
+            "evidence": [
+              "黄疸急升",
+              "腹胀可能提示腹水",
+              "多种肝炎病史"
+            ],
+            "confidence": 0.35
+          }
+        ],
+        "physical_exams": {},
+        "auxiliary_exams": {
+          "血液学检查": "血常规：08/07 WBC 4.30 NE 2.04 LY 1.46 RBC 5.03 HGB 136 PLT 286，11/07 WBC 4.39 NE 2.36 LY 1.37 RBC 4.88 HGB 138 PLT 265。生化：08/07 ALT 1388 AST 471 TB 111.6 DB 74.7 ID 36.9 ALB 46.1 GGT 130 CHE 8470，11/07 ALT 0853 AST 283 TB 145.3 DB 099.3 ID 46.0 ALB 47.1 GGT 096 CHE 8092，15/07 ALT 0283 AST 054 TB 159.5 DB 106.4 ID 53.1 ALB 48.2 GGT 054 CHE（未）。19/07 ALT 0106 AST 038 TB 162.4 DB 109.4 ID 53.0 ALB 44.5 GGT 040 CHE 7890，25/07 ALT 0049 AST 031 TB 191.1 DB 126.9 ID 64.2 ALB 44.3 GGT 033 CHE 6634"
+        },
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [
+          "血液学检查"
+        ],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "超声"
+        ],
+        "predicted_physical_exams": [
+          "腹部检查",
+          "皮肤检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "血液学检查",
+          "超声"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor",
+          "task3_imaging"
+        ],
+        "mcts_step": 3,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 4,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 3,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exams",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [
+          "凝血酶原时间/INR及凝血功能",
+          "甲、乙、丙、戊型肝炎病毒学标志物及核酸（抗-HAV IgM、HBsAg、抗-HBc IgM、HBV DNA、抗-HCV、抗-HEV IgM/HEV RNA）",
+          "腹部超声或CT/MRCP评估胆道梗阻、腹水及肝脾",
+          "详细用药史及中草药/保健品暴露史",
+          "自身免疫性肝病抗体及免疫球蛋白（ANA、SMA、IgG、抗-LKM）",
+          "血培养及PCT/CRP等感染指标",
+          "体格检查（生命体征、腹部压痛/Murphy征、腹水征、肝性脑病）"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.65,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": 1,
+  "terminated_by": "eta",
+  "finalization_used": false,
+  "agent_missing_evidence": []
+}

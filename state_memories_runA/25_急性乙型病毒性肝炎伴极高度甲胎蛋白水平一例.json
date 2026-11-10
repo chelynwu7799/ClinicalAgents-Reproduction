@@ -1,0 +1,1089 @@
+{
+  "case_id": "25_急性乙型病毒性肝炎伴极高度甲胎蛋白水平一例",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "未知"
+  },
+  "chief_complaint": "患儿吴某某，男性，",
+  "present_illness": "3个月u无明显诱因出现尿黄7天，否认有酱油样尿，继而出现皮肤、巩膜黄染，呈进行性加深，无明显悉心、呕吐，进乳量无明显减少。于2004年12月12日去深圳市某医院住院，诊断为“急性黄疸型乙型病毒性肝炎”。予以古拉定、强力宁、白蛋白等护肝、消炎、支持治疗，效果不佳，治疗中曾出现低热(37.8℃)，为进一步治疗，于2004年12月14日入我院就诊。",
+  "dept_l1": "内科",
+  "dept_l2": [
+    "肝病科",
+    "消化内科",
+    "传染科"
+  ],
+  "past_history": "患儿出生时及1个月时曾注射乙肝疫苗，出生时检查提示“G-6-PD缺乏症”。",
+  "hypothesis_illness": [
+    {
+      "name": "急性乙型病毒性肝炎（婴儿型）",
+      "disease": "急性乙型病毒性肝炎（婴儿型）",
+      "evidence": [
+        "尿黄7天",
+        "皮肤、巩膜黄染进行性加深",
+        "外院诊断为急性黄疸型乙型病毒性肝炎",
+        "病程中出现低热"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "name": "胆道闭锁",
+      "disease": "胆道闭锁",
+      "evidence": [
+        "3个月婴儿",
+        "黄疸进行性加深",
+        "护肝退黄效果不佳"
+      ],
+      "confidence": 0.35
+    },
+    {
+      "name": "G6PD缺乏相关性溶血性黄疸",
+      "disease": "G6PD缺乏相关性溶血性黄疸",
+      "evidence": [
+        "出生时检查提示G-6-PD缺乏症",
+        "皮肤巩膜黄染",
+        "病程中有低热"
+      ],
+      "confidence": 0.35
+    },
+    {
+      "name": "婴儿肝炎综合征（其他感染性/代谢性肝病）",
+      "disease": "婴儿肝炎综合征（其他感染性/代谢性肝病）",
+      "evidence": [
+        "婴儿期黄疸",
+        "低热",
+        "保肝治疗效果不佳"
+      ],
+      "confidence": 0.3
+    },
+    {
+      "name": "肝母细胞瘤/肝脏占位",
+      "disease": "肝母细胞瘤/肝脏占位",
+      "evidence": [
+        "病例提示极高度甲胎蛋白水平",
+        "婴儿期黄疸"
+      ],
+      "confidence": 0.3
+    },
+    {
+      "name": "先天性胆管扩张症/胆总管囊肿",
+      "disease": "先天性胆管扩张症/胆总管囊肿",
+      "evidence": [
+        "婴儿期出现黄疸"
+      ],
+      "confidence": 0.1
+    },
+    {
+      "name": "药物/毒性相关肝损伤",
+      "disease": "药物/毒性相关肝损伤",
+      "evidence": [
+        "近期使用保肝药物",
+        "黄疸加深"
+      ],
+      "confidence": 0.1
+    },
+    {
+      "name": "遗传代谢性肝病",
+      "disease": "遗传代谢性肝病",
+      "evidence": [
+        "婴儿早期黄疸",
+        "常规治疗反应不佳"
+      ],
+      "confidence": 0.2
+    }
+  ],
+  "physical_exams": {
+    "腹部检查": "腹平软，肝右肋下约4cm，质软，脾肋缘下未触及，移动性浊音阴性"
+  },
+  "auxiliary_exams": {
+    "血液学检查": "2004年12月12日血常规：WBC10.6x10⁹/L、RBC3.01×10¹²/L、HGB68g/L、PLT203×10⁹/L; 生化：ALT1329U/L、AST1458U/L、ALP935U/L、γGT173U/L、TBIL170.6μmol/L、DBIL81.7μmol/L、ALB43.7g/L、GLB18.2g/L、BUN3.0mmol/L、Cr27.7μmol/L、GLU3.02mmol/L、K⁺5.06mmol/L、Na⁺140mmol/L、Cl⁻106mmol/L、TG1.56mmol/L、CHO3.38mmol/L、PT17s（对照12.5s）、PTA43%"
+  },
+  "imaging_results": {},
+  "completed_physical_exams": [
+    "腹部检查"
+  ],
+  "completed_auxiliary_exams": [
+    "血液学检查"
+  ],
+  "completed_imaging_exams": [],
+  "pending_auxiliary_exams": [
+    "尿液检查",
+    "超声",
+    "核医学成像"
+  ],
+  "predicted_physical_exams": [
+    "腹部检查"
+  ],
+  "predicted_auxiliary_exams": [
+    "血液学检查",
+    "尿液检查",
+    "超声",
+    "核医学成像"
+  ],
+  "diagnosis_result": [],
+  "treatment_plan": [],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "pending",
+    "task5_treatment": "pending"
+  },
+  "recheck_total": 1,
+  "max_recheck": 3,
+  "mcts_trajectory": [
+    "a_back",
+    "task2_doctor",
+    "task3_imaging",
+    "a_rag"
+  ],
+  "mcts_step": 4,
+  "mcts_eta": 4,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "a_back",
+      "source": "committed_backtrack",
+      "mcts_step": 1,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task2_doctor",
+      "source": "committed_backtrack_target",
+      "mcts_step": 2,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 4,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 3,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 5,
+      "action": "a_rag",
+      "source": "mcts_selected",
+      "mcts_step": 4,
+      "workflow_stage": "task2_doctor"
+    }
+  ],
+  "backtrack_events": [
+    {
+      "event_id": 0,
+      "source": "committed",
+      "target_snapshot_id": 1,
+      "target_workflow_stage": "task1_referral",
+      "requested_action": "request_auxiliary_exams",
+      "executed_action": "task2_doctor",
+      "mcts_step": 1
+    }
+  ],
+  "missing_evidence": [
+    "患儿及母亲乙肝血清学标志物（HBsAg、抗-HBc IgM等）及HBV DNA定量",
+    "空腹肝胆胰脾超声及必要时MRCP/胆道显像",
+    "大便颜色/粪胆素和尿胆原",
+    "网织红细胞计数、外周血涂片、LDH、结合珠蛋白、G6PD酶活性",
+    "甲胎蛋白定量及肝脏占位影像学评估",
+    "CMV/EBV等感染标志物及遗传代谢病筛查"
+  ],
+  "potential_missing_evidence": [
+    "一般检查",
+    "颈部检查",
+    "胸部检查",
+    "腹部检查",
+    "脊柱和四肢检查",
+    "皮肤检查",
+    "超声",
+    "血液学检查"
+  ],
+  "experience_knowledge": [
+    "【基本信息】男，14岁，学生 【发病原因】乙肝病毒感染 【临床诊断】1.慢性病毒性肝炎 乙型 2.脂肪肝 3，窦性心动过速 【治疗方案】护肝保肝治疗：如异甘草酸镁，促肝细胞生长素等，适时抗病毒治疗（富马酸替诺福韦） 【治疗结果】病情好转 【病案重点】乙肝病毒感染 19390.png 19391.png 19392.png 19393.png 19394.png 19395.png 19396.png 19397.png",
+    "【基本信息】男，68岁",
+    "【基本信息】女，9天 【发病原因】母乳性黄疸 【临床诊断】新生儿黄疸 【治疗方案】间断蓝光照射 【治疗结果】无黄染，总胆红素和直接胆红素正常 【病案重点】白蛋白治疗严重的黄染 24391.jpg 24392.jpg"
+  ],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [
+    {
+      "case_id": "9480_慢性病毒性乙型肝炎青少年如何治疗？",
+      "text": "乏力、纳差一周 患儿一周前开始渐感乏力，尤以活动后明显，饮食减少，无恶心及呕吐，无咳嗽及发热，无头昏头痛，无腹痛腹泻，在外体检发现肝功能异常，今到本院就诊，门诊以\"慢性病毒性肝炎 乙型\"收入住院。 1.慢性病毒性肝炎 乙型 2.脂肪肝 1.慢性病毒性肝炎 乙型 2.脂肪肝 3，窦性心动过速 本病应与急性病毒性肝炎、慢性丙型病毒性肝炎、酒精性肝炎、自身免疫性肝炎、药物性肝炎、肝硬化等鉴别。依据各自疾病的临床特点及相关辅检可以鉴别。 本病需与以下疾病鉴别： 1.支气管异物：当有呼吸道阻塞伴感染时，其呼吸道症状与急性气管炎相似，应注意询问有无呼吸道异物吸入史，经治疗后，疗效不好，迁延不愈，反复发作。胸部X线检查表现有肺不张、肺气肿等梗阻现象。必要时可行纤支镜检查。 2.急性支气管炎：全身症状轻，一般无明显的呼吸困难及缺氧症状，肺部闻及中湿啰音，多不固定，随咳嗽而改变。 3.急性粟粒性肺结核：粟粒性肺结核也可表现高热、气促、咳嗽、紫绀等与肺炎相似症状，但肺部罗音常不明显。根具有结核病接触史、结核菌素试验阳性及X线检查肺部呈粟粒状阴影可资鉴别。 4.支原体肺炎：应注意排除有无支原体及衣原体感染。MP-IgM及CPN-IgM有助鉴别。继续加强抗感染，对症支持治疗，完善相关检查，密切观察病情变化。",
+      "summary": "【基本信息】男，14岁，学生 【发病原因】乙肝病毒感染 【临床诊断】1.慢性病毒性肝炎 乙型 2.脂肪肝 3，窦性心动过速 【治疗方案】护肝保肝治疗：如异甘草酸镁，促肝细胞生长素等，适时抗病毒治疗（富马酸替诺福韦） 【治疗结果】病情好转 【病案重点】乙肝病毒感染 19390.png 19391.png 19392.png 19393.png 19394.png 19395.png 19396.png 19397.png",
+      "exams": [
+        "一般检查",
+        "颈部检查",
+        "胸部检查",
+        "腹部检查",
+        "脊柱和四肢检查",
+        "皮肤检查",
+        "超声",
+        "血液学检查",
+        "内镜检查"
+      ],
+      "similarity": 0.12724694150958624
+    },
+    {
+      "case_id": "11716_无痛性黄疸伴一系列器官功能障碍",
+      "text": "68岁的男性 皮肤瘙痒和无痛性黄疸",
+      "summary": "【基本信息】男，68岁",
+      "exams": [
+        "CT",
+        "血液学检查",
+        "内镜检查",
+        "病理检查"
+      ],
+      "similarity": 0.10879362527801818
+    },
+    {
+      "case_id": "11439_新生儿黄疸的诊治",
+      "text": "发现皮肤黄染7天 患儿于生后2天出现皮肤黄染，逐渐加重，波及躯干，四肢，手足心等，无发热，无咳嗽，无吐沫，无抽搐及嗜睡，无呛奶，无呕吐，无腹泻，门诊查经皮胆红素21mg/dl。 新生儿黄疸 新生儿黄疸 感染因素引起的黄疸，患儿无感染灶，入院查血常规白细胞在正常范围，可以除外感染引起的黄疸。 新生儿黄疸很常见，多数为生理性的，出生2-3天出现，持续7天左右，数值不超过13mg/dl，但有的生理性的黄疸持续不退，逐渐加重，形成病理性黄疸。黄疸的原因很多，有感染引起的，有溶血性黄疸，有胆道疾病引起的黄疸，甲状腺功能减低造成的黄疸，喂养延迟，胎便排除延迟有可以造成黄疸，最多见的是母乳性黄疸。蓝光照射是治疗黄疸最好的方法，如果黄疸特别重，需要用白蛋白治疗。溶血引起黄疸，黄疸出现早，黄染重，需要用丙种球蛋白治疗，甚至换血治疗。",
+      "summary": "【基本信息】女，9天 【发病原因】母乳性黄疸 【临床诊断】新生儿黄疸 【治疗方案】间断蓝光照射 【治疗结果】无黄染，总胆红素和直接胆红素正常 【病案重点】白蛋白治疗严重的黄染 24391.jpg 24392.jpg",
+      "exams": [
+        "一般检查",
+        "头颅眼耳鼻喉检查",
+        "胸部检查",
+        "腹部检查",
+        "神经系统检查",
+        "X-ray",
+        "血液学检查"
+      ],
+      "similarity": 0.10017504901832837
+    }
+  ],
+  "evidence_importance": {},
+  "experience_memory_available": true,
+  "top_hypothesis_confidence": 0.8,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "25_急性乙型病毒性肝炎伴极高度甲胎蛋白水平一例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "未知"
+        },
+        "chief_complaint": "患儿吴某某，男性，",
+        "present_illness": "3个月u无明显诱因出现尿黄7天，否认有酱油样尿，继而出现皮肤、巩膜黄染，呈进行性加深，无明显悉心、呕吐，进乳量无明显减少。于2004年12月12日去深圳市某医院住院，诊断为“急性黄疸型乙型病毒性肝炎”。予以古拉定、强力宁、白蛋白等护肝、消炎、支持治疗，效果不佳，治疗中曾出现低热(37.8℃)，为进一步治疗，于2004年12月14日入我院就诊。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "患儿出生时及1个月时曾注射乙肝疫苗，出生时检查提示“G-6-PD缺乏症”。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "25_急性乙型病毒性肝炎伴极高度甲胎蛋白水平一例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "未知"
+        },
+        "chief_complaint": "患儿吴某某，男性，",
+        "present_illness": "3个月u无明显诱因出现尿黄7天，否认有酱油样尿，继而出现皮肤、巩膜黄染，呈进行性加深，无明显悉心、呕吐，进乳量无明显减少。于2004年12月12日去深圳市某医院住院，诊断为“急性黄疸型乙型病毒性肝炎”。予以古拉定、强力宁、白蛋白等护肝、消炎、支持治疗，效果不佳，治疗中曾出现低热(37.8℃)，为进一步治疗，于2004年12月14日入我院就诊。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科",
+          "消化内科",
+          "传染科"
+        ],
+        "past_history": "患儿出生时及1个月时曾注射乙肝疫苗，出生时检查提示“G-6-PD缺乏症”。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "25_急性乙型病毒性肝炎伴极高度甲胎蛋白水平一例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "未知"
+        },
+        "chief_complaint": "患儿吴某某，男性，",
+        "present_illness": "3个月u无明显诱因出现尿黄7天，否认有酱油样尿，继而出现皮肤、巩膜黄染，呈进行性加深，无明显悉心、呕吐，进乳量无明显减少。于2004年12月12日去深圳市某医院住院，诊断为“急性黄疸型乙型病毒性肝炎”。予以古拉定、强力宁、白蛋白等护肝、消炎、支持治疗，效果不佳，治疗中曾出现低热(37.8℃)，为进一步治疗，于2004年12月14日入我院就诊。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科",
+          "消化内科",
+          "传染科"
+        ],
+        "past_history": "患儿出生时及1个月时曾注射乙肝疫苗，出生时检查提示“G-6-PD缺乏症”。",
+        "hypothesis_illness": [
+          {
+            "name": "急性乙型病毒性肝炎",
+            "disease": "急性乙型病毒性肝炎",
+            "evidence": [
+              "进行性皮肤、巩膜黄染",
+              "尿黄",
+              "外院诊断急性黄疸型乙型病毒性肝炎"
+            ],
+            "confidence": 0.45
+          },
+          {
+            "name": "先天性胆道闭锁",
+            "disease": "先天性胆道闭锁",
+            "evidence": [
+              "3月龄婴儿",
+              "进行性黄疸加深",
+              "外院护肝治疗效果不佳"
+            ],
+            "confidence": 0.35
+          },
+          {
+            "name": "G6PD缺乏症相关溶血性黄疸",
+            "disease": "G6PD缺乏症相关溶血性黄疸",
+            "evidence": [
+              "出生时已确诊G6PD缺乏症",
+              "黄疸进行性加重",
+              "尿黄"
+            ],
+            "confidence": 0.35
+          },
+          {
+            "name": "巨细胞病毒/EB病毒等嗜肝病毒感染",
+            "disease": "巨细胞病毒/EB病毒等嗜肝病毒感染",
+            "evidence": [
+              "婴儿期出现黄疸",
+              "低热",
+              "一般保肝治疗反应差"
+            ],
+            "confidence": 0.35
+          },
+          {
+            "name": "遗传代谢性肝病",
+            "disease": "遗传代谢性肝病",
+            "evidence": [
+              "婴儿期起病",
+              "进行性黄疸",
+              "常规护肝治疗效果差"
+            ],
+            "confidence": 0.31
+          },
+          {
+            "name": "肝母细胞瘤/肝脏占位性病变",
+            "disease": "肝母细胞瘤/肝脏占位性病变",
+            "evidence": [
+              "病例提示极高度甲胎蛋白水平",
+              "婴儿期黄疸",
+              "进行性黄疸"
+            ],
+            "confidence": 0.31
+          }
+        ],
+        "physical_exams": {
+          "腹部检查": "腹平软，肝右肋下约4cm，质软，脾肋缘下未触及，移动性浊音阴性",
+          "皮肤检查": "皮肤、巩膜中重度黄染，无肝脏和蜘蛛痣"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "腹部检查",
+          "皮肤检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "血液学检查",
+          "尿液检查",
+          "超声",
+          "核医学成像"
+        ],
+        "predicted_physical_exams": [
+          "腹部检查",
+          "皮肤检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "血液学检查",
+          "尿液检查",
+          "超声",
+          "核医学成像"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [
+          "血清总胆红素/直接胆红素及ALT/AST/GGT/ALP等肝功能全套",
+          "乙肝病毒血清标志物（HBsAg、抗-HBc IgM）及HBV-DNA",
+          "腹部超声或磁共振胰胆管成像（评估胆道闭锁、肝占位）",
+          "G6PD酶活性及溶血相关检查（血常规、网织红细胞、LDH、结合珠蛋白）",
+          "CMV/EBV等嗜肝病毒血清学IgM及核酸（PCR）",
+          "血清甲胎蛋白（AFP）水平",
+          "粪便颜色及尿胆原/尿胆红素（尤其有无白陶土样大便）",
+          "遗传代谢病筛查（血氨基酸、尿有机酸、琥珀酰丙酮等）",
+          "凝血功能、白蛋白、血氨（评估肝合成功能）"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.45,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task1_referral",
+      "reason": "committed_backtrack_restored",
+      "state": {
+        "case_id": "25_急性乙型病毒性肝炎伴极高度甲胎蛋白水平一例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "未知"
+        },
+        "chief_complaint": "患儿吴某某，男性，",
+        "present_illness": "3个月u无明显诱因出现尿黄7天，否认有酱油样尿，继而出现皮肤、巩膜黄染，呈进行性加深，无明显悉心、呕吐，进乳量无明显减少。于2004年12月12日去深圳市某医院住院，诊断为“急性黄疸型乙型病毒性肝炎”。予以古拉定、强力宁、白蛋白等护肝、消炎、支持治疗，效果不佳，治疗中曾出现低热(37.8℃)，为进一步治疗，于2004年12月14日入我院就诊。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科",
+          "消化内科",
+          "传染科"
+        ],
+        "past_history": "患儿出生时及1个月时曾注射乙肝疫苗，出生时检查提示“G-6-PD缺乏症”。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exams",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 2,
+      "workflow_action_index": 4,
+      "mcts_step": 2,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "25_急性乙型病毒性肝炎伴极高度甲胎蛋白水平一例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "未知"
+        },
+        "chief_complaint": "患儿吴某某，男性，",
+        "present_illness": "3个月u无明显诱因出现尿黄7天，否认有酱油样尿，继而出现皮肤、巩膜黄染，呈进行性加深，无明显悉心、呕吐，进乳量无明显减少。于2004年12月12日去深圳市某医院住院，诊断为“急性黄疸型乙型病毒性肝炎”。予以古拉定、强力宁、白蛋白等护肝、消炎、支持治疗，效果不佳，治疗中曾出现低热(37.8℃)，为进一步治疗，于2004年12月14日入我院就诊。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科",
+          "消化内科",
+          "传染科"
+        ],
+        "past_history": "患儿出生时及1个月时曾注射乙肝疫苗，出生时检查提示“G-6-PD缺乏症”。",
+        "hypothesis_illness": [
+          {
+            "name": "急性乙型病毒性肝炎（婴儿型）",
+            "disease": "急性乙型病毒性肝炎（婴儿型）",
+            "evidence": [
+              "尿黄7天",
+              "皮肤、巩膜黄染进行性加深",
+              "外院诊断为急性黄疸型乙型病毒性肝炎",
+              "病程中出现低热"
+            ],
+            "confidence": 0.8
+          },
+          {
+            "name": "胆道闭锁",
+            "disease": "胆道闭锁",
+            "evidence": [
+              "3个月婴儿",
+              "黄疸进行性加深",
+              "护肝退黄效果不佳"
+            ],
+            "confidence": 0.35
+          },
+          {
+            "name": "G6PD缺乏相关性溶血性黄疸",
+            "disease": "G6PD缺乏相关性溶血性黄疸",
+            "evidence": [
+              "出生时检查提示G-6-PD缺乏症",
+              "皮肤巩膜黄染",
+              "病程中有低热"
+            ],
+            "confidence": 0.35
+          },
+          {
+            "name": "婴儿肝炎综合征（其他感染性/代谢性肝病）",
+            "disease": "婴儿肝炎综合征（其他感染性/代谢性肝病）",
+            "evidence": [
+              "婴儿期黄疸",
+              "低热",
+              "保肝治疗效果不佳"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "肝母细胞瘤/肝脏占位",
+            "disease": "肝母细胞瘤/肝脏占位",
+            "evidence": [
+              "病例提示极高度甲胎蛋白水平",
+              "婴儿期黄疸"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "先天性胆管扩张症/胆总管囊肿",
+            "disease": "先天性胆管扩张症/胆总管囊肿",
+            "evidence": [
+              "婴儿期出现黄疸"
+            ],
+            "confidence": 0.1
+          },
+          {
+            "name": "药物/毒性相关肝损伤",
+            "disease": "药物/毒性相关肝损伤",
+            "evidence": [
+              "近期使用保肝药物",
+              "黄疸加深"
+            ],
+            "confidence": 0.1
+          },
+          {
+            "name": "遗传代谢性肝病",
+            "disease": "遗传代谢性肝病",
+            "evidence": [
+              "婴儿早期黄疸",
+              "常规治疗反应不佳"
+            ],
+            "confidence": 0.2
+          }
+        ],
+        "physical_exams": {
+          "腹部检查": "腹平软，肝右肋下约4cm，质软，脾肋缘下未触及，移动性浊音阴性"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "腹部检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "血液学检查",
+          "尿液检查",
+          "超声",
+          "核医学成像"
+        ],
+        "predicted_physical_exams": [
+          "腹部检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "血液学检查",
+          "尿液检查",
+          "超声",
+          "核医学成像"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor"
+        ],
+        "mcts_step": 2,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exams",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [
+          "肝功能全套及血清总/直接/间接胆红素、GGT、胆汁酸",
+          "乙肝病毒血清学标志物及HBV DNA",
+          "腹部超声及肝胆系统影像学（必要时MRCP或核素肝胆显像）",
+          "大便颜色及尿胆红素/尿胆原",
+          "G6PD酶活性、血常规、网织红细胞计数、外周血涂片、Coombs试验及溶血相关指标（LDH、结合珠蛋白）",
+          "甲胎蛋白（AFP）及腹部CT/MRI评估肝脏占位",
+          "凝血功能（PT/APTT）、血氨、血糖",
+          "其他病原学检查（CMV、EBV、TORCH等）及遗传代谢病筛查（血氨基酸、尿有机酸等）"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.8,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 5,
+      "trajectory_index": 3,
+      "workflow_action_index": 5,
+      "mcts_step": 3,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "25_急性乙型病毒性肝炎伴极高度甲胎蛋白水平一例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "未知"
+        },
+        "chief_complaint": "患儿吴某某，男性，",
+        "present_illness": "3个月u无明显诱因出现尿黄7天，否认有酱油样尿，继而出现皮肤、巩膜黄染，呈进行性加深，无明显悉心、呕吐，进乳量无明显减少。于2004年12月12日去深圳市某医院住院，诊断为“急性黄疸型乙型病毒性肝炎”。予以古拉定、强力宁、白蛋白等护肝、消炎、支持治疗，效果不佳，治疗中曾出现低热(37.8℃)，为进一步治疗，于2004年12月14日入我院就诊。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科",
+          "消化内科",
+          "传染科"
+        ],
+        "past_history": "患儿出生时及1个月时曾注射乙肝疫苗，出生时检查提示“G-6-PD缺乏症”。",
+        "hypothesis_illness": [
+          {
+            "name": "急性乙型病毒性肝炎（婴儿型）",
+            "disease": "急性乙型病毒性肝炎（婴儿型）",
+            "evidence": [
+              "尿黄7天",
+              "皮肤、巩膜黄染进行性加深",
+              "外院诊断为急性黄疸型乙型病毒性肝炎",
+              "病程中出现低热"
+            ],
+            "confidence": 0.8
+          },
+          {
+            "name": "胆道闭锁",
+            "disease": "胆道闭锁",
+            "evidence": [
+              "3个月婴儿",
+              "黄疸进行性加深",
+              "护肝退黄效果不佳"
+            ],
+            "confidence": 0.35
+          },
+          {
+            "name": "G6PD缺乏相关性溶血性黄疸",
+            "disease": "G6PD缺乏相关性溶血性黄疸",
+            "evidence": [
+              "出生时检查提示G-6-PD缺乏症",
+              "皮肤巩膜黄染",
+              "病程中有低热"
+            ],
+            "confidence": 0.35
+          },
+          {
+            "name": "婴儿肝炎综合征（其他感染性/代谢性肝病）",
+            "disease": "婴儿肝炎综合征（其他感染性/代谢性肝病）",
+            "evidence": [
+              "婴儿期黄疸",
+              "低热",
+              "保肝治疗效果不佳"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "肝母细胞瘤/肝脏占位",
+            "disease": "肝母细胞瘤/肝脏占位",
+            "evidence": [
+              "病例提示极高度甲胎蛋白水平",
+              "婴儿期黄疸"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "先天性胆管扩张症/胆总管囊肿",
+            "disease": "先天性胆管扩张症/胆总管囊肿",
+            "evidence": [
+              "婴儿期出现黄疸"
+            ],
+            "confidence": 0.1
+          },
+          {
+            "name": "药物/毒性相关肝损伤",
+            "disease": "药物/毒性相关肝损伤",
+            "evidence": [
+              "近期使用保肝药物",
+              "黄疸加深"
+            ],
+            "confidence": 0.1
+          },
+          {
+            "name": "遗传代谢性肝病",
+            "disease": "遗传代谢性肝病",
+            "evidence": [
+              "婴儿早期黄疸",
+              "常规治疗反应不佳"
+            ],
+            "confidence": 0.2
+          }
+        ],
+        "physical_exams": {
+          "腹部检查": "腹平软，肝右肋下约4cm，质软，脾肋缘下未触及，移动性浊音阴性"
+        },
+        "auxiliary_exams": {
+          "血液学检查": "2004年12月12日血常规：WBC10.6x10⁹/L、RBC3.01×10¹²/L、HGB68g/L、PLT203×10⁹/L; 生化：ALT1329U/L、AST1458U/L、ALP935U/L、γGT173U/L、TBIL170.6μmol/L、DBIL81.7μmol/L、ALB43.7g/L、GLB18.2g/L、BUN3.0mmol/L、Cr27.7μmol/L、GLU3.02mmol/L、K⁺5.06mmol/L、Na⁺140mmol/L、Cl⁻106mmol/L、TG1.56mmol/L、CHO3.38mmol/L、PT17s（对照12.5s）、PTA43%"
+        },
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "腹部检查"
+        ],
+        "completed_auxiliary_exams": [
+          "血液学检查"
+        ],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "尿液检查",
+          "超声",
+          "核医学成像"
+        ],
+        "predicted_physical_exams": [
+          "腹部检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "血液学检查",
+          "尿液检查",
+          "超声",
+          "核医学成像"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor",
+          "task3_imaging"
+        ],
+        "mcts_step": 3,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 4,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 3,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exams",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [
+          "乙肝血清学标志物（HBsAg/HBeAg/抗HBc-IgM）及HBV DNA定量",
+          "腹部肝胆超声（评估胆囊、肝门三角索、胆管扩张、占位）",
+          "大便颜色记录（是否陶土样/无胆汁便）",
+          "溶血相关检查：G6PD酶活性、网织红细胞、LDH、结合珠蛋白、外周血涂片",
+          "血清甲胎蛋白（AFP）及肝脏影像学（超声/CT/MRI）",
+          "遗传代谢病筛查（尿还原糖、血氨基酸/酰基肉碱、α1-抗胰蛋白酶等）",
+          "TORCH/CMV/EBV等感染病原学检查",
+          "肝胆核素显像或MRCP/必要时肝活检"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.8,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": 1,
+  "terminated_by": "eta",
+  "finalization_used": false,
+  "experience_retrieval_backend": "tfidf"
+}

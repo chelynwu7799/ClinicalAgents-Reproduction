@@ -1,0 +1,799 @@
+{
+  "case_id": "28_黄疸，肝大，腹水，肝功能减退",
+  "personal_info": {
+    "性别": "女",
+    "年龄": "49岁"
+  },
+  "chief_complaint": "患者，女，49岁。 因乏力，食欲差，黄疸3月，加重3日。于2003-8-21入院。",
+  "present_illness": "患者3个月前不明原因开始出现乏力，食欲差，伴全身皮肤黄染及上腹部隐痛。2003-6-25在荆州某医院住院治疗。行CT扫描：肝脏增大。肝裂增宽，肝内胆管扩张，肝实质内见点状钙化影，脾肿大。意见为：轻度肝硬化，脾肿大。B超：肝肋下1.0CM.脾厚4.5CM子宫直肠窝积液。诊断为：慢性乙型病毒性肝炎。给予护肝，消除黄疸治疗。自觉症状稍好转。于7月4日出院。7月5日因上述症状加重而住入该院。彩超：肝实质回声增强，分布不均，肝内胆管显示清晰，门静脉内径11CM,诊断为：戊型病毒性肝炎。给予相应治疗（具体不祥），症状好转于7月17出院。1周前因受凉后又出现上述症状，并加重。伴午后低热（37.3-37.8）。而入本院。病程中无出现呕吐，黑便。",
+  "dept_l1": "内科",
+  "dept_l2": [
+    "肝病科",
+    "消化内科"
+  ],
+  "past_history": "患者25年前有肺结核病史，自述抗结核治疗后痊愈。否认其他病史。否认疫水接触史。无不良嗜好。",
+  "hypothesis_illness": [
+    {
+      "name": "病毒性肝炎肝硬化（乙肝/戊肝重叠感染）",
+      "disease": "病毒性肝炎肝硬化（乙肝/戊肝重叠感染）",
+      "evidence": [
+        "乏力、食欲差、黄疸3月",
+        "外院曾诊断慢性乙型/戊型病毒性肝炎",
+        "肝大、脾大、腹水（子宫直肠窝积液）",
+        "肝实质回声增强、分布不均"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "name": "肝结核",
+      "disease": "肝结核",
+      "evidence": [
+        "25年前肺结核史",
+        "午后低热",
+        "肝内点状钙化影",
+        "肝大、乏力、食欲差"
+      ],
+      "confidence": 0.45
+    },
+    {
+      "name": "自身免疫性肝病",
+      "disease": "自身免疫性肝病",
+      "evidence": [
+        "中年女性",
+        "反复黄疸、肝大",
+        "肝硬化/脾大表现"
+      ],
+      "confidence": 0.35
+    },
+    {
+      "name": "原发性肝癌",
+      "disease": "原发性肝癌",
+      "evidence": [
+        "慢性肝病基础",
+        "肝大、低热、乏力",
+        "肝内钙化/占位性质不明"
+      ],
+      "confidence": 0.3
+    },
+    {
+      "name": "肝内胆管结石/胆管感染",
+      "disease": "肝内胆管结石/胆管感染",
+      "evidence": [
+        "肝内胆管扩张",
+        "上腹隐痛、黄疸",
+        "低热"
+      ],
+      "confidence": 0.3
+    }
+  ],
+  "physical_exams": {
+    "腹部检查": "腹部软，肝左叶于肋下3CM可及，质韧，边缘锐利，有压痛及叩击痛，肝浊音界扩大，脾肋下未及。移动性浊音阳性。肠鸣音活跃"
+  },
+  "auxiliary_exams": {
+    "超声": "彩超：肝左叶明显增大，脾大，存在大量腹水，但是肝内未见液性暗区，未见肝内囊性病变",
+    "CT": "未提及",
+    "病理检查": "AFP阴性，ALT148U/L，AST125U/L，总蛋白：62.0g/L，白蛋白23.4g/L，球蛋白38.6g/L，总胆红素279μmol/L，直接胆红素197μmol/L，碱性磷酸酶95U/L，乙型病毒性肝炎血清标志物阴性，ESR25mmol/L，腹水蛋白定性阳性",
+    "血液学检查": "血常规：HB62g/L，RBC3.58*10^12/L，WBC1.3*10^9/L，中性粒0.54，淋巴0.46，PLT62*10^9/L"
+  },
+  "imaging_results": {
+    "超声": "彩超：肝左叶明显增大，脾大，存在大量腹水，但是肝内未见液性暗区，未见肝内囊性病变",
+    "CT": "未提及",
+    "病理检查": "AFP阴性，ALT148U/L，AST125U/L，总蛋白：62.0g/L，白蛋白23.4g/L，球蛋白38.6g/L，总胆红素279μmol/L，直接胆红素197μmol/L，碱性磷酸酶95U/L，乙型病毒性肝炎血清标志物阴性，ESR25mmol/L，腹水蛋白定性阳性"
+  },
+  "completed_physical_exams": [
+    "腹部检查"
+  ],
+  "completed_auxiliary_exams": [
+    "超声",
+    "CT",
+    "病理检查",
+    "血液学检查"
+  ],
+  "completed_imaging_exams": [
+    "超声",
+    "CT",
+    "病理检查"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "腹部检查"
+  ],
+  "predicted_auxiliary_exams": [
+    "血液学检查",
+    "超声",
+    "CT",
+    "病理检查"
+  ],
+  "diagnosis_result": [],
+  "treatment_plan": [],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "pending",
+    "task5_treatment": "pending"
+  },
+  "recheck_total": 1,
+  "max_recheck": 3,
+  "mcts_trajectory": [
+    "a_back",
+    "task2_doctor",
+    "task2_doctor",
+    "task3_imaging"
+  ],
+  "mcts_step": 4,
+  "mcts_eta": 4,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 2,
+      "action": "a_back",
+      "source": "committed_backtrack",
+      "mcts_step": 1,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task2_doctor",
+      "source": "committed_backtrack_target",
+      "mcts_step": 2,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 4,
+      "action": "task2_doctor",
+      "source": "mcts_selected",
+      "mcts_step": 3,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 5,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 4,
+      "workflow_stage": "task3_imaging"
+    }
+  ],
+  "backtrack_events": [
+    {
+      "event_id": 0,
+      "source": "committed",
+      "target_snapshot_id": 1,
+      "target_workflow_stage": "task1_referral",
+      "requested_action": "问诊",
+      "executed_action": "task2_doctor",
+      "mcts_step": 1
+    }
+  ],
+  "missing_evidence": [
+    "肝穿刺活检病理（含抗酸染色、TB-PCR、肿瘤免疫组化）",
+    "腹水分析（SAAG、细胞学/病理、ADA、结核培养与PCR）",
+    "病毒性肝炎标志物全套及HBV DNA、HCV RNA、HEV IgM/IgG",
+    "自身免疫抗体谱（ANA、抗SMA、抗LKM1、AMA）及血清IgG",
+    "腹部增强CT/MRI（必要时MRCP）",
+    "结核感染相关检查（IGRA/T-SPOT、胸部CT）"
+  ],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.6,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "28_黄疸，肝大，腹水，肝功能减退",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "49岁"
+        },
+        "chief_complaint": "患者，女，49岁。 因乏力，食欲差，黄疸3月，加重3日。于2003-8-21入院。",
+        "present_illness": "患者3个月前不明原因开始出现乏力，食欲差，伴全身皮肤黄染及上腹部隐痛。2003-6-25在荆州某医院住院治疗。行CT扫描：肝脏增大。肝裂增宽，肝内胆管扩张，肝实质内见点状钙化影，脾肿大。意见为：轻度肝硬化，脾肿大。B超：肝肋下1.0CM.脾厚4.5CM子宫直肠窝积液。诊断为：慢性乙型病毒性肝炎。给予护肝，消除黄疸治疗。自觉症状稍好转。于7月4日出院。7月5日因上述症状加重而住入该院。彩超：肝实质回声增强，分布不均，肝内胆管显示清晰，门静脉内径11CM,诊断为：戊型病毒性肝炎。给予相应治疗（具体不祥），症状好转于7月17出院。1周前因受凉后又出现上述症状，并加重。伴午后低热（37.3-37.8）。而入本院。病程中无出现呕吐，黑便。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "患者25年前有肺结核病史，自述抗结核治疗后痊愈。否认其他病史。否认疫水接触史。无不良嗜好。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "28_黄疸，肝大，腹水，肝功能减退",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "49岁"
+        },
+        "chief_complaint": "患者，女，49岁。 因乏力，食欲差，黄疸3月，加重3日。于2003-8-21入院。",
+        "present_illness": "患者3个月前不明原因开始出现乏力，食欲差，伴全身皮肤黄染及上腹部隐痛。2003-6-25在荆州某医院住院治疗。行CT扫描：肝脏增大。肝裂增宽，肝内胆管扩张，肝实质内见点状钙化影，脾肿大。意见为：轻度肝硬化，脾肿大。B超：肝肋下1.0CM.脾厚4.5CM子宫直肠窝积液。诊断为：慢性乙型病毒性肝炎。给予护肝，消除黄疸治疗。自觉症状稍好转。于7月4日出院。7月5日因上述症状加重而住入该院。彩超：肝实质回声增强，分布不均，肝内胆管显示清晰，门静脉内径11CM,诊断为：戊型病毒性肝炎。给予相应治疗（具体不祥），症状好转于7月17出院。1周前因受凉后又出现上述症状，并加重。伴午后低热（37.3-37.8）。而入本院。病程中无出现呕吐，黑便。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科",
+          "消化内科"
+        ],
+        "past_history": "患者25年前有肺结核病史，自述抗结核治疗后痊愈。否认其他病史。否认疫水接触史。无不良嗜好。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "28_黄疸，肝大，腹水，肝功能减退",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "49岁"
+        },
+        "chief_complaint": "患者，女，49岁。 因乏力，食欲差，黄疸3月，加重3日。于2003-8-21入院。",
+        "present_illness": "患者3个月前不明原因开始出现乏力，食欲差，伴全身皮肤黄染及上腹部隐痛。2003-6-25在荆州某医院住院治疗。行CT扫描：肝脏增大。肝裂增宽，肝内胆管扩张，肝实质内见点状钙化影，脾肿大。意见为：轻度肝硬化，脾肿大。B超：肝肋下1.0CM.脾厚4.5CM子宫直肠窝积液。诊断为：慢性乙型病毒性肝炎。给予护肝，消除黄疸治疗。自觉症状稍好转。于7月4日出院。7月5日因上述症状加重而住入该院。彩超：肝实质回声增强，分布不均，肝内胆管显示清晰，门静脉内径11CM,诊断为：戊型病毒性肝炎。给予相应治疗（具体不祥），症状好转于7月17出院。1周前因受凉后又出现上述症状，并加重。伴午后低热（37.3-37.8）。而入本院。病程中无出现呕吐，黑便。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科",
+          "消化内科"
+        ],
+        "past_history": "患者25年前有肺结核病史，自述抗结核治疗后痊愈。否认其他病史。否认疫水接触史。无不良嗜好。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [
+          "体格检查（生命体征、巩膜/皮肤黄染、腹部压痛、肝脾触诊、腹水、意识状态）",
+          "肝功能全套及凝血功能（总/直接/间接胆红素、ALT、AST、ALP、GGT、白蛋白、PT/INR）",
+          "血常规、网织红细胞、LDH、结合珠蛋白等溶血相关检查",
+          "腹部超声/CT/MRCP评估肝脏、胆道及胰头结构",
+          "病毒性肝炎血清学（HBsAg、抗-HCV、HAV-IgM、HEV-IgM等）",
+          "自身免疫性肝病相关检查（ANA、AMA、ASMA、IgG）",
+          "详细用药史、保健品/草药接触史及饮酒史"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task1_referral",
+      "reason": "committed_backtrack_restored",
+      "state": {
+        "case_id": "28_黄疸，肝大，腹水，肝功能减退",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "49岁"
+        },
+        "chief_complaint": "患者，女，49岁。 因乏力，食欲差，黄疸3月，加重3日。于2003-8-21入院。",
+        "present_illness": "患者3个月前不明原因开始出现乏力，食欲差，伴全身皮肤黄染及上腹部隐痛。2003-6-25在荆州某医院住院治疗。行CT扫描：肝脏增大。肝裂增宽，肝内胆管扩张，肝实质内见点状钙化影，脾肿大。意见为：轻度肝硬化，脾肿大。B超：肝肋下1.0CM.脾厚4.5CM子宫直肠窝积液。诊断为：慢性乙型病毒性肝炎。给予护肝，消除黄疸治疗。自觉症状稍好转。于7月4日出院。7月5日因上述症状加重而住入该院。彩超：肝实质回声增强，分布不均，肝内胆管显示清晰，门静脉内径11CM,诊断为：戊型病毒性肝炎。给予相应治疗（具体不祥），症状好转于7月17出院。1周前因受凉后又出现上述症状，并加重。伴午后低热（37.3-37.8）。而入本院。病程中无出现呕吐，黑便。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科",
+          "消化内科"
+        ],
+        "past_history": "患者25年前有肺结核病史，自述抗结核治疗后痊愈。否认其他病史。否认疫水接触史。无不良嗜好。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "问诊",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 2,
+      "workflow_action_index": 4,
+      "mcts_step": 2,
+      "workflow_stage": "task1_referral",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "28_黄疸，肝大，腹水，肝功能减退",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "49岁"
+        },
+        "chief_complaint": "患者，女，49岁。 因乏力，食欲差，黄疸3月，加重3日。于2003-8-21入院。",
+        "present_illness": "患者3个月前不明原因开始出现乏力，食欲差，伴全身皮肤黄染及上腹部隐痛。2003-6-25在荆州某医院住院治疗。行CT扫描：肝脏增大。肝裂增宽，肝内胆管扩张，肝实质内见点状钙化影，脾肿大。意见为：轻度肝硬化，脾肿大。B超：肝肋下1.0CM.脾厚4.5CM子宫直肠窝积液。诊断为：慢性乙型病毒性肝炎。给予护肝，消除黄疸治疗。自觉症状稍好转。于7月4日出院。7月5日因上述症状加重而住入该院。彩超：肝实质回声增强，分布不均，肝内胆管显示清晰，门静脉内径11CM,诊断为：戊型病毒性肝炎。给予相应治疗（具体不祥），症状好转于7月17出院。1周前因受凉后又出现上述症状，并加重。伴午后低热（37.3-37.8）。而入本院。病程中无出现呕吐，黑便。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科",
+          "消化内科"
+        ],
+        "past_history": "患者25年前有肺结核病史，自述抗结核治疗后痊愈。否认其他病史。否认疫水接触史。无不良嗜好。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor"
+        ],
+        "mcts_step": 2,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "问诊",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 5,
+      "trajectory_index": 3,
+      "workflow_action_index": 5,
+      "mcts_step": 3,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "28_黄疸，肝大，腹水，肝功能减退",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "49岁"
+        },
+        "chief_complaint": "患者，女，49岁。 因乏力，食欲差，黄疸3月，加重3日。于2003-8-21入院。",
+        "present_illness": "患者3个月前不明原因开始出现乏力，食欲差，伴全身皮肤黄染及上腹部隐痛。2003-6-25在荆州某医院住院治疗。行CT扫描：肝脏增大。肝裂增宽，肝内胆管扩张，肝实质内见点状钙化影，脾肿大。意见为：轻度肝硬化，脾肿大。B超：肝肋下1.0CM.脾厚4.5CM子宫直肠窝积液。诊断为：慢性乙型病毒性肝炎。给予护肝，消除黄疸治疗。自觉症状稍好转。于7月4日出院。7月5日因上述症状加重而住入该院。彩超：肝实质回声增强，分布不均，肝内胆管显示清晰，门静脉内径11CM,诊断为：戊型病毒性肝炎。给予相应治疗（具体不祥），症状好转于7月17出院。1周前因受凉后又出现上述症状，并加重。伴午后低热（37.3-37.8）。而入本院。病程中无出现呕吐，黑便。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科",
+          "消化内科"
+        ],
+        "past_history": "患者25年前有肺结核病史，自述抗结核治疗后痊愈。否认其他病史。否认疫水接触史。无不良嗜好。",
+        "hypothesis_illness": [
+          {
+            "name": "病毒性肝炎肝硬化（乙肝/戊肝重叠感染）",
+            "disease": "病毒性肝炎肝硬化（乙肝/戊肝重叠感染）",
+            "evidence": [
+              "乏力、食欲差、黄疸3月",
+              "外院曾诊断慢性乙型/戊型病毒性肝炎",
+              "肝大、脾大、腹水（子宫直肠窝积液）",
+              "肝实质回声增强、分布不均"
+            ],
+            "confidence": 0.6
+          },
+          {
+            "name": "肝结核",
+            "disease": "肝结核",
+            "evidence": [
+              "25年前肺结核史",
+              "午后低热",
+              "肝内点状钙化影",
+              "肝大、乏力、食欲差"
+            ],
+            "confidence": 0.45
+          },
+          {
+            "name": "自身免疫性肝病",
+            "disease": "自身免疫性肝病",
+            "evidence": [
+              "中年女性",
+              "反复黄疸、肝大",
+              "肝硬化/脾大表现"
+            ],
+            "confidence": 0.35
+          },
+          {
+            "name": "原发性肝癌",
+            "disease": "原发性肝癌",
+            "evidence": [
+              "慢性肝病基础",
+              "肝大、低热、乏力",
+              "肝内钙化/占位性质不明"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "肝内胆管结石/胆管感染",
+            "disease": "肝内胆管结石/胆管感染",
+            "evidence": [
+              "肝内胆管扩张",
+              "上腹隐痛、黄疸",
+              "低热"
+            ],
+            "confidence": 0.3
+          }
+        ],
+        "physical_exams": {
+          "腹部检查": "腹部软，肝左叶于肋下3CM可及，质韧，边缘锐利，有压痛及叩击痛，肝浊音界扩大，脾肋下未及。移动性浊音阳性。肠鸣音活跃"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "腹部检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "血液学检查",
+          "超声",
+          "CT",
+          "病理检查"
+        ],
+        "predicted_physical_exams": [
+          "腹部检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "血液学检查",
+          "超声",
+          "CT",
+          "病理检查"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor",
+          "task2_doctor"
+        ],
+        "mcts_step": 3,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 4,
+            "action": "task2_doctor",
+            "source": "mcts_selected",
+            "mcts_step": 3,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "问诊",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [
+          "肝功能、肾功能、凝血功能及血常规等基础实验室检查结果",
+          "乙肝、戊肝等病毒性肝炎血清学标志物及病毒载量（HBsAg、抗HBs、抗HBc、HBV DNA、抗HEV IgM/IgG、HEV RNA等）",
+          "腹部增强CT或MRI（评估肝脏形态、占位、钙化、胆管扩张、脾大、腹水及血管情况）",
+          "腹水穿刺检查（SAAG、细胞计数与分类、生化、细菌培养、细胞学、ADA及结核PCR）",
+          "肿瘤标志物（AFP、CA19-9等）及必要时肝占位穿刺活检",
+          "自身免疫性肝病相关抗体及免疫球蛋白（ANA、ASMA、AMA、抗LKM1、IgG等）",
+          "结核相关检查（胸部影像、T-SPOT/IGRA、痰/腹水抗酸杆菌涂片与培养、肝活检结核病理与PCR）",
+          "肝穿刺活检病理（包括特殊染色、AFB、肿瘤及自身免疫性肝病评估）"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.6,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": 1,
+  "terminated_by": "eta",
+  "finalization_used": false
+}

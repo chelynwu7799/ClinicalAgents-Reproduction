@@ -1,0 +1,965 @@
+{
+  "case_id": "10_胆囊炎厌食伴右上腹不适1例",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "68岁"
+  },
+  "chief_complaint": "患者，男，68岁，农民 主因厌食1个月加重伴右上腹不适10天入院。",
+  "present_illness": "患者缘于入院前1个月无明显诱因出现厌食，症状逐渐加重，当时未在意，10天前无明显诱因出现右上腹部疼痛不适，无烧心、反酸，无恶心，呕吐，无胸闷气短、无头晕、无咳嗽咳痰，无黑便、无脓血便、无寒颤高热等症状，在当地未行特殊处理，为进一步治疗急来我院，腹部彩超示：胆总管上段扩张肝内胆管扩张胆囊壁增厚左肾强回声光（钙化斑？结石？）肝脾胰双肾未见明显异常。进一步查上腹CT示：慢性胆囊炎、肝右叶钙化斑，左侧肾结石；门诊遂以“胆囊炎”收入我科：自发病以来，精神可，饮食欠佳，二便正常，体重较前无明显变化。",
+  "dept_l1": "内科",
+  "dept_l2": [
+    "肾脏内科",
+    "消化内科"
+  ],
+  "past_history": "既往性乙型病性炎史20年而血压病史10年血压最高达190／100（间断口服硝苯地平缓释片（具体量不详）治，自诉制情况不详肾结石病史10年否认冠心病、糖尿病病史，否认结核等传染病史，否认外伤、手术、输血史及药物过敏史，按时预防接种，系统回顾无特殊",
+  "hypothesis_illness": [
+    {
+      "name": "胆总管结石伴胆道梗阻",
+      "disease": "胆总管结石伴胆道梗阻",
+      "evidence": [
+        "超声示胆总管上段扩张、肝内胆管扩张",
+        "右上腹不适"
+      ],
+      "confidence": 0.5
+    },
+    {
+      "name": "壶腹周围或胆管下段占位性质待查（恶性待排）",
+      "disease": "壶腹周围或胆管下段占位性质待查（恶性待排）",
+      "evidence": [
+        "68岁老年男性",
+        "厌食",
+        "胆总管及肝内胆管扩张",
+        "无病理依据"
+      ],
+      "confidence": 0.4
+    },
+    {
+      "name": "慢性胆囊炎",
+      "disease": "慢性胆囊炎",
+      "evidence": [
+        "超声示胆囊壁增厚",
+        "CT示慢性胆囊炎",
+        "右上腹压痛"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "name": "急性胆管炎",
+      "disease": "急性胆管炎",
+      "evidence": [
+        "无发热、无黄疸、无寒战",
+        "Charcot三联征不满足"
+      ],
+      "confidence": 0.05
+    },
+    {
+      "name": "慢性乙型肝炎活动或肝硬化",
+      "disease": "慢性乙型肝炎活动或肝硬化",
+      "evidence": [
+        "既往乙肝病史20年",
+        "厌食",
+        "超声肝脾未见异常"
+      ],
+      "confidence": 0.2
+    },
+    {
+      "name": "左侧肾结石",
+      "disease": "左侧肾结石",
+      "evidence": [
+        "上腹CT示左侧肾结石",
+        "既往肾结石病史"
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "腹部检查": "腹部平坦，未见胃肠型及蠕动波，全软，右上腹压痛，无反跳痛及肌紧张，叩鼓音，肝脾未触及，未触及包块，无移动性浊音，肠鸣音正常存在，双肾区无叩击痛"
+  },
+  "auxiliary_exams": {},
+  "imaging_results": {},
+  "completed_physical_exams": [
+    "腹部检查"
+  ],
+  "completed_auxiliary_exams": [],
+  "completed_imaging_exams": [],
+  "pending_auxiliary_exams": [
+    "MRI",
+    "血液学检查",
+    "内镜检查",
+    "病理检查"
+  ],
+  "predicted_physical_exams": [
+    "腹部检查",
+    "皮肤检查"
+  ],
+  "predicted_auxiliary_exams": [
+    "MRI",
+    "血液学检查",
+    "内镜检查",
+    "病理检查"
+  ],
+  "diagnosis_result": [
+    "慢性胆囊炎",
+    "左侧肾结石"
+  ],
+  "treatment_plan": [],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "pending"
+  },
+  "recheck_total": 1,
+  "max_recheck": 3,
+  "mcts_trajectory": [
+    "a_back",
+    "task2_doctor",
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 4,
+  "mcts_eta": 4,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "a_back",
+      "source": "committed_backtrack",
+      "mcts_step": 1,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task2_doctor",
+      "source": "committed_backtrack_target",
+      "mcts_step": 2,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 4,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 3,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 5,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 4,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [
+    {
+      "event_id": 0,
+      "source": "committed",
+      "target_snapshot_id": 1,
+      "target_workflow_stage": "task1_referral",
+      "requested_action": "request_auxiliary_exams",
+      "executed_action": "task2_doctor",
+      "mcts_step": 1
+    }
+  ],
+  "missing_evidence": [
+    "血清胆红素、碱性磷酸酶、GGT、ALT、AST等肝功能",
+    "血常规、CRP/降钙素原",
+    "血清淀粉酶、脂肪酶",
+    "肿瘤标志物（CA19-9、CEA、AFP）",
+    "上腹部增强MRI+MRCP或增强CT",
+    "ERCP或超声内镜（EUS）下活检/刷检或取石",
+    "乙肝病毒血清学标志物及HBV DNA"
+  ],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "10_胆囊炎厌食伴右上腹不适1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "68岁"
+        },
+        "chief_complaint": "患者，男，68岁，农民 主因厌食1个月加重伴右上腹不适10天入院。",
+        "present_illness": "患者缘于入院前1个月无明显诱因出现厌食，症状逐渐加重，当时未在意，10天前无明显诱因出现右上腹部疼痛不适，无烧心、反酸，无恶心，呕吐，无胸闷气短、无头晕、无咳嗽咳痰，无黑便、无脓血便、无寒颤高热等症状，在当地未行特殊处理，为进一步治疗急来我院，腹部彩超示：胆总管上段扩张肝内胆管扩张胆囊壁增厚左肾强回声光（钙化斑？结石？）肝脾胰双肾未见明显异常。进一步查上腹CT示：慢性胆囊炎、肝右叶钙化斑，左侧肾结石；门诊遂以“胆囊炎”收入我科：自发病以来，精神可，饮食欠佳，二便正常，体重较前无明显变化。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "既往性乙型病性炎史20年而血压病史10年血压最高达190／100（间断口服硝苯地平缓释片（具体量不详）治，自诉制情况不详肾结石病史10年否认冠心病、糖尿病病史，否认结核等传染病史，否认外伤、手术、输血史及药物过敏史，按时预防接种，系统回顾无特殊",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "10_胆囊炎厌食伴右上腹不适1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "68岁"
+        },
+        "chief_complaint": "患者，男，68岁，农民 主因厌食1个月加重伴右上腹不适10天入院。",
+        "present_illness": "患者缘于入院前1个月无明显诱因出现厌食，症状逐渐加重，当时未在意，10天前无明显诱因出现右上腹部疼痛不适，无烧心、反酸，无恶心，呕吐，无胸闷气短、无头晕、无咳嗽咳痰，无黑便、无脓血便、无寒颤高热等症状，在当地未行特殊处理，为进一步治疗急来我院，腹部彩超示：胆总管上段扩张肝内胆管扩张胆囊壁增厚左肾强回声光（钙化斑？结石？）肝脾胰双肾未见明显异常。进一步查上腹CT示：慢性胆囊炎、肝右叶钙化斑，左侧肾结石；门诊遂以“胆囊炎”收入我科：自发病以来，精神可，饮食欠佳，二便正常，体重较前无明显变化。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肾脏内科",
+          "消化内科"
+        ],
+        "past_history": "既往性乙型病性炎史20年而血压病史10年血压最高达190／100（间断口服硝苯地平缓释片（具体量不详）治，自诉制情况不详肾结石病史10年否认冠心病、糖尿病病史，否认结核等传染病史，否认外伤、手术、输血史及药物过敏史，按时预防接种，系统回顾无特殊",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "10_胆囊炎厌食伴右上腹不适1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "68岁"
+        },
+        "chief_complaint": "患者，男，68岁，农民 主因厌食1个月加重伴右上腹不适10天入院。",
+        "present_illness": "患者缘于入院前1个月无明显诱因出现厌食，症状逐渐加重，当时未在意，10天前无明显诱因出现右上腹部疼痛不适，无烧心、反酸，无恶心，呕吐，无胸闷气短、无头晕、无咳嗽咳痰，无黑便、无脓血便、无寒颤高热等症状，在当地未行特殊处理，为进一步治疗急来我院，腹部彩超示：胆总管上段扩张肝内胆管扩张胆囊壁增厚左肾强回声光（钙化斑？结石？）肝脾胰双肾未见明显异常。进一步查上腹CT示：慢性胆囊炎、肝右叶钙化斑，左侧肾结石；门诊遂以“胆囊炎”收入我科：自发病以来，精神可，饮食欠佳，二便正常，体重较前无明显变化。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肾脏内科",
+          "消化内科"
+        ],
+        "past_history": "既往性乙型病性炎史20年而血压病史10年血压最高达190／100（间断口服硝苯地平缓释片（具体量不详）治，自诉制情况不详肾结石病史10年否认冠心病、糖尿病病史，否认结核等传染病史，否认外伤、手术、输血史及药物过敏史，按时预防接种，系统回顾无特殊",
+        "hypothesis_illness": [
+          {
+            "name": "胆总管结石伴胆道梗阻",
+            "disease": "胆总管结石伴胆道梗阻",
+            "evidence": [
+              "右上腹不适",
+              "胆总管上段扩张",
+              "肝内胆管扩张"
+            ],
+            "confidence": 0.55
+          },
+          {
+            "name": "胆总管下端或壶腹部恶性肿瘤",
+            "disease": "胆总管下端或壶腹部恶性肿瘤",
+            "evidence": [
+              "老年男性",
+              "厌食1个月",
+              "胆总管及肝内胆管扩张"
+            ],
+            "confidence": 0.45
+          },
+          {
+            "name": "慢性胆囊炎急性发作",
+            "disease": "慢性胆囊炎急性发作",
+            "evidence": [
+              "右上腹不适",
+              "超声胆囊壁增厚",
+              "CT提示慢性胆囊炎"
+            ],
+            "confidence": 0.4
+          },
+          {
+            "name": "慢性乙型病毒性肝炎活动",
+            "disease": "慢性乙型病毒性肝炎活动",
+            "evidence": [
+              "厌食",
+              "乙肝病史20年"
+            ],
+            "confidence": 0.3
+          }
+        ],
+        "physical_exams": {
+          "腹部检查": "腹部平坦，未见胃肠型及蠕动波，全软，右上腹压痛，无反跳痛及肌紧张，叩鼓音，肝脾未触及，未触及包块，无移动性浊音，肠鸣音正常存在，双肾区无叩击痛"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "腹部检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "MRI",
+          "血液学检查"
+        ],
+        "predicted_physical_exams": [
+          "腹部检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "MRI",
+          "血液学检查"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [
+          "肝功能全套（ALT、AST、ALP、GGT、总/直接胆红素）",
+          "血常规、CRP、降钙素原",
+          "肿瘤标志物CA19-9、CEA、AFP",
+          "乙肝五项、HBV DNA",
+          "腹部超声/增强CT/MRI",
+          "MRCP或ERCP/EUS评估胆总管下端梗阻",
+          "ERCP细胞刷检或活检病理"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.55,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task1_referral",
+      "reason": "committed_backtrack_restored",
+      "state": {
+        "case_id": "10_胆囊炎厌食伴右上腹不适1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "68岁"
+        },
+        "chief_complaint": "患者，男，68岁，农民 主因厌食1个月加重伴右上腹不适10天入院。",
+        "present_illness": "患者缘于入院前1个月无明显诱因出现厌食，症状逐渐加重，当时未在意，10天前无明显诱因出现右上腹部疼痛不适，无烧心、反酸，无恶心，呕吐，无胸闷气短、无头晕、无咳嗽咳痰，无黑便、无脓血便、无寒颤高热等症状，在当地未行特殊处理，为进一步治疗急来我院，腹部彩超示：胆总管上段扩张肝内胆管扩张胆囊壁增厚左肾强回声光（钙化斑？结石？）肝脾胰双肾未见明显异常。进一步查上腹CT示：慢性胆囊炎、肝右叶钙化斑，左侧肾结石；门诊遂以“胆囊炎”收入我科：自发病以来，精神可，饮食欠佳，二便正常，体重较前无明显变化。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肾脏内科",
+          "消化内科"
+        ],
+        "past_history": "既往性乙型病性炎史20年而血压病史10年血压最高达190／100（间断口服硝苯地平缓释片（具体量不详）治，自诉制情况不详肾结石病史10年否认冠心病、糖尿病病史，否认结核等传染病史，否认外伤、手术、输血史及药物过敏史，按时预防接种，系统回顾无特殊",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exams",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 2,
+      "workflow_action_index": 4,
+      "mcts_step": 2,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "10_胆囊炎厌食伴右上腹不适1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "68岁"
+        },
+        "chief_complaint": "患者，男，68岁，农民 主因厌食1个月加重伴右上腹不适10天入院。",
+        "present_illness": "患者缘于入院前1个月无明显诱因出现厌食，症状逐渐加重，当时未在意，10天前无明显诱因出现右上腹部疼痛不适，无烧心、反酸，无恶心，呕吐，无胸闷气短、无头晕、无咳嗽咳痰，无黑便、无脓血便、无寒颤高热等症状，在当地未行特殊处理，为进一步治疗急来我院，腹部彩超示：胆总管上段扩张肝内胆管扩张胆囊壁增厚左肾强回声光（钙化斑？结石？）肝脾胰双肾未见明显异常。进一步查上腹CT示：慢性胆囊炎、肝右叶钙化斑，左侧肾结石；门诊遂以“胆囊炎”收入我科：自发病以来，精神可，饮食欠佳，二便正常，体重较前无明显变化。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肾脏内科",
+          "消化内科"
+        ],
+        "past_history": "既往性乙型病性炎史20年而血压病史10年血压最高达190／100（间断口服硝苯地平缓释片（具体量不详）治，自诉制情况不详肾结石病史10年否认冠心病、糖尿病病史，否认结核等传染病史，否认外伤、手术、输血史及药物过敏史，按时预防接种，系统回顾无特殊",
+        "hypothesis_illness": [
+          {
+            "name": "胆总管结石伴胆道梗阻",
+            "disease": "胆总管结石伴胆道梗阻",
+            "evidence": [
+              "右上腹不适",
+              "厌食",
+              "超声示胆总管上段扩张、肝内胆管扩张",
+              "胆囊壁增厚"
+            ],
+            "confidence": 0.7
+          },
+          {
+            "name": "壶腹周围或胆管下段恶性肿瘤",
+            "disease": "壶腹周围或胆管下段恶性肿瘤",
+            "evidence": [
+              "68岁老年男性",
+              "厌食",
+              "胆总管及肝内胆管扩张"
+            ],
+            "confidence": 0.4
+          },
+          {
+            "name": "慢性胆囊炎急性发作",
+            "disease": "慢性胆囊炎急性发作",
+            "evidence": [
+              "右上腹不适",
+              "超声示胆囊壁增厚",
+              "CT示慢性胆囊炎"
+            ],
+            "confidence": 0.5
+          },
+          {
+            "name": "急性胆管炎",
+            "disease": "急性胆管炎",
+            "evidence": [
+              "胆道梗阻基础",
+              "右上腹不适",
+              "肝内胆管扩张"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "慢性乙型肝炎活动或肝硬化",
+            "disease": "慢性乙型肝炎活动或肝硬化",
+            "evidence": [
+              "既往乙肝病史20年",
+              "厌食"
+            ],
+            "confidence": 0.3
+          }
+        ],
+        "physical_exams": {
+          "腹部检查": "腹部平坦，未见胃肠型及蠕动波，全软，右上腹压痛，无反跳痛及肌紧张，叩鼓音，肝脾未触及，未触及包块，无移动性浊音，肠鸣音正常存在，双肾区无叩击痛"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "腹部检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "MRI",
+          "血液学检查",
+          "内镜检查",
+          "病理检查"
+        ],
+        "predicted_physical_exams": [
+          "腹部检查",
+          "皮肤检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "MRI",
+          "血液学检查",
+          "内镜检查",
+          "病理检查"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor"
+        ],
+        "mcts_step": 2,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exams",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [
+          "肝功能（ALT、AST、ALP、GGT、总胆红素/直接胆红素、白蛋白）",
+          "血常规、C反应蛋白及降钙素原",
+          "血淀粉酶及脂肪酶",
+          "乙肝血清学标志物及HBV DNA定量",
+          "腹部超声/增强CT/MRCP影像结果（明确胆总管结石、胆管扩张、占位及胆囊病变）",
+          "肿瘤标志物CA19-9、CEA",
+          "凝血功能（PT/INR）",
+          "体温及血培养等感染证据（评估急性胆管炎）",
+          "ERCP/EUS（必要时明确胆总管下段病变并取石或活检）"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.7,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 5,
+      "trajectory_index": 3,
+      "workflow_action_index": 5,
+      "mcts_step": 3,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "10_胆囊炎厌食伴右上腹不适1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "68岁"
+        },
+        "chief_complaint": "患者，男，68岁，农民 主因厌食1个月加重伴右上腹不适10天入院。",
+        "present_illness": "患者缘于入院前1个月无明显诱因出现厌食，症状逐渐加重，当时未在意，10天前无明显诱因出现右上腹部疼痛不适，无烧心、反酸，无恶心，呕吐，无胸闷气短、无头晕、无咳嗽咳痰，无黑便、无脓血便、无寒颤高热等症状，在当地未行特殊处理，为进一步治疗急来我院，腹部彩超示：胆总管上段扩张肝内胆管扩张胆囊壁增厚左肾强回声光（钙化斑？结石？）肝脾胰双肾未见明显异常。进一步查上腹CT示：慢性胆囊炎、肝右叶钙化斑，左侧肾结石；门诊遂以“胆囊炎”收入我科：自发病以来，精神可，饮食欠佳，二便正常，体重较前无明显变化。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肾脏内科",
+          "消化内科"
+        ],
+        "past_history": "既往性乙型病性炎史20年而血压病史10年血压最高达190／100（间断口服硝苯地平缓释片（具体量不详）治，自诉制情况不详肾结石病史10年否认冠心病、糖尿病病史，否认结核等传染病史，否认外伤、手术、输血史及药物过敏史，按时预防接种，系统回顾无特殊",
+        "hypothesis_illness": [
+          {
+            "name": "胆总管结石伴胆道梗阻",
+            "disease": "胆总管结石伴胆道梗阻",
+            "evidence": [
+              "右上腹不适",
+              "厌食",
+              "超声示胆总管上段扩张、肝内胆管扩张",
+              "胆囊壁增厚"
+            ],
+            "confidence": 0.7
+          },
+          {
+            "name": "壶腹周围或胆管下段恶性肿瘤",
+            "disease": "壶腹周围或胆管下段恶性肿瘤",
+            "evidence": [
+              "68岁老年男性",
+              "厌食",
+              "胆总管及肝内胆管扩张"
+            ],
+            "confidence": 0.4
+          },
+          {
+            "name": "慢性胆囊炎急性发作",
+            "disease": "慢性胆囊炎急性发作",
+            "evidence": [
+              "右上腹不适",
+              "超声示胆囊壁增厚",
+              "CT示慢性胆囊炎"
+            ],
+            "confidence": 0.5
+          },
+          {
+            "name": "急性胆管炎",
+            "disease": "急性胆管炎",
+            "evidence": [
+              "胆道梗阻基础",
+              "右上腹不适",
+              "肝内胆管扩张"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "慢性乙型肝炎活动或肝硬化",
+            "disease": "慢性乙型肝炎活动或肝硬化",
+            "evidence": [
+              "既往乙肝病史20年",
+              "厌食"
+            ],
+            "confidence": 0.3
+          }
+        ],
+        "physical_exams": {
+          "腹部检查": "腹部平坦，未见胃肠型及蠕动波，全软，右上腹压痛，无反跳痛及肌紧张，叩鼓音，肝脾未触及，未触及包块，无移动性浊音，肠鸣音正常存在，双肾区无叩击痛"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "腹部检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "MRI",
+          "血液学检查",
+          "内镜检查",
+          "病理检查"
+        ],
+        "predicted_physical_exams": [
+          "腹部检查",
+          "皮肤检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "MRI",
+          "血液学检查",
+          "内镜检查",
+          "病理检查"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor",
+          "task3_imaging"
+        ],
+        "mcts_step": 3,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 4,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 3,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exams",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [
+          "肝功能、胆红素、碱性磷酸酶、γ-GT等胆道梗阻及肝损伤指标",
+          "血常规、CRP、降钙素原等感染/炎症指标",
+          "腹部超声、CT或MRCP等影像学检查，明确胆管扩张、结石、胆囊病变及占位",
+          "肿瘤标志物CA19-9、CEA、AFP",
+          "乙肝五项、HBV-DNA及肝纤维化/肝硬化相关评估",
+          "ERCP或EUS等进一步明确胆管下段梗阻性质"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.7,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": 1,
+  "terminated_by": "eta",
+  "finalization_used": false,
+  "agent_missing_evidence": [
+    {
+      "disease": "胆总管结石伴胆道梗阻",
+      "missing": [
+        "需MRCP排除",
+        "需ERCP排除",
+        "需EUS排除"
+      ],
+      "suggested_exams": [
+        "MRCP",
+        "ERCP",
+        "EUS"
+      ]
+    },
+    {
+      "disease": "壶腹周围或胆管下段占位性质待查（恶性待排）",
+      "missing": [
+        "需增强CT排除",
+        "需肿瘤标志物排除",
+        "需EUS排除"
+      ],
+      "suggested_exams": [
+        "增强CT",
+        "肿瘤标志物",
+        "EUS"
+      ]
+    },
+    {
+      "disease": "慢性乙型肝炎活动或肝硬化",
+      "missing": [
+        "需肝功能排除",
+        "需乙肝DNA排除",
+        "需肝脏瞬时弹性排除"
+      ],
+      "suggested_exams": [
+        "肝功能",
+        "乙肝DNA",
+        "肝脏瞬时弹性"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,428 @@
+{
+  "case_id": "15_肝脏炎性假瘤样滤泡树突状细胞肿瘤一例",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "51岁"
+  },
+  "chief_complaint": "完善术前准备，于全身麻醉下行手术治疗。术中探查见肝脏质地正常，肝右后叶可探及实性包块,大小约为15.0cm×10.0cm，包膜完整。术中诊断为肝右叶巨大肿瘤，决定行前入路绕肝提拉法右半肝切除术。解剖第一肝门，经前入路离断肝实质，显露下腔静脉，切除肝Ⅴ、Ⅵ、Ⅶ、Ⅷ段及尾状叶右侧部分（图3~5）。术中通过将弹力带穿过肝后下腔静脉与肝实质的无血管间隙控制肝血流。手术时间为180min，术中出血量为300mL。肝脏大体标本形态：肿瘤呈实性、灰白色、质地坚韧，有不规则出血坏死区（图6）。术后病理学检查示肿瘤大小为10.5cm×8.0cm，由梭形细胞与大量炎性细胞混合构成（图7），第一肝门淋巴结反应性增生，切缘阴性，距离肿瘤2cm。免疫组织化学染色检测：CD4阳性，CD21阳性（图8），CD23阳性，B淋巴细胞瘤-2阳性，抗波形丝蛋白阳性，扁豆凝集素阳性；CD3阴性，CD20阴性，CD30阴性，CD34阴性，CD68阴性，CD99阴性，S-100阴性，角蛋白阴性，结蛋白阴性，上皮细胞膜抗原阴性，抗平滑肌抗体阴性，间变性淋巴瘤激酶阴性；Ki-67阳性指数约为20%。原位杂交：EBER阳性。术后诊断：肝脏炎性假瘤样滤泡树突状细胞肿瘤。术后给予抗炎、保肝、抑酸、营养支持等对症治疗，患者于术后第12天康复出院。门诊及电话随访5个月，患者健**存。 33.jpg",
+  "present_illness": "因间断性发热伴腹上区不适半月余于2014年2月在当地医院行腹部CT检查，其结果示肝右叶占位性病变，肝脓肿可能性大，不排除肝癌可能；并行肝穿刺活组织病理学检查，其结果示肝细胞变性坏死，肝血管增生、扩张、充血，并有较多淋巴细胞浸润。当地医院考虑肝脏炎性疾病可能性大，给予抗炎等保守治疗，治疗后症状消失。2014年6月患者再次出现上述症状，伴腹胀、腹泻，无呕血、黑便和黄疸，为求进一步诊断与治疗，遂来哈尔滨医科大学附属第二医院就诊。",
+  "dept_l1": "内科",
+  "dept_l2": [
+    "肝病科",
+    "消化内科"
+  ],
+  "past_history": "患者既往无乙型病毒性肝炎病史。",
+  "hypothesis_illness": [
+    {
+      "name": "肝脏炎性假瘤样滤泡树突状细胞肿瘤",
+      "disease": "肝脏炎性假瘤样滤泡树突状细胞肿瘤",
+      "evidence": [
+        "肝右叶巨大占位",
+        "术后病理示梭形细胞与大量炎性细胞混合",
+        "免疫组化CD21、CD23阳性",
+        "EBER阳性"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "肝脓肿",
+      "disease": "肝脓肿",
+      "evidence": [
+        "间断性发热",
+        "CT提示肝脓肿可能",
+        "抗炎治疗后症状一度消失"
+      ],
+      "confidence": 0.35
+    },
+    {
+      "name": "肝细胞癌",
+      "disease": "肝细胞癌",
+      "evidence": [
+        "肝右叶占位",
+        "CT不排除肝癌",
+        "肿瘤体积大伴坏死"
+      ],
+      "confidence": 0.35
+    },
+    {
+      "name": "肝脏炎性假瘤/炎性肌纤维母细胞瘤",
+      "disease": "肝脏炎性假瘤/炎性肌纤维母细胞瘤",
+      "evidence": [
+        "肝穿刺见较多淋巴细胞浸润",
+        "抗炎治疗有效",
+        "术后病理见梭形细胞与炎性细胞"
+      ],
+      "confidence": 0.4
+    },
+    {
+      "name": "淋巴瘤",
+      "disease": "淋巴瘤",
+      "evidence": [
+        "发热",
+        "肝占位",
+        "EBER阳性"
+      ],
+      "confidence": 0.2
+    },
+    {
+      "name": "转移性肝肿瘤",
+      "disease": "转移性肝肿瘤",
+      "evidence": [
+        "肝右叶占位"
+      ],
+      "confidence": 0.2
+    },
+    {
+      "name": "胆管细胞癌",
+      "disease": "胆管细胞癌",
+      "evidence": [
+        "肝右叶占位"
+      ],
+      "confidence": 0.15
+    }
+  ],
+  "physical_exams": {},
+  "auxiliary_exams": {},
+  "imaging_results": {},
+  "completed_physical_exams": [],
+  "completed_auxiliary_exams": [],
+  "completed_imaging_exams": [],
+  "pending_auxiliary_exams": [
+    "超声",
+    "CT",
+    "病理检查"
+  ],
+  "predicted_physical_exams": [
+    "腹部检查"
+  ],
+  "predicted_auxiliary_exams": [
+    "超声",
+    "CT",
+    "病理检查"
+  ],
+  "diagnosis_result": [],
+  "treatment_plan": [],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "pending",
+    "task4_diagnosis": "pending",
+    "task5_treatment": "pending"
+  },
+  "recheck_total": 0,
+  "max_recheck": 3,
+  "mcts_trajectory": [],
+  "mcts_step": 0,
+  "mcts_eta": 4,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": true,
+  "top_hypothesis_confidence": 0.9,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "15_肝脏炎性假瘤样滤泡树突状细胞肿瘤一例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "51岁"
+        },
+        "chief_complaint": "完善术前准备，于全身麻醉下行手术治疗。术中探查见肝脏质地正常，肝右后叶可探及实性包块,大小约为15.0cm×10.0cm，包膜完整。术中诊断为肝右叶巨大肿瘤，决定行前入路绕肝提拉法右半肝切除术。解剖第一肝门，经前入路离断肝实质，显露下腔静脉，切除肝Ⅴ、Ⅵ、Ⅶ、Ⅷ段及尾状叶右侧部分（图3~5）。术中通过将弹力带穿过肝后下腔静脉与肝实质的无血管间隙控制肝血流。手术时间为180min，术中出血量为300mL。肝脏大体标本形态：肿瘤呈实性、灰白色、质地坚韧，有不规则出血坏死区（图6）。术后病理学检查示肿瘤大小为10.5cm×8.0cm，由梭形细胞与大量炎性细胞混合构成（图7），第一肝门淋巴结反应性增生，切缘阴性，距离肿瘤2cm。免疫组织化学染色检测：CD4阳性，CD21阳性（图8），CD23阳性，B淋巴细胞瘤-2阳性，抗波形丝蛋白阳性，扁豆凝集素阳性；CD3阴性，CD20阴性，CD30阴性，CD34阴性，CD68阴性，CD99阴性，S-100阴性，角蛋白阴性，结蛋白阴性，上皮细胞膜抗原阴性，抗平滑肌抗体阴性，间变性淋巴瘤激酶阴性；Ki-67阳性指数约为20%。原位杂交：EBER阳性。术后诊断：肝脏炎性假瘤样滤泡树突状细胞肿瘤。术后给予抗炎、保肝、抑酸、营养支持等对症治疗，患者于术后第12天康复出院。门诊及电话随访5个月，患者健**存。 33.jpg",
+        "present_illness": "因间断性发热伴腹上区不适半月余于2014年2月在当地医院行腹部CT检查，其结果示肝右叶占位性病变，肝脓肿可能性大，不排除肝癌可能；并行肝穿刺活组织病理学检查，其结果示肝细胞变性坏死，肝血管增生、扩张、充血，并有较多淋巴细胞浸润。当地医院考虑肝脏炎性疾病可能性大，给予抗炎等保守治疗，治疗后症状消失。2014年6月患者再次出现上述症状，伴腹胀、腹泻，无呕血、黑便和黄疸，为求进一步诊断与治疗，遂来哈尔滨医科大学附属第二医院就诊。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "患者既往无乙型病毒性肝炎病史。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "15_肝脏炎性假瘤样滤泡树突状细胞肿瘤一例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "51岁"
+        },
+        "chief_complaint": "完善术前准备，于全身麻醉下行手术治疗。术中探查见肝脏质地正常，肝右后叶可探及实性包块,大小约为15.0cm×10.0cm，包膜完整。术中诊断为肝右叶巨大肿瘤，决定行前入路绕肝提拉法右半肝切除术。解剖第一肝门，经前入路离断肝实质，显露下腔静脉，切除肝Ⅴ、Ⅵ、Ⅶ、Ⅷ段及尾状叶右侧部分（图3~5）。术中通过将弹力带穿过肝后下腔静脉与肝实质的无血管间隙控制肝血流。手术时间为180min，术中出血量为300mL。肝脏大体标本形态：肿瘤呈实性、灰白色、质地坚韧，有不规则出血坏死区（图6）。术后病理学检查示肿瘤大小为10.5cm×8.0cm，由梭形细胞与大量炎性细胞混合构成（图7），第一肝门淋巴结反应性增生，切缘阴性，距离肿瘤2cm。免疫组织化学染色检测：CD4阳性，CD21阳性（图8），CD23阳性，B淋巴细胞瘤-2阳性，抗波形丝蛋白阳性，扁豆凝集素阳性；CD3阴性，CD20阴性，CD30阴性，CD34阴性，CD68阴性，CD99阴性，S-100阴性，角蛋白阴性，结蛋白阴性，上皮细胞膜抗原阴性，抗平滑肌抗体阴性，间变性淋巴瘤激酶阴性；Ki-67阳性指数约为20%。原位杂交：EBER阳性。术后诊断：肝脏炎性假瘤样滤泡树突状细胞肿瘤。术后给予抗炎、保肝、抑酸、营养支持等对症治疗，患者于术后第12天康复出院。门诊及电话随访5个月，患者健**存。 33.jpg",
+        "present_illness": "因间断性发热伴腹上区不适半月余于2014年2月在当地医院行腹部CT检查，其结果示肝右叶占位性病变，肝脓肿可能性大，不排除肝癌可能；并行肝穿刺活组织病理学检查，其结果示肝细胞变性坏死，肝血管增生、扩张、充血，并有较多淋巴细胞浸润。当地医院考虑肝脏炎性疾病可能性大，给予抗炎等保守治疗，治疗后症状消失。2014年6月患者再次出现上述症状，伴腹胀、腹泻，无呕血、黑便和黄疸，为求进一步诊断与治疗，遂来哈尔滨医科大学附属第二医院就诊。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科",
+          "消化内科"
+        ],
+        "past_history": "患者既往无乙型病毒性肝炎病史。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "15_肝脏炎性假瘤样滤泡树突状细胞肿瘤一例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "51岁"
+        },
+        "chief_complaint": "完善术前准备，于全身麻醉下行手术治疗。术中探查见肝脏质地正常，肝右后叶可探及实性包块,大小约为15.0cm×10.0cm，包膜完整。术中诊断为肝右叶巨大肿瘤，决定行前入路绕肝提拉法右半肝切除术。解剖第一肝门，经前入路离断肝实质，显露下腔静脉，切除肝Ⅴ、Ⅵ、Ⅶ、Ⅷ段及尾状叶右侧部分（图3~5）。术中通过将弹力带穿过肝后下腔静脉与肝实质的无血管间隙控制肝血流。手术时间为180min，术中出血量为300mL。肝脏大体标本形态：肿瘤呈实性、灰白色、质地坚韧，有不规则出血坏死区（图6）。术后病理学检查示肿瘤大小为10.5cm×8.0cm，由梭形细胞与大量炎性细胞混合构成（图7），第一肝门淋巴结反应性增生，切缘阴性，距离肿瘤2cm。免疫组织化学染色检测：CD4阳性，CD21阳性（图8），CD23阳性，B淋巴细胞瘤-2阳性，抗波形丝蛋白阳性，扁豆凝集素阳性；CD3阴性，CD20阴性，CD30阴性，CD34阴性，CD68阴性，CD99阴性，S-100阴性，角蛋白阴性，结蛋白阴性，上皮细胞膜抗原阴性，抗平滑肌抗体阴性，间变性淋巴瘤激酶阴性；Ki-67阳性指数约为20%。原位杂交：EBER阳性。术后诊断：肝脏炎性假瘤样滤泡树突状细胞肿瘤。术后给予抗炎、保肝、抑酸、营养支持等对症治疗，患者于术后第12天康复出院。门诊及电话随访5个月，患者健**存。 33.jpg",
+        "present_illness": "因间断性发热伴腹上区不适半月余于2014年2月在当地医院行腹部CT检查，其结果示肝右叶占位性病变，肝脓肿可能性大，不排除肝癌可能；并行肝穿刺活组织病理学检查，其结果示肝细胞变性坏死，肝血管增生、扩张、充血，并有较多淋巴细胞浸润。当地医院考虑肝脏炎性疾病可能性大，给予抗炎等保守治疗，治疗后症状消失。2014年6月患者再次出现上述症状，伴腹胀、腹泻，无呕血、黑便和黄疸，为求进一步诊断与治疗，遂来哈尔滨医科大学附属第二医院就诊。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科",
+          "消化内科"
+        ],
+        "past_history": "患者既往无乙型病毒性肝炎病史。",
+        "hypothesis_illness": [
+          {
+            "name": "肝脏炎性假瘤样滤泡树突状细胞肿瘤",
+            "disease": "肝脏炎性假瘤样滤泡树突状细胞肿瘤",
+            "evidence": [
+              "肝右叶巨大占位",
+              "术后病理示梭形细胞与大量炎性细胞混合",
+              "免疫组化CD21、CD23阳性",
+              "EBER阳性"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "name": "肝脓肿",
+            "disease": "肝脓肿",
+            "evidence": [
+              "间断性发热",
+              "CT提示肝脓肿可能",
+              "抗炎治疗后症状一度消失"
+            ],
+            "confidence": 0.35
+          },
+          {
+            "name": "肝细胞癌",
+            "disease": "肝细胞癌",
+            "evidence": [
+              "肝右叶占位",
+              "CT不排除肝癌",
+              "肿瘤体积大伴坏死"
+            ],
+            "confidence": 0.35
+          },
+          {
+            "name": "肝脏炎性假瘤/炎性肌纤维母细胞瘤",
+            "disease": "肝脏炎性假瘤/炎性肌纤维母细胞瘤",
+            "evidence": [
+              "肝穿刺见较多淋巴细胞浸润",
+              "抗炎治疗有效",
+              "术后病理见梭形细胞与炎性细胞"
+            ],
+            "confidence": 0.4
+          },
+          {
+            "name": "淋巴瘤",
+            "disease": "淋巴瘤",
+            "evidence": [
+              "发热",
+              "肝占位",
+              "EBER阳性"
+            ],
+            "confidence": 0.2
+          },
+          {
+            "name": "转移性肝肿瘤",
+            "disease": "转移性肝肿瘤",
+            "evidence": [
+              "肝右叶占位"
+            ],
+            "confidence": 0.2
+          },
+          {
+            "name": "胆管细胞癌",
+            "disease": "胆管细胞癌",
+            "evidence": [
+              "肝右叶占位"
+            ],
+            "confidence": 0.15
+          }
+        ],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "超声",
+          "CT",
+          "病理检查"
+        ],
+        "predicted_physical_exams": [
+          "腹部检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "超声",
+          "CT",
+          "病理检查"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": null,
+  "finalization_used": false
+}

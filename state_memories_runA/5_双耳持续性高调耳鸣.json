@@ -1,0 +1,1006 @@
+{
+  "case_id": "5_双耳持续性高调耳鸣",
+  "personal_info": {
+    "性别": "女",
+    "年龄": "53岁"
+  },
+  "chief_complaint": "女性患者，53岁，因发现抗-HCV阳性3年，间断乏力伴恶心、食欲减退3个月，于2009年4月16日入我院治疗。20年前行“左乳腺癌根治术”,术中输血（具体量不详），否认耳部、甲状腺、自身免疫、血液系统及精神神经系统疾病史。",
+  "present_illness": "",
+  "dept_l1": "内科",
+  "dept_l2": [
+    "肝病科"
+  ],
+  "past_history": "",
+  "hypothesis_illness": [
+    {
+      "name": "慢性丙型病毒性肝炎",
+      "disease": "慢性丙型病毒性肝炎",
+      "evidence": [
+        "抗-HCV阳性3年",
+        "20年前术中输血史",
+        "间断乏力、恶心、食欲减退"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "name": "丙型肝炎肝硬化",
+      "disease": "丙型肝炎肝硬化",
+      "evidence": [
+        "长期HCV感染可能",
+        "乏力、食欲减退",
+        "输血感染病程较长"
+      ],
+      "confidence": 0.45
+    },
+    {
+      "name": "肝细胞癌",
+      "disease": "肝细胞癌",
+      "evidence": [
+        "慢性丙肝为肝癌高危因素",
+        "乏力、恶心、食欲减退"
+      ],
+      "confidence": 0.35
+    },
+    {
+      "name": "药物性肝损伤",
+      "disease": "药物性肝损伤",
+      "evidence": [
+        "乳腺癌术后可能长期用药",
+        "乏力、恶心、食欲减退"
+      ],
+      "confidence": 0.2
+    },
+    {
+      "name": "非酒精性脂肪性肝病",
+      "disease": "非酒精性脂肪性肝病",
+      "evidence": [
+        "中年女性",
+        "消化道非特异症状"
+      ],
+      "confidence": 0.2
+    },
+    {
+      "name": "自身免疫性肝炎",
+      "disease": "自身免疫性肝炎",
+      "evidence": [
+        "中年女性",
+        "乏力、食欲减退需鉴别"
+      ],
+      "confidence": 0.15
+    },
+    {
+      "name": "慢性乙型肝炎/重叠感染",
+      "disease": "慢性乙型肝炎/重叠感染",
+      "evidence": [
+        "输血史",
+        "乏力、恶心"
+      ],
+      "confidence": 0.15
+    },
+    {
+      "name": "肝外胆道疾病",
+      "disease": "肝外胆道疾病",
+      "evidence": [
+        "恶心、食欲减退"
+      ],
+      "confidence": 0.15
+    }
+  ],
+  "physical_exams": {
+    "腹部检查": "腹平软，无压痛，肝脏、脾脏未触及"
+  },
+  "auxiliary_exams": {
+    "血液学检查": "抗-HCV阳性，HCVRNA1.438×10^6IU/ml,HCV基因型lb型，外周血白细胞计数（WBC）5.2×10^9/L,血小板计数139×10^9/L;血清ALT42U/L,AST34U/L"
+  },
+  "imaging_results": {},
+  "completed_physical_exams": [
+    "腹部检查"
+  ],
+  "completed_auxiliary_exams": [
+    "血液学检查"
+  ],
+  "completed_imaging_exams": [],
+  "pending_auxiliary_exams": [
+    "超声"
+  ],
+  "predicted_physical_exams": [
+    "腹部检查"
+  ],
+  "predicted_auxiliary_exams": [
+    "血液学检查",
+    "超声"
+  ],
+  "diagnosis_result": [
+    "慢性丙型病毒性肝炎"
+  ],
+  "treatment_plan": [],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "pending"
+  },
+  "recheck_total": 1,
+  "max_recheck": 3,
+  "mcts_trajectory": [
+    "a_back",
+    "task2_doctor",
+    "task4_diagnosis",
+    "task3_imaging"
+  ],
+  "mcts_step": 4,
+  "mcts_eta": 4,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "a_back",
+      "source": "committed_backtrack",
+      "mcts_step": 1,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task2_doctor",
+      "source": "committed_backtrack_target",
+      "mcts_step": 2,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 4,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 3,
+      "workflow_stage": "task4_diagnosis"
+    },
+    {
+      "sequence_index": 5,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 4,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [
+    {
+      "event_id": 0,
+      "source": "committed",
+      "target_snapshot_id": 1,
+      "target_workflow_stage": "task1_referral",
+      "requested_action": "request_auxiliary_exam",
+      "executed_action": "task2_doctor",
+      "mcts_step": 1
+    }
+  ],
+  "missing_evidence": [
+    "腹部超声/CT/MRI等肝脏影像学检查",
+    "血清白蛋白、胆红素、凝血酶原时间等肝脏合成功能检查",
+    "甲胎蛋白(AFP)",
+    "肝脏瞬时弹性成像或肝活检",
+    "乙肝五项及HBV DNA",
+    "自身免疫性肝病相关抗体及免疫球蛋白",
+    "详细用药史及饮酒史"
+  ],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": true,
+  "top_hypothesis_confidence": 0.85,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "5_双耳持续性高调耳鸣",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "53岁"
+        },
+        "chief_complaint": "女性患者，53岁，因发现抗-HCV阳性3年，间断乏力伴恶心、食欲减退3个月，于2009年4月16日入我院治疗。20年前行“左乳腺癌根治术”,术中输血（具体量不详），否认耳部、甲状腺、自身免疫、血液系统及精神神经系统疾病史。",
+        "present_illness": "",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "5_双耳持续性高调耳鸣",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "53岁"
+        },
+        "chief_complaint": "女性患者，53岁，因发现抗-HCV阳性3年，间断乏力伴恶心、食欲减退3个月，于2009年4月16日入我院治疗。20年前行“左乳腺癌根治术”,术中输血（具体量不详），否认耳部、甲状腺、自身免疫、血液系统及精神神经系统疾病史。",
+        "present_illness": "",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "5_双耳持续性高调耳鸣",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "53岁"
+        },
+        "chief_complaint": "女性患者，53岁，因发现抗-HCV阳性3年，间断乏力伴恶心、食欲减退3个月，于2009年4月16日入我院治疗。20年前行“左乳腺癌根治术”,术中输血（具体量不详），否认耳部、甲状腺、自身免疫、血液系统及精神神经系统疾病史。",
+        "present_illness": "",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "慢性丙型肝炎（活动性）",
+            "disease": "慢性丙型肝炎（活动性）",
+            "evidence": [
+              "抗-HCV阳性3年",
+              "20年前有输血史",
+              "乏力、恶心、食欲减退"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "name": "丙型肝炎肝硬化",
+            "disease": "丙型肝炎肝硬化",
+            "evidence": [
+              "抗-HCV阳性",
+              "长期输血感染可能",
+              "乏力、食欲减退"
+            ],
+            "confidence": 0.45
+          },
+          {
+            "name": "肝细胞癌",
+            "disease": "肝细胞癌",
+            "evidence": [
+              "慢性丙肝背景",
+              "乏力、食欲减退"
+            ],
+            "confidence": 0.35
+          },
+          {
+            "name": "药物性肝损伤",
+            "disease": "药物性肝损伤",
+            "evidence": [
+              "乏力、恶心、食欲减退"
+            ],
+            "confidence": 0.2
+          },
+          {
+            "name": "自身免疫性肝炎",
+            "disease": "自身免疫性肝炎",
+            "evidence": [
+              "乏力、恶心"
+            ],
+            "confidence": 0.2
+          },
+          {
+            "name": "肝转移瘤（乳腺癌复发转移）",
+            "disease": "肝转移瘤（乳腺癌复发转移）",
+            "evidence": [
+              "乳腺癌根治术史",
+              "乏力、食欲减退"
+            ],
+            "confidence": 0.2
+          },
+          {
+            "name": "胆道疾病",
+            "disease": "胆道疾病",
+            "evidence": [
+              "恶心、食欲减退"
+            ],
+            "confidence": 0.1
+          },
+          {
+            "name": "非酒精性脂肪性肝病",
+            "disease": "非酒精性脂肪性肝病",
+            "evidence": [
+              "乏力"
+            ],
+            "confidence": 0.1
+          }
+        ],
+        "physical_exams": {
+          "腹部检查": "腹平软，无压痛，肝脏、脾脏未触及"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "腹部检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "血液学检查",
+          "超声"
+        ],
+        "predicted_physical_exams": [
+          "腹部检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "血液学检查",
+          "超声"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [
+          "HCV RNA定量及基因分型",
+          "肝功能全套（ALT、AST、胆红素、白蛋白、ALP、GGT）",
+          "血常规与凝血功能（血小板、PT/INR）",
+          "甲胎蛋白（AFP）",
+          "腹部影像学（肝脏超声、CT或MRI）",
+          "自身免疫性肝炎相关自身抗体及IgG",
+          "肿瘤标志物（CA15-3、CEA）及肝转移影像评估",
+          "近期用药史及肝毒性药物暴露",
+          "肝纤维化评估（瞬时弹性成像或肝活检）"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task1_referral",
+      "reason": "committed_backtrack_restored",
+      "state": {
+        "case_id": "5_双耳持续性高调耳鸣",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "53岁"
+        },
+        "chief_complaint": "女性患者，53岁，因发现抗-HCV阳性3年，间断乏力伴恶心、食欲减退3个月，于2009年4月16日入我院治疗。20年前行“左乳腺癌根治术”,术中输血（具体量不详），否认耳部、甲状腺、自身免疫、血液系统及精神神经系统疾病史。",
+        "present_illness": "",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exam",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 2,
+      "workflow_action_index": 4,
+      "mcts_step": 2,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "5_双耳持续性高调耳鸣",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "53岁"
+        },
+        "chief_complaint": "女性患者，53岁，因发现抗-HCV阳性3年，间断乏力伴恶心、食欲减退3个月，于2009年4月16日入我院治疗。20年前行“左乳腺癌根治术”,术中输血（具体量不详），否认耳部、甲状腺、自身免疫、血液系统及精神神经系统疾病史。",
+        "present_illness": "",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "慢性丙型病毒性肝炎",
+            "disease": "慢性丙型病毒性肝炎",
+            "evidence": [
+              "抗-HCV阳性3年",
+              "20年前术中输血史",
+              "间断乏力、恶心、食欲减退"
+            ],
+            "confidence": 0.85
+          },
+          {
+            "name": "丙型肝炎肝硬化",
+            "disease": "丙型肝炎肝硬化",
+            "evidence": [
+              "长期HCV感染可能",
+              "乏力、食欲减退",
+              "输血感染病程较长"
+            ],
+            "confidence": 0.45
+          },
+          {
+            "name": "肝细胞癌",
+            "disease": "肝细胞癌",
+            "evidence": [
+              "慢性丙肝为肝癌高危因素",
+              "乏力、恶心、食欲减退"
+            ],
+            "confidence": 0.35
+          },
+          {
+            "name": "药物性肝损伤",
+            "disease": "药物性肝损伤",
+            "evidence": [
+              "乳腺癌术后可能长期用药",
+              "乏力、恶心、食欲减退"
+            ],
+            "confidence": 0.2
+          },
+          {
+            "name": "非酒精性脂肪性肝病",
+            "disease": "非酒精性脂肪性肝病",
+            "evidence": [
+              "中年女性",
+              "消化道非特异症状"
+            ],
+            "confidence": 0.2
+          },
+          {
+            "name": "自身免疫性肝炎",
+            "disease": "自身免疫性肝炎",
+            "evidence": [
+              "中年女性",
+              "乏力、食欲减退需鉴别"
+            ],
+            "confidence": 0.15
+          },
+          {
+            "name": "慢性乙型肝炎/重叠感染",
+            "disease": "慢性乙型肝炎/重叠感染",
+            "evidence": [
+              "输血史",
+              "乏力、恶心"
+            ],
+            "confidence": 0.15
+          },
+          {
+            "name": "肝外胆道疾病",
+            "disease": "肝外胆道疾病",
+            "evidence": [
+              "恶心、食欲减退"
+            ],
+            "confidence": 0.15
+          }
+        ],
+        "physical_exams": {
+          "腹部检查": "腹平软，无压痛，肝脏、脾脏未触及"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "腹部检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "血液学检查",
+          "超声"
+        ],
+        "predicted_physical_exams": [
+          "腹部检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "血液学检查",
+          "超声"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor"
+        ],
+        "mcts_step": 2,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exam",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [
+          "HCV RNA定量及基因分型",
+          "肝功能及凝血功能检查",
+          "腹部超声/CT/MRI及肝脏弹性成像",
+          "血清甲胎蛋白",
+          "乙型肝炎病毒标志物",
+          "自身免疫性肝炎相关自身抗体及免疫球蛋白",
+          "详细用药史及饮酒史",
+          "血常规及血小板计数"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.85,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 5,
+      "trajectory_index": 3,
+      "workflow_action_index": 5,
+      "mcts_step": 3,
+      "workflow_stage": "task4_diagnosis",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "5_双耳持续性高调耳鸣",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "53岁"
+        },
+        "chief_complaint": "女性患者，53岁，因发现抗-HCV阳性3年，间断乏力伴恶心、食欲减退3个月，于2009年4月16日入我院治疗。20年前行“左乳腺癌根治术”,术中输血（具体量不详），否认耳部、甲状腺、自身免疫、血液系统及精神神经系统疾病史。",
+        "present_illness": "",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肝病科"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "慢性丙型病毒性肝炎",
+            "disease": "慢性丙型病毒性肝炎",
+            "evidence": [
+              "抗-HCV阳性3年",
+              "20年前术中输血史",
+              "间断乏力、恶心、食欲减退"
+            ],
+            "confidence": 0.85
+          },
+          {
+            "name": "丙型肝炎肝硬化",
+            "disease": "丙型肝炎肝硬化",
+            "evidence": [
+              "长期HCV感染可能",
+              "乏力、食欲减退",
+              "输血感染病程较长"
+            ],
+            "confidence": 0.45
+          },
+          {
+            "name": "肝细胞癌",
+            "disease": "肝细胞癌",
+            "evidence": [
+              "慢性丙肝为肝癌高危因素",
+              "乏力、恶心、食欲减退"
+            ],
+            "confidence": 0.35
+          },
+          {
+            "name": "药物性肝损伤",
+            "disease": "药物性肝损伤",
+            "evidence": [
+              "乳腺癌术后可能长期用药",
+              "乏力、恶心、食欲减退"
+            ],
+            "confidence": 0.2
+          },
+          {
+            "name": "非酒精性脂肪性肝病",
+            "disease": "非酒精性脂肪性肝病",
+            "evidence": [
+              "中年女性",
+              "消化道非特异症状"
+            ],
+            "confidence": 0.2
+          },
+          {
+            "name": "自身免疫性肝炎",
+            "disease": "自身免疫性肝炎",
+            "evidence": [
+              "中年女性",
+              "乏力、食欲减退需鉴别"
+            ],
+            "confidence": 0.15
+          },
+          {
+            "name": "慢性乙型肝炎/重叠感染",
+            "disease": "慢性乙型肝炎/重叠感染",
+            "evidence": [
+              "输血史",
+              "乏力、恶心"
+            ],
+            "confidence": 0.15
+          },
+          {
+            "name": "肝外胆道疾病",
+            "disease": "肝外胆道疾病",
+            "evidence": [
+              "恶心、食欲减退"
+            ],
+            "confidence": 0.15
+          }
+        ],
+        "physical_exams": {
+          "腹部检查": "腹平软，无压痛，肝脏、脾脏未触及"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "腹部检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "血液学检查",
+          "超声"
+        ],
+        "predicted_physical_exams": [
+          "腹部检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "血液学检查",
+          "超声"
+        ],
+        "diagnosis_result": [
+          "慢性丙型病毒性肝炎"
+        ],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "completed",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor",
+          "task4_diagnosis"
+        ],
+        "mcts_step": 3,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 4,
+            "action": "task4_diagnosis",
+            "source": "mcts_selected",
+            "mcts_step": 3,
+            "workflow_stage": "task4_diagnosis"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exam",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [
+          "HCV RNA定量及基因分型",
+          "肝功能全套（ALT、AST、胆红素、白蛋白、凝血酶原时间）",
+          "血常规及血小板计数",
+          "腹部超声或CT/MRI检查",
+          "甲胎蛋白及肝癌相关影像筛查",
+          "肝脏纤维化/弹性评估",
+          "HBsAg、抗-HBc及HBV DNA",
+          "自身免疫性肝炎相关自身抗体（ANA、SMA、LKM-1等）及IgG",
+          "近期肝毒性药物或保健品使用史",
+          "碱性磷酸酶、GGT及胆道影像检查"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.85,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false,
+        "agent_missing_evidence": []
+      }
+    }
+  ],
+  "active_snapshot_id": 1,
+  "terminated_by": "eta",
+  "finalization_used": false,
+  "agent_missing_evidence": []
+}

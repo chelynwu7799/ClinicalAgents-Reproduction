@@ -1,0 +1,763 @@
+{
+  "case_id": "19_痰中带血、甲状腺功能亢进症、肝内多发病变",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "59岁"
+  },
+  "chief_complaint": "患者男，59岁 咳嗽、咳痰、痰中带血2d",
+  "present_illness": "患者2d前受凉后发热（体温未测）、咳嗽、咳痰、痰中带血，无胸痛、气急及其他不适。 该患者有如下特点：（1）男性，59岁；（2）起病急；（3）发热、咳嗽、咳痰、痰中带血2d，无其他不适；(4)既往甲亢病史15年，不规则治疗，病情反复；(5)全身状况良好；(6)两肺湿啰音，期前收缩4次/min；(7)血常规中性粒细胞比例增高，轻度低蛋白血症；(8)X线胸片和肺CT提示两肺炎症性改变；(9)腹部B超和CT提示肝内多发病变；(10)甲状腺功能TSH明显降低。",
+  "dept_l1": "内科",
+  "dept_l2": [
+    "呼吸科"
+  ],
+  "past_history": "患甲状腺功能亢进症（以下简称甲亢）15年，不规则药物治疗，病情反复。",
+  "hypothesis_illness": [],
+  "physical_exams": {},
+  "auxiliary_exams": {},
+  "imaging_results": {},
+  "completed_physical_exams": [],
+  "completed_auxiliary_exams": [],
+  "completed_imaging_exams": [],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [],
+  "predicted_auxiliary_exams": [],
+  "diagnosis_result": [],
+  "treatment_plan": [],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "pending",
+    "task4_diagnosis": "pending",
+    "task5_treatment": "pending"
+  },
+  "recheck_total": 1,
+  "max_recheck": 3,
+  "mcts_trajectory": [
+    "a_back",
+    "task2_doctor",
+    "a_rag",
+    "a_rag"
+  ],
+  "mcts_step": 4,
+  "mcts_eta": 4,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 2,
+      "action": "a_back",
+      "source": "committed_backtrack",
+      "mcts_step": 1,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task2_doctor",
+      "source": "committed_backtrack_target",
+      "mcts_step": 2,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 4,
+      "action": "a_rag",
+      "source": "mcts_selected",
+      "mcts_step": 3,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 5,
+      "action": "a_rag",
+      "source": "mcts_selected",
+      "mcts_step": 4,
+      "workflow_stage": "task1_referral"
+    }
+  ],
+  "backtrack_events": [
+    {
+      "event_id": 0,
+      "source": "committed",
+      "target_snapshot_id": 1,
+      "target_workflow_stage": "task1_referral",
+      "requested_action": "collect_history",
+      "executed_action": "task2_doctor",
+      "mcts_step": 1
+    }
+  ],
+  "missing_evidence": [
+    "胸部影像学检查（CT或X线）",
+    "痰液检查（病原学、细胞学）",
+    "血液学检查（血常规、凝血功能、炎症标志物）",
+    "胸部体格检查"
+  ],
+  "potential_missing_evidence": [
+    "一般检查",
+    "胸部检查",
+    "腹部检查",
+    "脊柱和四肢检查",
+    "CT",
+    "超声",
+    "血液学检查",
+    "颈部检查"
+  ],
+  "experience_knowledge": [
+    "【基本信息】女，51岁，农民",
+    "【基本信息】男，60岁，农民 【发病原因】病因不明 【临床诊断】1.慢性支气管炎 2.慢性阻塞性肺疾病合并感染 3.膝关节炎 【治疗方案】予茶碱缓释片口服、特布他林静点以平喘，复方甘草片、桉柠蒎胶囊口服、氨溴索注射液静点以止咳化痰，头孢哌酮舒巴坦静点以抗感染等对症治疗 【治疗结果】病情好转 【病案重点】1.慢性支气管炎 2.慢性阻塞性肺疾病合并感染 25007.jpg",
+    "【基本信息】男，71岁"
+  ],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [
+    {
+      "case_id": "11770_咳嗽、咳痰、痰中带血患者一例",
+      "text": "咳嗽、咳痰、痰中带血10余天。 患者缘于10余天前因感冒后出现咳嗽，咳少许黄色粘痰，难以咯出，痰中带血丝，呈鲜红色。无胸痛，无喘息及呼吸困难，无潮热盗汗。在家口服“强力枇杷露”等药物治疗，症状无减轻。为明确诊治，今入我院治疗。 1.急性支气管炎 2.咯血原因待查？ 肺部占位性病变？ 3.2型糖尿病 4.高血压病2级（极高危）  5.颈椎间盘突出症  \r\n 6.腰椎间盘突出症 1.急性支气管炎 2.咯血原因待查？ 肺部占位性病变？ 3.2型糖尿病 4.高血压病2级（极高危）  5.颈椎间盘突出症  6.腰椎间盘突出症 1.肺结核：一般表现为潮热、盗汗、乏力、纳差、消瘦、女性月经失调等，呼吸道症状有咳嗽、咳痰、咯血、胸痛、不同程度胸闷或呼吸困难，肺CT检查可见结核灶。\r\n2.支气管扩张：是由于支气管及其周围肺组织慢性化脓性炎症和纤维化，使支气管壁的肌肉和弹性组织破坏，导致支气管变形及持久扩张。典型的症状有慢性咳嗽、咳大量脓痰和反复咯血。 患者因感冒后出现咳嗽咳痰症状，要注意避免着凉，预防感冒。控制好血糖、血压，预防心脑血管并发症。定期复查胸片，必要时做肺部结节穿刺活检检查，以明确病变性质。",
+      "summary": "【基本信息】女，51岁，农民",
+      "exams": [
+        "一般检查",
+        "胸部检查",
+        "腹部检查",
+        "脊柱和四肢检查",
+        "CT",
+        "超声",
+        "血液学检查"
+      ],
+      "similarity": 0.09387980809485785
+    },
+    {
+      "case_id": "11739_常见的慢性支气管炎诊治经验分享",
+      "text": "咳嗽、咳痰、喘息间作7年余，加重伴发热2天。 患者缘于7年余前因着凉后出现咳嗽、咳痰、喘息等症，以后每年冬季天气变冷后发作，春季天气转暖后症状缓解，每年发作3个月以上。曾多次在当地卫生院住院治疗，诊断为“慢性支气管炎，肺气肿”，具体治疗方案不详，病情迁延不愈。自2天前起，患者患“感冒”后出现咳嗽加重，咳大量黄白色粘痰，无痰中带血。喘息，无呼吸困难，夜间能平卧，发热，体温最高达38.6℃，无寒颤。在家口服“头孢氨苄片、强力枇杷露”等药物输液治疗，症状无明显减轻。为系统诊治，今入我院治疗。 1.慢性支气管炎；2.慢性阻塞性肺疾病合并感染；3.膝关节炎 1.慢性支气管炎 2.慢性阻塞性肺疾病合并感染 3.膝关节炎 1.肺结核：是由结核分枝杆菌引起的慢性传染病，患者一般表现为低热、盗汗、乏力、纳差、消瘦、女性月经失调等症状，呼吸道症状有咳嗽、咳痰、咯血、胸痛、不同程度胸闷或呼吸困难。胸片检查可以鉴别。 2.支气管哮喘：是由多种细胞和细胞组分参与的气道慢性炎症为特征的异质性疾病，这种慢性炎症与气道高反应性相关，通常出现广泛而多变的可逆性呼气气流受限，导致反复发作的喘息、气促、胸闷和（或）咳嗽等症状，可以根据病史及症状鉴别。 本例患者是由于慢性支气管炎、慢性阻塞性肺疾病引起的咳嗽、咳痰、喘息、发热症状，可以通过胸片或者肺CT检查以明确诊断。慢性支气管炎患者一般冬春季多发，夏秋季节缓解，往往反复发作，迁延不愈，最终发展为慢性阻塞性肺疾病、慢性肺源性心脏病。需要排除其他引起咳嗽、咳痰、喘息等疾病，如支气管哮喘、慢性心力衰竭、肺结核等疾病才能确诊。患者发病时可以使用抗感染、止咳化痰平喘药物治疗，以及对症治疗，缓解咳嗽、咳痰、喘息症状，也可以配合雾化吸入治疗，改善症状。患者平时要注意调摄，适当锻炼，增强体质，提高免疫力，预防复发。",
+      "summary": "【基本信息】男，60岁，农民 【发病原因】病因不明 【临床诊断】1.慢性支气管炎 2.慢性阻塞性肺疾病合并感染 3.膝关节炎 【治疗方案】予茶碱缓释片口服、特布他林静点以平喘，复方甘草片、桉柠蒎胶囊口服、氨溴索注射液静点以止咳化痰，头孢哌酮舒巴坦静点以抗感染等对症治疗 【治疗结果】病情好转 【病案重点】1.慢性支气管炎 2.慢性阻塞性肺疾病合并感染 25007.jpg",
+      "exams": [
+        "一般检查",
+        "颈部检查",
+        "胸部检查",
+        "腹部检查",
+        "脊柱和四肢检查",
+        "X-ray",
+        "CT",
+        "血液学检查"
+      ],
+      "similarity": 0.09212761148753669
+    },
+    {
+      "case_id": "11746_止嗽散加减治疗咳嗽咳血一例",
+      "text": "反复咳嗽、咳痰2年，加重伴发热、痰中带血4天。 患者2年前开始出现咳嗽、咳痰，咳白色粘痰，每日量约20-30ml，外院CT提示“慢性支气管炎改变”，确诊为\"慢性支气管炎\"，后多在冬季或受凉、感冒后发作，每年发作持续超过3个月，每予抗感染治疗后好转。4天前患者受凉后再次出现咳嗽，阵发性，夜间较重，咳大量粘痰（每日约100口），痰中夹带血丝及黑色血块，较易咳出，无大量咯血，自觉发热（体温未测）、恶寒，伴寒颤，有肌肉关节疼痛，无鼻塞、流涕，无头痛、头晕，无胸闷、胸痛，无恶心、呕吐，无腹痛、腹泻，无尿频、尿急、尿痛，至医院就诊，予“头孢（具体不详）”类药物抗感染及“感冒灵颗粒”对症治疗后上述症状均有好转，仍有咳嗽、咳痰，偶有痰中带血，为进一步诊治收入院。 中医诊断：咳嗽\r\n风寒袭肺\r\n西医诊断：咳血原因待查\r\n慢性支气管炎急性发作\r\n心律失常\r\n房颤\r\n高血压病2级\r\n脑梗塞 中医诊断：咳嗽\r\n风寒袭肺\r\n西医诊断：咳血原因待查\r\n慢性支气管炎急性发作\r\n心律失常\r\n房颤\r\n高血压病2级\r\n脑梗塞 1.中医鉴别诊断：本病当与内伤咳嗽相鉴别，外感咳嗽多是新病，起病急，病程短，常伴肺卫表证，属于邪实，治以祛邪利肺。内伤咳嗽多为久病，常反复发作，病程长，可伴见他脏形证，多属邪实正虚，治当祛邪止咳，扶正补虚，标本兼顾，分清虚实主次处理。\r\n2.西医鉴别诊断：支气管哮喘：年幼发病，接触过敏原可引起急性发作。患者多以受凉后发作为主，可进一步行肺功能检查、胸部CT等检查明确诊断。 综合脉证，四诊合参，本病当属\"咳嗽\"，证属\"风寒袭肺\"。风寒袭肺，肺气壅塞不得宣通，故咳而声重，气急；风寒上受，肺窍不利，则鼻塞流涕，咽喉作痒；寒邪郁肺，气不布津，凝聚为痰，故咳痰稀薄色白。风寒外束肌腠，故伴有头痛，肢体酸楚，寒热无汗等表寒证。舌苔薄白，脉浮或浮紧，为风寒在表之征。",
+      "summary": "【基本信息】男，71岁",
+      "exams": [
+        "一般检查",
+        "头颅眼耳鼻喉检查",
+        "颈部检查",
+        "胸部检查",
+        "腹部检查",
+        "脊柱和四肢检查",
+        "皮肤检查",
+        "神经系统检查",
+        "血液学检查"
+      ],
+      "similarity": 0.09131428521028777
+    }
+  ],
+  "evidence_importance": {},
+  "experience_memory_available": true,
+  "top_hypothesis_confidence": 0.0,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "19_痰中带血、甲状腺功能亢进症、肝内多发病变",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "59岁"
+        },
+        "chief_complaint": "患者男，59岁 咳嗽、咳痰、痰中带血2d",
+        "present_illness": "患者2d前受凉后发热（体温未测）、咳嗽、咳痰、痰中带血，无胸痛、气急及其他不适。 该患者有如下特点：（1）男性，59岁；（2）起病急；（3）发热、咳嗽、咳痰、痰中带血2d，无其他不适；(4)既往甲亢病史15年，不规则治疗，病情反复；(5)全身状况良好；(6)两肺湿啰音，期前收缩4次/min；(7)血常规中性粒细胞比例增高，轻度低蛋白血症；(8)X线胸片和肺CT提示两肺炎症性改变；(9)腹部B超和CT提示肝内多发病变；(10)甲状腺功能TSH明显降低。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "患甲状腺功能亢进症（以下简称甲亢）15年，不规则药物治疗，病情反复。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "19_痰中带血、甲状腺功能亢进症、肝内多发病变",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "59岁"
+        },
+        "chief_complaint": "患者男，59岁 咳嗽、咳痰、痰中带血2d",
+        "present_illness": "患者2d前受凉后发热（体温未测）、咳嗽、咳痰、痰中带血，无胸痛、气急及其他不适。 该患者有如下特点：（1）男性，59岁；（2）起病急；（3）发热、咳嗽、咳痰、痰中带血2d，无其他不适；(4)既往甲亢病史15年，不规则治疗，病情反复；(5)全身状况良好；(6)两肺湿啰音，期前收缩4次/min；(7)血常规中性粒细胞比例增高，轻度低蛋白血症；(8)X线胸片和肺CT提示两肺炎症性改变；(9)腹部B超和CT提示肝内多发病变；(10)甲状腺功能TSH明显降低。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "呼吸科"
+        ],
+        "past_history": "患甲状腺功能亢进症（以下简称甲亢）15年，不规则药物治疗，病情反复。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "19_痰中带血、甲状腺功能亢进症、肝内多发病变",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "59岁"
+        },
+        "chief_complaint": "患者男，59岁 咳嗽、咳痰、痰中带血2d",
+        "present_illness": "患者2d前受凉后发热（体温未测）、咳嗽、咳痰、痰中带血，无胸痛、气急及其他不适。 该患者有如下特点：（1）男性，59岁；（2）起病急；（3）发热、咳嗽、咳痰、痰中带血2d，无其他不适；(4)既往甲亢病史15年，不规则治疗，病情反复；(5)全身状况良好；(6)两肺湿啰音，期前收缩4次/min；(7)血常规中性粒细胞比例增高，轻度低蛋白血症；(8)X线胸片和肺CT提示两肺炎症性改变；(9)腹部B超和CT提示肝内多发病变；(10)甲状腺功能TSH明显降低。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "呼吸科"
+        ],
+        "past_history": "患甲状腺功能亢进症（以下简称甲亢）15年，不规则药物治疗，病情反复。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [
+          "生命体征及血氧饱和度",
+          "胸部CT（平扫+增强）",
+          "血常规、凝血功能、D-二聚体",
+          "痰液病原学及细胞学检查",
+          "支气管镜检查",
+          "当前用药史（尤其抗甲状腺药物、抗凝药）",
+          "吸烟史及职业暴露史",
+          "甲状腺功能及ANCA等自身抗体"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task1_referral",
+      "reason": "committed_backtrack_restored",
+      "state": {
+        "case_id": "19_痰中带血、甲状腺功能亢进症、肝内多发病变",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "59岁"
+        },
+        "chief_complaint": "患者男，59岁 咳嗽、咳痰、痰中带血2d",
+        "present_illness": "患者2d前受凉后发热（体温未测）、咳嗽、咳痰、痰中带血，无胸痛、气急及其他不适。 该患者有如下特点：（1）男性，59岁；（2）起病急；（3）发热、咳嗽、咳痰、痰中带血2d，无其他不适；(4)既往甲亢病史15年，不规则治疗，病情反复；(5)全身状况良好；(6)两肺湿啰音，期前收缩4次/min；(7)血常规中性粒细胞比例增高，轻度低蛋白血症；(8)X线胸片和肺CT提示两肺炎症性改变；(9)腹部B超和CT提示肝内多发病变；(10)甲状腺功能TSH明显降低。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "呼吸科"
+        ],
+        "past_history": "患甲状腺功能亢进症（以下简称甲亢）15年，不规则药物治疗，病情反复。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "collect_history",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 2,
+      "workflow_action_index": 4,
+      "mcts_step": 2,
+      "workflow_stage": "task1_referral",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "19_痰中带血、甲状腺功能亢进症、肝内多发病变",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "59岁"
+        },
+        "chief_complaint": "患者男，59岁 咳嗽、咳痰、痰中带血2d",
+        "present_illness": "患者2d前受凉后发热（体温未测）、咳嗽、咳痰、痰中带血，无胸痛、气急及其他不适。 该患者有如下特点：（1）男性，59岁；（2）起病急；（3）发热、咳嗽、咳痰、痰中带血2d，无其他不适；(4)既往甲亢病史15年，不规则治疗，病情反复；(5)全身状况良好；(6)两肺湿啰音，期前收缩4次/min；(7)血常规中性粒细胞比例增高，轻度低蛋白血症；(8)X线胸片和肺CT提示两肺炎症性改变；(9)腹部B超和CT提示肝内多发病变；(10)甲状腺功能TSH明显降低。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "呼吸科"
+        ],
+        "past_history": "患甲状腺功能亢进症（以下简称甲亢）15年，不规则药物治疗，病情反复。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor"
+        ],
+        "mcts_step": 2,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "collect_history",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 5,
+      "trajectory_index": 3,
+      "workflow_action_index": 5,
+      "mcts_step": 3,
+      "workflow_stage": "task1_referral",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "19_痰中带血、甲状腺功能亢进症、肝内多发病变",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "59岁"
+        },
+        "chief_complaint": "患者男，59岁 咳嗽、咳痰、痰中带血2d",
+        "present_illness": "患者2d前受凉后发热（体温未测）、咳嗽、咳痰、痰中带血，无胸痛、气急及其他不适。 该患者有如下特点：（1）男性，59岁；（2）起病急；（3）发热、咳嗽、咳痰、痰中带血2d，无其他不适；(4)既往甲亢病史15年，不规则治疗，病情反复；(5)全身状况良好；(6)两肺湿啰音，期前收缩4次/min；(7)血常规中性粒细胞比例增高，轻度低蛋白血症；(8)X线胸片和肺CT提示两肺炎症性改变；(9)腹部B超和CT提示肝内多发病变；(10)甲状腺功能TSH明显降低。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "呼吸科"
+        ],
+        "past_history": "患甲状腺功能亢进症（以下简称甲亢）15年，不规则药物治疗，病情反复。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor",
+          "a_rag"
+        ],
+        "mcts_step": 3,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 4,
+            "action": "a_rag",
+            "source": "mcts_selected",
+            "mcts_step": 3,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "collect_history",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [
+          "一般检查",
+          "胸部检查",
+          "CT",
+          "血液学检查"
+        ],
+        "potential_missing_evidence": [
+          "一般检查",
+          "胸部检查",
+          "腹部检查",
+          "脊柱和四肢检查",
+          "CT",
+          "超声",
+          "血液学检查",
+          "颈部检查"
+        ],
+        "experience_knowledge": [
+          "【基本信息】女，51岁，农民",
+          "【基本信息】男，60岁，农民 【发病原因】病因不明 【临床诊断】1.慢性支气管炎 2.慢性阻塞性肺疾病合并感染 3.膝关节炎 【治疗方案】予茶碱缓释片口服、特布他林静点以平喘，复方甘草片、桉柠蒎胶囊口服、氨溴索注射液静点以止咳化痰，头孢哌酮舒巴坦静点以抗感染等对症治疗 【治疗结果】病情好转 【病案重点】1.慢性支气管炎 2.慢性阻塞性肺疾病合并感染 25007.jpg",
+          "【基本信息】男，71岁"
+        ],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [
+          {
+            "case_id": "11770_咳嗽、咳痰、痰中带血患者一例",
+            "text": "咳嗽、咳痰、痰中带血10余天。 患者缘于10余天前因感冒后出现咳嗽，咳少许黄色粘痰，难以咯出，痰中带血丝，呈鲜红色。无胸痛，无喘息及呼吸困难，无潮热盗汗。在家口服“强力枇杷露”等药物治疗，症状无减轻。为明确诊治，今入我院治疗。 1.急性支气管炎 2.咯血原因待查？ 肺部占位性病变？ 3.2型糖尿病 4.高血压病2级（极高危）  5.颈椎间盘突出症  \r\n 6.腰椎间盘突出症 1.急性支气管炎 2.咯血原因待查？ 肺部占位性病变？ 3.2型糖尿病 4.高血压病2级（极高危）  5.颈椎间盘突出症  6.腰椎间盘突出症 1.肺结核：一般表现为潮热、盗汗、乏力、纳差、消瘦、女性月经失调等，呼吸道症状有咳嗽、咳痰、咯血、胸痛、不同程度胸闷或呼吸困难，肺CT检查可见结核灶。\r\n2.支气管扩张：是由于支气管及其周围肺组织慢性化脓性炎症和纤维化，使支气管壁的肌肉和弹性组织破坏，导致支气管变形及持久扩张。典型的症状有慢性咳嗽、咳大量脓痰和反复咯血。 患者因感冒后出现咳嗽咳痰症状，要注意避免着凉，预防感冒。控制好血糖、血压，预防心脑血管并发症。定期复查胸片，必要时做肺部结节穿刺活检检查，以明确病变性质。",
+            "summary": "【基本信息】女，51岁，农民",
+            "exams": [
+              "一般检查",
+              "胸部检查",
+              "腹部检查",
+              "脊柱和四肢检查",
+              "CT",
+              "超声",
+              "血液学检查"
+            ],
+            "similarity": 0.09387980809485785
+          },
+          {
+            "case_id": "11739_常见的慢性支气管炎诊治经验分享",
+            "text": "咳嗽、咳痰、喘息间作7年余，加重伴发热2天。 患者缘于7年余前因着凉后出现咳嗽、咳痰、喘息等症，以后每年冬季天气变冷后发作，春季天气转暖后症状缓解，每年发作3个月以上。曾多次在当地卫生院住院治疗，诊断为“慢性支气管炎，肺气肿”，具体治疗方案不详，病情迁延不愈。自2天前起，患者患“感冒”后出现咳嗽加重，咳大量黄白色粘痰，无痰中带血。喘息，无呼吸困难，夜间能平卧，发热，体温最高达38.6℃，无寒颤。在家口服“头孢氨苄片、强力枇杷露”等药物输液治疗，症状无明显减轻。为系统诊治，今入我院治疗。 1.慢性支气管炎；2.慢性阻塞性肺疾病合并感染；3.膝关节炎 1.慢性支气管炎 2.慢性阻塞性肺疾病合并感染 3.膝关节炎 1.肺结核：是由结核分枝杆菌引起的慢性传染病，患者一般表现为低热、盗汗、乏力、纳差、消瘦、女性月经失调等症状，呼吸道症状有咳嗽、咳痰、咯血、胸痛、不同程度胸闷或呼吸困难。胸片检查可以鉴别。 2.支气管哮喘：是由多种细胞和细胞组分参与的气道慢性炎症为特征的异质性疾病，这种慢性炎症与气道高反应性相关，通常出现广泛而多变的可逆性呼气气流受限，导致反复发作的喘息、气促、胸闷和（或）咳嗽等症状，可以根据病史及症状鉴别。 本例患者是由于慢性支气管炎、慢性阻塞性肺疾病引起的咳嗽、咳痰、喘息、发热症状，可以通过胸片或者肺CT检查以明确诊断。慢性支气管炎患者一般冬春季多发，夏秋季节缓解，往往反复发作，迁延不愈，最终发展为慢性阻塞性肺疾病、慢性肺源性心脏病。需要排除其他引起咳嗽、咳痰、喘息等疾病，如支气管哮喘、慢性心力衰竭、肺结核等疾病才能确诊。患者发病时可以使用抗感染、止咳化痰平喘药物治疗，以及对症治疗，缓解咳嗽、咳痰、喘息症状，也可以配合雾化吸入治疗，改善症状。患者平时要注意调摄，适当锻炼，增强体质，提高免疫力，预防复发。",
+            "summary": "【基本信息】男，60岁，农民 【发病原因】病因不明 【临床诊断】1.慢性支气管炎 2.慢性阻塞性肺疾病合并感染 3.膝关节炎 【治疗方案】予茶碱缓释片口服、特布他林静点以平喘，复方甘草片、桉柠蒎胶囊口服、氨溴索注射液静点以止咳化痰，头孢哌酮舒巴坦静点以抗感染等对症治疗 【治疗结果】病情好转 【病案重点】1.慢性支气管炎 2.慢性阻塞性肺疾病合并感染 25007.jpg",
+            "exams": [
+              "一般检查",
+              "颈部检查",
+              "胸部检查",
+              "腹部检查",
+              "脊柱和四肢检查",
+              "X-ray",
+              "CT",
+              "血液学检查"
+            ],
+            "similarity": 0.09212761148753669
+          },
+          {
+            "case_id": "11746_止嗽散加减治疗咳嗽咳血一例",
+            "text": "反复咳嗽、咳痰2年，加重伴发热、痰中带血4天。 患者2年前开始出现咳嗽、咳痰，咳白色粘痰，每日量约20-30ml，外院CT提示“慢性支气管炎改变”，确诊为\"慢性支气管炎\"，后多在冬季或受凉、感冒后发作，每年发作持续超过3个月，每予抗感染治疗后好转。4天前患者受凉后再次出现咳嗽，阵发性，夜间较重，咳大量粘痰（每日约100口），痰中夹带血丝及黑色血块，较易咳出，无大量咯血，自觉发热（体温未测）、恶寒，伴寒颤，有肌肉关节疼痛，无鼻塞、流涕，无头痛、头晕，无胸闷、胸痛，无恶心、呕吐，无腹痛、腹泻，无尿频、尿急、尿痛，至医院就诊，予“头孢（具体不详）”类药物抗感染及“感冒灵颗粒”对症治疗后上述症状均有好转，仍有咳嗽、咳痰，偶有痰中带血，为进一步诊治收入院。 中医诊断：咳嗽\r\n风寒袭肺\r\n西医诊断：咳血原因待查\r\n慢性支气管炎急性发作\r\n心律失常\r\n房颤\r\n高血压病2级\r\n脑梗塞 中医诊断：咳嗽\r\n风寒袭肺\r\n西医诊断：咳血原因待查\r\n慢性支气管炎急性发作\r\n心律失常\r\n房颤\r\n高血压病2级\r\n脑梗塞 1.中医鉴别诊断：本病当与内伤咳嗽相鉴别，外感咳嗽多是新病，起病急，病程短，常伴肺卫表证，属于邪实，治以祛邪利肺。内伤咳嗽多为久病，常反复发作，病程长，可伴见他脏形证，多属邪实正虚，治当祛邪止咳，扶正补虚，标本兼顾，分清虚实主次处理。\r\n2.西医鉴别诊断：支气管哮喘：年幼发病，接触过敏原可引起急性发作。患者多以受凉后发作为主，可进一步行肺功能检查、胸部CT等检查明确诊断。 综合脉证，四诊合参，本病当属\"咳嗽\"，证属\"风寒袭肺\"。风寒袭肺，肺气壅塞不得宣通，故咳而声重，气急；风寒上受，肺窍不利，则鼻塞流涕，咽喉作痒；寒邪郁肺，气不布津，凝聚为痰，故咳痰稀薄色白。风寒外束肌腠，故伴有头痛，肢体酸楚，寒热无汗等表寒证。舌苔薄白，脉浮或浮紧，为风寒在表之征。",
+            "summary": "【基本信息】男，71岁",
+            "exams": [
+              "一般检查",
+              "头颅眼耳鼻喉检查",
+              "颈部检查",
+              "胸部检查",
+              "腹部检查",
+              "脊柱和四肢检查",
+              "皮肤检查",
+              "神经系统检查",
+              "血液学检查"
+            ],
+            "similarity": 0.09131428521028777
+          }
+        ],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false,
+        "experience_retrieval_backend": "tfidf"
+      }
+    }
+  ],
+  "active_snapshot_id": 1,
+  "terminated_by": "eta",
+  "finalization_used": false,
+  "experience_retrieval_backend": "tfidf"
+}

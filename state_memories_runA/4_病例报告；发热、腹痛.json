@@ -1,0 +1,1011 @@
+{
+  "case_id": "4_病例报告；发热、腹痛",
+  "personal_info": {
+    "性别": "女",
+    "年龄": "55岁"
+  },
+  "chief_complaint": "55岁，女性，因“发热，腹痛2个月”就诊。",
+  "present_illness": "发热为弛张热，体温最高39.4℃。腹痛位于右上腹，为持续性钝痛，与进食无关，伴恶心，呕吐胃内容物。自诉有盗汗、乏力和纳差；起病以来体重下降15kg。无黄疸、寒颤、咳嗽、腹泻和黑便等。",
+  "dept_l1": "None",
+  "dept_l2": [],
+  "past_history": "",
+  "hypothesis_illness": [
+    {
+      "name": "细菌性肝脓肿",
+      "disease": "细菌性肝脓肿",
+      "evidence": [
+        "弛张热",
+        "右上腹持续性钝痛"
+      ],
+      "confidence": 0.3
+    },
+    {
+      "name": "腹腔结核",
+      "disease": "腹腔结核",
+      "evidence": [
+        "长期发热",
+        "盗汗、乏力、纳差",
+        "体重下降15kg",
+        "ESR升高"
+      ],
+      "confidence": 0.45
+    },
+    {
+      "name": "肝细胞癌",
+      "disease": "肝细胞癌",
+      "evidence": [
+        "右上腹痛",
+        "体重下降"
+      ],
+      "confidence": 0.05
+    },
+    {
+      "name": "非霍奇金淋巴瘤",
+      "disease": "非霍奇金淋巴瘤",
+      "evidence": [
+        "弛张热",
+        "盗汗",
+        "体重下降15kg",
+        "LDH升高",
+        "贫血"
+      ],
+      "confidence": 0.45
+    },
+    {
+      "name": "肝转移瘤伴坏死/感染",
+      "disease": "肝转移瘤伴坏死/感染",
+      "evidence": [
+        "右上腹痛",
+        "体重下降"
+      ],
+      "confidence": 0.05
+    },
+    {
+      "name": "膈下脓肿",
+      "disease": "膈下脓肿",
+      "evidence": [
+        "发热",
+        "右上腹痛"
+      ],
+      "confidence": 0.05
+    },
+    {
+      "name": "胆管癌/胆囊癌继发感染",
+      "disease": "胆管癌/胆囊癌继发感染",
+      "evidence": [
+        "右上腹痛",
+        "发热"
+      ],
+      "confidence": 0.05
+    },
+    {
+      "name": "成人Still病",
+      "disease": "成人Still病",
+      "evidence": [
+        "弛张热",
+        "盗汗",
+        "体重下降"
+      ],
+      "confidence": 0.2
+    }
+  ],
+  "physical_exams": {
+    "腹部检查": "右上腹压痛，无肌紧张及反跳痛，Murphy征（-），肝脾肋下未及。腹水征（-），肠鸣音正常，双下肢不肿。"
+  },
+  "auxiliary_exams": {
+    "超声": "腹部超声胆囊大小正常，未见结石，肝内外胆管均未增宽。",
+    "CT": "腹部CT未见肝硬化征象，未见占位性病变、腹水和腹膜后肿大淋巴结；胸部CT（-）。",
+    "血液学检查": "血常规WBC7.0×10^9/L，N83%，E2%，Hb85g/L（正细胞正色素），Plt282×10^9/L。丙氨酸转氨酶（ALT）106U/L，天冬氨酸转氨酶（AST）120U/L，白蛋白（ALB）29g/L（正常值35~51g/L），总胆红素21μmol/L，乳酸脱氢酶（LDH）625U/L（60～200U/L），碱性磷酸酶（ALP）325U/L（40～110U/L）。肾功能正常。ESR64mm/第1小时末，血免疫球蛋白（IgG、IgA和IgM）均正常。多次血培养阴性，人免疫缺陷病毒（HIV）、巨细胞病毒（CMV）和EB病毒抗体均阴性。抗核抗体（ANA）、抗双链DNA（dsDNA）抗体、抗可提取核抗原（ENA）抗体、抗中性粒细胞胞浆抗体（ANCA）和抗线粒体抗体（AMA）均阴性。"
+  },
+  "imaging_results": {
+    "超声": "腹部超声胆囊大小正常，未见结石，肝内外胆管均未增宽。",
+    "CT": "腹部CT未见肝硬化征象，未见占位性病变、腹水和腹膜后肿大淋巴结；胸部CT（-）。"
+  },
+  "completed_physical_exams": [
+    "腹部检查"
+  ],
+  "completed_auxiliary_exams": [
+    "超声",
+    "CT",
+    "血液学检查"
+  ],
+  "completed_imaging_exams": [
+    "超声",
+    "CT"
+  ],
+  "pending_auxiliary_exams": [
+    "病理检查"
+  ],
+  "predicted_physical_exams": [
+    "腹部检查"
+  ],
+  "predicted_auxiliary_exams": [
+    "超声",
+    "CT",
+    "血液学检查",
+    "病理检查"
+  ],
+  "diagnosis_result": [
+    "腹腔结核"
+  ],
+  "treatment_plan": [],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "pending"
+  },
+  "recheck_total": 1,
+  "max_recheck": 3,
+  "mcts_trajectory": [
+    "a_back",
+    "task2_doctor",
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 4,
+  "mcts_eta": 4,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 2,
+      "action": "a_back",
+      "source": "committed_backtrack",
+      "mcts_step": 1,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task2_doctor",
+      "source": "committed_backtrack_target",
+      "mcts_step": 2,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 4,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 3,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 5,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 4,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [
+    {
+      "event_id": 0,
+      "source": "committed",
+      "target_snapshot_id": 1,
+      "target_workflow_stage": "task1_referral",
+      "requested_action": "collect_history",
+      "executed_action": "task2_doctor",
+      "mcts_step": 1
+    }
+  ],
+  "missing_evidence": [
+    "结核感染筛查（T-SPOT/IGRA或PPD）及结核分枝杆菌培养/PCR",
+    "肝脏穿刺活检组织病理、免疫组化/流式细胞术及微生物学检查（抗酸染色、TB-PCR/培养、细菌/真菌培养）",
+    "骨髓穿刺/活检及流式细胞术或PET-CT以评估淋巴瘤",
+    "血清铁蛋白和CRP以评估成人Still病",
+    "肝脏增强MRI/超声造影以排除微小肝脓肿或弥漫性浸润性病变",
+    "AFP、CA19-9等肿瘤标志物及MRCP/增强MRI以排除肝胆恶性肿瘤"
+  ],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": true,
+  "top_hypothesis_confidence": 0.45,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "4_病例报告；发热、腹痛",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "55岁"
+        },
+        "chief_complaint": "55岁，女性，因“发热，腹痛2个月”就诊。",
+        "present_illness": "发热为弛张热，体温最高39.4℃。腹痛位于右上腹，为持续性钝痛，与进食无关，伴恶心，呕吐胃内容物。自诉有盗汗、乏力和纳差；起病以来体重下降15kg。无黄疸、寒颤、咳嗽、腹泻和黑便等。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "4_病例报告；发热、腹痛",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "55岁"
+        },
+        "chief_complaint": "55岁，女性，因“发热，腹痛2个月”就诊。",
+        "present_illness": "发热为弛张热，体温最高39.4℃。腹痛位于右上腹，为持续性钝痛，与进食无关，伴恶心，呕吐胃内容物。自诉有盗汗、乏力和纳差；起病以来体重下降15kg。无黄疸、寒颤、咳嗽、腹泻和黑便等。",
+        "dept_l1": "None",
+        "dept_l2": [],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "4_病例报告；发热、腹痛",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "55岁"
+        },
+        "chief_complaint": "55岁，女性，因“发热，腹痛2个月”就诊。",
+        "present_illness": "发热为弛张热，体温最高39.4℃。腹痛位于右上腹，为持续性钝痛，与进食无关，伴恶心，呕吐胃内容物。自诉有盗汗、乏力和纳差；起病以来体重下降15kg。无黄疸、寒颤、咳嗽、腹泻和黑便等。",
+        "dept_l1": "None",
+        "dept_l2": [],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [
+          "详细病史：发热热型、腹痛部位/性质/放射、伴随症状（恶心、呕吐、排便习惯、体重下降、盗汗等）",
+          "生命体征及腹部/盆腔体格检查结果",
+          "血常规、CRP/ESR、肝肾功能、电解质",
+          "血培养、尿常规及其他病原学检查",
+          "腹部/盆腔影像学检查（超声或CT）",
+          "既往史、手术史、妇科史、结核接触史或疫区旅居史"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task1_referral",
+      "reason": "committed_backtrack_restored",
+      "state": {
+        "case_id": "4_病例报告；发热、腹痛",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "55岁"
+        },
+        "chief_complaint": "55岁，女性，因“发热，腹痛2个月”就诊。",
+        "present_illness": "发热为弛张热，体温最高39.4℃。腹痛位于右上腹，为持续性钝痛，与进食无关，伴恶心，呕吐胃内容物。自诉有盗汗、乏力和纳差；起病以来体重下降15kg。无黄疸、寒颤、咳嗽、腹泻和黑便等。",
+        "dept_l1": "None",
+        "dept_l2": [],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "collect_history",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 2,
+      "workflow_action_index": 4,
+      "mcts_step": 2,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "4_病例报告；发热、腹痛",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "55岁"
+        },
+        "chief_complaint": "55岁，女性，因“发热，腹痛2个月”就诊。",
+        "present_illness": "发热为弛张热，体温最高39.4℃。腹痛位于右上腹，为持续性钝痛，与进食无关，伴恶心，呕吐胃内容物。自诉有盗汗、乏力和纳差；起病以来体重下降15kg。无黄疸、寒颤、咳嗽、腹泻和黑便等。",
+        "dept_l1": "None",
+        "dept_l2": [],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "细菌性肝脓肿",
+            "disease": "细菌性肝脓肿",
+            "evidence": [
+              "弛张热，最高39.4℃",
+              "右上腹持续性钝痛",
+              "盗汗、乏力、纳差",
+              "体重下降15kg"
+            ],
+            "confidence": 0.6
+          },
+          {
+            "name": "腹腔结核（肝/腹膜/淋巴结结核）",
+            "disease": "腹腔结核（肝/腹膜/淋巴结结核）",
+            "evidence": [
+              "长期发热",
+              "盗汗",
+              "体重下降15kg",
+              "右上腹痛"
+            ],
+            "confidence": 0.4
+          },
+          {
+            "name": "肝细胞癌",
+            "disease": "肝细胞癌",
+            "evidence": [
+              "右上腹痛",
+              "体重下降15kg",
+              "乏力、纳差",
+              "不明原因发热"
+            ],
+            "confidence": 0.35
+          },
+          {
+            "name": "非霍奇金淋巴瘤",
+            "disease": "非霍奇金淋巴瘤",
+            "evidence": [
+              "弛张热",
+              "盗汗",
+              "体重下降15kg",
+              "腹痛"
+            ],
+            "confidence": 0.35
+          },
+          {
+            "name": "肝转移瘤伴坏死/感染",
+            "disease": "肝转移瘤伴坏死/感染",
+            "evidence": [
+              "右上腹痛",
+              "体重下降",
+              "发热",
+              "乏力纳差"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "膈下脓肿",
+            "disease": "膈下脓肿",
+            "evidence": [
+              "发热",
+              "右上腹痛",
+              "恶心呕吐"
+            ],
+            "confidence": 0.25
+          },
+          {
+            "name": "胆管癌/胆囊癌继发感染",
+            "disease": "胆管癌/胆囊癌继发感染",
+            "evidence": [
+              "右上腹痛",
+              "发热",
+              "体重下降"
+            ],
+            "confidence": 0.2
+          },
+          {
+            "name": "成人Still病",
+            "disease": "成人Still病",
+            "evidence": [
+              "弛张热",
+              "盗汗",
+              "体重下降"
+            ],
+            "confidence": 0.15
+          }
+        ],
+        "physical_exams": {
+          "腹部检查": "右上腹压痛，无肌紧张及反跳痛，Murphy征（-），肝脾肋下未及。腹水征（-），肠鸣音正常，双下肢不肿。"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "腹部检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "超声",
+          "CT",
+          "血液学检查",
+          "病理检查"
+        ],
+        "predicted_physical_exams": [
+          "腹部检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "超声",
+          "CT",
+          "血液学检查",
+          "病理检查"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor"
+        ],
+        "mcts_step": 2,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "collect_history",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [
+          "腹部增强CT或MRI（评估肝、胆道、腹膜、腹腔淋巴结及脓肿/占位）",
+          "血常规、CRP、ESR、降钙素原、血培养等感染/炎症指标",
+          "肝功能、胆红素、白蛋白、LDH等生化检查",
+          "肿瘤标志物（AFP、CEA、CA19-9等）及乙肝/丙肝标志物",
+          "结核相关检查（IGRA/T-SPOT、胸部影像、病灶抗酸染色/PCR）",
+          "肝/腹腔病灶或淋巴结穿刺活检病理及免疫组化",
+          "铁蛋白、自身抗体等排除成人Still病相关检查"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.6,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 5,
+      "trajectory_index": 3,
+      "workflow_action_index": 5,
+      "mcts_step": 3,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "4_病例报告；发热、腹痛",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "55岁"
+        },
+        "chief_complaint": "55岁，女性，因“发热，腹痛2个月”就诊。",
+        "present_illness": "发热为弛张热，体温最高39.4℃。腹痛位于右上腹，为持续性钝痛，与进食无关，伴恶心，呕吐胃内容物。自诉有盗汗、乏力和纳差；起病以来体重下降15kg。无黄疸、寒颤、咳嗽、腹泻和黑便等。",
+        "dept_l1": "None",
+        "dept_l2": [],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "细菌性肝脓肿",
+            "disease": "细菌性肝脓肿",
+            "evidence": [
+              "弛张热，最高39.4℃",
+              "右上腹持续性钝痛",
+              "盗汗、乏力、纳差",
+              "体重下降15kg"
+            ],
+            "confidence": 0.6
+          },
+          {
+            "name": "腹腔结核（肝/腹膜/淋巴结结核）",
+            "disease": "腹腔结核（肝/腹膜/淋巴结结核）",
+            "evidence": [
+              "长期发热",
+              "盗汗",
+              "体重下降15kg",
+              "右上腹痛"
+            ],
+            "confidence": 0.4
+          },
+          {
+            "name": "肝细胞癌",
+            "disease": "肝细胞癌",
+            "evidence": [
+              "右上腹痛",
+              "体重下降15kg",
+              "乏力、纳差",
+              "不明原因发热"
+            ],
+            "confidence": 0.35
+          },
+          {
+            "name": "非霍奇金淋巴瘤",
+            "disease": "非霍奇金淋巴瘤",
+            "evidence": [
+              "弛张热",
+              "盗汗",
+              "体重下降15kg",
+              "腹痛"
+            ],
+            "confidence": 0.35
+          },
+          {
+            "name": "肝转移瘤伴坏死/感染",
+            "disease": "肝转移瘤伴坏死/感染",
+            "evidence": [
+              "右上腹痛",
+              "体重下降",
+              "发热",
+              "乏力纳差"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "膈下脓肿",
+            "disease": "膈下脓肿",
+            "evidence": [
+              "发热",
+              "右上腹痛",
+              "恶心呕吐"
+            ],
+            "confidence": 0.25
+          },
+          {
+            "name": "胆管癌/胆囊癌继发感染",
+            "disease": "胆管癌/胆囊癌继发感染",
+            "evidence": [
+              "右上腹痛",
+              "发热",
+              "体重下降"
+            ],
+            "confidence": 0.2
+          },
+          {
+            "name": "成人Still病",
+            "disease": "成人Still病",
+            "evidence": [
+              "弛张热",
+              "盗汗",
+              "体重下降"
+            ],
+            "confidence": 0.15
+          }
+        ],
+        "physical_exams": {
+          "腹部检查": "右上腹压痛，无肌紧张及反跳痛，Murphy征（-），肝脾肋下未及。腹水征（-），肠鸣音正常，双下肢不肿。"
+        },
+        "auxiliary_exams": {
+          "超声": "腹部超声胆囊大小正常，未见结石，肝内外胆管均未增宽。",
+          "CT": "腹部CT未见肝硬化征象，未见占位性病变、腹水和腹膜后肿大淋巴结；胸部CT（-）。",
+          "血液学检查": "血常规WBC7.0×10^9/L，N83%，E2%，Hb85g/L（正细胞正色素），Plt282×10^9/L。丙氨酸转氨酶（ALT）106U/L，天冬氨酸转氨酶（AST）120U/L，白蛋白（ALB）29g/L（正常值35~51g/L），总胆红素21μmol/L，乳酸脱氢酶（LDH）625U/L（60～200U/L），碱性磷酸酶（ALP）325U/L（40～110U/L）。肾功能正常。ESR64mm/第1小时末，血免疫球蛋白（IgG、IgA和IgM）均正常。多次血培养阴性，人免疫缺陷病毒（HIV）、巨细胞病毒（CMV）和EB病毒抗体均阴性。抗核抗体（ANA）、抗双链DNA（dsDNA）抗体、抗可提取核抗原（ENA）抗体、抗中性粒细胞胞浆抗体（ANCA）和抗线粒体抗体（AMA）均阴性。"
+        },
+        "imaging_results": {
+          "超声": "腹部超声胆囊大小正常，未见结石，肝内外胆管均未增宽。",
+          "CT": "腹部CT未见肝硬化征象，未见占位性病变、腹水和腹膜后肿大淋巴结；胸部CT（-）。"
+        },
+        "completed_physical_exams": [
+          "腹部检查"
+        ],
+        "completed_auxiliary_exams": [
+          "超声",
+          "CT",
+          "血液学检查"
+        ],
+        "completed_imaging_exams": [
+          "超声",
+          "CT"
+        ],
+        "pending_auxiliary_exams": [
+          "病理检查"
+        ],
+        "predicted_physical_exams": [
+          "腹部检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "超声",
+          "CT",
+          "血液学检查",
+          "病理检查"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor",
+          "task3_imaging"
+        ],
+        "mcts_step": 3,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 4,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 3,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "collect_history",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [
+          "肝脏穿刺活检及组织病理/特殊染色/培养（含抗酸染色、TB-PCR）",
+          "肝脏增强MRI或PET-CT以发现CT/US未显示的微小脓肿、肿瘤或浸润性病变",
+          "血清肿瘤标志物（AFP、CA19-9、CEA）及乙肝/丙肝病毒标志物",
+          "结核感染T细胞斑点试验（T-SPOT/IGRA）或PPD试验",
+          "血清铁蛋白及糖化铁蛋白以评估成人Still病",
+          "骨髓穿刺活检和流式细胞术以排除淋巴瘤等血液系统肿瘤",
+          "CRP、降钙素原及特殊病原体血清学（如布鲁菌、Q热等）"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.6,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": 1,
+  "terminated_by": "eta",
+  "finalization_used": false,
+  "agent_missing_evidence": [
+    {
+      "disease": "腹腔结核",
+      "missing": [
+        "需T-SPOT.TB排除",
+        "需PPD试验排除",
+        "需肝穿刺活检排除"
+      ],
+      "suggested_exams": [
+        "T-SPOT.TB",
+        "PPD试验",
+        "肝穿刺活检"
+      ]
+    },
+    {
+      "disease": "非霍奇金淋巴瘤",
+      "missing": [
+        "需骨髓穿刺+活检排除",
+        "需PET排除",
+        "需肝脏穿刺活检排除"
+      ],
+      "suggested_exams": [
+        "骨髓穿刺+活检",
+        "PET",
+        "肝脏穿刺活检"
+      ]
+    },
+    {
+      "disease": "细菌性肝脓肿",
+      "missing": [
+        "需增强CT排除",
+        "需超声造影排除",
+        "需必要时肝穿刺培养排除"
+      ],
+      "suggested_exams": [
+        "增强CT",
+        "超声造影",
+        "必要时肝穿刺培养"
+      ]
+    },
+    {
+      "disease": "成人Still病",
+      "missing": [
+        "需血清铁蛋白排除",
+        "需排除感染和肿瘤后评估排除"
+      ],
+      "suggested_exams": [
+        "血清铁蛋白",
+        "排除感染和肿瘤后评估"
+      ]
+    }
+  ]
+}

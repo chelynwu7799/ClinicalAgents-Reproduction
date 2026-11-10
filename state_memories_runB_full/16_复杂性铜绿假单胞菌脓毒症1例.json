@@ -1,0 +1,989 @@
+{
+  "case_id": "16_复杂性铜绿假单胞菌脓毒症1例",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "40岁"
+  },
+  "chief_complaint": "男，40岁，浙江人 因“食道异物术后反复发热6个月余”，于2015年1月16日至复旦大学附属华山医院感染科入院治疗。",
+  "present_illness": "",
+  "dept_l1": "内科",
+  "dept_l2": [
+    "传染科",
+    "感染科"
+  ],
+  "past_history": "慢性乙型病毒性肝炎20余年。高血压史5年余，以硝苯地平控释片、卡托普利降压治疗，血压控制在120/60mmHg左右。糖尿病史5年，以阿卡波糖、二甲双胍治疗，空腹血糖6～7mmol/L，餐后血糖7～8mmol/L。曾于2015年1月15日因贫血输“B”型血，400ml。 吸烟史：吸烟30年，平均20支/日，未戒烟。",
+  "hypothesis_illness": [
+    {
+      "name": "铜绿假单胞菌脓毒症",
+      "disease": "铜绿假单胞菌脓毒症",
+      "evidence": [
+        "食道异物术后",
+        "反复发热6个月",
+        "糖尿病/慢性肝病基础"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "name": "纵隔感染/脓肿",
+      "disease": "纵隔感染/脓肿",
+      "evidence": [
+        "食道异物术后",
+        "反复发热6个月"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "name": "食管瘘/异物残留继发感染",
+      "disease": "食管瘘/异物残留继发感染",
+      "evidence": [
+        "食道异物术后",
+        "持续发热提示感染源未控制"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "name": "感染性心内膜炎",
+      "disease": "感染性心内膜炎",
+      "evidence": [
+        "长期发热",
+        "贫血输血史",
+        "可能存在菌血症"
+      ],
+      "confidence": 0.45
+    },
+    {
+      "name": "深部转移性脓肿",
+      "disease": "深部转移性脓肿",
+      "evidence": [
+        "脓毒症可能",
+        "糖尿病基础",
+        "长期发热"
+      ],
+      "confidence": 0.35
+    },
+    {
+      "name": "侵袭性真菌感染/念珠菌血症",
+      "disease": "侵袭性真菌感染/念珠菌血症",
+      "evidence": [
+        "长期发热",
+        "糖尿病",
+        "可能反复使用抗生素"
+      ],
+      "confidence": 0.3
+    }
+  ],
+  "physical_exams": {
+    "一般检查": "体温37.8℃。神志清，精神欠佳，贫血貌，全身皮肤、巩膜无黄染",
+    "胸部检查": "双肺呼吸音清晰，未闻及干湿性??音。主动脉听诊区可闻及病理性杂音。",
+    "腹部检查": "腹平坦，腹壁软，全腹无压痛，无肌紧张及反跳痛，肝脾肋下未触及，移动性浊音阴性，肝肾脏无叩击痛。",
+    "皮肤检查": "手心、足底可见淤点淤斑(图2)。"
+  },
+  "auxiliary_exams": {},
+  "imaging_results": {},
+  "completed_physical_exams": [
+    "一般检查",
+    "胸部检查",
+    "腹部检查",
+    "皮肤检查"
+  ],
+  "completed_auxiliary_exams": [],
+  "completed_imaging_exams": [],
+  "pending_auxiliary_exams": [
+    "血液学检查",
+    "CT",
+    "超声",
+    "内镜检查"
+  ],
+  "predicted_physical_exams": [
+    "一般检查",
+    "胸部检查",
+    "腹部检查",
+    "皮肤检查"
+  ],
+  "predicted_auxiliary_exams": [
+    "血液学检查",
+    "CT",
+    "超声",
+    "内镜检查"
+  ],
+  "diagnosis_result": [
+    "铜绿假单胞菌脓毒症"
+  ],
+  "treatment_plan": [],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "pending"
+  },
+  "recheck_total": 1,
+  "max_recheck": 3,
+  "mcts_trajectory": [
+    "a_back",
+    "task2_doctor",
+    "task4_diagnosis",
+    "task3_imaging"
+  ],
+  "mcts_step": 4,
+  "mcts_eta": 4,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "a_back",
+      "source": "committed_backtrack",
+      "mcts_step": 1,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task2_doctor",
+      "source": "committed_backtrack_target",
+      "mcts_step": 2,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 4,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 3,
+      "workflow_stage": "task4_diagnosis"
+    },
+    {
+      "sequence_index": 5,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 4,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [
+    {
+      "event_id": 0,
+      "source": "committed",
+      "target_snapshot_id": 1,
+      "target_workflow_stage": "task1_referral",
+      "requested_action": "request_auxiliary_exams",
+      "executed_action": "task2_doctor",
+      "mcts_step": 1
+    }
+  ],
+  "missing_evidence": [
+    "多次血培养（需氧/厌氧/真菌）及药敏",
+    "超声心动图（经胸/经食管）",
+    "胸部及纵隔增强CT/MRI",
+    "食管造影或内镜检查",
+    "炎症标志物（WBC/CRP/PCT）",
+    "真菌相关检测（G试验/GM试验/真菌培养）"
+  ],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.85,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "16_复杂性铜绿假单胞菌脓毒症1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "40岁"
+        },
+        "chief_complaint": "男，40岁，浙江人 因“食道异物术后反复发热6个月余”，于2015年1月16日至复旦大学附属华山医院感染科入院治疗。",
+        "present_illness": "",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "慢性乙型病毒性肝炎20余年。高血压史5年余，以硝苯地平控释片、卡托普利降压治疗，血压控制在120/60mmHg左右。糖尿病史5年，以阿卡波糖、二甲双胍治疗，空腹血糖6～7mmol/L，餐后血糖7～8mmol/L。曾于2015年1月15日因贫血输“B”型血，400ml。 吸烟史：吸烟30年，平均20支/日，未戒烟。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "16_复杂性铜绿假单胞菌脓毒症1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "40岁"
+        },
+        "chief_complaint": "男，40岁，浙江人 因“食道异物术后反复发热6个月余”，于2015年1月16日至复旦大学附属华山医院感染科入院治疗。",
+        "present_illness": "",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "传染科",
+          "感染科"
+        ],
+        "past_history": "慢性乙型病毒性肝炎20余年。高血压史5年余，以硝苯地平控释片、卡托普利降压治疗，血压控制在120/60mmHg左右。糖尿病史5年，以阿卡波糖、二甲双胍治疗，空腹血糖6～7mmol/L，餐后血糖7～8mmol/L。曾于2015年1月15日因贫血输“B”型血，400ml。 吸烟史：吸烟30年，平均20支/日，未戒烟。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "16_复杂性铜绿假单胞菌脓毒症1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "40岁"
+        },
+        "chief_complaint": "男，40岁，浙江人 因“食道异物术后反复发热6个月余”，于2015年1月16日至复旦大学附属华山医院感染科入院治疗。",
+        "present_illness": "",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "传染科",
+          "感染科"
+        ],
+        "past_history": "慢性乙型病毒性肝炎20余年。高血压史5年余，以硝苯地平控释片、卡托普利降压治疗，血压控制在120/60mmHg左右。糖尿病史5年，以阿卡波糖、二甲双胍治疗，空腹血糖6～7mmol/L，餐后血糖7～8mmol/L。曾于2015年1月15日因贫血输“B”型血，400ml。 吸烟史：吸烟30年，平均20支/日，未戒烟。",
+        "hypothesis_illness": [
+          {
+            "name": "纵隔感染/脓肿",
+            "disease": "纵隔感染/脓肿",
+            "evidence": [
+              "食道异物术后",
+              "反复发热6个月余",
+              "铜绿假单胞菌脓毒症提示深部感染"
+            ],
+            "confidence": 0.7
+          },
+          {
+            "name": "感染性心内膜炎",
+            "disease": "感染性心内膜炎",
+            "evidence": [
+              "长期发热",
+              "贫血",
+              "铜绿假单胞菌可致心内膜炎",
+              "糖尿病基础"
+            ],
+            "confidence": 0.5
+          },
+          {
+            "name": "肝/脾脓肿",
+            "disease": "肝/脾脓肿",
+            "evidence": [
+              "长期发热",
+              "糖尿病史",
+              "菌血症血行播散可能"
+            ],
+            "confidence": 0.4
+          },
+          {
+            "name": "脓胸/肺脓肿",
+            "disease": "脓胸/肺脓肿",
+            "evidence": [
+              "食管术后",
+              "反复发热",
+              "邻近胸腔感染可能"
+            ],
+            "confidence": 0.4
+          },
+          {
+            "name": "脊柱骨髓炎/椎间盘感染",
+            "disease": "脊柱骨髓炎/椎间盘感染",
+            "evidence": [
+              "食管术后脊柱毗邻",
+              "反复发热",
+              "铜绿假单胞菌可致脊柱感染"
+            ],
+            "confidence": 0.3
+          }
+        ],
+        "physical_exams": {
+          "一般检查": "体温37.8℃。神志清，精神欠佳，贫血貌，全身皮肤、巩膜无黄染",
+          "胸部检查": "双肺呼吸音清晰，未闻及干湿性??音。主动脉听诊区可闻及病理性杂音。",
+          "腹部检查": "腹平坦，腹壁软，全腹无压痛，无肌紧张及反跳痛，肝脾肋下未触及，移动性浊音阴性，肝肾脏无叩击痛。",
+          "皮肤检查": "手心、足底可见淤点淤斑(图2)。",
+          "脊柱和四肢检查": "关节无畸形，双下肢无水肿。"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "一般检查",
+          "胸部检查",
+          "腹部检查",
+          "皮肤检查",
+          "脊柱和四肢检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "血液学检查",
+          "超声",
+          "CT",
+          "内镜检查"
+        ],
+        "predicted_physical_exams": [
+          "一般检查",
+          "胸部检查",
+          "腹部检查",
+          "皮肤检查",
+          "脊柱和四肢检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "血液学检查",
+          "超声",
+          "CT",
+          "内镜检查"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [
+          "血培养（需氧/厌氧）及药敏结果",
+          "经胸/经食管超声心动图评估感染性心内膜炎及瓣膜赘生物",
+          "胸部及腹部增强CT评估纵隔、肺、胸膜、肝脾等深部感染/脓肿",
+          "脊柱MRI评估脊柱骨髓炎或椎间盘感染",
+          "食管造影或CT食管成像评估食管瘘/穿孔",
+          "炎症标志物（血常规、CRP、PCT、ESR）等实验室检查"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.7,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task1_referral",
+      "reason": "committed_backtrack_restored",
+      "state": {
+        "case_id": "16_复杂性铜绿假单胞菌脓毒症1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "40岁"
+        },
+        "chief_complaint": "男，40岁，浙江人 因“食道异物术后反复发热6个月余”，于2015年1月16日至复旦大学附属华山医院感染科入院治疗。",
+        "present_illness": "",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "传染科",
+          "感染科"
+        ],
+        "past_history": "慢性乙型病毒性肝炎20余年。高血压史5年余，以硝苯地平控释片、卡托普利降压治疗，血压控制在120/60mmHg左右。糖尿病史5年，以阿卡波糖、二甲双胍治疗，空腹血糖6～7mmol/L，餐后血糖7～8mmol/L。曾于2015年1月15日因贫血输“B”型血，400ml。 吸烟史：吸烟30年，平均20支/日，未戒烟。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exams",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 2,
+      "workflow_action_index": 4,
+      "mcts_step": 2,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "16_复杂性铜绿假单胞菌脓毒症1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "40岁"
+        },
+        "chief_complaint": "男，40岁，浙江人 因“食道异物术后反复发热6个月余”，于2015年1月16日至复旦大学附属华山医院感染科入院治疗。",
+        "present_illness": "",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "传染科",
+          "感染科"
+        ],
+        "past_history": "慢性乙型病毒性肝炎20余年。高血压史5年余，以硝苯地平控释片、卡托普利降压治疗，血压控制在120/60mmHg左右。糖尿病史5年，以阿卡波糖、二甲双胍治疗，空腹血糖6～7mmol/L，餐后血糖7～8mmol/L。曾于2015年1月15日因贫血输“B”型血，400ml。 吸烟史：吸烟30年，平均20支/日，未戒烟。",
+        "hypothesis_illness": [
+          {
+            "name": "铜绿假单胞菌脓毒症",
+            "disease": "铜绿假单胞菌脓毒症",
+            "evidence": [
+              "食道异物术后",
+              "反复发热6个月",
+              "糖尿病/慢性肝病基础"
+            ],
+            "confidence": 0.85
+          },
+          {
+            "name": "纵隔感染/脓肿",
+            "disease": "纵隔感染/脓肿",
+            "evidence": [
+              "食道异物术后",
+              "反复发热6个月"
+            ],
+            "confidence": 0.75
+          },
+          {
+            "name": "食管瘘/异物残留继发感染",
+            "disease": "食管瘘/异物残留继发感染",
+            "evidence": [
+              "食道异物术后",
+              "持续发热提示感染源未控制"
+            ],
+            "confidence": 0.6
+          },
+          {
+            "name": "感染性心内膜炎",
+            "disease": "感染性心内膜炎",
+            "evidence": [
+              "长期发热",
+              "贫血输血史",
+              "可能存在菌血症"
+            ],
+            "confidence": 0.45
+          },
+          {
+            "name": "深部转移性脓肿",
+            "disease": "深部转移性脓肿",
+            "evidence": [
+              "脓毒症可能",
+              "糖尿病基础",
+              "长期发热"
+            ],
+            "confidence": 0.35
+          },
+          {
+            "name": "侵袭性真菌感染/念珠菌血症",
+            "disease": "侵袭性真菌感染/念珠菌血症",
+            "evidence": [
+              "长期发热",
+              "糖尿病",
+              "可能反复使用抗生素"
+            ],
+            "confidence": 0.3
+          }
+        ],
+        "physical_exams": {
+          "一般检查": "体温37.8℃。神志清，精神欠佳，贫血貌，全身皮肤、巩膜无黄染",
+          "胸部检查": "双肺呼吸音清晰，未闻及干湿性??音。主动脉听诊区可闻及病理性杂音。",
+          "腹部检查": "腹平坦，腹壁软，全腹无压痛，无肌紧张及反跳痛，肝脾肋下未触及，移动性浊音阴性，肝肾脏无叩击痛。",
+          "皮肤检查": "手心、足底可见淤点淤斑(图2)。"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "一般检查",
+          "胸部检查",
+          "腹部检查",
+          "皮肤检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "血液学检查",
+          "CT",
+          "超声",
+          "内镜检查"
+        ],
+        "predicted_physical_exams": [
+          "一般检查",
+          "胸部检查",
+          "腹部检查",
+          "皮肤检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "血液学检查",
+          "CT",
+          "超声",
+          "内镜检查"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor"
+        ],
+        "mcts_step": 2,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exams",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [
+          "多套血培养（需氧/厌氧/真菌，使用抗菌药物前）",
+          "经胸/经食管超声心动图（TTE/TEE）",
+          "胸部及纵隔增强CT/MRI",
+          "食管造影或内镜检查（评估瘘/异物残留）",
+          "脓腔/积液穿刺培养及药敏"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.85,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 5,
+      "trajectory_index": 3,
+      "workflow_action_index": 5,
+      "mcts_step": 3,
+      "workflow_stage": "task4_diagnosis",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "16_复杂性铜绿假单胞菌脓毒症1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "40岁"
+        },
+        "chief_complaint": "男，40岁，浙江人 因“食道异物术后反复发热6个月余”，于2015年1月16日至复旦大学附属华山医院感染科入院治疗。",
+        "present_illness": "",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "传染科",
+          "感染科"
+        ],
+        "past_history": "慢性乙型病毒性肝炎20余年。高血压史5年余，以硝苯地平控释片、卡托普利降压治疗，血压控制在120/60mmHg左右。糖尿病史5年，以阿卡波糖、二甲双胍治疗，空腹血糖6～7mmol/L，餐后血糖7～8mmol/L。曾于2015年1月15日因贫血输“B”型血，400ml。 吸烟史：吸烟30年，平均20支/日，未戒烟。",
+        "hypothesis_illness": [
+          {
+            "name": "铜绿假单胞菌脓毒症",
+            "disease": "铜绿假单胞菌脓毒症",
+            "evidence": [
+              "食道异物术后",
+              "反复发热6个月",
+              "糖尿病/慢性肝病基础"
+            ],
+            "confidence": 0.85
+          },
+          {
+            "name": "纵隔感染/脓肿",
+            "disease": "纵隔感染/脓肿",
+            "evidence": [
+              "食道异物术后",
+              "反复发热6个月"
+            ],
+            "confidence": 0.75
+          },
+          {
+            "name": "食管瘘/异物残留继发感染",
+            "disease": "食管瘘/异物残留继发感染",
+            "evidence": [
+              "食道异物术后",
+              "持续发热提示感染源未控制"
+            ],
+            "confidence": 0.6
+          },
+          {
+            "name": "感染性心内膜炎",
+            "disease": "感染性心内膜炎",
+            "evidence": [
+              "长期发热",
+              "贫血输血史",
+              "可能存在菌血症"
+            ],
+            "confidence": 0.45
+          },
+          {
+            "name": "深部转移性脓肿",
+            "disease": "深部转移性脓肿",
+            "evidence": [
+              "脓毒症可能",
+              "糖尿病基础",
+              "长期发热"
+            ],
+            "confidence": 0.35
+          },
+          {
+            "name": "侵袭性真菌感染/念珠菌血症",
+            "disease": "侵袭性真菌感染/念珠菌血症",
+            "evidence": [
+              "长期发热",
+              "糖尿病",
+              "可能反复使用抗生素"
+            ],
+            "confidence": 0.3
+          }
+        ],
+        "physical_exams": {
+          "一般检查": "体温37.8℃。神志清，精神欠佳，贫血貌，全身皮肤、巩膜无黄染",
+          "胸部检查": "双肺呼吸音清晰，未闻及干湿性??音。主动脉听诊区可闻及病理性杂音。",
+          "腹部检查": "腹平坦，腹壁软，全腹无压痛，无肌紧张及反跳痛，肝脾肋下未触及，移动性浊音阴性，肝肾脏无叩击痛。",
+          "皮肤检查": "手心、足底可见淤点淤斑(图2)。"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "一般检查",
+          "胸部检查",
+          "腹部检查",
+          "皮肤检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "血液学检查",
+          "CT",
+          "超声",
+          "内镜检查"
+        ],
+        "predicted_physical_exams": [
+          "一般检查",
+          "胸部检查",
+          "腹部检查",
+          "皮肤检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "血液学检查",
+          "CT",
+          "超声",
+          "内镜检查"
+        ],
+        "diagnosis_result": [
+          "铜绿假单胞菌脓毒症"
+        ],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "completed",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor",
+          "task4_diagnosis"
+        ],
+        "mcts_step": 3,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 4,
+            "action": "task4_diagnosis",
+            "source": "mcts_selected",
+            "mcts_step": 3,
+            "workflow_stage": "task4_diagnosis"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exams",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [
+          "多次血培养（需氧、厌氧、真菌）及药敏试验结果",
+          "经胸或经食管超声心动图评估瓣膜赘生物、瓣周脓肿及反流",
+          "胸部及纵隔增强CT或MRI评估纵隔感染、脓肿、食管瘘及异物残留",
+          "食管造影或内镜检查明确有无食管瘘、穿孔或异物残留",
+          "血常规、C反应蛋白、降钙素原、ESR等炎症标志物",
+          "真菌相关证据：G试验、GM试验、血真菌培养及可疑感染灶培养"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.85,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false,
+        "agent_missing_evidence": []
+      }
+    }
+  ],
+  "active_snapshot_id": 1,
+  "terminated_by": "eta",
+  "finalization_used": false,
+  "agent_missing_evidence": []
+}

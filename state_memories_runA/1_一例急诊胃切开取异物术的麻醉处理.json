@@ -1,0 +1,1073 @@
+{
+  "case_id": "1_一例急诊胃切开取异物术的麻醉处理",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "41岁"
+  },
+  "chief_complaint": "男性,41岁,无 故意吞食异物一小时",
+  "present_illness": "患者于早上6:30左右故意吞食异物（代诉圆柱状金属块长约3cm），感腹痛，无畏寒发热，无恶心呕吐，无胸闷心慌，无呼吸困难，未行任何治疗，急来我院，CT检查提示胃内异物，120以胃内异物收住院。 病程中患者精神差，未进饮食，大小便未解。",
+  "dept_l1": "内科",
+  "dept_l2": [
+    "消化内科"
+  ],
+  "past_history": "不详",
+  "hypothesis_illness": [
+    {
+      "name": "胃内异物",
+      "disease": "胃内异物",
+      "evidence": [
+        "故意吞食圆柱状金属块",
+        "CT检查提示胃内异物",
+        "上腹痛"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "name": "胃穿孔/消化道穿孔",
+      "disease": "胃穿孔/消化道穿孔",
+      "evidence": [
+        "吞食金属异物",
+        "腹痛",
+        "精神差"
+      ],
+      "confidence": 0.35
+    },
+    {
+      "name": "急性腹膜炎",
+      "disease": "急性腹膜炎",
+      "evidence": [
+        "腹痛",
+        "精神差",
+        "胃内异物"
+      ],
+      "confidence": 0.3
+    },
+    {
+      "name": "胃黏膜损伤/上消化道出血",
+      "disease": "胃黏膜损伤/上消化道出血",
+      "evidence": [
+        "胃内金属异物",
+        "腹痛"
+      ],
+      "confidence": 0.3
+    },
+    {
+      "name": "精神行为异常（故意自伤）",
+      "disease": "精神行为异常（故意自伤）",
+      "evidence": [
+        "故意吞食异物"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "name": "食管损伤/穿孔",
+      "disease": "食管损伤/穿孔",
+      "evidence": [
+        "异物经口吞入",
+        "腹痛"
+      ],
+      "confidence": 0.3
+    }
+  ],
+  "physical_exams": {
+    "一般检查": "T：37℃，P：78次/分，R：20次/分，BP：105/63mmHg",
+    "腹部检查": "腹平，腹肌较紧张，肝脾肋下未及，上腹压痛，肠鸣音正常"
+  },
+  "auxiliary_exams": {},
+  "imaging_results": {},
+  "completed_physical_exams": [
+    "一般检查",
+    "腹部检查"
+  ],
+  "completed_auxiliary_exams": [],
+  "completed_imaging_exams": [],
+  "pending_auxiliary_exams": [
+    "CT",
+    "血液学检查"
+  ],
+  "predicted_physical_exams": [
+    "一般检查",
+    "腹部检查"
+  ],
+  "predicted_auxiliary_exams": [
+    "CT",
+    "血液学检查"
+  ],
+  "diagnosis_result": [
+    "胃内异物"
+  ],
+  "treatment_plan": [
+    "手术"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "pending",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 1,
+  "max_recheck": 3,
+  "mcts_trajectory": [
+    "a_back",
+    "task2_doctor",
+    "task4_diagnosis",
+    "task5_treatment"
+  ],
+  "mcts_step": 4,
+  "mcts_eta": 4,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "a_back",
+      "source": "committed_backtrack",
+      "mcts_step": 1,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task2_doctor",
+      "source": "committed_backtrack_target",
+      "mcts_step": 2,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 4,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 3,
+      "workflow_stage": "task4_diagnosis"
+    },
+    {
+      "sequence_index": 5,
+      "action": "task5_treatment",
+      "source": "mcts_selected",
+      "mcts_step": 4,
+      "workflow_stage": "task5_treatment"
+    }
+  ],
+  "backtrack_events": [
+    {
+      "event_id": 0,
+      "source": "committed",
+      "target_snapshot_id": 1,
+      "target_workflow_stage": "task1_referral",
+      "requested_action": "request_auxiliary_exam",
+      "executed_action": "task2_doctor",
+      "mcts_step": 1
+    }
+  ],
+  "missing_evidence": [
+    "腹部立位X线/CT影像结果，明确金属异物位置、数量、形态及有无膈下游离气体或消化道穿孔征象",
+    "胃镜检查结果，评估胃黏膜损伤、出血及食管/胃内损伤情况，并可直接取出异物",
+    "血常规、炎症指标、血生化及凝血功能等实验室检查结果（如WBC、CRP、淀粉酶、肝肾功能、凝血、血型）",
+    "精神心理专科评估结果，确认故意自伤行为及是否需要精神科干预"
+  ],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": true,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "1_一例急诊胃切开取异物术的麻醉处理",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "41岁"
+        },
+        "chief_complaint": "男性,41岁,无 故意吞食异物一小时",
+        "present_illness": "患者于早上6:30左右故意吞食异物（代诉圆柱状金属块长约3cm），感腹痛，无畏寒发热，无恶心呕吐，无胸闷心慌，无呼吸困难，未行任何治疗，急来我院，CT检查提示胃内异物，120以胃内异物收住院。 病程中患者精神差，未进饮食，大小便未解。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "不详",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "1_一例急诊胃切开取异物术的麻醉处理",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "41岁"
+        },
+        "chief_complaint": "男性,41岁,无 故意吞食异物一小时",
+        "present_illness": "患者于早上6:30左右故意吞食异物（代诉圆柱状金属块长约3cm），感腹痛，无畏寒发热，无恶心呕吐，无胸闷心慌，无呼吸困难，未行任何治疗，急来我院，CT检查提示胃内异物，120以胃内异物收住院。 病程中患者精神差，未进饮食，大小便未解。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "消化内科"
+        ],
+        "past_history": "不详",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "1_一例急诊胃切开取异物术的麻醉处理",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "41岁"
+        },
+        "chief_complaint": "男性,41岁,无 故意吞食异物一小时",
+        "present_illness": "患者于早上6:30左右故意吞食异物（代诉圆柱状金属块长约3cm），感腹痛，无畏寒发热，无恶心呕吐，无胸闷心慌，无呼吸困难，未行任何治疗，急来我院，CT检查提示胃内异物，120以胃内异物收住院。 病程中患者精神差，未进饮食，大小便未解。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "消化内科"
+        ],
+        "past_history": "不详",
+        "hypothesis_illness": [
+          {
+            "name": "胃内金属异物",
+            "disease": "胃内金属异物",
+            "evidence": [
+              "故意吞食圆柱状金属块约3cm",
+              "腹痛",
+              "CT提示胃内异物"
+            ],
+            "confidence": 0.95
+          },
+          {
+            "name": "急性胃黏膜损伤/溃疡",
+            "disease": "急性胃黏膜损伤/溃疡",
+            "evidence": [
+              "金属异物机械刺激",
+              "腹痛"
+            ],
+            "confidence": 0.4
+          },
+          {
+            "name": "胃穿孔/急性腹膜炎",
+            "disease": "胃穿孔/急性腹膜炎",
+            "evidence": [
+              "腹痛",
+              "精神差"
+            ],
+            "confidence": 0.25
+          },
+          {
+            "name": "上消化道出血",
+            "disease": "上消化道出血",
+            "evidence": [
+              "金属异物可能损伤黏膜"
+            ],
+            "confidence": 0.2
+          },
+          {
+            "name": "异物进入十二指肠/小肠",
+            "disease": "异物进入十二指肠/小肠",
+            "evidence": [
+              "异物长约3cm，可能通过幽门",
+              "腹痛"
+            ],
+            "confidence": 0.2
+          },
+          {
+            "name": "食管损伤/穿孔",
+            "disease": "食管损伤/穿孔",
+            "evidence": [
+              "吞入金属异物过程中可能划伤食管"
+            ],
+            "confidence": 0.15
+          },
+          {
+            "name": "精神行为异常（蓄意吞食异物）",
+            "disease": "精神行为异常（蓄意吞食异物）",
+            "evidence": [
+              "故意吞食异物"
+            ],
+            "confidence": 0.3
+          }
+        ],
+        "physical_exams": {
+          "一般检查": "T：37℃，P：78次/分，R：20次/分，BP：105/63mmHg",
+          "腹部检查": "腹平，腹肌较紧张，肝脾肋下未及，上腹压痛，肠鸣音正常"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "一般检查",
+          "腹部检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "内镜检查",
+          "血液学检查"
+        ],
+        "predicted_physical_exams": [
+          "一般检查",
+          "腹部检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "内镜检查",
+          "血液学检查"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [
+          "腹部立位X线/腹部CT影像及报告（明确金属异物位置、数目、形态，排除膈下游离气体或穿孔）",
+          "胃十二指肠内镜检查（直视评估黏膜损伤、出血、穿孔并尝试取出异物）",
+          "血常规、血红蛋白/血细胞比容、凝血功能及血型",
+          "精神心理评估及既往精神病史",
+          "动态腹部查体及炎症指标（WBC/CRP）以排除腹膜炎或穿孔"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.95,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task1_referral",
+      "reason": "committed_backtrack_restored",
+      "state": {
+        "case_id": "1_一例急诊胃切开取异物术的麻醉处理",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "41岁"
+        },
+        "chief_complaint": "男性,41岁,无 故意吞食异物一小时",
+        "present_illness": "患者于早上6:30左右故意吞食异物（代诉圆柱状金属块长约3cm），感腹痛，无畏寒发热，无恶心呕吐，无胸闷心慌，无呼吸困难，未行任何治疗，急来我院，CT检查提示胃内异物，120以胃内异物收住院。 病程中患者精神差，未进饮食，大小便未解。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "消化内科"
+        ],
+        "past_history": "不详",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exam",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 2,
+      "workflow_action_index": 4,
+      "mcts_step": 2,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "1_一例急诊胃切开取异物术的麻醉处理",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "41岁"
+        },
+        "chief_complaint": "男性,41岁,无 故意吞食异物一小时",
+        "present_illness": "患者于早上6:30左右故意吞食异物（代诉圆柱状金属块长约3cm），感腹痛，无畏寒发热，无恶心呕吐，无胸闷心慌，无呼吸困难，未行任何治疗，急来我院，CT检查提示胃内异物，120以胃内异物收住院。 病程中患者精神差，未进饮食，大小便未解。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "消化内科"
+        ],
+        "past_history": "不详",
+        "hypothesis_illness": [
+          {
+            "name": "胃内异物",
+            "disease": "胃内异物",
+            "evidence": [
+              "故意吞食圆柱状金属块",
+              "腹痛",
+              "CT提示胃内异物"
+            ],
+            "confidence": 0.95
+          },
+          {
+            "name": "胃穿孔/消化道穿孔",
+            "disease": "胃穿孔/消化道穿孔",
+            "evidence": [
+              "吞食金属异物",
+              "腹痛",
+              "精神差"
+            ],
+            "confidence": 0.35
+          },
+          {
+            "name": "急性腹膜炎",
+            "disease": "急性腹膜炎",
+            "evidence": [
+              "腹痛",
+              "精神差",
+              "胃内异物"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "胃黏膜损伤/上消化道出血",
+            "disease": "胃黏膜损伤/上消化道出血",
+            "evidence": [
+              "胃内金属异物",
+              "腹痛"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "精神行为异常（故意自伤）",
+            "disease": "精神行为异常（故意自伤）",
+            "evidence": [
+              "故意吞食异物"
+            ],
+            "confidence": 0.6
+          },
+          {
+            "name": "食管损伤/穿孔",
+            "disease": "食管损伤/穿孔",
+            "evidence": [
+              "异物经口吞入",
+              "腹痛"
+            ],
+            "confidence": 0.3
+          }
+        ],
+        "physical_exams": {
+          "一般检查": "T：37℃，P：78次/分，R：20次/分，BP：105/63mmHg",
+          "腹部检查": "腹平，腹肌较紧张，肝脾肋下未及，上腹压痛，肠鸣音正常"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "一般检查",
+          "腹部检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "CT",
+          "血液学检查"
+        ],
+        "predicted_physical_exams": [
+          "一般检查",
+          "腹部检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "CT",
+          "血液学检查"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor"
+        ],
+        "mcts_step": 2,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exam",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [
+          "腹部立位X线或腹部CT检查（明确金属异物位置、大小、数量、形态，并评估有无消化道穿孔征象如膈下游离气体、腹腔游离积液）",
+          "胃镜检查（评估食管、胃黏膜损伤程度、有无活动性出血，并可行异物取出）",
+          "血常规、CRP/降钙素原、凝血功能及便潜血/血红蛋白等实验室检查（评估感染、出血及腹膜炎）",
+          "精神心理评估及详细既往史（有无精神疾病、自杀自伤风险）"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.95,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 5,
+      "trajectory_index": 3,
+      "workflow_action_index": 5,
+      "mcts_step": 3,
+      "workflow_stage": "task4_diagnosis",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "1_一例急诊胃切开取异物术的麻醉处理",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "41岁"
+        },
+        "chief_complaint": "男性,41岁,无 故意吞食异物一小时",
+        "present_illness": "患者于早上6:30左右故意吞食异物（代诉圆柱状金属块长约3cm），感腹痛，无畏寒发热，无恶心呕吐，无胸闷心慌，无呼吸困难，未行任何治疗，急来我院，CT检查提示胃内异物，120以胃内异物收住院。 病程中患者精神差，未进饮食，大小便未解。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "消化内科"
+        ],
+        "past_history": "不详",
+        "hypothesis_illness": [
+          {
+            "name": "胃内异物",
+            "disease": "胃内异物",
+            "evidence": [
+              "故意吞食圆柱状金属块",
+              "CT检查提示胃内异物",
+              "上腹痛"
+            ],
+            "confidence": 0.95
+          },
+          {
+            "name": "胃穿孔/消化道穿孔",
+            "disease": "胃穿孔/消化道穿孔",
+            "evidence": [
+              "吞食金属异物",
+              "腹痛",
+              "精神差"
+            ],
+            "confidence": 0.35
+          },
+          {
+            "name": "急性腹膜炎",
+            "disease": "急性腹膜炎",
+            "evidence": [
+              "腹痛",
+              "精神差",
+              "胃内异物"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "胃黏膜损伤/上消化道出血",
+            "disease": "胃黏膜损伤/上消化道出血",
+            "evidence": [
+              "胃内金属异物",
+              "腹痛"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "精神行为异常（故意自伤）",
+            "disease": "精神行为异常（故意自伤）",
+            "evidence": [
+              "故意吞食异物"
+            ],
+            "confidence": 0.6
+          },
+          {
+            "name": "食管损伤/穿孔",
+            "disease": "食管损伤/穿孔",
+            "evidence": [
+              "异物经口吞入",
+              "腹痛"
+            ],
+            "confidence": 0.3
+          }
+        ],
+        "physical_exams": {
+          "一般检查": "T：37℃，P：78次/分，R：20次/分，BP：105/63mmHg",
+          "腹部检查": "腹平，腹肌较紧张，肝脾肋下未及，上腹压痛，肠鸣音正常"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "一般检查",
+          "腹部检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "CT",
+          "血液学检查"
+        ],
+        "predicted_physical_exams": [
+          "一般检查",
+          "腹部检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "CT",
+          "血液学检查"
+        ],
+        "diagnosis_result": [
+          "胃内异物"
+        ],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "completed",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor",
+          "task4_diagnosis"
+        ],
+        "mcts_step": 3,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 4,
+            "action": "task4_diagnosis",
+            "source": "mcts_selected",
+            "mcts_step": 3,
+            "workflow_stage": "task4_diagnosis"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exam",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [
+          "腹部X线/CT影像结果（明确异物位置、有无膈下游离气体）",
+          "血常规及炎症指标（WBC、CRP）评估穿孔/腹膜炎/感染",
+          "胃镜检查结果（明确胃内异物及有无黏膜损伤、穿孔、出血）",
+          "便潜血/呕血/黑便等消化道出血证据",
+          "精神心理评估及既往精神病史（确认故意自伤/精神行为异常）"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.95,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false,
+        "agent_missing_evidence": [
+          {
+            "disease": "胃穿孔/消化道穿孔",
+            "missing": [
+              "需立位腹部X线排除",
+              "需腹部CT复查排除",
+              "需血常规排除"
+            ],
+            "suggested_exams": [
+              "立位腹部X线",
+              "腹部CT复查",
+              "血常规"
+            ]
+          },
+          {
+            "disease": "急性腹膜炎",
+            "missing": [
+              "需动态腹部查体排除",
+              "需血常规排除",
+              "需腹部超声排除"
+            ],
+            "suggested_exams": [
+              "动态腹部查体",
+              "血常规",
+              "腹部超声"
+            ]
+          },
+          {
+            "disease": "胃黏膜损伤/上消化道出血",
+            "missing": [
+              "需胃镜排除",
+              "需大便潜血排除",
+              "需血常规排除"
+            ],
+            "suggested_exams": [
+              "胃镜",
+              "大便潜血",
+              "血常规"
+            ]
+          },
+          {
+            "disease": "精神行为异常（故意自伤）",
+            "missing": [
+              "需精神科会诊排除",
+              "需详细精神心理评估排除",
+              "需毒物筛查排除"
+            ],
+            "suggested_exams": [
+              "精神科会诊",
+              "详细精神心理评估",
+              "毒物筛查"
+            ]
+          },
+          {
+            "disease": "食管损伤/穿孔",
+            "missing": [
+              "需胃镜排除",
+              "需胸部CT排除",
+              "需食管碘水造影排除"
+            ],
+            "suggested_exams": [
+              "胃镜",
+              "胸部CT",
+              "食管碘水造影"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "active_snapshot_id": 1,
+  "terminated_by": "clinical_closure",
+  "finalization_used": false,
+  "agent_missing_evidence": [
+    {
+      "disease": "胃穿孔/消化道穿孔",
+      "missing": [
+        "需立位腹部X线排除",
+        "需腹部CT复查排除",
+        "需血常规排除"
+      ],
+      "suggested_exams": [
+        "立位腹部X线",
+        "腹部CT复查",
+        "血常规"
+      ]
+    },
+    {
+      "disease": "急性腹膜炎",
+      "missing": [
+        "需动态腹部查体排除",
+        "需血常规排除",
+        "需腹部超声排除"
+      ],
+      "suggested_exams": [
+        "动态腹部查体",
+        "血常规",
+        "腹部超声"
+      ]
+    },
+    {
+      "disease": "胃黏膜损伤/上消化道出血",
+      "missing": [
+        "需胃镜排除",
+        "需大便潜血排除",
+        "需血常规排除"
+      ],
+      "suggested_exams": [
+        "胃镜",
+        "大便潜血",
+        "血常规"
+      ]
+    },
+    {
+      "disease": "精神行为异常（故意自伤）",
+      "missing": [
+        "需精神科会诊排除",
+        "需详细精神心理评估排除",
+        "需毒物筛查排除"
+      ],
+      "suggested_exams": [
+        "精神科会诊",
+        "详细精神心理评估",
+        "毒物筛查"
+      ]
+    },
+    {
+      "disease": "食管损伤/穿孔",
+      "missing": [
+        "需胃镜排除",
+        "需胸部CT排除",
+        "需食管碘水造影排除"
+      ],
+      "suggested_exams": [
+        "胃镜",
+        "胸部CT",
+        "食管碘水造影"
+      ]
+    }
+  ]
+}

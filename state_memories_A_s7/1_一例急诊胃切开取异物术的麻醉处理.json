@@ -1,0 +1,950 @@
+{
+  "case_id": "1_一例急诊胃切开取异物术的麻醉处理",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "41岁"
+  },
+  "chief_complaint": "男性,41岁,无 故意吞食异物一小时",
+  "present_illness": "患者于早上6:30左右故意吞食异物（代诉圆柱状金属块长约3cm），感腹痛，无畏寒发热，无恶心呕吐，无胸闷心慌，无呼吸困难，未行任何治疗，急来我院，CT检查提示胃内异物，120以胃内异物收住院。 病程中患者精神差，未进饮食，大小便未解。",
+  "dept_l1": "内科",
+  "dept_l2": [
+    "消化内科"
+  ],
+  "past_history": "不详",
+  "hypothesis_illness": [
+    {
+      "name": "胃内异物",
+      "disease": "胃内异物",
+      "evidence": [
+        "故意吞食金属块",
+        "CT检查提示胃内异物",
+        "腹痛"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "name": "胃穿孔/急性腹膜炎",
+      "disease": "胃穿孔/急性腹膜炎",
+      "evidence": [
+        "吞食异物后腹痛",
+        "精神差"
+      ],
+      "confidence": 0.35
+    },
+    {
+      "name": "上消化道出血",
+      "disease": "上消化道出血",
+      "evidence": [
+        "金属异物可能损伤胃黏膜",
+        "精神差"
+      ],
+      "confidence": 0.3
+    },
+    {
+      "name": "幽门梗阻/消化道梗阻",
+      "disease": "幽门梗阻/消化道梗阻",
+      "evidence": [
+        "胃内异物",
+        "腹痛"
+      ],
+      "confidence": 0.2
+    }
+  ],
+  "physical_exams": {
+    "腹部检查": "腹平，腹肌较紧张，肝脾肋下未及，上腹压痛，肠鸣音正常"
+  },
+  "auxiliary_exams": {
+    "血液学检查": "查血：丙型病毒性肝炎"
+  },
+  "imaging_results": {},
+  "completed_physical_exams": [
+    "腹部检查"
+  ],
+  "completed_auxiliary_exams": [
+    "血液学检查"
+  ],
+  "completed_imaging_exams": [],
+  "pending_auxiliary_exams": [
+    "内镜检查"
+  ],
+  "predicted_physical_exams": [
+    "腹部检查"
+  ],
+  "predicted_auxiliary_exams": [
+    "内镜检查",
+    "血液学检查"
+  ],
+  "diagnosis_result": [],
+  "treatment_plan": [],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "pending",
+    "task5_treatment": "pending"
+  },
+  "recheck_total": 1,
+  "max_recheck": 3,
+  "mcts_trajectory": [
+    "a_back",
+    "task2_doctor",
+    "a_rag",
+    "task3_imaging"
+  ],
+  "mcts_step": 4,
+  "mcts_eta": 4,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "a_back",
+      "source": "committed_backtrack",
+      "mcts_step": 1,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task2_doctor",
+      "source": "committed_backtrack_target",
+      "mcts_step": 2,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 4,
+      "action": "a_rag",
+      "source": "mcts_selected",
+      "mcts_step": 3,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 5,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 4,
+      "workflow_stage": "task2_doctor"
+    }
+  ],
+  "backtrack_events": [
+    {
+      "event_id": 0,
+      "source": "committed",
+      "target_snapshot_id": 1,
+      "target_workflow_stage": "task1_referral",
+      "requested_action": "request_auxiliary_exams",
+      "executed_action": "task2_doctor",
+      "mcts_step": 1
+    }
+  ],
+  "missing_evidence": [
+    "腹部CT或腹部立位X线检查",
+    "生命体征及一般检查",
+    "血常规"
+  ],
+  "potential_missing_evidence": [
+    "一般检查",
+    "颈部检查",
+    "胸部检查",
+    "脊柱和四肢检查",
+    "神经系统检查",
+    "CT",
+    "头颅眼耳鼻喉检查",
+    "血液学检查"
+  ],
+  "experience_knowledge": [
+    "【基本信息】女，86岁，农民 25710.jpg 25711.jpg",
+    "【基本信息】男，11岁，学生 【发病原因】进食时误咽鸡骨 【临床诊断】食管内异物 【治疗方案】在全麻下行食管镜检查+异物取出术 【治疗结果】病情好转 【病案重点】食管内异物 25708.jpg 25709.jpg",
+    ""
+  ],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [
+    {
+      "case_id": "12129_86岁老人食道异物一例",
+      "text": "误咽带骨鹅肉后感咽痛、吞咽痛22小时。 患者于22小时前吃带骨鹅肉时误咽，当即出现咽痛、吞咽疼痛、吞咽困难，疼痛部位在颈前偏左侧，后患者再次进食煎饼、橘子，伴恶心、呕吐，呕吐为胃内容物及少许血丝，无发热，无咳嗽，无呼吸困难，无恶心、呕吐，无心慌、胸闷，无黑便，就诊于我院，行颈部CT提示食管异物，门诊以“食管异物”收入院。患者自发病以来，无发热，精神状态一般，饮食、睡眠差，大便正常，小便次数多，体重无变化。 1、食管内异物\r\n2、高血压病\r\n3、2型糖尿病 1、食管内异物\r\n2、高血压病\r\n3、2型糖尿病 1、食管癌：亦有吞咽困难，渐进性加重，无异物误咽史，食管钡餐透视可鉴别。\r\n2、支气管异物：亦有异物自口误入史，发作时，剧烈呛咳，呼吸困难，胸透示呼吸时纵隔摆动，本例不符。 食管异物是指异物被动或主动进入食管，通常卡在食管生理狭窄处。\r\n可发生于任何年龄，多见于儿童和老年人。一般异物以鱼刺、骨头、枣核、硬币、小玩具、假牙等多见。\r\n常见的症状有咽部、胸骨后异物感、吞咽困难、疼痛，严重者可有面部青紫、呼吸困难等症状，甚至会出现休克。\r\n发生食道异物该怎么办呢？\r\n首先，保持冷静，切勿使用“吃香蕉、喝醋”等土方法，这些方**使在咽喉的异物落入食管，加大取异物的难度，并且可能损伤咽喉和食管。\r\n应该控制恶心呕吐，不要再吃东西和饮水，尽可能减缓食管蠕动程度，免异物穿透食管。在家人或朋友的陪同下，尽快去正规医院就诊。",
+      "summary": "【基本信息】女，86岁，农民 25710.jpg 25711.jpg",
+      "exams": [
+        "一般检查",
+        "颈部检查",
+        "胸部检查",
+        "脊柱和四肢检查",
+        "神经系统检查",
+        "CT"
+      ],
+      "similarity": 0.13944990976064814
+    },
+    {
+      "case_id": "12128_细嚼慢咽很重要（食管内鸡骨）",
+      "text": "误咽鸡骨3小时余 患儿3小时前进食时误咽鸡骨，当即感咽部疼痛，吞咽是明显，自服块状馒头，疼痛加重，门诊行喉部CT提示食管内异物，为了进一步全麻手术取出异物，收住院。 食管内异物 食管内异物 食管内肿瘤：多为慢性发病，以进行性吞咽困难为主要症状，食管镜检查可见食管内占位性病变，该患儿急性发病，无慢性病史，故不支持该诊断。 食管内异物是常见急症之一，多在进食匆忙或注意力不集中，食物未经仔细咀嚼而咽下等情况下产生。儿童食管内异物可为自行吞咽所致。异物的种类多种多样，以鱼刺、肉骨等最为常见，儿童可误咽硬币、纽扣等，最常见的症状是吞咽困难、吞咽疼痛等。本病确诊后，应及时经食管镜或胃镜取出异物，否则因异物感染、穿孔加重病情。本病例明确的外伤史，伴有咽痛，吞咽时明显，结合喉部CT所示，诊断明确，及时在全麻下经食管镜将异物取出，避免感染等病情加重。但患儿误咽鸡骨后的错误做法是进食块状馒头，试图将鸡骨咽下去，民间有很多类似的错误做法，比如喝醋、大口吞饭、长条韭菜的方法，这种错误的做法必须要避免，因为喝醋对异物取出并没有益处，而试图靠强行吞咽将异物咽下去更是有很大的危险，这可能导致硬异物穿破食管，甚至刺破主动脉而危及生命。",
+      "summary": "【基本信息】男，11岁，学生 【发病原因】进食时误咽鸡骨 【临床诊断】食管内异物 【治疗方案】在全麻下行食管镜检查+异物取出术 【治疗结果】病情好转 【病案重点】食管内异物 25708.jpg 25709.jpg",
+      "exams": [
+        "一般检查",
+        "头颅眼耳鼻喉检查",
+        "CT",
+        "血液学检查"
+      ],
+      "similarity": 0.13675678780869352
+    },
+    {
+      "case_id": "11814_舌骨大角综合征一例",
+      "text": "喉内异物感和吞咽时喉部响声10余年. 患者10余年前无明显诱因出现喉内异物感，吞咽时喉部响声，易呛咳及喉部压迫梗塞感，反复做吞咽运动后及头部运动时喉内异物感及呛咳加重。无咳嗽咳痰，无声音嘶哑，无颈部及咽喉部疼痛。 舌骨大角综合征。",
+      "summary": "",
+      "exams": [
+        "头颅眼耳鼻喉检查",
+        "颈部检查",
+        "CT"
+      ],
+      "similarity": 0.0903751384701686
+    }
+  ],
+  "evidence_importance": {},
+  "experience_memory_available": true,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "1_一例急诊胃切开取异物术的麻醉处理",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "41岁"
+        },
+        "chief_complaint": "男性,41岁,无 故意吞食异物一小时",
+        "present_illness": "患者于早上6:30左右故意吞食异物（代诉圆柱状金属块长约3cm），感腹痛，无畏寒发热，无恶心呕吐，无胸闷心慌，无呼吸困难，未行任何治疗，急来我院，CT检查提示胃内异物，120以胃内异物收住院。 病程中患者精神差，未进饮食，大小便未解。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "不详",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "1_一例急诊胃切开取异物术的麻醉处理",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "41岁"
+        },
+        "chief_complaint": "男性,41岁,无 故意吞食异物一小时",
+        "present_illness": "患者于早上6:30左右故意吞食异物（代诉圆柱状金属块长约3cm），感腹痛，无畏寒发热，无恶心呕吐，无胸闷心慌，无呼吸困难，未行任何治疗，急来我院，CT检查提示胃内异物，120以胃内异物收住院。 病程中患者精神差，未进饮食，大小便未解。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "消化内科"
+        ],
+        "past_history": "不详",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "1_一例急诊胃切开取异物术的麻醉处理",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "41岁"
+        },
+        "chief_complaint": "男性,41岁,无 故意吞食异物一小时",
+        "present_illness": "患者于早上6:30左右故意吞食异物（代诉圆柱状金属块长约3cm），感腹痛，无畏寒发热，无恶心呕吐，无胸闷心慌，无呼吸困难，未行任何治疗，急来我院，CT检查提示胃内异物，120以胃内异物收住院。 病程中患者精神差，未进饮食，大小便未解。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "消化内科"
+        ],
+        "past_history": "不详",
+        "hypothesis_illness": [
+          {
+            "name": "胃内金属异物",
+            "disease": "胃内金属异物",
+            "evidence": [
+              "故意吞食圆柱状金属块长约3cm",
+              "腹痛",
+              "CT检查提示胃内异物"
+            ],
+            "confidence": 0.95
+          },
+          {
+            "name": "胃穿孔",
+            "disease": "胃穿孔",
+            "evidence": [
+              "吞食金属异物",
+              "持续性腹痛",
+              "精神差"
+            ],
+            "confidence": 0.35
+          },
+          {
+            "name": "急性腹膜炎",
+            "disease": "急性腹膜炎",
+            "evidence": [
+              "腹痛",
+              "精神差"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "幽门或十二指肠异物嵌顿",
+            "disease": "幽门或十二指肠异物嵌顿",
+            "evidence": [
+              "胃内异物",
+              "腹痛",
+              "未进饮食"
+            ],
+            "confidence": 0.3
+          }
+        ],
+        "physical_exams": {
+          "腹部检查": "腹平，腹肌较紧张，肝脾肋下未及，上腹压痛，肠鸣音正常"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "腹部检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "CT",
+          "内镜检查",
+          "血液学检查"
+        ],
+        "predicted_physical_exams": [
+          "腹部检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "CT",
+          "内镜检查",
+          "血液学检查"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [
+          "腹部CT影像结果（明确异物位置、有无胃穿孔、游离气体、腹水或梗阻）",
+          "立位胸腹部X线或CT膈下游离气体证据",
+          "生命体征（体温、心率、血压）与动态腹部查体（反跳痛、板状腹）",
+          "血常规、CRP、乳酸等实验室检查结果",
+          "胃镜或上消化道造影结果（明确异物是否嵌顿幽门/十二指肠及黏膜损伤）"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.95,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task1_referral",
+      "reason": "committed_backtrack_restored",
+      "state": {
+        "case_id": "1_一例急诊胃切开取异物术的麻醉处理",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "41岁"
+        },
+        "chief_complaint": "男性,41岁,无 故意吞食异物一小时",
+        "present_illness": "患者于早上6:30左右故意吞食异物（代诉圆柱状金属块长约3cm），感腹痛，无畏寒发热，无恶心呕吐，无胸闷心慌，无呼吸困难，未行任何治疗，急来我院，CT检查提示胃内异物，120以胃内异物收住院。 病程中患者精神差，未进饮食，大小便未解。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "消化内科"
+        ],
+        "past_history": "不详",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exams",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 2,
+      "workflow_action_index": 4,
+      "mcts_step": 2,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "1_一例急诊胃切开取异物术的麻醉处理",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "41岁"
+        },
+        "chief_complaint": "男性,41岁,无 故意吞食异物一小时",
+        "present_illness": "患者于早上6:30左右故意吞食异物（代诉圆柱状金属块长约3cm），感腹痛，无畏寒发热，无恶心呕吐，无胸闷心慌，无呼吸困难，未行任何治疗，急来我院，CT检查提示胃内异物，120以胃内异物收住院。 病程中患者精神差，未进饮食，大小便未解。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "消化内科"
+        ],
+        "past_history": "不详",
+        "hypothesis_illness": [
+          {
+            "name": "胃内异物",
+            "disease": "胃内异物",
+            "evidence": [
+              "故意吞食金属块",
+              "CT检查提示胃内异物",
+              "腹痛"
+            ],
+            "confidence": 0.95
+          },
+          {
+            "name": "胃穿孔/急性腹膜炎",
+            "disease": "胃穿孔/急性腹膜炎",
+            "evidence": [
+              "吞食异物后腹痛",
+              "精神差"
+            ],
+            "confidence": 0.35
+          },
+          {
+            "name": "上消化道出血",
+            "disease": "上消化道出血",
+            "evidence": [
+              "金属异物可能损伤胃黏膜",
+              "精神差"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "幽门梗阻/消化道梗阻",
+            "disease": "幽门梗阻/消化道梗阻",
+            "evidence": [
+              "胃内异物",
+              "腹痛"
+            ],
+            "confidence": 0.2
+          }
+        ],
+        "physical_exams": {
+          "腹部检查": "腹平，腹肌较紧张，肝脾肋下未及，上腹压痛，肠鸣音正常"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "腹部检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "内镜检查",
+          "血液学检查"
+        ],
+        "predicted_physical_exams": [
+          "腹部检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "内镜检查",
+          "血液学检查"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor"
+        ],
+        "mcts_step": 2,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exams",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [
+          "腹部立位X线/CT影像（明确异物位置、大小、数量及有无游离气体、穿孔或梗阻）",
+          "生命体征及动态腹部查体（体温、心率、血压、腹膜刺激征进展）",
+          "血常规、CRP等感染/炎症指标",
+          "血红蛋白/红细胞压积、粪便潜血或胃管引流液检查（排除上消化道出血）",
+          "急诊胃镜检查（如无穿孔禁忌）"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.95,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 5,
+      "trajectory_index": 3,
+      "workflow_action_index": 5,
+      "mcts_step": 3,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "1_一例急诊胃切开取异物术的麻醉处理",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "41岁"
+        },
+        "chief_complaint": "男性,41岁,无 故意吞食异物一小时",
+        "present_illness": "患者于早上6:30左右故意吞食异物（代诉圆柱状金属块长约3cm），感腹痛，无畏寒发热，无恶心呕吐，无胸闷心慌，无呼吸困难，未行任何治疗，急来我院，CT检查提示胃内异物，120以胃内异物收住院。 病程中患者精神差，未进饮食，大小便未解。",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "消化内科"
+        ],
+        "past_history": "不详",
+        "hypothesis_illness": [
+          {
+            "name": "胃内异物",
+            "disease": "胃内异物",
+            "evidence": [
+              "故意吞食金属块",
+              "CT检查提示胃内异物",
+              "腹痛"
+            ],
+            "confidence": 0.95
+          },
+          {
+            "name": "胃穿孔/急性腹膜炎",
+            "disease": "胃穿孔/急性腹膜炎",
+            "evidence": [
+              "吞食异物后腹痛",
+              "精神差"
+            ],
+            "confidence": 0.35
+          },
+          {
+            "name": "上消化道出血",
+            "disease": "上消化道出血",
+            "evidence": [
+              "金属异物可能损伤胃黏膜",
+              "精神差"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "幽门梗阻/消化道梗阻",
+            "disease": "幽门梗阻/消化道梗阻",
+            "evidence": [
+              "胃内异物",
+              "腹痛"
+            ],
+            "confidence": 0.2
+          }
+        ],
+        "physical_exams": {
+          "腹部检查": "腹平，腹肌较紧张，肝脾肋下未及，上腹压痛，肠鸣音正常"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "腹部检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "内镜检查",
+          "血液学检查"
+        ],
+        "predicted_physical_exams": [
+          "腹部检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "内镜检查",
+          "血液学检查"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor",
+          "a_rag"
+        ],
+        "mcts_step": 3,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 4,
+            "action": "a_rag",
+            "source": "mcts_selected",
+            "mcts_step": 3,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exams",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [
+          "腹部CT或腹部立位X线检查（明确异物位置、数量、形态及有无游离气体、梗阻或穿孔）",
+          "生命体征及一般检查（体温、心率、血压、呼吸、意识状态）",
+          "血常规、CRP等实验室检查（评估有无感染、出血及全身反应）",
+          "大便潜血/呕吐物潜血或动态血红蛋白监测（排除上消化道出血）"
+        ],
+        "potential_missing_evidence": [
+          "一般检查",
+          "颈部检查",
+          "胸部检查",
+          "脊柱和四肢检查",
+          "神经系统检查",
+          "CT",
+          "头颅眼耳鼻喉检查",
+          "血液学检查"
+        ],
+        "experience_knowledge": [
+          "【基本信息】女，86岁，农民 25710.jpg 25711.jpg",
+          "【基本信息】男，11岁，学生 【发病原因】进食时误咽鸡骨 【临床诊断】食管内异物 【治疗方案】在全麻下行食管镜检查+异物取出术 【治疗结果】病情好转 【病案重点】食管内异物 25708.jpg 25709.jpg",
+          ""
+        ],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [
+          {
+            "case_id": "12129_86岁老人食道异物一例",
+            "text": "误咽带骨鹅肉后感咽痛、吞咽痛22小时。 患者于22小时前吃带骨鹅肉时误咽，当即出现咽痛、吞咽疼痛、吞咽困难，疼痛部位在颈前偏左侧，后患者再次进食煎饼、橘子，伴恶心、呕吐，呕吐为胃内容物及少许血丝，无发热，无咳嗽，无呼吸困难，无恶心、呕吐，无心慌、胸闷，无黑便，就诊于我院，行颈部CT提示食管异物，门诊以“食管异物”收入院。患者自发病以来，无发热，精神状态一般，饮食、睡眠差，大便正常，小便次数多，体重无变化。 1、食管内异物\r\n2、高血压病\r\n3、2型糖尿病 1、食管内异物\r\n2、高血压病\r\n3、2型糖尿病 1、食管癌：亦有吞咽困难，渐进性加重，无异物误咽史，食管钡餐透视可鉴别。\r\n2、支气管异物：亦有异物自口误入史，发作时，剧烈呛咳，呼吸困难，胸透示呼吸时纵隔摆动，本例不符。 食管异物是指异物被动或主动进入食管，通常卡在食管生理狭窄处。\r\n可发生于任何年龄，多见于儿童和老年人。一般异物以鱼刺、骨头、枣核、硬币、小玩具、假牙等多见。\r\n常见的症状有咽部、胸骨后异物感、吞咽困难、疼痛，严重者可有面部青紫、呼吸困难等症状，甚至会出现休克。\r\n发生食道异物该怎么办呢？\r\n首先，保持冷静，切勿使用“吃香蕉、喝醋”等土方法，这些方**使在咽喉的异物落入食管，加大取异物的难度，并且可能损伤咽喉和食管。\r\n应该控制恶心呕吐，不要再吃东西和饮水，尽可能减缓食管蠕动程度，免异物穿透食管。在家人或朋友的陪同下，尽快去正规医院就诊。",
+            "summary": "【基本信息】女，86岁，农民 25710.jpg 25711.jpg",
+            "exams": [
+              "一般检查",
+              "颈部检查",
+              "胸部检查",
+              "脊柱和四肢检查",
+              "神经系统检查",
+              "CT"
+            ],
+            "similarity": 0.13944990976064814
+          },
+          {
+            "case_id": "12128_细嚼慢咽很重要（食管内鸡骨）",
+            "text": "误咽鸡骨3小时余 患儿3小时前进食时误咽鸡骨，当即感咽部疼痛，吞咽是明显，自服块状馒头，疼痛加重，门诊行喉部CT提示食管内异物，为了进一步全麻手术取出异物，收住院。 食管内异物 食管内异物 食管内肿瘤：多为慢性发病，以进行性吞咽困难为主要症状，食管镜检查可见食管内占位性病变，该患儿急性发病，无慢性病史，故不支持该诊断。 食管内异物是常见急症之一，多在进食匆忙或注意力不集中，食物未经仔细咀嚼而咽下等情况下产生。儿童食管内异物可为自行吞咽所致。异物的种类多种多样，以鱼刺、肉骨等最为常见，儿童可误咽硬币、纽扣等，最常见的症状是吞咽困难、吞咽疼痛等。本病确诊后，应及时经食管镜或胃镜取出异物，否则因异物感染、穿孔加重病情。本病例明确的外伤史，伴有咽痛，吞咽时明显，结合喉部CT所示，诊断明确，及时在全麻下经食管镜将异物取出，避免感染等病情加重。但患儿误咽鸡骨后的错误做法是进食块状馒头，试图将鸡骨咽下去，民间有很多类似的错误做法，比如喝醋、大口吞饭、长条韭菜的方法，这种错误的做法必须要避免，因为喝醋对异物取出并没有益处，而试图靠强行吞咽将异物咽下去更是有很大的危险，这可能导致硬异物穿破食管，甚至刺破主动脉而危及生命。",
+            "summary": "【基本信息】男，11岁，学生 【发病原因】进食时误咽鸡骨 【临床诊断】食管内异物 【治疗方案】在全麻下行食管镜检查+异物取出术 【治疗结果】病情好转 【病案重点】食管内异物 25708.jpg 25709.jpg",
+            "exams": [
+              "一般检查",
+              "头颅眼耳鼻喉检查",
+              "CT",
+              "血液学检查"
+            ],
+            "similarity": 0.13675678780869352
+          },
+          {
+            "case_id": "11814_舌骨大角综合征一例",
+            "text": "喉内异物感和吞咽时喉部响声10余年. 患者10余年前无明显诱因出现喉内异物感，吞咽时喉部响声，易呛咳及喉部压迫梗塞感，反复做吞咽运动后及头部运动时喉内异物感及呛咳加重。无咳嗽咳痰，无声音嘶哑，无颈部及咽喉部疼痛。 舌骨大角综合征。",
+            "summary": "",
+            "exams": [
+              "头颅眼耳鼻喉检查",
+              "颈部检查",
+              "CT"
+            ],
+            "similarity": 0.0903751384701686
+          }
+        ],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.95,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false,
+        "experience_retrieval_backend": "tfidf"
+      }
+    }
+  ],
+  "active_snapshot_id": 1,
+  "terminated_by": "eta",
+  "finalization_used": false,
+  "experience_retrieval_backend": "tfidf"
+}

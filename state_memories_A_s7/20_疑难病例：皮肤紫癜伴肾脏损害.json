@@ -1,0 +1,1026 @@
+{
+  "case_id": "20_疑难病例：皮肤紫癜伴肾脏损害",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "70岁"
+  },
+  "chief_complaint": "患者男性，70岁",
+  "present_illness": "",
+  "dept_l1": "内科",
+  "dept_l2": [
+    "肾脏内科"
+  ],
+  "past_history": "因“反复双下肢皮肤紫癜8年，尿检异常伴血肌酐升高3年余，加重1月余”两次入院。第一次住院：2002和2003年，患者两度出现双下肢散在皮肤出血点，压之不褪色，5天后消退。2007年1月，患者情绪激动后步态不稳，无意识障碍，血压220/110mmHg，头颅CT示脑梗塞，尿蛋白和隐血（＋），血肌酐（Cr）1.47mg/dl，予降压治疗，血压控制平稳（130/70mmHg）。2007年9月，患者双下肢轻度浮肿，尿蛋白及隐血2+，血Cr1.7mg/dl，补体C30.5g/L，C40.1g/L，未治疗。2010年5月，患者浮肿加重，尿量减至500ml/d，于2010年5月入院。病程中患者夜尿4次/晚，无不规则发热及关节痛。1986年发现乙肝“小三阳”，肝酶正常，病毒无**，未治疗。1991年十二指肠球部溃疡出血，已愈。患者长期睡眠差，精神焦虑，间断服用***。",
+  "hypothesis_illness": [
+    {
+      "name": "冷球蛋白血症性血管炎/肾炎",
+      "disease": "冷球蛋白血症性血管炎/肾炎",
+      "evidence": [
+        "反复双下肢紫癜",
+        "蛋白尿和血尿",
+        "血肌酐进行性升高",
+        "补体C3/C4降低",
+        "乙肝小三阳"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "name": "膜增生性肾小球肾炎",
+      "disease": "膜增生性肾小球肾炎",
+      "evidence": [
+        "蛋白尿和血尿",
+        "低补体C3/C4",
+        "肾功能减退",
+        "高血压"
+      ],
+      "confidence": 0.5
+    },
+    {
+      "name": "ANCA相关小血管炎",
+      "disease": "ANCA相关小血管炎",
+      "evidence": [
+        "老年男性",
+        "皮肤紫癜",
+        "急性肾功能减退",
+        "血尿蛋白尿"
+      ],
+      "confidence": 0.3
+    },
+    {
+      "name": "乙肝相关性肾炎",
+      "disease": "乙肝相关性肾炎",
+      "evidence": [
+        "乙肝小三阳病史",
+        "蛋白尿血尿",
+        "血肌酐升高",
+        "低补体"
+      ],
+      "confidence": 0.25
+    },
+    {
+      "name": "狼疮性肾炎",
+      "disease": "狼疮性肾炎",
+      "evidence": [
+        "低补体血症",
+        "肾损害",
+        "皮肤紫癜"
+      ],
+      "confidence": 0.15
+    },
+    {
+      "name": "IgA血管炎（过敏性紫癜）",
+      "disease": "IgA血管炎（过敏性紫癜）",
+      "evidence": [
+        "反复双下肢紫癜",
+        "蛋白尿血尿"
+      ],
+      "confidence": 0.1
+    },
+    {
+      "name": "AL淀粉样变/轻链沉积病",
+      "disease": "AL淀粉样变/轻链沉积病",
+      "evidence": [
+        "老年",
+        "蛋白尿",
+        "肾功能减退",
+        "皮肤紫癜"
+      ],
+      "confidence": 0.1
+    }
+  ],
+  "physical_exams": {
+    "一般检查": "T：36.6℃，P：80次/分，R：19次/分，BP：170/100mmHg，脉氧92%。",
+    "皮肤检查": "全身无皮疹。"
+  },
+  "auxiliary_exams": {
+    "病理检查": "骨髓活检组织学检查示骨髓造血活跃，浆细胞轻度增多（5%），免疫组化CD138约5%（＋），κ、λ、CD79a均散在（＋）。",
+    "血液学检查": "血红蛋白（HGB）8.3g/dl，网织红细胞2%，白细胞（WBC）6200/mm3，血小板（PLT）19.7万/mm3。空腹血糖7mmol/L，餐后2小时血糖12mmol/L，糖化血红蛋白6.1%。白蛋白（ALB）32.7g/L，球蛋白27.7g/L，肝功能正常。尿素氮（BUN）36.8mg/dl，Cr2.55mg/dl，尿酸（UA）363umol/L，电解质正常。HGB6.4g/dl，WBC8700/mm3，PLT22.7万/mm3。C反应蛋白1mg/L。ALB33.5g/L，球蛋白27.7g/L，血脂正常。BUN61.4mg/dl，Cr4.96mg/dl，UA692μmol/L，电解质正常。乳酸脱氢酶337U/L，磷酸肌酸激酶74U/L，磷酸肌酸激酶同工酶4U/L。空腹血糖6.68mmol/L，餐后2小时血糖11mmol/L，糖化血红蛋白5.2%。自身抗体阴性、可提取核抗原多肽及抗心磷脂抗体阴性，IgG7.88g/L，IgM3.42g/L，IgA1.8g/L，C31.0g/L，C40.129g/L。RF4820IU/ml，冷球蛋白1606mg/L，免疫固定电泳亦见κ型IgM单克隆免疫球蛋白条带。淋巴细胞CD4+352/μl，CD8+594/μl，CD20+85/μl，CD19+85/μl。血游离κ轻链120.88mg/L，血游离λ轻链76.65mg/L，κ/λ为1.58。HBsAg、HBcAb、HBeAb阳性，乙肝DNA及丙肝抗体和RNA阴性。自身抗体阴性，补体正常，乙肝表面抗原（HBsAg）、核心抗体（HBcAb）、e抗体（HBeAb）阳性，乙肝DNA及丙肝抗体和RNA阴性，类风湿因子（RF）两次分别为5330IU/ml和4970IU/ml，免疫球蛋白（Ig）M为5.12g/L，冷球蛋白389.7mg/L，免疫固定电泳示κ型IgM单克隆免疫球蛋白条带。",
+    "尿液检查": "尿蛋白6.19g/24h，尿沉渣红细胞（RBC）375万/ml（多形型），尿蛋白6.48g/24h，尿沉渣RBC1070万/ml（多形型），尿本周蛋白阴性，尿游离κ轻链136.51mg/L，尿游离λ轻链95.48mg/L，κ/λ1.43，尿N-乙酰-β-D-氨基葡萄糖苷酶（NAG）酶77.3u/g·Cr，视黄醇结合蛋白28.4mg/L，尿溶菌酶＜0.5mg/L，尿浓缩功能320mOsm/Kg·H2O。"
+  },
+  "imaging_results": {
+    "病理检查": "骨髓活检组织学检查示骨髓造血活跃，浆细胞轻度增多（5%），免疫组化CD138约5%（＋），κ、λ、CD79a均散在（＋）。"
+  },
+  "completed_physical_exams": [
+    "一般检查",
+    "皮肤检查"
+  ],
+  "completed_auxiliary_exams": [
+    "病理检查",
+    "血液学检查",
+    "尿液检查"
+  ],
+  "completed_imaging_exams": [
+    "病理检查"
+  ],
+  "pending_auxiliary_exams": [
+    "超声"
+  ],
+  "predicted_physical_exams": [
+    "一般检查",
+    "皮肤检查"
+  ],
+  "predicted_auxiliary_exams": [
+    "血液学检查",
+    "尿液检查",
+    "病理检查",
+    "超声"
+  ],
+  "diagnosis_result": [
+    "冷球蛋白血症性血管炎/肾炎"
+  ],
+  "treatment_plan": [],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "pending"
+  },
+  "recheck_total": 1,
+  "max_recheck": 3,
+  "mcts_trajectory": [
+    "a_back",
+    "task2_doctor",
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 4,
+  "mcts_eta": 4,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "a_back",
+      "source": "committed_backtrack",
+      "mcts_step": 1,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task2_doctor",
+      "source": "committed_backtrack_target",
+      "mcts_step": 2,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 4,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 3,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 5,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 4,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [
+    {
+      "event_id": 0,
+      "source": "committed",
+      "target_snapshot_id": 1,
+      "target_workflow_stage": "task1_referral",
+      "requested_action": "request_auxiliary_exams",
+      "executed_action": "task2_doctor",
+      "mcts_step": 1
+    }
+  ],
+  "missing_evidence": [
+    "肾活检病理（光镜、免疫荧光及电镜，含刚果红染色）",
+    "ANCA（PR3/MPO）检测",
+    "冷球蛋白成分鉴定及冷沉比容/冷球蛋白免疫固定电泳",
+    "皮肤紫癜处活检病理及免疫荧光",
+    "肾组织乙肝抗原染色"
+  ],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": true,
+  "top_hypothesis_confidence": 0.6,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "20_疑难病例：皮肤紫癜伴肾脏损害",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "70岁"
+        },
+        "chief_complaint": "患者男性，70岁",
+        "present_illness": "",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "因“反复双下肢皮肤紫癜8年，尿检异常伴血肌酐升高3年余，加重1月余”两次入院。第一次住院：2002和2003年，患者两度出现双下肢散在皮肤出血点，压之不褪色，5天后消退。2007年1月，患者情绪激动后步态不稳，无意识障碍，血压220/110mmHg，头颅CT示脑梗塞，尿蛋白和隐血（＋），血肌酐（Cr）1.47mg/dl，予降压治疗，血压控制平稳（130/70mmHg）。2007年9月，患者双下肢轻度浮肿，尿蛋白及隐血2+，血Cr1.7mg/dl，补体C30.5g/L，C40.1g/L，未治疗。2010年5月，患者浮肿加重，尿量减至500ml/d，于2010年5月入院。病程中患者夜尿4次/晚，无不规则发热及关节痛。1986年发现乙肝“小三阳”，肝酶正常，病毒无**，未治疗。1991年十二指肠球部溃疡出血，已愈。患者长期睡眠差，精神焦虑，间断服用***。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "20_疑难病例：皮肤紫癜伴肾脏损害",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "70岁"
+        },
+        "chief_complaint": "患者男性，70岁",
+        "present_illness": "",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肾脏内科"
+        ],
+        "past_history": "因“反复双下肢皮肤紫癜8年，尿检异常伴血肌酐升高3年余，加重1月余”两次入院。第一次住院：2002和2003年，患者两度出现双下肢散在皮肤出血点，压之不褪色，5天后消退。2007年1月，患者情绪激动后步态不稳，无意识障碍，血压220/110mmHg，头颅CT示脑梗塞，尿蛋白和隐血（＋），血肌酐（Cr）1.47mg/dl，予降压治疗，血压控制平稳（130/70mmHg）。2007年9月，患者双下肢轻度浮肿，尿蛋白及隐血2+，血Cr1.7mg/dl，补体C30.5g/L，C40.1g/L，未治疗。2010年5月，患者浮肿加重，尿量减至500ml/d，于2010年5月入院。病程中患者夜尿4次/晚，无不规则发热及关节痛。1986年发现乙肝“小三阳”，肝酶正常，病毒无**，未治疗。1991年十二指肠球部溃疡出血，已愈。患者长期睡眠差，精神焦虑，间断服用***。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "20_疑难病例：皮肤紫癜伴肾脏损害",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "70岁"
+        },
+        "chief_complaint": "患者男性，70岁",
+        "present_illness": "",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肾脏内科"
+        ],
+        "past_history": "因“反复双下肢皮肤紫癜8年，尿检异常伴血肌酐升高3年余，加重1月余”两次入院。第一次住院：2002和2003年，患者两度出现双下肢散在皮肤出血点，压之不褪色，5天后消退。2007年1月，患者情绪激动后步态不稳，无意识障碍，血压220/110mmHg，头颅CT示脑梗塞，尿蛋白和隐血（＋），血肌酐（Cr）1.47mg/dl，予降压治疗，血压控制平稳（130/70mmHg）。2007年9月，患者双下肢轻度浮肿，尿蛋白及隐血2+，血Cr1.7mg/dl，补体C30.5g/L，C40.1g/L，未治疗。2010年5月，患者浮肿加重，尿量减至500ml/d，于2010年5月入院。病程中患者夜尿4次/晚，无不规则发热及关节痛。1986年发现乙肝“小三阳”，肝酶正常，病毒无**，未治疗。1991年十二指肠球部溃疡出血，已愈。患者长期睡眠差，精神焦虑，间断服用***。",
+        "hypothesis_illness": [
+          {
+            "name": "混合性冷球蛋白血症性血管炎",
+            "disease": "混合性冷球蛋白血症性血管炎",
+            "evidence": [
+              "反复双下肢皮肤紫癜8年",
+              "尿蛋白及隐血阳性、血肌酐进行性升高",
+              "补体C3降低、C4低值",
+              "高血压及脑梗塞病史"
+            ],
+            "confidence": 0.55
+          },
+          {
+            "name": "膜增生性肾小球肾炎",
+            "disease": "膜增生性肾小球肾炎",
+            "evidence": [
+              "蛋白尿、血尿、肾功能进行性恶化",
+              "补体C3降低",
+              "浮肿、少尿"
+            ],
+            "confidence": 0.5
+          },
+          {
+            "name": "乙肝相关性肾炎",
+            "disease": "乙肝相关性肾炎",
+            "evidence": [
+              "1986年发现乙肝小三阳",
+              "蛋白尿、血尿、肾功能异常",
+              "补体C3降低"
+            ],
+            "confidence": 0.4
+          },
+          {
+            "name": "IgA血管炎（过敏性紫癜）",
+            "disease": "IgA血管炎（过敏性紫癜）",
+            "evidence": [
+              "反复双下肢皮肤紫癜",
+              "蛋白尿、隐血阳性",
+              "肾功能损害"
+            ],
+            "confidence": 0.35
+          },
+          {
+            "name": "狼疮性肾炎",
+            "disease": "狼疮性肾炎",
+            "evidence": [
+              "补体C3降低、C4低值",
+              "蛋白尿、血尿、肾功能损害",
+              "皮肤紫癜"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "ANCA相关性血管炎",
+            "disease": "ANCA相关性血管炎",
+            "evidence": [
+              "老年男性",
+              "肾功能快速恶化伴少尿",
+              "皮肤紫癜"
+            ],
+            "confidence": 0.3
+          }
+        ],
+        "physical_exams": {
+          "皮肤检查": "全身无皮疹。"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "皮肤检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "血液学检查",
+          "尿液检查",
+          "超声",
+          "病理检查"
+        ],
+        "predicted_physical_exams": [
+          "皮肤检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "血液学检查",
+          "尿液检查",
+          "超声",
+          "病理检查"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [
+          "肾活检病理（光镜、免疫荧光、电镜）",
+          "血清冷球蛋白、类风湿因子及HCV抗体/RNA",
+          "HBV DNA定量及乙肝病毒相关抗原检查",
+          "ANCA（MPO/PR3）",
+          "ANA、抗dsDNA抗体及抗Sm抗体",
+          "皮肤紫癜活检免疫荧光检查"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.55,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task1_referral",
+      "reason": "committed_backtrack_restored",
+      "state": {
+        "case_id": "20_疑难病例：皮肤紫癜伴肾脏损害",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "70岁"
+        },
+        "chief_complaint": "患者男性，70岁",
+        "present_illness": "",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肾脏内科"
+        ],
+        "past_history": "因“反复双下肢皮肤紫癜8年，尿检异常伴血肌酐升高3年余，加重1月余”两次入院。第一次住院：2002和2003年，患者两度出现双下肢散在皮肤出血点，压之不褪色，5天后消退。2007年1月，患者情绪激动后步态不稳，无意识障碍，血压220/110mmHg，头颅CT示脑梗塞，尿蛋白和隐血（＋），血肌酐（Cr）1.47mg/dl，予降压治疗，血压控制平稳（130/70mmHg）。2007年9月，患者双下肢轻度浮肿，尿蛋白及隐血2+，血Cr1.7mg/dl，补体C30.5g/L，C40.1g/L，未治疗。2010年5月，患者浮肿加重，尿量减至500ml/d，于2010年5月入院。病程中患者夜尿4次/晚，无不规则发热及关节痛。1986年发现乙肝“小三阳”，肝酶正常，病毒无**，未治疗。1991年十二指肠球部溃疡出血，已愈。患者长期睡眠差，精神焦虑，间断服用***。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exams",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 2,
+      "workflow_action_index": 4,
+      "mcts_step": 2,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "20_疑难病例：皮肤紫癜伴肾脏损害",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "70岁"
+        },
+        "chief_complaint": "患者男性，70岁",
+        "present_illness": "",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肾脏内科"
+        ],
+        "past_history": "因“反复双下肢皮肤紫癜8年，尿检异常伴血肌酐升高3年余，加重1月余”两次入院。第一次住院：2002和2003年，患者两度出现双下肢散在皮肤出血点，压之不褪色，5天后消退。2007年1月，患者情绪激动后步态不稳，无意识障碍，血压220/110mmHg，头颅CT示脑梗塞，尿蛋白和隐血（＋），血肌酐（Cr）1.47mg/dl，予降压治疗，血压控制平稳（130/70mmHg）。2007年9月，患者双下肢轻度浮肿，尿蛋白及隐血2+，血Cr1.7mg/dl，补体C30.5g/L，C40.1g/L，未治疗。2010年5月，患者浮肿加重，尿量减至500ml/d，于2010年5月入院。病程中患者夜尿4次/晚，无不规则发热及关节痛。1986年发现乙肝“小三阳”，肝酶正常，病毒无**，未治疗。1991年十二指肠球部溃疡出血，已愈。患者长期睡眠差，精神焦虑，间断服用***。",
+        "hypothesis_illness": [
+          {
+            "name": "冷球蛋白血症性血管炎/肾炎",
+            "disease": "冷球蛋白血症性血管炎/肾炎",
+            "evidence": [
+              "反复双下肢紫癜",
+              "蛋白尿和血尿",
+              "血肌酐进行性升高",
+              "补体C3/C4降低",
+              "乙肝小三阳"
+            ],
+            "confidence": 0.6
+          },
+          {
+            "name": "膜增生性肾小球肾炎",
+            "disease": "膜增生性肾小球肾炎",
+            "evidence": [
+              "蛋白尿和血尿",
+              "低补体C3/C4",
+              "肾功能减退",
+              "高血压"
+            ],
+            "confidence": 0.5
+          },
+          {
+            "name": "ANCA相关小血管炎",
+            "disease": "ANCA相关小血管炎",
+            "evidence": [
+              "老年男性",
+              "皮肤紫癜",
+              "急性肾功能减退",
+              "血尿蛋白尿"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "乙肝相关性肾炎",
+            "disease": "乙肝相关性肾炎",
+            "evidence": [
+              "乙肝小三阳病史",
+              "蛋白尿血尿",
+              "血肌酐升高",
+              "低补体"
+            ],
+            "confidence": 0.25
+          },
+          {
+            "name": "狼疮性肾炎",
+            "disease": "狼疮性肾炎",
+            "evidence": [
+              "低补体血症",
+              "肾损害",
+              "皮肤紫癜"
+            ],
+            "confidence": 0.15
+          },
+          {
+            "name": "IgA血管炎（过敏性紫癜）",
+            "disease": "IgA血管炎（过敏性紫癜）",
+            "evidence": [
+              "反复双下肢紫癜",
+              "蛋白尿血尿"
+            ],
+            "confidence": 0.1
+          },
+          {
+            "name": "AL淀粉样变/轻链沉积病",
+            "disease": "AL淀粉样变/轻链沉积病",
+            "evidence": [
+              "老年",
+              "蛋白尿",
+              "肾功能减退",
+              "皮肤紫癜"
+            ],
+            "confidence": 0.1
+          }
+        ],
+        "physical_exams": {
+          "一般检查": "T：36.6℃，P：80次/分，R：19次/分，BP：170/100mmHg，脉氧92%。",
+          "皮肤检查": "全身无皮疹。"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "一般检查",
+          "皮肤检查"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "血液学检查",
+          "尿液检查",
+          "病理检查",
+          "超声"
+        ],
+        "predicted_physical_exams": [
+          "一般检查",
+          "皮肤检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "血液学检查",
+          "尿液检查",
+          "病理检查",
+          "超声"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor"
+        ],
+        "mcts_step": 2,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exams",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [
+          "肾穿刺活检病理（光镜、免疫荧光及电镜）",
+          "血清冷球蛋白、冷球蛋白分型及类风湿因子",
+          "ANCA（PR3/MPO）及抗GBM抗体",
+          "ANA、抗dsDNA抗体及抗Sm抗体",
+          "HBV DNA定量、HCV抗体及病毒复制指标",
+          "血清蛋白电泳、血/尿免疫固定电泳及血清游离轻链",
+          "24小时尿蛋白定量及尿沉渣镜检"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.6,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 5,
+      "trajectory_index": 3,
+      "workflow_action_index": 5,
+      "mcts_step": 3,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "20_疑难病例：皮肤紫癜伴肾脏损害",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "70岁"
+        },
+        "chief_complaint": "患者男性，70岁",
+        "present_illness": "",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "肾脏内科"
+        ],
+        "past_history": "因“反复双下肢皮肤紫癜8年，尿检异常伴血肌酐升高3年余，加重1月余”两次入院。第一次住院：2002和2003年，患者两度出现双下肢散在皮肤出血点，压之不褪色，5天后消退。2007年1月，患者情绪激动后步态不稳，无意识障碍，血压220/110mmHg，头颅CT示脑梗塞，尿蛋白和隐血（＋），血肌酐（Cr）1.47mg/dl，予降压治疗，血压控制平稳（130/70mmHg）。2007年9月，患者双下肢轻度浮肿，尿蛋白及隐血2+，血Cr1.7mg/dl，补体C30.5g/L，C40.1g/L，未治疗。2010年5月，患者浮肿加重，尿量减至500ml/d，于2010年5月入院。病程中患者夜尿4次/晚，无不规则发热及关节痛。1986年发现乙肝“小三阳”，肝酶正常，病毒无**，未治疗。1991年十二指肠球部溃疡出血，已愈。患者长期睡眠差，精神焦虑，间断服用***。",
+        "hypothesis_illness": [
+          {
+            "name": "冷球蛋白血症性血管炎/肾炎",
+            "disease": "冷球蛋白血症性血管炎/肾炎",
+            "evidence": [
+              "反复双下肢紫癜",
+              "蛋白尿和血尿",
+              "血肌酐进行性升高",
+              "补体C3/C4降低",
+              "乙肝小三阳"
+            ],
+            "confidence": 0.6
+          },
+          {
+            "name": "膜增生性肾小球肾炎",
+            "disease": "膜增生性肾小球肾炎",
+            "evidence": [
+              "蛋白尿和血尿",
+              "低补体C3/C4",
+              "肾功能减退",
+              "高血压"
+            ],
+            "confidence": 0.5
+          },
+          {
+            "name": "ANCA相关小血管炎",
+            "disease": "ANCA相关小血管炎",
+            "evidence": [
+              "老年男性",
+              "皮肤紫癜",
+              "急性肾功能减退",
+              "血尿蛋白尿"
+            ],
+            "confidence": 0.3
+          },
+          {
+            "name": "乙肝相关性肾炎",
+            "disease": "乙肝相关性肾炎",
+            "evidence": [
+              "乙肝小三阳病史",
+              "蛋白尿血尿",
+              "血肌酐升高",
+              "低补体"
+            ],
+            "confidence": 0.25
+          },
+          {
+            "name": "狼疮性肾炎",
+            "disease": "狼疮性肾炎",
+            "evidence": [
+              "低补体血症",
+              "肾损害",
+              "皮肤紫癜"
+            ],
+            "confidence": 0.15
+          },
+          {
+            "name": "IgA血管炎（过敏性紫癜）",
+            "disease": "IgA血管炎（过敏性紫癜）",
+            "evidence": [
+              "反复双下肢紫癜",
+              "蛋白尿血尿"
+            ],
+            "confidence": 0.1
+          },
+          {
+            "name": "AL淀粉样变/轻链沉积病",
+            "disease": "AL淀粉样变/轻链沉积病",
+            "evidence": [
+              "老年",
+              "蛋白尿",
+              "肾功能减退",
+              "皮肤紫癜"
+            ],
+            "confidence": 0.1
+          }
+        ],
+        "physical_exams": {
+          "一般检查": "T：36.6℃，P：80次/分，R：19次/分，BP：170/100mmHg，脉氧92%。",
+          "皮肤检查": "全身无皮疹。"
+        },
+        "auxiliary_exams": {
+          "病理检查": "骨髓活检组织学检查示骨髓造血活跃，浆细胞轻度增多（5%），免疫组化CD138约5%（＋），κ、λ、CD79a均散在（＋）。",
+          "血液学检查": "血红蛋白（HGB）8.3g/dl，网织红细胞2%，白细胞（WBC）6200/mm3，血小板（PLT）19.7万/mm3。空腹血糖7mmol/L，餐后2小时血糖12mmol/L，糖化血红蛋白6.1%。白蛋白（ALB）32.7g/L，球蛋白27.7g/L，肝功能正常。尿素氮（BUN）36.8mg/dl，Cr2.55mg/dl，尿酸（UA）363umol/L，电解质正常。HGB6.4g/dl，WBC8700/mm3，PLT22.7万/mm3。C反应蛋白1mg/L。ALB33.5g/L，球蛋白27.7g/L，血脂正常。BUN61.4mg/dl，Cr4.96mg/dl，UA692μmol/L，电解质正常。乳酸脱氢酶337U/L，磷酸肌酸激酶74U/L，磷酸肌酸激酶同工酶4U/L。空腹血糖6.68mmol/L，餐后2小时血糖11mmol/L，糖化血红蛋白5.2%。自身抗体阴性、可提取核抗原多肽及抗心磷脂抗体阴性，IgG7.88g/L，IgM3.42g/L，IgA1.8g/L，C31.0g/L，C40.129g/L。RF4820IU/ml，冷球蛋白1606mg/L，免疫固定电泳亦见κ型IgM单克隆免疫球蛋白条带。淋巴细胞CD4+352/μl，CD8+594/μl，CD20+85/μl，CD19+85/μl。血游离κ轻链120.88mg/L，血游离λ轻链76.65mg/L，κ/λ为1.58。HBsAg、HBcAb、HBeAb阳性，乙肝DNA及丙肝抗体和RNA阴性。自身抗体阴性，补体正常，乙肝表面抗原（HBsAg）、核心抗体（HBcAb）、e抗体（HBeAb）阳性，乙肝DNA及丙肝抗体和RNA阴性，类风湿因子（RF）两次分别为5330IU/ml和4970IU/ml，免疫球蛋白（Ig）M为5.12g/L，冷球蛋白389.7mg/L，免疫固定电泳示κ型IgM单克隆免疫球蛋白条带。",
+          "尿液检查": "尿蛋白6.19g/24h，尿沉渣红细胞（RBC）375万/ml（多形型），尿蛋白6.48g/24h，尿沉渣RBC1070万/ml（多形型），尿本周蛋白阴性，尿游离κ轻链136.51mg/L，尿游离λ轻链95.48mg/L，κ/λ1.43，尿N-乙酰-β-D-氨基葡萄糖苷酶（NAG）酶77.3u/g·Cr，视黄醇结合蛋白28.4mg/L，尿溶菌酶＜0.5mg/L，尿浓缩功能320mOsm/Kg·H2O。"
+        },
+        "imaging_results": {
+          "病理检查": "骨髓活检组织学检查示骨髓造血活跃，浆细胞轻度增多（5%），免疫组化CD138约5%（＋），κ、λ、CD79a均散在（＋）。"
+        },
+        "completed_physical_exams": [
+          "一般检查",
+          "皮肤检查"
+        ],
+        "completed_auxiliary_exams": [
+          "病理检查",
+          "血液学检查",
+          "尿液检查"
+        ],
+        "completed_imaging_exams": [
+          "病理检查"
+        ],
+        "pending_auxiliary_exams": [
+          "超声"
+        ],
+        "predicted_physical_exams": [
+          "一般检查",
+          "皮肤检查"
+        ],
+        "predicted_auxiliary_exams": [
+          "血液学检查",
+          "尿液检查",
+          "病理检查",
+          "超声"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 1,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_back",
+          "task2_doctor",
+          "task3_imaging"
+        ],
+        "mcts_step": 3,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_back",
+            "source": "committed_backtrack",
+            "mcts_step": 1,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 3,
+            "action": "task2_doctor",
+            "source": "committed_backtrack_target",
+            "mcts_step": 2,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 4,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 3,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [
+          {
+            "event_id": 0,
+            "source": "committed",
+            "target_snapshot_id": 1,
+            "target_workflow_stage": "task1_referral",
+            "requested_action": "request_auxiliary_exams",
+            "executed_action": "task2_doctor",
+            "mcts_step": 1
+          }
+        ],
+        "missing_evidence": [
+          "肾穿刺活检病理（光镜、免疫荧光及电镜）",
+          "ANCA（MPO/PR3）及抗GBM抗体检测"
+        ],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.6,
+        "mcts_snapshots": [],
+        "active_snapshot_id": 1,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": 1,
+  "terminated_by": "eta",
+  "finalization_used": false,
+  "agent_missing_evidence": []
+}

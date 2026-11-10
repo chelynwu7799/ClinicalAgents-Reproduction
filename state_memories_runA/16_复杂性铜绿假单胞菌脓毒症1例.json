@@ -1,0 +1,679 @@
+{
+  "case_id": "16_复杂性铜绿假单胞菌脓毒症1例",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "40岁"
+  },
+  "chief_complaint": "男，40岁，浙江人 因“食道异物术后反复发热6个月余”，于2015年1月16日至复旦大学附属华山医院感染科入院治疗。",
+  "present_illness": "",
+  "dept_l1": "内科",
+  "dept_l2": [
+    "传染科",
+    "感染科"
+  ],
+  "past_history": "慢性乙型病毒性肝炎20余年。高血压史5年余，以硝苯地平控释片、卡托普利降压治疗，血压控制在120/60mmHg左右。糖尿病史5年，以阿卡波糖、二甲双胍治疗，空腹血糖6～7mmol/L，餐后血糖7～8mmol/L。曾于2015年1月15日因贫血输“B”型血，400ml。 吸烟史：吸烟30年，平均20支/日，未戒烟。",
+  "hypothesis_illness": [],
+  "physical_exams": {},
+  "auxiliary_exams": {},
+  "imaging_results": {},
+  "completed_physical_exams": [],
+  "completed_auxiliary_exams": [],
+  "completed_imaging_exams": [],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [],
+  "predicted_auxiliary_exams": [],
+  "diagnosis_result": [],
+  "treatment_plan": [],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "pending",
+    "task4_diagnosis": "pending",
+    "task5_treatment": "pending"
+  },
+  "recheck_total": 0,
+  "max_recheck": 3,
+  "mcts_trajectory": [
+    "a_rag",
+    "a_rag",
+    "a_rag"
+  ],
+  "mcts_step": 3,
+  "mcts_eta": 4,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 2,
+      "action": "a_rag",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 3,
+      "action": "a_rag",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 4,
+      "action": "a_rag",
+      "source": "mcts_selected",
+      "mcts_step": 3,
+      "workflow_stage": "task1_referral"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [
+    "详细体格检查（尤其心脏杂音、腹部压痛及淋巴结）",
+    "血常规、CRP、降钙素原等炎症指标",
+    "血培养及病原学检查（含结核/真菌）",
+    "胸部及腹部增强CT",
+    "食管造影或胃镜检查",
+    "心脏超声"
+  ],
+  "potential_missing_evidence": [
+    "尿液检查",
+    "腹部检查",
+    "超声"
+  ],
+  "experience_knowledge": [
+    "【基本信息】男，40岁",
+    "【基本信息】男，40岁",
+    "【基本信息】男，40岁"
+  ],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [
+    {
+      "case_id": "9472_血尿原因待查案，是否为结核！",
+      "text": "男，40岁",
+      "summary": "【基本信息】男，40岁",
+      "exams": [
+        "尿液检查"
+      ],
+      "similarity": 0.22583613110109718
+    },
+    {
+      "case_id": "9310_肾、输尿管结石一例",
+      "text": "庞××，男，40岁。",
+      "summary": "【基本信息】男，40岁",
+      "exams": [
+        "腹部检查",
+        "超声"
+      ],
+      "similarity": 0.09965306656267478
+    },
+    {
+      "case_id": "9334_男，40岁，小便不利一个星期",
+      "text": "患者男，40岁， 因小便不利一个星期，",
+      "summary": "【基本信息】男，40岁",
+      "exams": [
+        "超声"
+      ],
+      "similarity": 0.09425161162233141
+    }
+  ],
+  "evidence_importance": {},
+  "experience_memory_available": true,
+  "top_hypothesis_confidence": 0.0,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "16_复杂性铜绿假单胞菌脓毒症1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "40岁"
+        },
+        "chief_complaint": "男，40岁，浙江人 因“食道异物术后反复发热6个月余”，于2015年1月16日至复旦大学附属华山医院感染科入院治疗。",
+        "present_illness": "",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "慢性乙型病毒性肝炎20余年。高血压史5年余，以硝苯地平控释片、卡托普利降压治疗，血压控制在120/60mmHg左右。糖尿病史5年，以阿卡波糖、二甲双胍治疗，空腹血糖6～7mmol/L，餐后血糖7～8mmol/L。曾于2015年1月15日因贫血输“B”型血，400ml。 吸烟史：吸烟30年，平均20支/日，未戒烟。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "16_复杂性铜绿假单胞菌脓毒症1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "40岁"
+        },
+        "chief_complaint": "男，40岁，浙江人 因“食道异物术后反复发热6个月余”，于2015年1月16日至复旦大学附属华山医院感染科入院治疗。",
+        "present_illness": "",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "传染科",
+          "感染科"
+        ],
+        "past_history": "慢性乙型病毒性肝炎20余年。高血压史5年余，以硝苯地平控释片、卡托普利降压治疗，血压控制在120/60mmHg左右。糖尿病史5年，以阿卡波糖、二甲双胍治疗，空腹血糖6～7mmol/L，餐后血糖7～8mmol/L。曾于2015年1月15日因贫血输“B”型血，400ml。 吸烟史：吸烟30年，平均20支/日，未戒烟。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "16_复杂性铜绿假单胞菌脓毒症1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "40岁"
+        },
+        "chief_complaint": "男，40岁，浙江人 因“食道异物术后反复发热6个月余”，于2015年1月16日至复旦大学附属华山医院感染科入院治疗。",
+        "present_illness": "",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "传染科",
+          "感染科"
+        ],
+        "past_history": "慢性乙型病毒性肝炎20余年。高血压史5年余，以硝苯地平控释片、卡托普利降压治疗，血压控制在120/60mmHg左右。糖尿病史5年，以阿卡波糖、二甲双胍治疗，空腹血糖6～7mmol/L，餐后血糖7～8mmol/L。曾于2015年1月15日因贫血输“B”型血，400ml。 吸烟史：吸烟30年，平均20支/日，未戒烟。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "16_复杂性铜绿假单胞菌脓毒症1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "40岁"
+        },
+        "chief_complaint": "男，40岁，浙江人 因“食道异物术后反复发热6个月余”，于2015年1月16日至复旦大学附属华山医院感染科入院治疗。",
+        "present_illness": "",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "传染科",
+          "感染科"
+        ],
+        "past_history": "慢性乙型病毒性肝炎20余年。高血压史5年余，以硝苯地平控释片、卡托普利降压治疗，血压控制在120/60mmHg左右。糖尿病史5年，以阿卡波糖、二甲双胍治疗，空腹血糖6～7mmol/L，餐后血糖7～8mmol/L。曾于2015年1月15日因贫血输“B”型血，400ml。 吸烟史：吸烟30年，平均20支/日，未戒烟。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task1_referral",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "16_复杂性铜绿假单胞菌脓毒症1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "40岁"
+        },
+        "chief_complaint": "男，40岁，浙江人 因“食道异物术后反复发热6个月余”，于2015年1月16日至复旦大学附属华山医院感染科入院治疗。",
+        "present_illness": "",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "传染科",
+          "感染科"
+        ],
+        "past_history": "慢性乙型病毒性肝炎20余年。高血压史5年余，以硝苯地平控释片、卡托普利降压治疗，血压控制在120/60mmHg左右。糖尿病史5年，以阿卡波糖、二甲双胍治疗，空腹血糖6～7mmol/L，餐后血糖7～8mmol/L。曾于2015年1月15日因贫血输“B”型血，400ml。 吸烟史：吸烟30年，平均20支/日，未戒烟。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_rag"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_rag",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [
+          "尿液检查",
+          "腹部检查",
+          "超声"
+        ],
+        "experience_knowledge": [
+          "【基本信息】男，40岁",
+          "【基本信息】男，40岁",
+          "【基本信息】男，40岁"
+        ],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [
+          {
+            "case_id": "9472_血尿原因待查案，是否为结核！",
+            "text": "男，40岁",
+            "summary": "【基本信息】男，40岁",
+            "exams": [
+              "尿液检查"
+            ],
+            "similarity": 0.22583613110109718
+          },
+          {
+            "case_id": "9310_肾、输尿管结石一例",
+            "text": "庞××，男，40岁。",
+            "summary": "【基本信息】男，40岁",
+            "exams": [
+              "腹部检查",
+              "超声"
+            ],
+            "similarity": 0.09965306656267478
+          },
+          {
+            "case_id": "9334_男，40岁，小便不利一个星期",
+            "text": "患者男，40岁， 因小便不利一个星期，",
+            "summary": "【基本信息】男，40岁",
+            "exams": [
+              "超声"
+            ],
+            "similarity": 0.09425161162233141
+          }
+        ],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false,
+        "experience_retrieval_backend": "tfidf"
+      }
+    },
+    {
+      "snapshot_id": 5,
+      "trajectory_index": 2,
+      "workflow_action_index": 4,
+      "mcts_step": 2,
+      "workflow_stage": "task1_referral",
+      "reason": "search_root_2",
+      "state": {
+        "case_id": "16_复杂性铜绿假单胞菌脓毒症1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "40岁"
+        },
+        "chief_complaint": "男，40岁，浙江人 因“食道异物术后反复发热6个月余”，于2015年1月16日至复旦大学附属华山医院感染科入院治疗。",
+        "present_illness": "",
+        "dept_l1": "内科",
+        "dept_l2": [
+          "传染科",
+          "感染科"
+        ],
+        "past_history": "慢性乙型病毒性肝炎20余年。高血压史5年余，以硝苯地平控释片、卡托普利降压治疗，血压控制在120/60mmHg左右。糖尿病史5年，以阿卡波糖、二甲双胍治疗，空腹血糖6～7mmol/L，餐后血糖7～8mmol/L。曾于2015年1月15日因贫血输“B”型血，400ml。 吸烟史：吸烟30年，平均20支/日，未戒烟。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 3,
+        "mcts_trajectory": [
+          "a_rag",
+          "a_rag"
+        ],
+        "mcts_step": 2,
+        "mcts_eta": 4,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 2,
+            "action": "a_rag",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 3,
+            "action": "a_rag",
+            "source": "mcts_selected",
+            "mcts_step": 2,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [
+          "详细体格检查（尤其心脏杂音、腹部压痛及淋巴结）",
+          "血常规、CRP、降钙素原等炎症指标",
+          "血培养及病原学检查（含结核/真菌）",
+          "胸部及腹部增强CT",
+          "食管造影或胃镜检查",
+          "心脏超声"
+        ],
+        "potential_missing_evidence": [
+          "尿液检查",
+          "腹部检查",
+          "超声"
+        ],
+        "experience_knowledge": [
+          "【基本信息】男，40岁",
+          "【基本信息】男，40岁",
+          "【基本信息】男，40岁"
+        ],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [
+          {
+            "case_id": "9472_血尿原因待查案，是否为结核！",
+            "text": "男，40岁",
+            "summary": "【基本信息】男，40岁",
+            "exams": [
+              "尿液检查"
+            ],
+            "similarity": 0.22583613110109718
+          },
+          {
+            "case_id": "9310_肾、输尿管结石一例",
+            "text": "庞××，男，40岁。",
+            "summary": "【基本信息】男，40岁",
+            "exams": [
+              "腹部检查",
+              "超声"
+            ],
+            "similarity": 0.09965306656267478
+          },
+          {
+            "case_id": "9334_男，40岁，小便不利一个星期",
+            "text": "患者男，40岁， 因小便不利一个星期，",
+            "summary": "【基本信息】男，40岁",
+            "exams": [
+              "超声"
+            ],
+            "similarity": 0.09425161162233141
+          }
+        ],
+        "evidence_importance": {},
+        "experience_memory_available": true,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false,
+        "experience_retrieval_backend": "tfidf"
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": null,
+  "finalization_used": false,
+  "experience_retrieval_backend": "tfidf"
+}
