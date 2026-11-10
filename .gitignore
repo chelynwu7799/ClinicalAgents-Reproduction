@@ -1,0 +1,13 @@
+# secrets
+.env
+
+# large data (download instructions in README)
+data/merged_cases.json
+data/experience/
+
+# python
+__pycache__/
+*.pyc
+
+# superseded partial-run trajectory archive
+state_memories_runB_partial/
