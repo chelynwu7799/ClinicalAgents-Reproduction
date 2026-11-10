@@ -508,7 +508,6 @@ def extract_ground_truth(sample_value, img_base_dir='./datasets/MedImg/'):
                     personal_info["\u6027\u522b"] = "\u7537"
 
                 # Utility processing step.
-                import re
                 age_match = re.search(r'(\d+)\s*\u5c81', basic_info)
                 if age_match:
                     personal_info["\u5e74\u9f84"] = age_match.group(1) + "\u5c81"
