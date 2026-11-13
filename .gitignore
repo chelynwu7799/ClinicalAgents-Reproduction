@@ -9,5 +9,11 @@ data/experience/
 __pycache__/
 *.pyc
 
+# root-level artifacts produced by running main.py directly (outside the wrapper)
+state_memories/
+benchmark_results*.json
+*.log
+nohup.out
+
 # superseded partial-run trajectory archive
 state_memories_runB_partial/

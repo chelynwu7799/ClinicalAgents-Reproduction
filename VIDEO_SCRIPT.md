@@ -1,7 +1,9 @@
 # Presentation Script (≤15 minutes)
 
 Slide-free talking track. Record with Zoom, screen-share the repo + REPORT.md.
-Target: 12–14 min.
+Target: 12–14 minutes. Each section lists a concrete demo action to perform
+while screen-sharing, so the recording shows the artifact itself rather than
+slides about it.
 
 ---
 
@@ -15,6 +17,9 @@ ablation. My scope: one benchmark, 30 cases instead of 2,023, and — as the
 assignment allows — the models swapped to DeepSeek, documented as a
 controlled variable."
 
+Demo: show the paper's Table 3 in a browser, then the repo's README table
+that maps each published number to where it lives in this repository.
+
 ## 2. What it took to get it running (3 min)
 
 "The repo was missing its entire configuration file and its experience-memory
@@ -26,16 +31,27 @@ own — refitting a TF-IDF index on every retrieval call, inside MCTS
 rollouts — made the system 30× slower until I fixed it. Two DeepSeek balance
 outages truncated runs; both resumed honestly with skip offsets."
 
+Demo: open the commit list and walk through the six commits in order —
+authors' code, the bug fix, the two reconstructions, the infrastructure, the
+results — then open `utils.py` at the fixed line and `app_config.py` with
+its reconstruction annotations.
+
 ## 3. Results (3 min)
 
 "Full system: 0.349 average vs the paper's 0.511 — expected gap, and I say
-so explicitly: different LLM, 74× fewer cases, no images. Two findings
-matter more than the absolute number. First, a hidden assumption: in 76 of
+so explicitly: different LLM, 67× fewer cases, no images. Two findings
+matter more than the absolute number. First, a hidden assumption: in 74 of
 76 completed cases the planner never reached the treatment stage within its
-η=4 step budget — the paper's published treatment scores imply theirs did.
-Second, run-to-run variance: two seeds differ by 0.18 paired standard
-deviation even at temperature zero — that noise scale is the ruler for any
-modification claim."
+η=4 step budget, leaving the treatment plan empty; only two cases produced
+any treatment output. The paper's published treatment score of 0.5259
+implies theirs did reach it. Second, run-to-run variance: two seeds differ
+by 0.18 paired standard deviation even at temperature zero — that noise
+scale is the ruler for any modification claim."
+
+Demo: open `results/final_analysis.json`, scroll to the
+`systematic_finding_treatment_stage` block showing 74 of 76 with the two
+named exceptions, then open one trajectory file in `state_memories_runA/`
+and point at the empty treatment plan in the final state.
 
 ## 4. Modification and measured impact (3 min)
 
@@ -48,6 +64,10 @@ retrieval actions get planned and simulated inside the MCTS. Methodological
 lesson: my truncated early data showed the *opposite* sign — completing the
 run flipped the conclusion."
 
+Demo: show the paired table in REPORT.md §5 side by side with the paired
+rows in `results/final_analysis.json`, then run `python3 analysis.py` live
+and show the regenerated JSON matching the report.
+
 ## 5. Lessons & recommendations (2 min)
 
 "Budget ~60–110 LLM calls per case. Pin every hyperparameter the paper
@@ -58,11 +78,15 @@ built and its evaluation protocol checks out — but its headline numbers
 rest on components that were never released, which is the real
 reproducibility story."
 
+Demo: return to the commit list and land on the README's reconstructed-files
+section as the closing image.
+
 ---
 
 **Q&A prep (likely questions):** Why DeepSeek? (assignment-sanctioned swap,
 OpenAI-compatible, documented). Is 0.349 a failure? (No — controlled
 comparison; the reproduction questions were end-to-end function, ablation
-direction, hidden assumptions — all answered.) Why is t5 zero? (Planner
-never selects treatment within η=4 under DeepSeek planning; flagged as
-hidden-assumption finding.)
+direction, hidden assumptions — all answered.) Why is t5 near zero? (In 74
+of 76 cases the planner never selects treatment within η=4 under DeepSeek
+planning; two cases did produce treatment output and are reported as
+exceptions; flagged as hidden-assumption finding.)

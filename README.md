@@ -18,7 +18,7 @@ This repository contains:
 | | Paper | This repo |
 |---|---|---|
 | Full system average on MedChain | 0.5107 (Table 3) | 0.349 (30-case subset, DeepSeek backbone — see report §4 for comparability statement) |
-| Modification (experience memory off) | +Orchestrator 0.4962 (ablation table) | see `results/paired_analysis_s42.json` |
+| Modification (experience memory off) | +Orchestrator 0.4962 (ablation table) | see `results/final_analysis.json` (regenerate with `python3 analysis.py`) |
 
 ## Setup
 
@@ -46,7 +46,8 @@ variable vs the paper's GPT-5.2 + Gemini-2.5-Pro.
 ```bash
 bash run_experiment.sh A 42 30        # config A: full system, seed 42, 30 cases
 bash run_experiment.sh B 42 30        # config B: modification (experience memory off)
-bash run_experiment.sh B 42 16 14       # resume a truncated run at dataset index 14
+bash run_experiment.sh B 42 16 14     # resume a truncated run at dataset index 14
+python3 analysis.py                   # regenerate results/final_analysis.json from raw runs
 ```
 
 Outputs land in `results/benchmark_results_<config>_s<seed>[_skip<N>].json`.
@@ -76,8 +77,9 @@ mcts_*.py, agents/       # search + specialist agents (authors')
 app_config.py            # RECONSTRUCTED configuration
 experience_memory.py     # RECONSTRUCTED experience memory
 run_experiment.sh        # one-command experiment runner
+analysis.py              # statistics: regenerates results/final_analysis.json
 data/                    # MedChain data + experience pool (git-ignored)
-results/                 # all raw results, logs, paired analysis
+results/                 # all raw results, logs, final analysis
 state_memories*/         # per-case decision trajectories
 REPORT.md                # the full reproducibility report
 ```
