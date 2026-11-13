@@ -51,13 +51,13 @@ Twenty-nine of the 30 seeded cases completed. The single failure was an LLM-outp
 | t1_acc, referral accuracy at level one | 0.655 | 0.6243 |
 | t1_iou, referral overlap at level two | 0.397 | 0.3543 |
 | t2_iou, examination ordering overlap | 0.278 | 0.4820 |
-| t3, examination imaging score | null on 26 of 29 cases | 0.4800 |
-| t4, diagnosis score | 0.386 | 0.5976, DocLens |
-| t5_iou, treatment-plan overlap | 0.035 | 0.5259, LLM-judge |
+| t3, examination imaging score | null on 25 of 29 cases | 0.4800, DocLens |
+| t4, diagnosis score | 0.386 | 0.5976, LLM-judge |
+| t5_iou, treatment-plan overlap | 0.035 | 0.5259, IoU |
 | paper_average | 0.349 | 0.5107 |
 | API calls per case, mean | 106.7 | not reported |
 
-Two caveats attach to the paper column. The paper's diagnosis column is scored with DocLens while the released code scores diagnosis with the LLM judge, and the paper's treatment column is an LLM-judge score while the released code scores treatment by set overlap, so the t4 and t5 comparisons mix metrics as well as models. Since my runs almost never reach the treatment stage at all, the t5 comparison is moot in practice, as Section 4.2 explains. The API call figure counts one call as one request to the DeepSeek API, summed over main orchestration calls and MCTS rollout-simulation calls, averaged over all 29 completed cases.
+Two caveats attach to the paper column. The paper's metric assignments match the released evaluation code, with diagnosis scored by an LLM judge, treatment by set overlap, and the examination stage by DocLens, so the comparisons above mix models and sample size rather than metric types. Since my runs almost never reach the treatment stage at all, the t5 comparison is of limited practical value, as Section 4.2 explains. The API call figure counts one call as one request to the DeepSeek API, summed over main orchestration calls and MCTS rollout-simulation calls, averaged over all 29 completed cases.
 
 Absolute scores sit below the paper's across the board, which is expected under the documented model swap, a case sample sixty-seven times smaller than the paper's 2,023-case subset, and the absence of imaging data. The reproduction value of the exercise lies in the pattern and the behavioral findings rather than in absolute numbers.
 

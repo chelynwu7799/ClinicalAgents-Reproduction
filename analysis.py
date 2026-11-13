@@ -30,9 +30,9 @@ PAPER_TARGETS = {
         "t1_acc": 0.6243,   # Specialty Referral, Acc (Lv1)
         "t1_iou": 0.3543,   # Specialty Referral, IoU (Lv2)
         "t2_iou": 0.4820,   # Test Ordering, IoU
-        "t3_score": 0.4800, # Examination, IoU
-        "t4_score": 0.5976, # Diagnosis, DocLens
-        "t5_iou": 0.5259,   # Treatment, LLM-judge
+        "t3_score": 0.4800, # Examination, DocLens
+        "t4_score": 0.5976, # Diagnosis, LLM-judge
+        "t5_iou": 0.5259,   # Treatment, IoU
     },
     "ablation_backbone_avg": 0.4521,
     "ablation_plus_dual_memory_avg": 0.4762,
