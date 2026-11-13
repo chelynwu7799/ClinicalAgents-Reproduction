@@ -10,8 +10,7 @@ This repository contains:
 - the original authors' code (unchanged except one bug fix, see commits),
 - the two reconstructed missing modules,
 - experiment runners and all raw results (`results/`), logs, and per-case
-  decision trajectories (`state_memories*/`),
-- the full report: [`REPORT.md`](REPORT.md).
+  decision trajectories (`state_memories*/`).
 
 ## What was reproduced
 
