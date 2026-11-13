@@ -50,7 +50,7 @@ python3 analysis.py                   # regenerate results/final_analysis.json f
 ```
 
 Outputs land in `results/benchmark_results_<config>_s<seed>[_skip<N>].json`.
-A single case makes 8–138 LLM calls (mean ≈ 60–107 depending on config);
+A single case makes 8–138 LLM calls (mean ≈ 60–107 over all 29 completed cases (A: 106.7, B: 61.1));
 budget accordingly.
 
 ## Reconstructed files
@@ -80,7 +80,6 @@ analysis.py              # statistics: regenerates results/final_analysis.json
 data/                    # MedChain data + experience pool (git-ignored)
 results/                 # all raw results, logs, final analysis
 state_memories*/         # per-case decision trajectories
-REPORT.md                # the full reproducibility report
 ```
 
 ## License / attribution
