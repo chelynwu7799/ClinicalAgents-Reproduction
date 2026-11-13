@@ -1,78 +1,122 @@
 {
- "description": "FINAL. A=full system (exp memory on), B=modification (exp memory off, env-var switch). Backbone/judge=deepseek-v4-pro, rollout=deepseek-flash, T=0, eta=4, MedChain head-30 subset, seed 42; A also run with seed 7 (n=20) for variance.",
- "paper_targets": {
-  "main_ALL": 0.5107,
-  "ablation_backbone": 0.4521,
-  "ablation_plus_dual_memory": 0.4762,
-  "ablation_plus_orchestrator": 0.4962
- },
- "config_A_seed42": {
-  "n_success": 29,
-  "paper_average_mean": 0.3492,
-  "paper_average_sd": 0.1903,
-  "api_calls_per_case": 106.7
- },
- "config_A_seed7": {
-  "n_success": 18,
-  "paper_average_mean": 0.2948,
-  "paper_average_sd": 0.1857
- },
- "run_to_run_paired_sd_seed42_vs_seed7": 0.1831,
- "config_B_seed42_merged_two_partials": {
-  "n_success": 29,
-  "paper_average_mean": 0.3115
- },
- "paired_analysis_n": 28,
- "paired_rows": [
-  {
-   "metric": "t1_acc",
-   "n": 28,
-   "A_mean_memory_on": 0.6429,
-   "B_mean_memory_off": 0.6429,
-   "paired_diff_A_minus_B": 0.0,
-   "paired_t": 0.0
+  "description": "A = full system with experience memory enabled; B = modification with experience memory disabled via EXPERIENCE_CDC_PATH/EXPERIENCE_GUIDE_PATH pointing at nonexistent files. Backbone and judge: deepseek-v4-pro; MCTS rollout: deepseek-flash; temperature 0; eta = 4. Subset: first 30 cases of MedChain merged_cases.json, seed 42; config A also rerun with seed 7 (20 cases sampled) to measure run-to-run variance. API call convention: llm_calls_total + rollout_calls_total per case.",
+  "paper_targets": {
+    "main_ALL_avg": 0.5107,
+    "main_ALL_per_task": {
+      "t1_acc": 0.6243,
+      "t1_iou": 0.3543,
+      "t2_iou": 0.482,
+      "t3_score": 0.48,
+      "t4_score": 0.5976,
+      "t5_iou": 0.5259
+    },
+    "ablation_backbone_avg": 0.4521,
+    "ablation_plus_dual_memory_avg": 0.4762,
+    "ablation_plus_orchestrator_avg": 0.4962
   },
-  {
-   "metric": "t1_iou",
-   "n": 28,
-   "A_mean_memory_on": 0.3929,
-   "B_mean_memory_off": 0.256,
-   "paired_diff_A_minus_B": 0.1369,
-   "paired_t": 2.24
+  "config_A_seed42": {
+    "n_completed": 29,
+    "paper_average_mean": 0.3492,
+    "paper_average_sd": 0.1903,
+    "api_calls_per_case_mean": 106.7
   },
-  {
-   "metric": "t2_iou",
-   "n": 26,
-   "A_mean_memory_on": 0.2881,
-   "B_mean_memory_off": 0.2936,
-   "paired_diff_A_minus_B": -0.0054,
-   "paired_t": -0.18
+  "config_B_seed42": {
+    "n_completed": 29,
+    "paper_average_mean": 0.3115,
+    "paper_average_sd": 0.1646,
+    "api_calls_per_case_mean": 61.1
   },
-  {
-   "metric": "t4_score",
-   "n": 28,
-   "A_mean_memory_on": 0.3929,
-   "B_mean_memory_off": 0.3714,
-   "paired_diff_A_minus_B": 0.0214,
-   "paired_t": 0.34
+  "config_A_seed7": {
+    "n_completed": 18,
+    "paper_average_mean": 0.2948,
+    "paper_average_sd": 0.1857,
+    "api_calls_per_case_mean": 98.9
   },
-  {
-   "metric": "t5_iou",
-   "n": 28,
-   "A_mean_memory_on": 0.0357,
-   "B_mean_memory_off": 0.0,
-   "paired_diff_A_minus_B": 0.0357,
-   "paired_t": 1.0
+  "run_to_run_seed42_vs_seed7": {
+    "n_common_cases": 17,
+    "mean_paired_difference": 0.0107,
+    "paired_sd": 0.1831
   },
-  {
-   "metric": "paper_average",
-   "n": 28,
-   "A_mean_memory_on": 0.3495,
-   "B_mean_memory_off": 0.3116,
-   "paired_diff_A_minus_B": 0.0379,
-   "paired_t": 1.39
-  }
- ],
- "systematic_finding": "task5_treatment not reached within eta=4 in 76/76 completed cases (t5_iou ~0); paper reports t5=0.243 for ALL.",
- "cost_total_rmb": 90
+  "paired_analysis_A_vs_B": {
+    "n_common_cases": 28,
+    "rows": [
+      {
+        "metric": "t1_acc",
+        "n": 28,
+        "A_mean": 0.6429,
+        "B_mean": 0.6429,
+        "paired_diff_A_minus_B": 0.0,
+        "paired_t": 0.0
+      },
+      {
+        "metric": "t1_iou",
+        "n": 28,
+        "A_mean": 0.3929,
+        "B_mean": 0.256,
+        "paired_diff_A_minus_B": 0.1369,
+        "paired_t": 2.24
+      },
+      {
+        "metric": "t2_iou",
+        "n": 26,
+        "A_mean": 0.2881,
+        "B_mean": 0.2936,
+        "paired_diff_A_minus_B": -0.0054,
+        "paired_t": -0.18
+      },
+      {
+        "metric": "t3_score",
+        "n": 4,
+        "A_mean": 0.0,
+        "B_mean": 0.0,
+        "paired_diff_A_minus_B": 0.0,
+        "paired_t": 0.0
+      },
+      {
+        "metric": "t4_score",
+        "n": 28,
+        "A_mean": 0.3929,
+        "B_mean": 0.3714,
+        "paired_diff_A_minus_B": 0.0214,
+        "paired_t": 0.34
+      },
+      {
+        "metric": "t5_iou",
+        "n": 28,
+        "A_mean": 0.0357,
+        "B_mean": 0.0,
+        "paired_diff_A_minus_B": 0.0357,
+        "paired_t": 1.0
+      },
+      {
+        "metric": "paper_average",
+        "n": 28,
+        "A_mean": 0.3495,
+        "B_mean": 0.3116,
+        "paired_diff_A_minus_B": 0.0379,
+        "paired_t": 1.39
+      }
+    ],
+    "api_calls_mean_A": 110.2,
+    "api_calls_mean_B": 60.3
+  },
+  "systematic_finding_treatment_stage": {
+    "completed_cases_total": 76,
+    "treatment_reached": 2,
+    "treatment_not_reached": 74,
+    "exceptions": [
+      {
+        "run": "A_seed42",
+        "case": "1_一例急诊胃切开取异物术的麻醉处理",
+        "t5_iou": 1.0
+      },
+      {
+        "run": "A_seed7",
+        "case": "3_血液透析并鸟肠球菌感染一例",
+        "t5_iou": 0.3333333333333333
+      }
+    ],
+    "note": "In the remaining 74 of 76 completed cases the MCTS planner exhausted its eta = 4 steps without selecting task5_treatment, leaving treatment_plan empty and t5_iou at 0."
+  },
+  "cost_total_rmb": 90
 }
